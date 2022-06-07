@@ -3,7 +3,7 @@ Fast Automatic World Coordinate Solution Solver. See the github Wiki link below 
 
 https://github.com/user29A/fastrometry/wiki
 
-##Introduction
+## Introduction
 Fastrometry is a Python implementation of the fast world coordinate solution solver for the FITS standard astronomical image. By fast we mean solutions in milliseconds, aside from catalogue queries requiring server time to outside sources, such as "astroquery". It is designed for use by professional astronomers who have an expected basic knowledge of the telescope and detector system that they work with or are otherwise receiving astronomical images from: If the user can supply the approximate field center (+-10%), and the approximate field scale (+-10%), then they can expect WCS solutions almost instantaneously.
 
 The fastrometry solver is based upon the trigonometric algorithm as described here:
@@ -14,7 +14,7 @@ It is also implemented in the Windows FITS image processor and viewer here:
 
 https://github.com/user29A/CCDLAB
 
-##Theory
+## Theory
 The world coordinate system for the FITS standard is solved in intermediate coordinate space, where spherical sky coordinates are transformed into a planar coordinate grid such that planar image coordinates might then be scaled, rotated, and shifted through a transformation matrix relative to some reference point to align with the intermediate coordinate grid. This transformation solution can then be used to transform 2D image locations to spherical sky coordinates.
 
 The coefficients of the transformation matrix are what determine the scale, rotation, and reference point in the image, and thus these are what need to be solved for in a least-squares solution between the intermediate sky coordinates and the image coordinates. The problem is, one first requires a set of corresponding coordinates from a catalogue in sky coordinates and coordinates from the image, for the least squares to then function upon.
