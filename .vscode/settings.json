@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "istream": "c",
+        "memory": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "xlocnum": "c",
+        "xutility": "c",
+        "sstream": "c"
+    },
+    "editor.selectionHighlight": false,
+    "editor.occurrencesHighlight": false,
+    "workbench.editor.titleScrollbarSizing": "large"
+}
