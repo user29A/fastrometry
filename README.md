@@ -8,3 +8,6 @@
 7. Type "pip install FILENAME.whl"
 8. Move to the directory containing your fits images (if you plan to use fastrometry at the command line)
 9. You're ready to use fastrometry. You can either call fastrometry at the command line or import it as a module into one of your python applications.
+
+
+This project was undertaken with the financial support of the Canadian Space Agency.
