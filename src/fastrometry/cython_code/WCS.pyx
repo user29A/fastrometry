@@ -1,8 +1,6 @@
-from astroquery.gaia import Gaia
 import scipy.optimize as optimization
 import numpy as np
-from pathlib import Path
-import csv
+import sys
 
 cimport numpy as np
 from libc.math cimport sin, cos, pi, asin, acos, atan, atan2, sqrt, abs
@@ -67,7 +65,7 @@ def fitNrefineptsToGetCD(params, matches_arr, matches):
 
     return residual_arr
 
-cdef void refineSolution(double[:,:] allintrmcoords_view, int num_catsources, double[:,:] smetadata_view, int num_psesources, int npts, int nrefinepts, int img_xmax, int img_ymax, int[:,:] sindmap_refine_view, double S, double phi, double CRPIXx, double CRPIXy, double[:] solution_refined, str user_dir, str filename, int verbose, int debug):
+cdef void refineSolution(double[:,:] allintrmcoords_view, int num_catsources, double[:,:] pse_metadata_view, double[:,:] pse_metadata_inv_view, int num_psesources, int npts, int nrefinepts, int img_xmax, int img_ymax, int[:,:] srcindexmap_refine_view, double S, double phi, double CRPIXx, double CRPIXy, double[:] refined_solution, str user_dir, str debug_report, str filename, int verbosity, int debug):
     
     """
     Test previous solution using as many points as possible (all num_psesources points from the PSE and all num_catsources points from the catalogue).
@@ -94,9 +92,11 @@ cdef void refineSolution(double[:,:] allintrmcoords_view, int num_catsources, do
         nrefinepts_pse = num_psesources
 
     cdef:
-        double[:,:] psecoords_view = smetadata_view[:nrefinepts_pse,:2]
+        double[:,:] psecoords_view = pse_metadata_view[:nrefinepts_pse,:2]
+        double[:,:] psecoords_inv_view = pse_metadata_inv_view[:nrefinepts_pse,:2]
         double[:,:] intrmcoords_view = allintrmcoords_view[:nrefinepts_intrm,:]
         np.ndarray[dtype=np.double_t,ndim=2] matches_arr = np.zeros((nrefinepts_intrm,4))
+        int matches
         double[:,:] matches_view = matches_arr
         double CD11
         double CD11_guess = S*cos(phi)
@@ -113,51 +113,70 @@ cdef void refineSolution(double[:,:] allintrmcoords_view, int num_catsources, do
         Py_ssize_t k
         Py_ssize_t m
 
-    guess = np.array([CD11_guess, CD12_guess, CD21_guess, CD22_guess, CRPIXx_guess, CRPIXy_guess])
-
-    if debug >= 1:
-        invtransf_xs = []
-        invtransf_ys = []
-        matchintrmxs = []
-        matchintrmys = []
+    if verbosity >= 1:
+        print("| | (working with {} PSE sources and {} catalog sources.)".format(nrefinepts_pse,nrefinepts_intrm))
+        print("| | Applying initial solution to the larger dataset...")
 
     matches = 0
+    if debug:
+        invtransf_xs = []
+        invtransf_ys = []
+        invtransf_match_xs = []
+        invtransf_match_ys = []
     for k in range(nrefinepts_intrm):
         inverseTransformPointUsingSphi(S, phi, CRPIXx, CRPIXy, intrmcoords_view[k,0], intrmcoords_view[k,1], invtransf_intrmpoint_view)
-        if debug >= 1:
+        if debug:
             invtransf_xs.append(invtransf_intrmpoint_view[0])
             invtransf_ys.append(invtransf_intrmpoint_view[1])
         if 1 <= invtransf_intrmpoint_view[0] <= img_xmax and 1 <= invtransf_intrmpoint_view[1] <= img_ymax:
-            src_ind = sindmap_refine_view[int(invtransf_intrmpoint_view[1])-1,int(invtransf_intrmpoint_view[0])-1]
+            src_ind = srcindexmap_refine_view[img_ymax-int(invtransf_intrmpoint_view[1])-1,img_xmax-int(invtransf_intrmpoint_view[0])-1]
             if src_ind != -1:
                 matches_view[matches,0] = intrmcoords_view[k,0]
                 matches_view[matches,1] = intrmcoords_view[k,1]
                 matches_view[matches,2] = psecoords_view[src_ind,0]
                 matches_view[matches,3] = psecoords_view[src_ind,1]
                 matches += 1
-                if debug >= 1:
-                    matchintrmxs.append(invtransf_intrmpoint_view[0])
-                    matchintrmys.append(invtransf_intrmpoint_view[1])
+                if debug:
+                    invtransf_match_xs.append(invtransf_intrmpoint_view[0])
+                    invtransf_match_ys.append(invtransf_intrmpoint_view[1])
 
-    if verbose >= 1:
-        print(matches)
+    if verbosity >= 1:
+        print("| | | Found {} matches.".format(matches))
+        print("| | done")
     
-    if debug >= 1:
-
+    if debug:
         import matplotlib.pyplot as plt
         from matplotlib.colors import LogNorm
         from astropy.io import fits
-
         image_data = fits.getdata('{}\\{}'.format(user_dir,filename))
-        fig5 = plt.figure(5,figsize=(10,8))
-        axes5 = fig5.add_subplot(111)
-        axes5.imshow(image_data, cmap="gray", norm=LogNorm())
-        axes5.scatter(matchintrmxs,matchintrmys,color='pink')
-        axes5.scatter(psecoords_view[:,0],psecoords_view[:,1],marker="+",color='y')
-        axes5.scatter(invtransf_xs,invtransf_ys,c='red',marker='.')
+        fig = plt.figure(figsize=(10,8))
+        plt.subplots_adjust(bottom=0.2)
+
+        axes = fig.add_subplot(111)
+        axes.imshow(image_data, cmap="gray", norm=LogNorm())
+        axes.scatter(invtransf_match_xs,invtransf_match_ys,marker="o",color='white')
+        axes.scatter(psecoords_view[:,0],psecoords_view[:,1],marker=".",color='blue')
+        axes.scatter(invtransf_xs,invtransf_ys,marker='.',color='fuchsia')
+        
+        dscrp = "Plot of the inverse-transformed points (fuchsia) of all {} intermediate points. The inverse \ntransform used here is composed of the parameters that make up the initial solution. The \ninverse-transformed points that yield a match (i.e., those that land on an occupied kernel \nin the source index map) are surrounded by a white circle. The PSE points are in blue.".format(nrefinepts_intrm)
+        plt.title("Inverse transform - {} points - initial solution".format(nrefinepts_intrm))
+        plt.figtext(0.5, 0.05, dscrp, ha="center", fontsize=9)
+        plt.savefig(user_dir+"\\debug\\"+debug_report+"\\inversetrans_matches_{}_initial.png".format(nrefinepts_intrm))
         plt.show()
-        plt.close()
     
+    if verbosity >= 1:
+        print("| | Optimizing solution using the larger dataset...")
+
+    guess = np.array([CD11_guess, CD12_guess, CD21_guess, CD22_guess, CRPIXx_guess, CRPIXy_guess])
+
+    if verbosity == 2:
+        print("| | CD1_1_guess = {}".format(CD11_guess))
+        print("| | CD1_2_guess = {}".format(CD12_guess))
+        print("| | CD2_1_guess = {}".format(CD21_guess))
+        print("| | CD2_2_guess = {}".format(CD22_guess))
+        print("| | CRPIXx_guess = {}".format(CRPIXx_guess))
+        print("| | CRPIXy_guess = {}".format(CRPIXy_guess))
+
     matches_trimmed = matches_arr[:matches,:]
     optimizedparams = optimization.least_squares(fun=fitNrefineptsToGetCD, x0=guess, args=(matches_trimmed, matches))
     CD11 = optimizedparams.x[0]
@@ -166,43 +185,70 @@ cdef void refineSolution(double[:,:] allintrmcoords_view, int num_catsources, do
     CD22 = optimizedparams.x[3]
     CRPIXx = optimizedparams.x[4]
     CRPIXy = optimizedparams.x[5]
-    solution_refined[0] = CD11
-    solution_refined[1] = CD12
-    solution_refined[2] = CD21
-    solution_refined[3] = CD22
-    solution_refined[4] = CRPIXx
-    solution_refined[5] = CRPIXy
+    refined_solution[0] = CD11
+    refined_solution[1] = CD12
+    refined_solution[2] = CD21
+    refined_solution[3] = CD22
+    refined_solution[4] = CRPIXx
+    refined_solution[5] = CRPIXy
 
-    if debug >= 1:
+    if verbosity >= 1:
+        print("| | done")
+        print("| | Refined solution vector: {}".format(np.asarray(refined_solution)))
+    
+    if verbosity == 2:
+        print("| | * CD1_1: {}".format(CD11))
+        print("| | * CD1_2: {}".format(CD12))
+        print("| | * CD2_1: {}".format(CD21))
+        print("| | * CD2_2: {}".format(CD22))
+        print("| | * CRPIX1: {}".format(CRPIXx))
+        print("| | * CRPIX2: {}".format(CRPIXy))
+    
+    if verbosity >= 1:
+        print("| | Applying refined solution to the larger dataset...")
 
+    matches = 0
+    if debug:
+        invtransf_xs = []
+        invtransf_ys = []
+        invtransf_match_xs = []
+        invtransf_match_ys = []
+    for k in range(nrefinepts_intrm):
+        inverseTransformPointUsingCD(CD11, CD12, CD21, CD22, CRPIXx, CRPIXy, intrmcoords_view[k,0], intrmcoords_view[k,1], invtransf_intrmpoint_view)
+        if debug:
+            invtransf_xs.append(invtransf_intrmpoint_view[0])
+            invtransf_ys.append(invtransf_intrmpoint_view[1])
+        if 1 <= invtransf_intrmpoint_view[0] <= img_xmax and 1 <= invtransf_intrmpoint_view[1] <= img_ymax:
+            src_ind = srcindexmap_refine_view[int(invtransf_intrmpoint_view[1])-1,int(invtransf_intrmpoint_view[0])-1]
+            if src_ind != -1:
+                matches += 1
+                if debug:
+                    invtransf_match_xs.append(invtransf_intrmpoint_view[0])
+                    invtransf_match_ys.append(invtransf_intrmpoint_view[1])
+    if debug:
         import matplotlib.pyplot as plt
         from matplotlib.colors import LogNorm
         from astropy.io import fits
+        image_data = fits.getdata('{}\\{}'.format(user_dir,filename))
+        fig = plt.figure(figsize=(10,8))
+        plt.subplots_adjust(bottom=0.2)
 
-        newinvtransf_xs = []
-        newinvtransf_ys = []
-        newmatchintrmxs = []
-        newmatchintrmys = []
-        newmatches = 0
-        for k in range(nrefinepts_intrm):
-            inverseTransformPointUsingCD(CD11, CD12, CD21, CD22, CRPIXx, CRPIXy, intrmcoords_view[k,0], intrmcoords_view[k,1], invtransf_intrmpoint_view)
-            newinvtransf_xs.append(invtransf_intrmpoint_view[0])
-            newinvtransf_ys.append(invtransf_intrmpoint_view[1])
-            if 1 <= invtransf_intrmpoint_view[0] <= img_xmax and 1 <= invtransf_intrmpoint_view[1] <= img_ymax:
-                src_ind = sindmap_refine_view[int(invtransf_intrmpoint_view[1])-1,int(invtransf_intrmpoint_view[0])-1]
-                if src_ind != -1:
-                    newmatches += 1
-                    newmatchintrmxs.append(invtransf_intrmpoint_view[0])
-                    newmatchintrmys.append(invtransf_intrmpoint_view[1])
-        print(newmatches)
-        fig6 = plt.figure(6,figsize=(10,8))
-        axes6 = fig6.add_subplot(111)
-        axes6.imshow(image_data, cmap="gray", norm=LogNorm())
-        axes6.scatter(newmatchintrmxs,newmatchintrmys,color='pink')
-        axes6.scatter(psecoords_view[:,0],psecoords_view[:,1],marker="+",color='y')
-        axes6.scatter(newinvtransf_xs,newinvtransf_ys,c='red',marker='.')
+        axes = fig.add_subplot(111)
+        axes.imshow(image_data, cmap="gray", norm=LogNorm())
+        axes.scatter(invtransf_match_xs,invtransf_match_ys,marker="o",color='white')
+        axes.scatter(psecoords_view[:,0],psecoords_view[:,1],marker=".",color='blue')
+        axes.scatter(invtransf_xs,invtransf_ys,c='fuchsia',marker='.')
+
+        dscrp = "Plot of the inverse-transformed points (fuchsia) of all {} intermediate points. The inverse \ntransform used here is composed of the CD matrix elements that make up the refined solution.\n The inverse-transformed points that yield a match (i.e., those that land on an occupied \nkernel in the source index map) are surrounded by a white circle. The PSE points are in blue.".format(nrefinepts_intrm)
+        plt.title("Inverse transform - {} points - refined solution".format(nrefinepts_intrm))
+        plt.figtext(0.5, 0.05, dscrp, ha="center", fontsize=9)
+        plt.savefig(user_dir+"\\debug\\"+debug_report+"\\inversetrans_matches_{}_refined.png".format(nrefinepts_intrm))
         plt.show()
-        plt.close()
+
+    if verbosity >= 1:
+        print("| | | Found {} matches.".format(matches))
+        print("| | done")
+
 
 cdef inverseTransformPointUsingSphi(double S, double phi, double CRPIXx, double CRPIXy, double intrmx, double intrmy, double[:] invtransf_intrmpoint_view):
     """
@@ -228,7 +274,7 @@ def fitTrianglesToGetSphi(params, pseAx, pseAy, pseBx, pseBy, pseCx, pseCy, intr
     """
     The optimizer function, for which S, phi, CRPIXx and CRPIXy are the parameters. After many runs of this function, the optimizer
     will settle on the S, phi, CRPIXx and CRPIXy which minimize the 6 residuals. Each residual is the difference between the forward-
-    transformed pse coordinate and the intermediate coordinate that should result. (Here however it is written the other way around.)
+    transformed pse coordinate and the intermediate coordinate that should result.
     """
 
     S = params[0]
@@ -324,7 +370,8 @@ cdef getTriangleData(double x1, double y1, double x2, double y2, double x3, doub
     vertexA = acos((sidelengthAB**2+sidelengthCA**2-sidelengthBC**2)/(2*sidelengthAB*sidelengthCA))
     vertexB = acos((sidelengthAB**2+sidelengthBC**2-sidelengthCA**2)/(2*sidelengthAB*sidelengthBC))
     vertexC = acos((sidelengthCA**2+sidelengthBC**2-sidelengthAB**2)/(2*sidelengthCA*sidelengthBC))
-    fieldvectorangle = atan2((pointCy-pointBy),(pointCx-pointBx))
+    fieldvectorX = pointCx-pointBx
+    fieldvectorY = pointCy-pointBy
 
     triangle_datalist[0] = pointAx
     triangle_datalist[1] = pointAy
@@ -335,7 +382,8 @@ cdef getTriangleData(double x1, double y1, double x2, double y2, double x3, doub
     triangle_datalist[6] = vertexB
     triangle_datalist[7] = vertexC
     triangle_datalist[8] = sidelengthBC
-    triangle_datalist[9] = fieldvectorangle
+    triangle_datalist[9] = fieldvectorX
+    triangle_datalist[10] = fieldvectorY
 
 cdef generateTriangles(int npts, double[:,:] coords_view, double[:,:] triangles_view):
     """
@@ -353,19 +401,28 @@ cdef generateTriangles(int npts, double[:,:] coords_view, double[:,:] triangles_
         Py_ssize_t b
         Py_ssize_t c
         Py_ssize_t propertyNo
-        double[:] triangledata_view = np.empty(10,dtype=np.double)
+        double[:] triangledata_view = np.empty(11,dtype=np.double)
 
     triangleNo = 0
     for a in range(0,npts-2):
         for b in range(a+1,npts-1):
             for c in range(b+1,npts):
                 getTriangleData(coords_view[a,0],coords_view[a,1],coords_view[b,0],coords_view[b,1],coords_view[c,0],coords_view[c,1], triangledata_view)
-                for propertyNo in range(10):
+                for propertyNo in range(11):
                     triangles_view[triangleNo,propertyNo] = triangledata_view[propertyNo]
                 triangleNo += 1
 
-cdef void findInitialSolution(double[:,:] allintrmcoords_view, int num_catsources, double[:,:] smetadata_view, int num_psesources, int[:,:] sindmap_initial_view, int npts, int img_xmax, int img_ymax, double scale, double scalebnds, object rotation, object rotationbnds, double vertextol, int minmatches, int kerneldiam, double[:] solution_initial, str user_dir, str filename, int verbose, int debug):
+cdef int findInitialSolution(double[:,:] allintrmcoords_view, int num_catsources, double[:,:] pse_metadata_view, double[:,:] pse_metadata_inv_view, int num_psesources, int[:,:] srcindexmap_initial_view, int npts, int img_xmax, int img_ymax, double scale, double scalebnds, object rotation, object rotationbnds, double vertextol, int minmatches, int kerneldiam, double[:] initial_solution, str user_dir, str debug_report, str filename, int verbosity, bint debug):
     """
+    Finds the initial solution. First, all possible triangles of PSE points and all possible triangles of intermediate points
+    are constructed. Then a loop iterates through both sets of triangles, looking at one from each set at a time. If two triangles
+    are similar, this indicates that there is a unique scale, rotation, and reference point (the "initial solution"), which can be 
+    used to transform one triangle into the other. At this point we use scipy.optimize.least_squares to solve for S, phi, CRPIXx 
+    and CRPIXy, using the 3 pairs of corresponding points. Afterwords, we test our found solution (the parameters) by using the 
+    inverse transformation. We take single intermediate points and look at where on the source index map they land when inverse 
+    transformed. If they happen to land on a location that corresponds to a PSE source, i.e., not -1, then we increase a counter. 
+    If, after having iterated through all intermediate coordinates, the count is above a certain threshold, we conclude that we
+    have a solution. These parameters are then passed out of this function and will be used to create the refined solution.
     """
 
     cdef:
@@ -386,7 +443,8 @@ cdef void findInitialSolution(double[:,:] allintrmcoords_view, int num_catsource
         npts_pse = npts
 
     cdef:
-        double[:,:] psecoords_view = smetadata_view[:npts_pse,:2]
+        double[:,:] psecoords_view = pse_metadata_view[:npts_pse,:2]
+        double[:,:] psecoords_inv_view = pse_metadata_inv_view[:npts_pse,:2]
         double[:,:] intrmcoords_view = allintrmcoords_view[:npts_intrm,:]
         Py_ssize_t i
         Py_ssize_t j
@@ -416,29 +474,27 @@ cdef void findInitialSolution(double[:,:] allintrmcoords_view, int num_catsource
         double sumy
         double sidelengthtol
         int matches
-        double[:,:] psetriangles_view = np.empty((nchoose3_pse,10),dtype=np.double)
-        double[:,:] intrmtriangles_view = np.empty((nchoose3_intrm,10),dtype=np.double)
+        double[:,:] psetriangles_view = np.empty((nchoose3_pse,11),dtype=np.double)
+        double[:,:] intrmtriangles_view = np.empty((nchoose3_intrm,11),dtype=np.double)
         double intrmlengthBC_lb
         double intrmlengthBC_ub
         double[:,:] invtransf_intrmtriangle_view = np.empty((3,2),dtype=np.double)
         double[:] invtransf_intrmpoint_view = np.empty(2,dtype=np.double)
 
-    if debug >= 1:
-        print("psecoords_view",np.asarray(psecoords_view))
-        print("intrmcoords_view",np.asarray(intrmcoords_view))
+    if debug:
+        np.savetxt(user_dir+"\\debug\\"+debug_report+"\\psecoords.csv",np.asarray(psecoords_view),delimiter=",")
+        np.savetxt(user_dir+"\\debug\\"+debug_report+"\\psecoords_inverted.csv",np.asarray(psecoords_inv_view),delimiter=",")
+        np.savetxt(user_dir+"\\debug\\"+debug_report+"\\intrmcoords.csv",np.asarray(intrmcoords_view),delimiter=",")
 
-    if debug >= 1:
+    if verbosity == 2:
         psecoords_xrange = np.ptp(psecoords_view[:,0])
         intrmcoords_xrange = np.ptp(intrmcoords_view[:,0])
         approx_scale = intrmcoords_xrange/psecoords_xrange
-        print("approx_scale ",approx_scale)
+        print("| | Approximate scale = {}".format(approx_scale))
 
     S_guess = scale
     S_lb = scale/(1+scalebnds)
     S_ub = scale*(1+scalebnds)
-
-    if debug >= 1:
-        print("S_guess ",S_guess)
 
     if rotation is None and rotationbnds is None:
         rotation_provided = False
@@ -468,8 +524,8 @@ cdef void findInitialSolution(double[:,:] allintrmcoords_view, int num_catsource
     sumx = 0
     sumy = 0
     for p in range(npts_pse):
-        sumx += psecoords_view[p,0]
-        sumy += psecoords_view[p,1]
+        sumx += psecoords_inv_view[p,0]
+        sumy += psecoords_inv_view[p,1]
     CRPIXx_guess = sumx/npts_pse
     CRPIXy_guess = sumy/npts_pse
     CRPIXx_lb = 1
@@ -477,65 +533,71 @@ cdef void findInitialSolution(double[:,:] allintrmcoords_view, int num_catsource
     CRPIXy_lb = 1
     CRPIXy_ub = img_ymax
 
-    if debug >= 1:
-        print("phi_guess ",phi_guess)
+    if verbosity == 2:
+        print("| | S_guess = {}".format(S_guess))
+        print("| | S_lb = {}".format(S_lb))
+        print("| | S_ub = {}".format(S_ub))
+        if rotation is None and rotationbnds is None:
+            print("| | phi_guess = TBD in loop")
+            print("| | phi_lb = TBD in loop")
+            print("| | phi_ub = TBD in loop")
+        else:
+            print("| | phi_guess = {}".format(phi_guess))
+            print("| | phi_lb = {}".format(phi_lb))
+            print("| | phi_ub = {}".format(phi_ub))
+        print("| | CRPIXx_guess = {}".format(CRPIXx_guess))
+        print("| | CRPIXx_lb = {}".format(CRPIXx_lb))
+        print("| | CRPIXx_ub = {}".format(CRPIXx_ub))
+        print("| | CRPIXy_guess = {}".format(CRPIXy_guess))
+        print("| | CRPIXy_lb = {}".format(CRPIXy_lb))
+        print("| | CRPIXy_ub = {}".format(CRPIXy_ub))
     
     guess = np.array([S_guess, phi_guess, CRPIXx_guess, CRPIXy_guess])
     bnds = np.array([[S_lb,phi_lb,CRPIXx_lb,CRPIXy_lb],[S_ub,phi_ub,CRPIXx_ub,CRPIXy_ub]])
-    
-    if debug >= 1:
-        print("guess ",guess)
-        print("bnds[0] bnds[1]",bnds[0],bnds[1])
 
-    if debug >= 1:
-        print("first ten pse xs ",np.asarray(psecoords_view)[:10,0])
-        print("first ten pse ys ",np.asarray(psecoords_view)[:10,1])
-
+    if debug and npts_intrm >= 10 and npts_pse >= 10:
         import matplotlib.pyplot as plt
         from matplotlib.colors import LogNorm
         from astropy.io import fits
-
         image_data = fits.getdata('{}\\{}'.format(user_dir,filename))
+        fig = plt.figure(figsize=(14,8))
+        plt.subplots_adjust(bottom=0.2)
 
-        fig1 = plt.figure(1,figsize=(10,8))
-        axes1 = fig1.add_subplot(111)
+        axes1 = fig.add_subplot(121)
+        axes1.set_title('10 brightest PSE and intermediate points')
         axes1.imshow(image_data, cmap="gray", norm=LogNorm())
         axes1.scatter(np.asarray(psecoords_view)[:10,0], np.asarray(psecoords_view)[:10,1], marker=".", c="blue")
-        axes1.scatter(np.asarray(intrmcoords_view)[:10,0]/approx_scale+CRPIXx_guess,np.asarray(intrmcoords_view)[:10,1]/approx_scale+CRPIXy_guess, marker=".", c="red")
-        plt.show()
-
-        fig2 = plt.figure(2,figsize=(10,8))
-        axes2 = fig2.add_subplot(111)
+        axes1.scatter(img_xmax-np.asarray(intrmcoords_view)[:10,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmcoords_view)[:10,1]/approx_scale-CRPIXy_guess, marker=".", c="red")
+        
+        axes2 = fig.add_subplot(122)
+        axes2.set_title('{} brightest PSE and {} intermediate points'.format(npts_pse,npts_intrm))
         axes2.imshow(image_data, cmap="gray", norm=LogNorm())
         axes2.scatter(np.asarray(psecoords_view)[:,0], np.asarray(psecoords_view)[:,1], marker=".", c="blue")
-        axes2.scatter(np.asarray(intrmcoords_view)[:,0]/approx_scale+CRPIXx_guess,np.asarray(intrmcoords_view)[:,1]/approx_scale+CRPIXy_guess, marker=".", c="red")
+        axes2.scatter(img_xmax-np.asarray(intrmcoords_view)[:,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmcoords_view)[:,1]/approx_scale-CRPIXy_guess, marker=".", c="red")
+
+        dscrp = "PSE points (blue) and intermediate points (red) plotted overtop the image. Since the intermediate points \nare actually in radians, whereas the PSE points are in pixels, an 'approximate scale factor' has been \nguessed and used to put the intermediate coordinates roughly on the same scale as the PSE coordinates. \nThe intermediate coordinates center has also been shifted from (0,0) to the center of the PSE points. \nThis allows the geometries to be compared visually."
+        plt.figtext(0.5, 0.05, dscrp, ha="center", fontsize=9)
+        plt.savefig(user_dir+"\\debug\\"+debug_report+"\\shapecompare_initial.png")
         plt.show()
 
-        fig3 = plt.figure(3,figsize=(10,8))
-        fig3 = fig3.add_subplot(111)
-        fig3.imshow(image_data, cmap="gray", norm=LogNorm())
-        fig3.scatter(np.asarray(smetadata_view[:,:2])[:,0], np.asarray(smetadata_view[:,:2])[:,1], marker=".", c="blue")
-        fig3.scatter(np.asarray(allintrmcoords_view[:,:])[:,0]/approx_scale+CRPIXx_guess, np.asarray(allintrmcoords_view[:,:])[:,1]/approx_scale+CRPIXy_guess, marker=".", c="red")
-        plt.show()
-
-    generateTriangles(npts_pse, psecoords_view, psetriangles_view)
+    generateTriangles(npts_pse, psecoords_inv_view, psetriangles_view)
     generateTriangles(npts_intrm, intrmcoords_view, intrmtriangles_view)
 
-    for i in range(nchoose3_pse):
-        if debug >= 1:
-            print("i ",i)
-        psesrcindex_A = sindmap_initial_view[int(psetriangles_view[i,1])-1,int(psetriangles_view[i,0])-1]
-        psesrcindex_B = sindmap_initial_view[int(psetriangles_view[i,3])-1,int(psetriangles_view[i,2])-1]
-        psesrcindex_C = sindmap_initial_view[int(psetriangles_view[i,5])-1,int(psetriangles_view[i,4])-1]
+    if verbosity >= 1:
+        print("| | (working with {} PSE sources and {} catalog sources.)".format(npts_pse,npts_intrm))
 
+    for i in range(nchoose3_pse):
+        if verbosity == 2:
+            print("| | i {}".format(i))
+        psesrcindex_A = srcindexmap_initial_view[img_ymax-int(psetriangles_view[i,1])-1,img_xmax-int(psetriangles_view[i,0])-1]
+        psesrcindex_B = srcindexmap_initial_view[img_ymax-int(psetriangles_view[i,3])-1,img_xmax-int(psetriangles_view[i,2])-1]
+        psesrcindex_C = srcindexmap_initial_view[img_ymax-int(psetriangles_view[i,5])-1,img_xmax-int(psetriangles_view[i,4])-1]
         for j in range(nchoose3_intrm):
             if abs(psetriangles_view[i,6]-intrmtriangles_view[j,6]) < vertextol:
                 if abs(psetriangles_view[i,7]-intrmtriangles_view[j,7]) < vertextol:
                     if intrmtriangles_view[j,8] > S_lb*(psetriangles_view[i,8]-kerneldiam) and intrmtriangles_view[j,8] < S_ub*(psetriangles_view[i,8]+kerneldiam):
-                        theta = intrmtriangles_view[j,9]-psetriangles_view[i,9]
-                        if debug >= 1:
-                            print("theta ", theta)
-                        if rotation_provided == False and rotationbnds_provided == False:            ###if rotation and rotationbnds are not supplied
+                        theta = atan2(psetriangles_view[i,9]*intrmtriangles_view[j,10] - psetriangles_view[i,10]*intrmtriangles_view[j,9], psetriangles_view[i,9]*intrmtriangles_view[j,9] + psetriangles_view[i,10]*intrmtriangles_view[j,10])
+                        if rotation_provided == False and rotationbnds_provided == False:       #if rotation and rotationbnds are not supplied
                             guess[1] = theta
                             bnds[0,1] = theta - vertextol
                             bnds[1,1] = theta + vertextol
@@ -551,220 +613,128 @@ cdef void findInitialSolution(double[:,:] allintrmcoords_view, int num_catsource
                         if 1 <= invtransf_intrmtriangle_view[0,0] <= img_xmax and 1 <= invtransf_intrmtriangle_view[0,1] <= img_ymax:
                             if 1 <= invtransf_intrmtriangle_view[1,0] <= img_xmax and 1 <= invtransf_intrmtriangle_view[1,1] <= img_ymax:
                                 if 1 <= invtransf_intrmtriangle_view[2,0] <= img_xmax and 1 <= invtransf_intrmtriangle_view[2,1] <= img_ymax:
-                                    if psesrcindex_A == sindmap_initial_view[int(invtransf_intrmtriangle_view[0,1])-1,int(invtransf_intrmtriangle_view[0,0])-1]:
-                                        if psesrcindex_B == sindmap_initial_view[int(invtransf_intrmtriangle_view[1,1])-1,int(invtransf_intrmtriangle_view[1,0])-1]:
-                                            if psesrcindex_C == sindmap_initial_view[int(invtransf_intrmtriangle_view[2,1])-1,int(invtransf_intrmtriangle_view[2,0])-1]:
+                                    if psesrcindex_A == srcindexmap_initial_view[img_ymax-int(invtransf_intrmtriangle_view[0,1])-1,img_xmax-int(invtransf_intrmtriangle_view[0,0])-1]:
+                                        if psesrcindex_B == srcindexmap_initial_view[img_ymax-int(invtransf_intrmtriangle_view[1,1])-1,img_xmax-int(invtransf_intrmtriangle_view[1,0])-1]:
+                                            if psesrcindex_C == srcindexmap_initial_view[img_ymax-int(invtransf_intrmtriangle_view[2,1])-1,img_xmax-int(invtransf_intrmtriangle_view[2,0])-1]:
                                                 matches = 0
-                                                if debug >= 1:
-                                                    matchintrmxs = []
-                                                    matchintrmys = []
+                                                if debug:
                                                     invtransf_xs = []
                                                     invtransf_ys = []
+                                                    invtransf_match_xs = []
+                                                    invtransf_match_ys = []
                                                 for k in range(npts_intrm):
                                                     inverseTransformPointUsingSphi(S, phi, CRPIXx, CRPIXy, intrmcoords_view[k,0], intrmcoords_view[k,1], invtransf_intrmpoint_view)
-                                                    if debug >= 1:
+                                                    if debug:
                                                         invtransf_xs.append(invtransf_intrmpoint_view[0])
                                                         invtransf_ys.append(invtransf_intrmpoint_view[1])
                                                     if 1 <= invtransf_intrmpoint_view[0] <= img_xmax and 1 <= invtransf_intrmpoint_view[1] <= img_ymax:
-                                                        if sindmap_initial_view[int(invtransf_intrmpoint_view[1])-1,int(invtransf_intrmpoint_view[0])-1] != -1:
+                                                        if srcindexmap_initial_view[img_ymax-int(invtransf_intrmpoint_view[1])-1,img_xmax-int(invtransf_intrmpoint_view[0])-1] != -1:
                                                             matches += 1
-                                                            if debug >= 1:
-                                                                matchintrmxs.append(invtransf_intrmpoint_view[0])
-                                                                matchintrmys.append(invtransf_intrmpoint_view[1])
+                                                            if debug:
+                                                                invtransf_match_xs.append(invtransf_intrmpoint_view[0])
+                                                                invtransf_match_ys.append(invtransf_intrmpoint_view[1])
                                                 if matches >= minmatches:
-                                                    if debug >= 1:
-                                                        from math import degrees
-                                                        print("-- GOT A SOLUTION --")
-                                                        print("S: ",S)
-                                                        print("phi raw: ",phi)
-                                                        print("phi in degrees: ",degrees(phi))
-                                                        print("CRPIXx: ",CRPIXx)
-                                                        print("CRPIXy: ",CRPIXy)
-                                                        print("number of matches",matches)
-                                                    solution_initial[0] = S
-                                                    solution_initial[1] = phi
-                                                    solution_initial[2] = CRPIXx
-                                                    solution_initial[3] = CRPIXy
+                                                    initial_solution[0] = S
+                                                    initial_solution[1] = phi
+                                                    initial_solution[2] = CRPIXx
+                                                    initial_solution[3] = CRPIXy
 
-                                                    if debug >= 1:
+                                                    if verbosity >= 1:
+                                                        print("| | Found {} matches.".format(matches))
+                                                        print("| | Initial solution vector: {}".format(np.asarray(initial_solution)))
+
+                                                    if verbosity == 2:
+                                                        print("| | * Scale (arcsec/pixel): {}".format(S*3600*180/pi))
+                                                        print("| | * Rotation (degrees): {}".format(phi*180/pi))
+                                                        print("| | * CRPIX1: {}".format(CRPIXx))
+                                                        print("| | * CRPIX2: {}".format(CRPIXy))
+
+                                                    if debug:
                                                         import matplotlib.pyplot as plt
                                                         from matplotlib.colors import LogNorm
                                                         from astropy.io import fits
 
-                                                        fig4 = plt.figure(4,figsize=(10,8))
-                                                        axes4 = fig4.add_subplot(111)
-                                                        axes4.imshow(image_data, cmap="gray", norm=LogNorm())
-                                                        axes4.scatter(matchintrmxs,matchintrmys,color='pink')
-                                                        axes4.scatter(psecoords_view[:,0],psecoords_view[:,1],marker="+",color='y')
-                                                        axes4.scatter(invtransf_xs,invtransf_ys,c='red',marker='.')
+                                                        invtransf_xs = img_xmax-np.asarray(invtransf_xs)
+                                                        invtransf_ys = img_ymax-np.asarray(invtransf_ys)
+                                                        invtransf_match_xs = img_xmax-np.asarray(invtransf_match_xs)
+                                                        invtransf_match_ys = img_ymax-np.asarray(invtransf_match_ys)
+                                                        fig = plt.figure(figsize=(10,8))
+                                                        plt.subplots_adjust(bottom=0.2)
+
+                                                        axes = fig.add_subplot(111)
+                                                        axes.imshow(image_data, cmap="gray", norm=LogNorm())
+                                                        axes.scatter(invtransf_match_xs,invtransf_match_ys,marker='o',color='white')
+                                                        axes.scatter(psecoords_view[:,0],psecoords_view[:,1],marker=".",color='blue')
+                                                        axes.scatter(invtransf_xs,invtransf_ys,marker='.',color='fuchsia')
+
+                                                        dscrp = "Plot of the inverse-transformed points (fuchsia) of {} intermediate points. The inverse \ntransform used here is composed of the parameters that make up the initial solution. The \ninverse-transformed points that yield a match (i.e., those that land on an occupied kernel \nin the source index map) are surrounded by a white circle. The PSE points are in blue.".format(npts_intrm)
+                                                        plt.title("Inverse transform - {} points - initial solution".format(npts_intrm))
+                                                        plt.figtext(0.5, 0.05, dscrp, ha="center", fontsize=9)
+                                                        plt.savefig(user_dir+"\\debug\\"+debug_report+"\\inversetrans_matches_{}_initial.png".format(npts_intrm))
                                                         plt.show()
-                                                        plt.close()
 
-                                                    return
-    print("No solution found")
-    return
-
-def getIntermediateCoords(ra, dec, fieldradius, fieldquery, catalogue, filter, nrefinepts, intrmcoords, meancatcoords, user_dir, verbose, debug):
-
-    if catalogue == "GaiaDR3":
-            
-        if filter == "rp":
-            filtkey = "phot_rp_mean_mag"
-        elif filter == "g":
-            filtkey = "phot_g_mean_mag"
-        elif filter == "bp":
-            filtkey = "phot_bp_mean_mag"
-
-        if not Path('{}\\gaiaqueries'.format(user_dir)).is_dir():
-            if verbose >= 1:
-                print("Creating {}\\gaiaqueries".format(user_dir))
-            Path('{}\\gaiaqueries'.format(user_dir)).mkdir(parents=True)
-        filenameifexists = '{}\\gaiaqueries\\gaiatable_ra{:.9}_dec{:.9}_{}_{}_{}_{}.csv'.format(user_dir, ra, dec, fieldquery, catalogue, filter, nrefinepts)
-        if Path(filenameifexists).is_file():
-            if verbose >= 1:
-                print("opening existing table: {}".format(filenameifexists))
-            with open('{}\\gaiaqueries\\gaiatable_ra{:.9}_dec{:.9}_{}_{}_{}_{}.csv'.format(user_dir, ra, dec, fieldquery, catalogue, filter, nrefinepts), 'r') as f:
-                f.readline()        ###throw away header
-                csvfile = csv.reader(f)
-                ras = np.zeros(nrefinepts)
-                decs = np.zeros(nrefinepts)
-                mags = np.zeros(nrefinepts)
-                for r,row in enumerate(csvfile):
-                    ras[r] = row[0]
-                    decs[r] = row[1]
-                    mags[r] = row[2]
-        else:
-            if verbose >= 1:
-                print("submitting new query to Gaia: \n")
-            jobstr = "SELECT TOP {} gaia_source.ra,gaia_source.dec,gaia_source.{} FROM gaiaedr3.gaia_source\n".format(nrefinepts, filtkey)
-            jobstr += "WHERE 1=CONTAINS(POINT('ICRS', gaiaedr3.gaia_source.ra,gaiaedr3.gaia_source.dec),"
-            jobstr += "CIRCLE('ICRS',{},{},{}))\n".format(ra,dec,fieldradius)
-            jobstr += "ORDER by gaiaedr3.gaia_source.{} ASC".format(filtkey)
-            if verbose >= 1:
-                print(jobstr)
-            job = Gaia.launch_job_async(jobstr, dump_to_file=True, output_file='{}\\gaiqueries\\gaiatable_ra{:.9}_dec{:.9}_{}_{}_{}_{}.csv'.format(user_dir,ra, dec, fieldquery, catalogue, filter, nrefinepts), output_format='csv')
-            r = job.get_results()
-
-            ras = np.array(r['ra'])
-            decs = np.array(r['dec'])
-            mags = np.array(r['{}'.format(filtkey)])
-        
-    elif catalogue == "SIMBAD":
-        pass    ###update later
-
-    if debug >= 1:
-        print("Retrieved catalog Magnitudes:\n", mags)
-        print("Retrieved catalog RAs:\n", ras)
-        print("Retrieved catalog Decs:\n", decs)
-
-    if debug >= 1:
-        import matplotlib.pyplot as plt
-        from matplotlib.colors import LogNorm
-        from astropy.io import fits
-
-        fig0 = plt.figure(0,figsize=(10,8))
-        axes0 = fig0.add_subplot(111)
-        axes0.invert_xaxis()
-        axes0.axis('equal')
-        axes0.scatter(ras,decs)
-        plt.show()
-        plt.close()
-
-    catalogdata = np.stack((ras,decs,mags),axis=-1)
-    catalogdata = catalogdata[~np.isnan(catalogdata).any(axis=1)]       ###remove nans
-
-    rasdecsmags = np.vsplit(np.transpose(catalogdata),3)        ###splitting back into original form
-    ras = rasdecsmags[0].flatten()
-    decs = rasdecsmags[1].flatten()
-    mags = rasdecsmags[2].flatten()
-
-    num_catsources = ras.size              ###The number of catalog results returned by the Web Query minus the number of NaN rows removed
-
-    rasum = 0
-    for i in range(num_catsources):
-        rasum += ras[i]
-    a0 = rasum/num_catsources*pi/180
-
+                                                    return 0
     
-    decsum = 0
-    for j in range(num_catsources):
-        decsum += decs[j]
-    d0 = decsum/num_catsources*pi/180
+    return 1
 
-    meancatcoords[0] = a0
-    meancatcoords[1] = d0
-
-    # Gnomonic projection. See e.g. https://apps.dtic.mil/sti/pdfs/ADA037381.pdf, beginning of chapter 6 for a derivation of the equations. The context
-    # in the paper is creating a map projection of the earth's surface. Note that the derived equations on page 208 have the scale incorporated into them.
-    # The scale factor "S" is the dimensionless ratio of map distance/earth distance, and "a" is the radius of the earth. Thus the x and y end up in map 
-    # distance. In this program, the scale factor has units of radians/pixel (originally it is supplied by the user in arcseconds/pixel, but this is converted).
-    # However, the scale factor is not included in the intermediate coordinate equations, so the intermediate coordinates are left dimensionless, or in radians.
-    # The conversion to "map distance", or pixels in this case, comes later in the main part of the WCS solver, which uses the scale factor in the transformations.
-    # In the forward transformations from pixels to intermediate coordinates, for example, a dimensional analysis would read: pixels X radians/pixel = radians,
-    # which are the correct units of the intermediate coordinates.
-    #
-    # Note the negative signs in the definition of both the X and Y intermediate coordinates. There is a different explanation for each of the sign changes.
-    # 
-    # The X sign flip occurs because the gnomonic projection assumes the observer is making a map looking down on the outside (convex) side of the earth's
-    # surface, whereas in our case we are making a projection looking at the inside (concave) side of the celestial sphere. This change in persepective 
-    # effectively puts a minus sign in the X coordinates.
-    # 
-    # The Y sign flip occurs because of a compensation we have to do to align the coordinates of the "true" projection with the coordinates of the FITS image.
-    # Because the origin of the FITS image is at the top left corner, positive y increases as the pixels get visually lower in the image. On the other hand,
-    # the gnomonic projection's Y axis points parallel to the celestial pole (corresponding with traditional "up"). Therefore we flip the projected Y coordinates
-    # so that the sources are "aligned". In the case of no image rotation, the constellations of the PSE sources and the projected ("intermediate") sources would
-    # then have the same orientation. Therefore, the rotation found by the WCS solver will be relative to this and be the true rotation, and not 180 degrees off.
-
-    for k in range(num_catsources):
-        a = ras[k]*pi/180
-        d = decs[k]*pi/180
-        X = (cos(d)*sin(a-a0) / (cos(d0)*cos(d)*cos(a-a0)+sin(d0)*sin(d)))
-        Y = (cos(d0)*sin(d) - cos(d)*sin(d0)*cos(a-a0)) / (cos(d0)*cos(d)*cos(a-a0) + sin(d0)*sin(d))
-        intrmcoords[k,0] = -X
-        intrmcoords[k,1] = -Y
-    
-    if debug >= 1:
-        print("(a0,d0) = ({},{})".format(a0,d0))
-
-    if debug >= 1:
-        print("Intermediate coordinates projected from catalog RAs and Decs:\n",np.asarray(intrmcoords))
-    
-    return num_catsources
-
-def WCS(ra, dec, scale, scalebnds, rotation, rotationbnds, fieldradius, fieldquery, catalogue, filter, npts, nrefinepts, vertextol, smetadata, sindmap_initial, sindmap_refine, img_xmax, img_ymax, minmatches, kerneldiam, num_psesources, headervals, user_dir, filename, verbose, debug):
+def WCS(scale, scalebnds, rotation, rotationbnds, npts, nrefinepts, vertextol, allintrmcoords, meancatcoords, pse_metadata, pse_metadata_inv, srcindexmap_initial, srcindexmap_refine, img_xmax, img_ymax, minmatches, kerneldiam, num_psesources, num_catsources, headervals, user_dir, debug_report, filename, verbosity, debug):
     ''' '''
 
     if debug >= 1:
         import matplotlib.pyplot as plt
         from matplotlib.colors import LogNorm
         from astropy.io import fits
-
-    allintrmcoords = np.zeros((nrefinepts,2))
-    meancatcoords = np.zeros(2)
-    num_catsources = getIntermediateCoords(ra, dec, fieldradius, fieldquery, catalogue, filter, nrefinepts, allintrmcoords, meancatcoords, user_dir, verbose, debug)
     
-    solution_initial = np.zeros(4)
-    findInitialSolution(allintrmcoords, num_catsources, smetadata, num_psesources, sindmap_initial, npts, img_xmax, img_ymax, scale, scalebnds, rotation, rotationbnds, vertextol, minmatches, kerneldiam, solution_initial, user_dir, filename, verbose, debug)
-    if verbose >= 1:
-        print("initial solution ",solution_initial)
+    initial_solution = np.zeros(4)
+    if verbosity >= 1:
+        print("| Finding initial solution...")
+    exitcode = findInitialSolution(allintrmcoords, num_catsources, pse_metadata, pse_metadata_inv, num_psesources, srcindexmap_initial, npts, img_xmax, img_ymax, scale, scalebnds, rotation, rotationbnds, vertextol, minmatches, kerneldiam, initial_solution, user_dir, debug_report, filename, verbosity, debug)
+    if exitcode == 0:
+        if verbosity >= 1:
+            print("| done")
+    elif exitcode == 1:
+        if verbosity >= 1:
+            print("| done")
+        sys.exit("Could not find a solution that gave at least {} matches.".format(minmatches))
 
-    solution_refined = np.zeros(6)
-    refineSolution(allintrmcoords, num_catsources, smetadata, num_psesources, npts, nrefinepts, img_xmax, img_ymax, sindmap_refine, solution_initial[0], solution_initial[1], solution_initial[2], solution_initial[3], solution_refined, user_dir, filename, verbose, debug)
-    if verbose >= 1:
-        print("refined solution ",solution_refined)
+    refined_solution = np.zeros(6)
+    if verbosity >= 1:
+        print("| Refining solution...")
+    refineSolution(allintrmcoords, num_catsources, pse_metadata, pse_metadata_inv, num_psesources, npts, nrefinepts, img_xmax, img_ymax, srcindexmap_refine, initial_solution[0], initial_solution[1], initial_solution[2], initial_solution[3], refined_solution, user_dir, debug_report, filename, verbosity, debug)
+    if verbosity >= 1:
+        print("| done")
+        print("| Constructing keywords...")
 
-    CD1_1 = solution_refined[0]*180/pi
-    CD1_2 = solution_refined[1]*180/pi
-    CD2_1 = solution_refined[2]*180/pi
-    CD2_2 = solution_refined[3]*180/pi
-    CRPIX1 = solution_refined[4]
-    CRPIX2 = solution_refined[5]
+    CTYPE1 = 'RA---TAN'
+    CTYPE2 = 'DEC--TAN'
+    CD1_1 = refined_solution[0]*180/pi
+    CD1_2 = refined_solution[1]*180/pi
+    CD2_1 = refined_solution[2]*180/pi
+    CD2_2 = refined_solution[3]*180/pi
+    CRPIX1 = refined_solution[4]
+    CRPIX2 = refined_solution[5]
     CRVAL1 = meancatcoords[0]*180/pi
     CRVAL2 = meancatcoords[1]*180/pi
     CDELT1 = sqrt(CD1_1*CD1_1+CD1_2*CD1_2)*3600
     CDELT2 = sqrt(CD2_1*CD2_1+CD2_2*CD2_2)*3600
     CROTA1 = atan2(CD1_2,-CD1_1)*180/pi
     CROTA2 = atan2(-CD2_1,-CD2_2)*180/pi
+
+    if verbosity >= 1:
+        print("| | CTYPE1 = {}".format(CTYPE1))
+        print("| | CTYPE2 = {}".format(CTYPE2))
+        print("| | CD1_1 = {}".format(CD1_1))
+        print("| | CD1_2 = {}".format(CD1_2))
+        print("| | CD2_1 = {}".format(CD2_1))
+        print("| | CD2_2 = {}".format(CD2_2))
+        print("| | CRPIX1 = {}".format(CRPIX1))
+        print("| | CRPIX2 = {}".format(CRPIX2))
+        print("| | CRVAL1 = {}".format(CRVAL1))
+        print("| | CRVAL2 = {}".format(CRVAL2))
+        print("| | CDELT1 = {}".format(CDELT1))
+        print("| | CDELT2 = {}".format(CDELT2))
+        print("| | CROTA1 = {}".format(CROTA1))
+        print("| | CROTA2 = {}".format(CROTA2))
 
     headervals[0] = CRPIX1
     headervals[1] = CRPIX2
@@ -778,3 +748,6 @@ def WCS(ra, dec, scale, scalebnds, rotation, rotationbnds, fieldradius, fieldque
     headervals[9] = CDELT2
     headervals[10] = CROTA1
     headervals[11] = CROTA2
+
+    if verbosity >= 1:
+        print("| done")

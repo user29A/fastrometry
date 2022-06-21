@@ -6,7 +6,7 @@
         "depends": [],
         "name": "fastrometry.cython_code.PSE",
         "sources": [
-            "src\\fastrometry\\cython_code\\PSE.pyx"
+            "src/fastrometry/cython_code/PSE.pyx"
         ]
     },
     "module_name": "fastrometry.cython_code.PSE"
@@ -1065,7 +1065,7 @@ typedef volatile __pyx_atomic_int_type __pyx_atomic_int;
 #define __Pyx_FastGilFuncInit()
 
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":690
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":690
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1074,7 +1074,7 @@ typedef volatile __pyx_atomic_int_type __pyx_atomic_int;
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":691
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":691
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1083,7 +1083,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":692
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":692
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1092,7 +1092,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":693
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":693
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1101,7 +1101,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":697
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":697
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1110,7 +1110,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":698
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":698
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1119,7 +1119,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":699
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":699
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1128,7 +1128,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":700
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":700
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1137,7 +1137,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":704
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":704
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1146,7 +1146,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":705
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":705
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1155,7 +1155,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":714
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":714
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1164,7 +1164,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":715
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":715
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -1173,7 +1173,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":716
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":716
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1182,7 +1182,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":718
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":718
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1191,7 +1191,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":719
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":719
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1200,7 +1200,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":720
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":720
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1209,7 +1209,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":722
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":722
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1218,7 +1218,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":723
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":723
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1227,7 +1227,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":725
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":725
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1236,7 +1236,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":726
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":726
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1245,7 +1245,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":727
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":727
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1284,7 +1284,7 @@ struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":729
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":729
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1293,7 +1293,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":730
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":730
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1302,7 +1302,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":731
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":731
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1311,7 +1311,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":733
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":733
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1519,6 +1519,159 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_GetAttrStr(PyObject* obj, PyObject
 /* GetBuiltinName.proto */
 static PyObject *__Pyx_GetBuiltinName(PyObject *name);
 
+/* RaiseArgTupleInvalid.proto */
+static void __Pyx_RaiseArgtupleInvalid(const char* func_name, int exact,
+    Py_ssize_t num_min, Py_ssize_t num_max, Py_ssize_t num_found);
+
+/* RaiseDoubleKeywords.proto */
+static void __Pyx_RaiseDoubleKeywordsError(const char* func_name, PyObject* kw_name);
+
+/* ParseKeywords.proto */
+static int __Pyx_ParseOptionalKeywords(PyObject *kwds, PyObject **argnames[],\
+    PyObject *kwds2, PyObject *values[], Py_ssize_t num_pos_args,\
+    const char* function_name);
+
+/* Import.proto */
+static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level);
+
+/* ImportFrom.proto */
+static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name);
+
+/* PyObjectCall.proto */
+#if CYTHON_COMPILING_IN_CPYTHON
+static CYTHON_INLINE PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg, PyObject *kw);
+#else
+#define __Pyx_PyObject_Call(func, arg, kw) PyObject_Call(func, arg, kw)
+#endif
+
+/* PyObjectSetAttrStr.proto */
+#if CYTHON_USE_TYPE_SLOTS
+#define __Pyx_PyObject_DelAttrStr(o,n) __Pyx_PyObject_SetAttrStr(o, n, NULL)
+static CYTHON_INLINE int __Pyx_PyObject_SetAttrStr(PyObject* obj, PyObject* attr_name, PyObject* value);
+#else
+#define __Pyx_PyObject_DelAttrStr(o,n)   PyObject_DelAttr(o,n)
+#define __Pyx_PyObject_SetAttrStr(o,n,v) PyObject_SetAttr(o,n,v)
+#endif
+
+/* PyCFunctionFastCall.proto */
+#if CYTHON_FAST_PYCCALL
+static CYTHON_INLINE PyObject *__Pyx_PyCFunction_FastCall(PyObject *func, PyObject **args, Py_ssize_t nargs);
+#else
+#define __Pyx_PyCFunction_FastCall(func, args, nargs)  (assert(0), NULL)
+#endif
+
+/* PyFunctionFastCall.proto */
+#if CYTHON_FAST_PYCALL
+#define __Pyx_PyFunction_FastCall(func, args, nargs)\
+    __Pyx_PyFunction_FastCallDict((func), (args), (nargs), NULL)
+#if 1 || PY_VERSION_HEX < 0x030600B1
+static PyObject *__Pyx_PyFunction_FastCallDict(PyObject *func, PyObject **args, Py_ssize_t nargs, PyObject *kwargs);
+#else
+#define __Pyx_PyFunction_FastCallDict(func, args, nargs, kwargs) _PyFunction_FastCallDict(func, args, nargs, kwargs)
+#endif
+#define __Pyx_BUILD_ASSERT_EXPR(cond)\
+    (sizeof(char [1 - 2*!(cond)]) - 1)
+#ifndef Py_MEMBER_SIZE
+#define Py_MEMBER_SIZE(type, member) sizeof(((type *)0)->member)
+#endif
+#if CYTHON_FAST_PYCALL
+  static size_t __pyx_pyframe_localsplus_offset = 0;
+  #include "frameobject.h"
+#if PY_VERSION_HEX >= 0x030b00a6
+  #ifndef Py_BUILD_CORE
+    #define Py_BUILD_CORE 1
+  #endif
+  #include "internal/pycore_frame.h"
+#endif
+  #define __Pxy_PyFrame_Initialize_Offsets()\
+    ((void)__Pyx_BUILD_ASSERT_EXPR(sizeof(PyFrameObject) == offsetof(PyFrameObject, f_localsplus) + Py_MEMBER_SIZE(PyFrameObject, f_localsplus)),\
+     (void)(__pyx_pyframe_localsplus_offset = ((size_t)PyFrame_Type.tp_basicsize) - Py_MEMBER_SIZE(PyFrameObject, f_localsplus)))
+  #define __Pyx_PyFrame_GetLocalsplus(frame)\
+    (assert(__pyx_pyframe_localsplus_offset), (PyObject **)(((char *)(frame)) + __pyx_pyframe_localsplus_offset))
+#endif // CYTHON_FAST_PYCALL
+#endif
+
+/* PyObjectCall2Args.proto */
+static CYTHON_UNUSED PyObject* __Pyx_PyObject_Call2Args(PyObject* function, PyObject* arg1, PyObject* arg2);
+
+/* PyObjectCallMethO.proto */
+#if CYTHON_COMPILING_IN_CPYTHON
+static CYTHON_INLINE PyObject* __Pyx_PyObject_CallMethO(PyObject *func, PyObject *arg);
+#endif
+
+/* PyObjectCallOneArg.proto */
+static CYTHON_INLINE PyObject* __Pyx_PyObject_CallOneArg(PyObject *func, PyObject *arg);
+
+/* PyObjectCallNoArg.proto */
+#if CYTHON_COMPILING_IN_CPYTHON
+static CYTHON_INLINE PyObject* __Pyx_PyObject_CallNoArg(PyObject *func);
+#else
+#define __Pyx_PyObject_CallNoArg(func) __Pyx_PyObject_Call(func, __pyx_empty_tuple, NULL)
+#endif
+
+/* None.proto */
+static CYTHON_INLINE void __Pyx_RaiseUnboundLocalError(const char *varname);
+
+/* DivInt[long].proto */
+static CYTHON_INLINE long __Pyx_div_long(long, long);
+
+/* IncludeStringH.proto */
+#include <string.h>
+
+/* BytesEquals.proto */
+static CYTHON_INLINE int __Pyx_PyBytes_Equals(PyObject* s1, PyObject* s2, int equals);
+
+/* UnicodeEquals.proto */
+static CYTHON_INLINE int __Pyx_PyUnicode_Equals(PyObject* s1, PyObject* s2, int equals);
+
+/* StrEquals.proto */
+#if PY_MAJOR_VERSION >= 3
+#define __Pyx_PyString_Equals __Pyx_PyUnicode_Equals
+#else
+#define __Pyx_PyString_Equals __Pyx_PyBytes_Equals
+#endif
+
+/* PyThreadStateGet.proto */
+#if CYTHON_FAST_THREAD_STATE
+#define __Pyx_PyThreadState_declare  PyThreadState *__pyx_tstate;
+#define __Pyx_PyThreadState_assign  __pyx_tstate = __Pyx_PyThreadState_Current;
+#define __Pyx_PyErr_Occurred()  __pyx_tstate->curexc_type
+#else
+#define __Pyx_PyThreadState_declare
+#define __Pyx_PyThreadState_assign
+#define __Pyx_PyErr_Occurred()  PyErr_Occurred()
+#endif
+
+/* PyErrFetchRestore.proto */
+#if CYTHON_FAST_THREAD_STATE
+#define __Pyx_PyErr_Clear() __Pyx_ErrRestore(NULL, NULL, NULL)
+#define __Pyx_ErrRestoreWithState(type, value, tb)  __Pyx_ErrRestoreInState(PyThreadState_GET(), type, value, tb)
+#define __Pyx_ErrFetchWithState(type, value, tb)    __Pyx_ErrFetchInState(PyThreadState_GET(), type, value, tb)
+#define __Pyx_ErrRestore(type, value, tb)  __Pyx_ErrRestoreInState(__pyx_tstate, type, value, tb)
+#define __Pyx_ErrFetch(type, value, tb)    __Pyx_ErrFetchInState(__pyx_tstate, type, value, tb)
+static CYTHON_INLINE void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb);
+static CYTHON_INLINE void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb);
+#if CYTHON_COMPILING_IN_CPYTHON
+#define __Pyx_PyErr_SetNone(exc) (Py_INCREF(exc), __Pyx_ErrRestore((exc), NULL, NULL))
+#else
+#define __Pyx_PyErr_SetNone(exc) PyErr_SetNone(exc)
+#endif
+#else
+#define __Pyx_PyErr_Clear() PyErr_Clear()
+#define __Pyx_PyErr_SetNone(exc) PyErr_SetNone(exc)
+#define __Pyx_ErrRestoreWithState(type, value, tb)  PyErr_Restore(type, value, tb)
+#define __Pyx_ErrFetchWithState(type, value, tb)  PyErr_Fetch(type, value, tb)
+#define __Pyx_ErrRestoreInState(tstate, type, value, tb)  PyErr_Restore(type, value, tb)
+#define __Pyx_ErrFetchInState(tstate, type, value, tb)  PyErr_Fetch(type, value, tb)
+#define __Pyx_ErrRestore(type, value, tb)  PyErr_Restore(type, value, tb)
+#define __Pyx_ErrFetch(type, value, tb)  PyErr_Fetch(type, value, tb)
+#endif
+
+/* WriteUnraisableException.proto */
+static void __Pyx_WriteUnraisable(const char *name, int clineno,
+                                  int lineno, const char *filename,
+                                  int full_traceback, int nogil);
+
 /* PyDictVersioning.proto */
 #if CYTHON_USE_DICT_VERSIONS && CYTHON_USE_TYPE_SLOTS
 #define __PYX_DICT_VERSION_INIT  ((PY_UINT64_T) -1)
@@ -1566,62 +1719,6 @@ static PyObject *__Pyx__GetModuleGlobalName(PyObject *name, PY_UINT64_T *dict_ve
 static CYTHON_INLINE PyObject *__Pyx__GetModuleGlobalName(PyObject *name);
 #endif
 
-/* PyCFunctionFastCall.proto */
-#if CYTHON_FAST_PYCCALL
-static CYTHON_INLINE PyObject *__Pyx_PyCFunction_FastCall(PyObject *func, PyObject **args, Py_ssize_t nargs);
-#else
-#define __Pyx_PyCFunction_FastCall(func, args, nargs)  (assert(0), NULL)
-#endif
-
-/* PyFunctionFastCall.proto */
-#if CYTHON_FAST_PYCALL
-#define __Pyx_PyFunction_FastCall(func, args, nargs)\
-    __Pyx_PyFunction_FastCallDict((func), (args), (nargs), NULL)
-#if 1 || PY_VERSION_HEX < 0x030600B1
-static PyObject *__Pyx_PyFunction_FastCallDict(PyObject *func, PyObject **args, Py_ssize_t nargs, PyObject *kwargs);
-#else
-#define __Pyx_PyFunction_FastCallDict(func, args, nargs, kwargs) _PyFunction_FastCallDict(func, args, nargs, kwargs)
-#endif
-#define __Pyx_BUILD_ASSERT_EXPR(cond)\
-    (sizeof(char [1 - 2*!(cond)]) - 1)
-#ifndef Py_MEMBER_SIZE
-#define Py_MEMBER_SIZE(type, member) sizeof(((type *)0)->member)
-#endif
-#if CYTHON_FAST_PYCALL
-  static size_t __pyx_pyframe_localsplus_offset = 0;
-  #include "frameobject.h"
-#if PY_VERSION_HEX >= 0x030b00a6
-  #ifndef Py_BUILD_CORE
-    #define Py_BUILD_CORE 1
-  #endif
-  #include "internal/pycore_frame.h"
-#endif
-  #define __Pxy_PyFrame_Initialize_Offsets()\
-    ((void)__Pyx_BUILD_ASSERT_EXPR(sizeof(PyFrameObject) == offsetof(PyFrameObject, f_localsplus) + Py_MEMBER_SIZE(PyFrameObject, f_localsplus)),\
-     (void)(__pyx_pyframe_localsplus_offset = ((size_t)PyFrame_Type.tp_basicsize) - Py_MEMBER_SIZE(PyFrameObject, f_localsplus)))
-  #define __Pyx_PyFrame_GetLocalsplus(frame)\
-    (assert(__pyx_pyframe_localsplus_offset), (PyObject **)(((char *)(frame)) + __pyx_pyframe_localsplus_offset))
-#endif // CYTHON_FAST_PYCALL
-#endif
-
-/* PyObjectCall.proto */
-#if CYTHON_COMPILING_IN_CPYTHON
-static CYTHON_INLINE PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg, PyObject *kw);
-#else
-#define __Pyx_PyObject_Call(func, arg, kw) PyObject_Call(func, arg, kw)
-#endif
-
-/* PyObjectCall2Args.proto */
-static CYTHON_UNUSED PyObject* __Pyx_PyObject_Call2Args(PyObject* function, PyObject* arg1, PyObject* arg2);
-
-/* PyObjectCallMethO.proto */
-#if CYTHON_COMPILING_IN_CPYTHON
-static CYTHON_INLINE PyObject* __Pyx_PyObject_CallMethO(PyObject *func, PyObject *arg);
-#endif
-
-/* PyObjectCallOneArg.proto */
-static CYTHON_INLINE PyObject* __Pyx_PyObject_CallOneArg(PyObject *func, PyObject *arg);
-
 /* ExtTypeTest.proto */
 static CYTHON_INLINE int __Pyx_TypeTest(PyObject *obj, PyTypeObject *type);
 
@@ -1647,47 +1744,6 @@ static Py_ssize_t __Pyx_minusones[] = { -1, -1, -1, -1, -1, -1, -1, -1 };
 static Py_ssize_t __Pyx_zeros[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 
 #define __Pyx_BufPtrStrided1d(type, buf, i0, s0) (type)((char*)buf + i0 * s0)
-/* PyThreadStateGet.proto */
-#if CYTHON_FAST_THREAD_STATE
-#define __Pyx_PyThreadState_declare  PyThreadState *__pyx_tstate;
-#define __Pyx_PyThreadState_assign  __pyx_tstate = __Pyx_PyThreadState_Current;
-#define __Pyx_PyErr_Occurred()  __pyx_tstate->curexc_type
-#else
-#define __Pyx_PyThreadState_declare
-#define __Pyx_PyThreadState_assign
-#define __Pyx_PyErr_Occurred()  PyErr_Occurred()
-#endif
-
-/* PyErrFetchRestore.proto */
-#if CYTHON_FAST_THREAD_STATE
-#define __Pyx_PyErr_Clear() __Pyx_ErrRestore(NULL, NULL, NULL)
-#define __Pyx_ErrRestoreWithState(type, value, tb)  __Pyx_ErrRestoreInState(PyThreadState_GET(), type, value, tb)
-#define __Pyx_ErrFetchWithState(type, value, tb)    __Pyx_ErrFetchInState(PyThreadState_GET(), type, value, tb)
-#define __Pyx_ErrRestore(type, value, tb)  __Pyx_ErrRestoreInState(__pyx_tstate, type, value, tb)
-#define __Pyx_ErrFetch(type, value, tb)    __Pyx_ErrFetchInState(__pyx_tstate, type, value, tb)
-static CYTHON_INLINE void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb);
-static CYTHON_INLINE void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb);
-#if CYTHON_COMPILING_IN_CPYTHON
-#define __Pyx_PyErr_SetNone(exc) (Py_INCREF(exc), __Pyx_ErrRestore((exc), NULL, NULL))
-#else
-#define __Pyx_PyErr_SetNone(exc) PyErr_SetNone(exc)
-#endif
-#else
-#define __Pyx_PyErr_Clear() PyErr_Clear()
-#define __Pyx_PyErr_SetNone(exc) PyErr_SetNone(exc)
-#define __Pyx_ErrRestoreWithState(type, value, tb)  PyErr_Restore(type, value, tb)
-#define __Pyx_ErrFetchWithState(type, value, tb)  PyErr_Fetch(type, value, tb)
-#define __Pyx_ErrRestoreInState(tstate, type, value, tb)  PyErr_Restore(type, value, tb)
-#define __Pyx_ErrFetchInState(tstate, type, value, tb)  PyErr_Fetch(type, value, tb)
-#define __Pyx_ErrRestore(type, value, tb)  PyErr_Restore(type, value, tb)
-#define __Pyx_ErrFetch(type, value, tb)  PyErr_Fetch(type, value, tb)
-#endif
-
-/* WriteUnraisableException.proto */
-static void __Pyx_WriteUnraisable(const char *name, int clineno,
-                                  int lineno, const char *filename,
-                                  int full_traceback, int nogil);
-
 /* PyIntBinop.proto */
 #if !CYTHON_COMPILING_IN_PYPY
 static PyObject* __Pyx_PyInt_SubtractObjC(PyObject *op1, PyObject *op2, long intval, int inplace, int zerodivision_check);
@@ -1725,13 +1781,6 @@ static CYTHON_INLINE PyObject *__Pyx_PyObject_GetItem(PyObject *obj, PyObject* k
 #define __Pyx_PyObject_GetItem(obj, key)  PyObject_GetItem(obj, key)
 #endif
 
-/* PyObjectCallNoArg.proto */
-#if CYTHON_COMPILING_IN_CPYTHON
-static CYTHON_INLINE PyObject* __Pyx_PyObject_CallNoArg(PyObject *func);
-#else
-#define __Pyx_PyObject_CallNoArg(func) __Pyx_PyObject_Call(func, __pyx_empty_tuple, NULL)
-#endif
-
 #define __Pyx_BufPtrStrided2d(type, buf, i0, s0, i1, s1) (type)((char*)buf + i0 * s0 + i1 * s1)
 /* MemviewSliceInit.proto */
 #define __Pyx_BUF_MAX_NDIMS %(BUF_MAX_NDIMS)d
@@ -1759,23 +1808,8 @@ static CYTHON_INLINE int __pyx_sub_acquisition_count_locked(
 static CYTHON_INLINE void __Pyx_INC_MEMVIEW(__Pyx_memviewslice *, int, int);
 static CYTHON_INLINE void __Pyx_XDEC_MEMVIEW(__Pyx_memviewslice *, int, int);
 
-/* RaiseArgTupleInvalid.proto */
-static void __Pyx_RaiseArgtupleInvalid(const char* func_name, int exact,
-    Py_ssize_t num_min, Py_ssize_t num_max, Py_ssize_t num_found);
-
-/* RaiseDoubleKeywords.proto */
-static void __Pyx_RaiseDoubleKeywordsError(const char* func_name, PyObject* kw_name);
-
-/* ParseKeywords.proto */
-static int __Pyx_ParseOptionalKeywords(PyObject *kwds, PyObject **argnames[],\
-    PyObject *kwds2, PyObject *values[], Py_ssize_t num_pos_args,\
-    const char* function_name);
-
-/* Import.proto */
-static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level);
-
-/* None.proto */
-static CYTHON_INLINE void __Pyx_RaiseUnboundLocalError(const char *varname);
+/* PyIntCompare.proto */
+static CYTHON_INLINE PyObject* __Pyx_PyInt_EqObjC(PyObject *op1, PyObject *op2, long intval, long inplace);
 
 /* GetTopmostException.proto */
 #if CYTHON_USE_EXC_INFO_STACK
@@ -1817,22 +1851,6 @@ static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb, PyObject 
     ((likely((Py_TYPE(obj) == type) | (none_allowed && (obj == Py_None)))) ? 1 :\
         __Pyx__ArgTypeTest(obj, type, name, exact))
 static int __Pyx__ArgTypeTest(PyObject *obj, PyTypeObject *type, const char *name, int exact);
-
-/* IncludeStringH.proto */
-#include <string.h>
-
-/* BytesEquals.proto */
-static CYTHON_INLINE int __Pyx_PyBytes_Equals(PyObject* s1, PyObject* s2, int equals);
-
-/* UnicodeEquals.proto */
-static CYTHON_INLINE int __Pyx_PyUnicode_Equals(PyObject* s1, PyObject* s2, int equals);
-
-/* StrEquals.proto */
-#if PY_MAJOR_VERSION >= 3
-#define __Pyx_PyString_Equals __Pyx_PyUnicode_Equals
-#else
-#define __Pyx_PyString_Equals __Pyx_PyBytes_Equals
-#endif
 
 /* DivInt[Py_ssize_t].proto */
 static CYTHON_INLINE Py_ssize_t __Pyx_div_Py_ssize_t(Py_ssize_t, Py_ssize_t);
@@ -1955,17 +1973,11 @@ static CYTHON_INLINE int __Pyx_PyList_Append(PyObject* list, PyObject* x) {
 #define __Pyx_PyList_Append(L,x) PyList_Append(L,x)
 #endif
 
-/* DivInt[long].proto */
-static CYTHON_INLINE long __Pyx_div_long(long, long);
-
 /* PySequenceContains.proto */
 static CYTHON_INLINE int __Pyx_PySequence_ContainsTF(PyObject* item, PyObject* seq, int eq) {
     int result = PySequence_Contains(seq, item);
     return unlikely(result < 0) ? result : (result == (eq == Py_EQ));
 }
-
-/* ImportFrom.proto */
-static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name);
 
 /* HasAttr.proto */
 static CYTHON_INLINE int __Pyx_HasAttr(PyObject *, PyObject *);
@@ -2208,10 +2220,10 @@ __pyx_memoryview_copy_new_contig(const __Pyx_memviewslice *from_mvs,
                                  int dtype_is_object);
 
 /* CIntToPy.proto */
-static CYTHON_INLINE PyObject* __Pyx_PyInt_From_int(int value);
+static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value);
 
 /* CIntToPy.proto */
-static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value);
+static CYTHON_INLINE PyObject* __Pyx_PyInt_From_int(int value);
 
 /* CIntFromPy.proto */
 static CYTHON_INLINE int __Pyx_PyInt_As_int(PyObject *);
@@ -2298,16 +2310,17 @@ static PyObject *contiguous = 0;
 static PyObject *indirect_contiguous = 0;
 static int __pyx_memoryview_thread_locks_used;
 static PyThread_type_lock __pyx_memoryview_thread_locks[8];
+static void __pyx_f_11fastrometry_11cython_code_3PSE_createROI(__Pyx_memviewslice, int, int, int, PyObject *); /*proto*/
 static int __pyx_f_11fastrometry_11cython_code_3PSE_getCircleSize(int); /*proto*/
 static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(int, __Pyx_memviewslice); /*proto*/
-static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap(__Pyx_memviewslice, __Pyx_memviewslice, int, int, int, int, int); /*proto*/
+static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap(__Pyx_memviewslice, __Pyx_memviewslice, int, int, int); /*proto*/
 static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int, int, Py_ssize_t, __Pyx_memviewslice, double, __Pyx_memviewslice); /*proto*/
 static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice); /*proto*/
 static void __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(Py_ssize_t, Py_ssize_t, __Pyx_memviewslice, __Pyx_memviewslice, int); /*proto*/
 static int __pyx_f_11fastrometry_11cython_code_3PSE_isOnIsland(Py_ssize_t, Py_ssize_t, __Pyx_memviewslice, int, int, int, int, __Pyx_memviewslice, double); /*proto*/
 static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t, Py_ssize_t, __Pyx_memviewslice, int, int, int, int, __Pyx_memviewslice, __Pyx_memviewslice, double, int); /*proto*/
-static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_memviewslice, int, int, PyArrayObject *, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice, int, double, int, int, int, int, int); /*proto*/
-static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_memviewslice, int, int, double, double, PyArrayObject *, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice, int, __Pyx_memviewslice, int, int, __Pyx_memviewslice, int, int, int, int, int, int); /*proto*/
+static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_memviewslice, int, int, __Pyx_memviewslice, PyArrayObject *, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice, int, double, int, int, int, PyObject *, PyObject *, int, int); /*proto*/
+static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_memviewslice, int, int, double, double, __Pyx_memviewslice, PyArrayObject *, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice, __Pyx_memviewslice, int, __Pyx_memviewslice, int, int, __Pyx_memviewslice, int, int, int, int, PyObject *, PyObject *, int, int); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static void *__pyx_align_pointer(void *, size_t); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -2349,6 +2362,7 @@ extern int __pyx_module_is_main_fastrometry__cython_code__PSE;
 int __pyx_module_is_main_fastrometry__cython_code__PSE = 0;
 
 /* Implementation of 'fastrometry.cython_code.PSE' */
+static PyObject *__pyx_builtin_open;
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_ImportError;
 static PyObject *__pyx_builtin_ValueError;
@@ -2360,37 +2374,63 @@ static PyObject *__pyx_builtin_id;
 static PyObject *__pyx_builtin_IndexError;
 static const char __pyx_k_O[] = "O";
 static const char __pyx_k_c[] = "c";
-static const char __pyx_k__6[] = "*";
+static const char __pyx_k_w[] = "w";
+static const char __pyx_k__2[] = "*";
+static const char __pyx_k__3[] = "\\{}";
+static const char __pyx_k__9[] = ",";
+static const char __pyx_k_cm[] = "cm";
+static const char __pyx_k_ha[] = "ha";
 static const char __pyx_k_id[] = "id";
+static const char __pyx_k_nm[] = "nm";
 static const char __pyx_k_np[] = "np";
+static const char __pyx_k_os[] = "os";
 static const char __pyx_k_PSE[] = "PSE";
+static const char __pyx_k_ROI[] = "ROI";
+static const char __pyx_k__11[] = "{}\\{}";
+static const char __pyx_k__14[] = ".";
 static const char __pyx_k_end[] = "end";
 static const char __pyx_k_img[] = "img";
+static const char __pyx_k_inf[] = "inf";
+static const char __pyx_k_int[] = "int";
 static const char __pyx_k_max[] = "max";
 static const char __pyx_k_new[] = "__new__";
 static const char __pyx_k_obj[] = "obj";
 static const char __pyx_k_plt[] = "plt";
+static const char __pyx_k_red[] = "red";
+static const char __pyx_k_roi[] = "roi";
+static const char __pyx_k_sys[] = "sys";
 static const char __pyx_k_base[] = "base";
+static const char __pyx_k_blue[] = "blue";
+static const char __pyx_k_both[] = "both";
+static const char __pyx_k_cmap[] = "cmap";
 static const char __pyx_k_dict[] = "__dict__";
+static const char __pyx_k_done[] = "| | done";
 static const char __pyx_k_file[] = "file";
 static const char __pyx_k_fits[] = "fits";
+static const char __pyx_k_gray[] = "gray";
 static const char __pyx_k_main[] = "__main__";
 static const char __pyx_k_mode[] = "mode";
 static const char __pyx_k_name[] = "name";
 static const char __pyx_k_ndim[] = "ndim";
+static const char __pyx_k_norm[] = "norm";
 static const char __pyx_k_npts[] = "npts";
 static const char __pyx_k_ones[] = "ones";
+static const char __pyx_k_open[] = "open";
 static const char __pyx_k_pack[] = "pack";
 static const char __pyx_k_show[] = "show";
 static const char __pyx_k_size[] = "size";
 static const char __pyx_k_step[] = "step";
 static const char __pyx_k_stop[] = "stop";
 static const char __pyx_k_test[] = "__test__";
+static const char __pyx_k_vmax[] = "vmax";
+static const char __pyx_k_vmin[] = "vmin";
 static const char __pyx_k_ASCII[] = "ASCII";
 static const char __pyx_k_array[] = "array";
 static const char __pyx_k_bgmap[] = "bgmap";
 static const char __pyx_k_class[] = "__class__";
-static const char __pyx_k_debug[] = "debug";
+static const char __pyx_k_color[] = "color";
+static const char __pyx_k_debug[] = "\\debug\\";
+static const char __pyx_k_dscrp[] = "dscrp";
 static const char __pyx_k_dtype[] = "dtype";
 static const char __pyx_k_error[] = "error";
 static const char __pyx_k_flags[] = "flags";
@@ -2400,124 +2440,205 @@ static const char __pyx_k_print[] = "print";
 static const char __pyx_k_range[] = "range";
 static const char __pyx_k_shape[] = "shape";
 static const char __pyx_k_start[] = "start";
+static const char __pyx_k_title[] = "title";
 static const char __pyx_k_zeros[] = "zeros";
+static const char __pyx_k_bottom[] = "bottom";
+static const char __pyx_k_center[] = "center";
+static const char __pyx_k_circle[] = "circle";
+static const char __pyx_k_colbar[] = "colbar";
+static const char __pyx_k_done_2[] = "| done";
 static const char __pyx_k_double[] = "double";
 static const char __pyx_k_encode[] = "encode";
+static const char __pyx_k_extend[] = "extend";
+static const char __pyx_k_figure[] = "figure";
 static const char __pyx_k_format[] = "format";
 static const char __pyx_k_import[] = "__import__";
 static const char __pyx_k_imshow[] = "imshow";
+static const char __pyx_k_marker[] = "marker";
 static const char __pyx_k_median[] = "median";
 static const char __pyx_k_name_2[] = "__name__";
 static const char __pyx_k_pickle[] = "pickle";
 static const char __pyx_k_pixsat[] = "pixsat";
 static const char __pyx_k_reduce[] = "__reduce__";
+static const char __pyx_k_stderr[] = "stderr";
 static const char __pyx_k_struct[] = "struct";
 static const char __pyx_k_unpack[] = "unpack";
 static const char __pyx_k_update[] = "update";
+static const char __pyx_k_yellow[] = "yellow";
+static const char __pyx_k_LogNorm[] = "LogNorm";
+static const char __pyx_k_ROI_png[] = "ROI.png";
 static const char __pyx_k_argsort[] = "argsort";
+static const char __pyx_k_bmargin[] = "bmargin";
+static const char __pyx_k_collist[] = "collist";
+static const char __pyx_k_console[] = "console";
+static const char __pyx_k_debug_2[] = "debug";
+static const char __pyx_k_devnull[] = "devnull";
+static const char __pyx_k_figsize[] = "figsize";
+static const char __pyx_k_figtext[] = "figtext";
 static const char __pyx_k_fortran[] = "fortran";
+static const char __pyx_k_getdata[] = "getdata";
 static const char __pyx_k_img_max[] = "img_max";
 static const char __pyx_k_memview[] = "memview";
-static const char __pyx_k_verbose[] = "verbose";
+static const char __pyx_k_ncolors[] = "ncolors";
+static const char __pyx_k_neither[] = "neither";
+static const char __pyx_k_savefig[] = "savefig";
+static const char __pyx_k_savetxt[] = "savetxt";
+static const char __pyx_k_scatter[] = "scatter";
 static const char __pyx_k_Ellipsis[] = "Ellipsis";
 static const char __pyx_k_colorbar[] = "colorbar";
+static const char __pyx_k_filename[] = "filename";
+static const char __pyx_k_fontsize[] = "fontsize";
 static const char __pyx_k_getstate[] = "__getstate__";
 static const char __pyx_k_img_xmax[] = "img_xmax";
 static const char __pyx_k_img_ymax[] = "img_ymax";
 static const char __pyx_k_itemsize[] = "itemsize";
 static const char __pyx_k_pyx_type[] = "__pyx_type";
+static const char __pyx_k_savename[] = "savename";
 static const char __pyx_k_setstate[] = "__setstate__";
+static const char __pyx_k_user_dir[] = "user_dir";
+static const char __pyx_k_Iteration[] = "| | | Iteration: {}";
 static const char __pyx_k_TypeError[] = "TypeError";
+static const char __pyx_k_bgmap_png[] = "bgmap.png";
 static const char __pyx_k_curr_sind[] = "curr_sind";
+static const char __pyx_k_delimiter[] = "delimiter";
 static const char __pyx_k_enumerate[] = "enumerate";
-static const char __pyx_k_iteration[] = "iteration ";
 static const char __pyx_k_kernelrad[] = "kernelrad";
 static const char __pyx_k_occupymap[] = "occupymap";
 static const char __pyx_k_pyx_state[] = "__pyx_state";
 static const char __pyx_k_reduce_ex[] = "__reduce_ex__";
-static const char __pyx_k_smetadata[] = "smetadata";
 static const char __pyx_k_sourcesep[] = "sourcesep";
+static const char __pyx_k_verbosity[] = "verbosity";
 static const char __pyx_k_IndexError[] = "IndexError";
 static const char __pyx_k_ValueError[] = "ValueError";
 static const char __pyx_k_astropy_io[] = "astropy.io";
+static const char __pyx_k_boundslist[] = "boundslist";
+static const char __pyx_k_image_data[] = "image_data";
 static const char __pyx_k_img_median[] = "img_median";
 static const char __pyx_k_kernelsize[] = "kernelsize";
 static const char __pyx_k_nrefinepts[] = "nrefinepts";
+static const char __pyx_k_percentile[] = "percentile";
 static const char __pyx_k_pyx_result[] = "__pyx_result";
 static const char __pyx_k_pyx_vtable[] = "__pyx_vtable__";
 static const char __pyx_k_ImportError[] = "ImportError";
 static const char __pyx_k_MemoryError[] = "MemoryError";
 static const char __pyx_k_PickleError[] = "PickleError";
+static const char __pyx_k_description[] = "description";
+static const char __pyx_k_pixelradius[] = "pixelradius";
+static const char __pyx_k_BoundaryNorm[] = "BoundaryNorm";
+static const char __pyx_k_debug_report[] = "debug_report";
+static const char __pyx_k_debuggerPlot[] = "debuggerPlot";
 static const char __pyx_k_kernelcircle[] = "kernelcircle";
-static const char __pyx_k_pixel_thresh[] = "pixel thresh";
+static const char __pyx_k_pse_metadata[] = "pse_metadata";
 static const char __pyx_k_pyx_checksum[] = "__pyx_checksum";
 static const char __pyx_k_stringsource[] = "stringsource";
+static const char __pyx_k_Max_amplitude[] = "| Max amplitude: {}";
+static const char __pyx_k_Sources_found[] = "| | | Sources found: {}";
+static const char __pyx_k_colbar_extend[] = "colbar_extend";
 static const char __pyx_k_pyx_getbuffer[] = "__pyx_getbuffer";
 static const char __pyx_k_reduce_cython[] = "__reduce_cython__";
 static const char __pyx_k_sourcesepsize[] = "sourcesepsize";
+static const char __pyx_k_Background_map[] = "Background map";
+static const char __pyx_k_ListedColormap[] = "ListedColormap";
 static const char __pyx_k_num_psesources[] = "num_psesources";
-static const char __pyx_k_sindmap_refine[] = "sindmap_refine";
+static const char __pyx_k_Pixel_threshold[] = "| | | Pixel threshold: {}";
 static const char __pyx_k_View_MemoryView[] = "View.MemoryView";
 static const char __pyx_k_allocate_buffer[] = "allocate_buffer";
+static const char __pyx_k_disable_console[] = "disable_console";
 static const char __pyx_k_dtype_is_object[] = "dtype_is_object";
 static const char __pyx_k_pyx_PickleError[] = "__pyx_PickleError";
 static const char __pyx_k_setstate_cython[] = "__setstate_cython__";
-static const char __pyx_k_sindmap_initial[] = "sindmap_initial";
 static const char __pyx_k_sourcesepcircle[] = "sourcesepcircle";
+static const char __pyx_k_subplots_adjust[] = "subplots_adjust";
+static const char __pyx_k_Creating_ROI_map[] = "| Creating ROI map...";
+static const char __pyx_k_Median_amplitude[] = "| Median amplitude: {}";
+static const char __pyx_k_pse_metadata_csv[] = "\\pse_metadata.csv";
+static const char __pyx_k_matplotlib_colors[] = "matplotlib.colors";
 static const char __pyx_k_matplotlib_pyplot[] = "matplotlib.pyplot";
 static const char __pyx_k_pyx_unpickle_Enum[] = "__pyx_unpickle_Enum";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
+static const char __pyx_k_srcindexmap_refine[] = "srcindexmap_refine";
 static const char __pyx_k_strided_and_direct[] = "<strided and direct>";
+static const char __pyx_k_srcindexmap_initial[] = "srcindexmap_initial";
+static const char __pyx_k_skipRemainingSources[] = "skipRemainingSources";
 static const char __pyx_k_strided_and_indirect[] = "<strided and indirect>";
 static const char __pyx_k_contiguous_and_direct[] = "<contiguous and direct>";
 static const char __pyx_k_MemoryView_of_r_object[] = "<MemoryView of %r object>";
+static const char __pyx_k_pse_metadata_centroids[] = "pse_metadata centroids";
+static const char __pyx_k_srcindexmap_refine_png[] = "srcindexmap_refine.png";
+static const char __pyx_k_Creating_background_map[] = "| Creating background map...";
 static const char __pyx_k_MemoryView_of_r_at_0x_x[] = "<MemoryView of %r at 0x%x>";
 static const char __pyx_k_contiguous_and_indirect[] = "<contiguous and indirect>";
+static const char __pyx_k_srcindexmap_initial_png[] = "srcindexmap_initial.png";
 static const char __pyx_k_Cannot_index_with_type_s[] = "Cannot index with type '%s'";
-static const char __pyx_k_Found_saturation_islands[] = "Found {} saturation islands.";
+static const char __pyx_k_Found_saturation_islands[] = "| | Found {} saturation islands.";
+static const char __pyx_k_Finding_remaining_sources[] = "| Finding remaining sources...";
 static const char __pyx_k_Invalid_shape_in_axis_d_d[] = "Invalid shape in axis %d: %d.";
+static const char __pyx_k_Finding_saturation_islands[] = "| Finding saturation islands...";
+static const char __pyx_k_pse_metadata_centroids_png[] = "\\pse_metadata_centroids.png";
 static const char __pyx_k_fastrometry_cython_code_PSE[] = "fastrometry.cython_code.PSE";
 static const char __pyx_k_itemsize_0_for_cython_array[] = "itemsize <= 0 for cython.array";
+static const char __pyx_k_pse_metadata_allsources_csv[] = "\\pse_metadata_allsources.csv";
+static const char __pyx_k_pse_metadata_islandsonly_csv[] = "\\pse_metadata_islandsonly.csv";
 static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate array data.";
+static const char __pyx_k_Found_sources_total_Trimmed_to[] = "| | Found {} sources total. Trimmed to the {} brightest.";
+static const char __pyx_k_pse_metadata_allsources_sorted[] = "\\pse_metadata_allsources_sorted.csv";
 static const char __pyx_k_strided_and_direct_or_indirect[] = "<strided and direct or indirect>";
-static const char __pyx_k_Unsuccessful_at_finding_sources[] = "Unsuccessful at finding {} sources. Found {} sources";
+static const char __pyx_k_Centroids_from_the_pse_metadata[] = "Centroids from the pse_metadata, plotted overtop the image.";
+static const char __pyx_k_Found_saturation_islands_Trimme[] = "| | Found {} saturation islands. Trimmed to the {} brightest.";
+static const char __pyx_k_The_occupied_source_kernels_for[] = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.";
+static const char __pyx_k_Trying_various_pixel_thresholds[] = "| | Trying various pixel thresholds...";
+static const char __pyx_k_Unsuccessful_at_finding_sources[] = "| | Unsuccessful at finding {} sources. Found {} sources.";
 static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multiarray failed to import";
+static const char __pyx_k_pse_metadata_islandsonly_sorted[] = "\\pse_metadata_islandsonly_sorted.csv";
 static const char __pyx_k_src_fastrometry_cython_code_PSE[] = "src\\fastrometry\\cython_code\\PSE.pyx";
 static const char __pyx_k_Buffer_view_does_not_expose_stri[] = "Buffer view does not expose strides";
 static const char __pyx_k_Can_only_create_a_buffer_that_is[] = "Can only create a buffer that is contiguous in memory.";
 static const char __pyx_k_Cannot_assign_to_read_only_memor[] = "Cannot assign to read-only memoryview";
 static const char __pyx_k_Cannot_create_writable_memory_vi[] = "Cannot create writable memory view from read-only memoryview";
 static const char __pyx_k_Empty_shape_tuple_for_cython_arr[] = "Empty shape tuple for cython.array";
-static const char __pyx_k_Found_saturation_islands_Will_ma[] = "Found {} saturation islands. Will map remaining sources.";
-static const char __pyx_k_Found_saturation_islands_which_i[] = "Found {} saturation islands, which is greater than or equal to the required {}. Will cut and stop.";
-static const char __pyx_k_Found_sources_which_is_greater_t[] = "Found {} sources, which is greater than or equal to the required minimum of {}.";
 static const char __pyx_k_Incompatible_checksums_0x_x_vs_0[] = "Incompatible checksums (0x%x vs (0xb068931, 0x82a3537, 0x6ae9995) = (name))";
 static const char __pyx_k_Indirect_dimensions_not_supporte[] = "Indirect dimensions not supported";
 static const char __pyx_k_Invalid_mode_expected_c_or_fortr[] = "Invalid mode, expected 'c' or 'fortran', got %s";
 static const char __pyx_k_Out_of_bounds_on_buffer_access_a[] = "Out of bounds on buffer access (axis %d)";
+static const char __pyx_k_Region_to_be_scanned_by_PSE_Spec[] = "Region to be scanned by PSE. Specified by the options shape and buffer.";
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
+static const char __pyx_k_Used_for_determining_the_amplitu[] = "Used for determining the amplitude-above-background for each pixel. \nThe PSE does not scan pixels in a thin ({}-pixel-wide) strip around \nthe border, so the background is not calculated there.";
 static const char __pyx_k_got_differing_extents_in_dimensi[] = "got differing extents in dimension %d (got %d and %d)";
 static const char __pyx_k_no_default___reduce___due_to_non[] = "no default __reduce__ due to non-trivial __cinit__";
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
+static const char __pyx_k_pse_metadata_allsources_sorted_2[] = "\\pse_metadata_allsources_sorted_zerosmoved.csv";
 static const char __pyx_k_unable_to_allocate_shape_and_str[] = "unable to allocate shape and strides.";
+static const char __pyx_k_The_occupied_source_kernels_for_2[] = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the WCS solution.";
+static const char __pyx_k_The_occupied_source_kernels_for_3[] = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the initial WCS solution.";
 static PyObject *__pyx_n_s_ASCII;
+static PyObject *__pyx_kp_s_Background_map;
+static PyObject *__pyx_n_s_BoundaryNorm;
 static PyObject *__pyx_kp_s_Buffer_view_does_not_expose_stri;
 static PyObject *__pyx_kp_s_Can_only_create_a_buffer_that_is;
 static PyObject *__pyx_kp_s_Cannot_assign_to_read_only_memor;
 static PyObject *__pyx_kp_s_Cannot_create_writable_memory_vi;
 static PyObject *__pyx_kp_s_Cannot_index_with_type_s;
+static PyObject *__pyx_kp_s_Centroids_from_the_pse_metadata;
+static PyObject *__pyx_kp_s_Creating_ROI_map;
+static PyObject *__pyx_kp_s_Creating_background_map;
 static PyObject *__pyx_n_s_Ellipsis;
 static PyObject *__pyx_kp_s_Empty_shape_tuple_for_cython_arr;
+static PyObject *__pyx_kp_s_Finding_remaining_sources;
+static PyObject *__pyx_kp_s_Finding_saturation_islands;
 static PyObject *__pyx_kp_s_Found_saturation_islands;
-static PyObject *__pyx_kp_s_Found_saturation_islands_Will_ma;
-static PyObject *__pyx_kp_s_Found_saturation_islands_which_i;
-static PyObject *__pyx_kp_s_Found_sources_which_is_greater_t;
+static PyObject *__pyx_kp_s_Found_saturation_islands_Trimme;
+static PyObject *__pyx_kp_s_Found_sources_total_Trimmed_to;
 static PyObject *__pyx_n_s_ImportError;
 static PyObject *__pyx_kp_s_Incompatible_checksums_0x_x_vs_0;
 static PyObject *__pyx_n_s_IndexError;
 static PyObject *__pyx_kp_s_Indirect_dimensions_not_supporte;
 static PyObject *__pyx_kp_s_Invalid_mode_expected_c_or_fortr;
 static PyObject *__pyx_kp_s_Invalid_shape_in_axis_d_d;
+static PyObject *__pyx_kp_s_Iteration;
+static PyObject *__pyx_n_s_ListedColormap;
+static PyObject *__pyx_n_s_LogNorm;
+static PyObject *__pyx_kp_s_Max_amplitude;
+static PyObject *__pyx_kp_s_Median_amplitude;
 static PyObject *__pyx_n_s_MemoryError;
 static PyObject *__pyx_kp_s_MemoryView_of_r_at_0x_x;
 static PyObject *__pyx_kp_s_MemoryView_of_r_object;
@@ -2525,45 +2646,94 @@ static PyObject *__pyx_n_b_O;
 static PyObject *__pyx_kp_s_Out_of_bounds_on_buffer_access_a;
 static PyObject *__pyx_n_s_PSE;
 static PyObject *__pyx_n_s_PickleError;
+static PyObject *__pyx_kp_s_Pixel_threshold;
+static PyObject *__pyx_n_s_ROI;
+static PyObject *__pyx_kp_s_ROI_png;
+static PyObject *__pyx_kp_s_Region_to_be_scanned_by_PSE_Spec;
+static PyObject *__pyx_kp_s_Sources_found;
+static PyObject *__pyx_kp_s_The_occupied_source_kernels_for;
+static PyObject *__pyx_kp_s_The_occupied_source_kernels_for_2;
+static PyObject *__pyx_kp_s_The_occupied_source_kernels_for_3;
+static PyObject *__pyx_kp_s_Trying_various_pixel_thresholds;
 static PyObject *__pyx_n_s_TypeError;
 static PyObject *__pyx_kp_s_Unable_to_convert_item_to_object;
 static PyObject *__pyx_kp_s_Unsuccessful_at_finding_sources;
+static PyObject *__pyx_kp_s_Used_for_determining_the_amplitu;
 static PyObject *__pyx_n_s_ValueError;
 static PyObject *__pyx_n_s_View_MemoryView;
-static PyObject *__pyx_n_s__6;
+static PyObject *__pyx_kp_s__11;
+static PyObject *__pyx_kp_s__14;
+static PyObject *__pyx_n_s__2;
+static PyObject *__pyx_kp_s__3;
+static PyObject *__pyx_kp_s__9;
 static PyObject *__pyx_n_s_allocate_buffer;
 static PyObject *__pyx_n_s_argsort;
 static PyObject *__pyx_n_s_array;
 static PyObject *__pyx_n_s_astropy_io;
 static PyObject *__pyx_n_s_base;
 static PyObject *__pyx_n_s_bgmap;
+static PyObject *__pyx_kp_s_bgmap_png;
+static PyObject *__pyx_n_s_blue;
+static PyObject *__pyx_n_s_bmargin;
+static PyObject *__pyx_n_s_both;
+static PyObject *__pyx_n_s_bottom;
+static PyObject *__pyx_n_s_boundslist;
 static PyObject *__pyx_n_s_c;
 static PyObject *__pyx_n_u_c;
+static PyObject *__pyx_n_s_center;
+static PyObject *__pyx_n_s_circle;
 static PyObject *__pyx_n_s_class;
 static PyObject *__pyx_n_s_cline_in_traceback;
+static PyObject *__pyx_n_s_cm;
+static PyObject *__pyx_n_s_cmap;
+static PyObject *__pyx_n_s_colbar;
+static PyObject *__pyx_n_s_colbar_extend;
+static PyObject *__pyx_n_s_collist;
+static PyObject *__pyx_n_s_color;
 static PyObject *__pyx_n_s_colorbar;
+static PyObject *__pyx_n_s_console;
 static PyObject *__pyx_kp_s_contiguous_and_direct;
 static PyObject *__pyx_kp_s_contiguous_and_indirect;
 static PyObject *__pyx_n_s_curr_sind;
-static PyObject *__pyx_n_s_debug;
+static PyObject *__pyx_kp_s_debug;
+static PyObject *__pyx_n_s_debug_2;
+static PyObject *__pyx_n_s_debug_report;
+static PyObject *__pyx_n_s_debuggerPlot;
+static PyObject *__pyx_n_s_delimiter;
+static PyObject *__pyx_n_s_description;
+static PyObject *__pyx_n_s_devnull;
 static PyObject *__pyx_n_s_dict;
+static PyObject *__pyx_n_s_disable_console;
+static PyObject *__pyx_kp_s_done;
+static PyObject *__pyx_kp_s_done_2;
 static PyObject *__pyx_n_s_double;
+static PyObject *__pyx_n_s_dscrp;
 static PyObject *__pyx_n_s_dtype;
 static PyObject *__pyx_n_s_dtype_is_object;
 static PyObject *__pyx_n_s_encode;
 static PyObject *__pyx_n_s_end;
 static PyObject *__pyx_n_s_enumerate;
 static PyObject *__pyx_n_s_error;
+static PyObject *__pyx_n_s_extend;
 static PyObject *__pyx_n_s_fastrometry_cython_code_PSE;
+static PyObject *__pyx_n_s_figsize;
+static PyObject *__pyx_n_s_figtext;
+static PyObject *__pyx_n_s_figure;
 static PyObject *__pyx_n_s_file;
+static PyObject *__pyx_n_s_filename;
 static PyObject *__pyx_n_s_fits;
 static PyObject *__pyx_n_s_flags;
+static PyObject *__pyx_n_s_fontsize;
 static PyObject *__pyx_n_s_format;
 static PyObject *__pyx_n_s_fortran;
 static PyObject *__pyx_n_u_fortran;
+static PyObject *__pyx_n_s_getdata;
 static PyObject *__pyx_n_s_getstate;
 static PyObject *__pyx_kp_s_got_differing_extents_in_dimensi;
+static PyObject *__pyx_n_s_gray;
+static PyObject *__pyx_n_s_ha;
 static PyObject *__pyx_n_s_id;
+static PyObject *__pyx_n_s_image_data;
 static PyObject *__pyx_n_s_img;
 static PyObject *__pyx_n_s_img_max;
 static PyObject *__pyx_n_s_img_median;
@@ -2571,14 +2741,17 @@ static PyObject *__pyx_n_s_img_xmax;
 static PyObject *__pyx_n_s_img_ymax;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_n_s_imshow;
+static PyObject *__pyx_n_s_inf;
+static PyObject *__pyx_n_s_int;
 static PyObject *__pyx_n_s_int32;
 static PyObject *__pyx_n_s_itemsize;
 static PyObject *__pyx_kp_s_itemsize_0_for_cython_array;
-static PyObject *__pyx_kp_s_iteration;
 static PyObject *__pyx_n_s_kernelcircle;
 static PyObject *__pyx_n_s_kernelrad;
 static PyObject *__pyx_n_s_kernelsize;
 static PyObject *__pyx_n_s_main;
+static PyObject *__pyx_n_s_marker;
+static PyObject *__pyx_n_s_matplotlib_colors;
 static PyObject *__pyx_n_s_matplotlib_pyplot;
 static PyObject *__pyx_n_s_max;
 static PyObject *__pyx_n_s_median;
@@ -2586,9 +2759,13 @@ static PyObject *__pyx_n_s_memview;
 static PyObject *__pyx_n_s_mode;
 static PyObject *__pyx_n_s_name;
 static PyObject *__pyx_n_s_name_2;
+static PyObject *__pyx_n_s_ncolors;
 static PyObject *__pyx_n_s_ndim;
+static PyObject *__pyx_n_s_neither;
 static PyObject *__pyx_n_s_new;
+static PyObject *__pyx_n_s_nm;
 static PyObject *__pyx_kp_s_no_default___reduce___due_to_non;
+static PyObject *__pyx_n_s_norm;
 static PyObject *__pyx_n_s_np;
 static PyObject *__pyx_n_s_npts;
 static PyObject *__pyx_n_s_nrefinepts;
@@ -2599,12 +2776,24 @@ static PyObject *__pyx_kp_s_numpy_core_umath_failed_to_impor;
 static PyObject *__pyx_n_s_obj;
 static PyObject *__pyx_n_s_occupymap;
 static PyObject *__pyx_n_s_ones;
+static PyObject *__pyx_n_s_open;
+static PyObject *__pyx_n_s_os;
 static PyObject *__pyx_n_s_pack;
+static PyObject *__pyx_n_s_percentile;
 static PyObject *__pyx_n_s_pickle;
-static PyObject *__pyx_kp_s_pixel_thresh;
+static PyObject *__pyx_n_s_pixelradius;
 static PyObject *__pyx_n_s_pixsat;
 static PyObject *__pyx_n_s_plt;
 static PyObject *__pyx_n_s_print;
+static PyObject *__pyx_n_s_pse_metadata;
+static PyObject *__pyx_kp_s_pse_metadata_allsources_csv;
+static PyObject *__pyx_kp_s_pse_metadata_allsources_sorted;
+static PyObject *__pyx_kp_s_pse_metadata_allsources_sorted_2;
+static PyObject *__pyx_kp_s_pse_metadata_centroids;
+static PyObject *__pyx_kp_s_pse_metadata_centroids_png;
+static PyObject *__pyx_kp_s_pse_metadata_csv;
+static PyObject *__pyx_kp_s_pse_metadata_islandsonly_csv;
+static PyObject *__pyx_kp_s_pse_metadata_islandsonly_sorted;
 static PyObject *__pyx_n_s_pyx_PickleError;
 static PyObject *__pyx_n_s_pyx_checksum;
 static PyObject *__pyx_n_s_pyx_getbuffer;
@@ -2614,22 +2803,31 @@ static PyObject *__pyx_n_s_pyx_type;
 static PyObject *__pyx_n_s_pyx_unpickle_Enum;
 static PyObject *__pyx_n_s_pyx_vtable;
 static PyObject *__pyx_n_s_range;
+static PyObject *__pyx_n_s_red;
 static PyObject *__pyx_n_s_reduce;
 static PyObject *__pyx_n_s_reduce_cython;
 static PyObject *__pyx_n_s_reduce_ex;
+static PyObject *__pyx_n_s_roi;
+static PyObject *__pyx_n_s_savefig;
+static PyObject *__pyx_n_s_savename;
+static PyObject *__pyx_n_s_savetxt;
+static PyObject *__pyx_n_s_scatter;
 static PyObject *__pyx_n_s_setstate;
 static PyObject *__pyx_n_s_setstate_cython;
 static PyObject *__pyx_n_s_shape;
 static PyObject *__pyx_n_s_show;
-static PyObject *__pyx_n_s_sindmap_initial;
-static PyObject *__pyx_n_s_sindmap_refine;
 static PyObject *__pyx_n_s_size;
-static PyObject *__pyx_n_s_smetadata;
+static PyObject *__pyx_n_s_skipRemainingSources;
 static PyObject *__pyx_n_s_sourcesep;
 static PyObject *__pyx_n_s_sourcesepcircle;
 static PyObject *__pyx_n_s_sourcesepsize;
 static PyObject *__pyx_kp_s_src_fastrometry_cython_code_PSE;
+static PyObject *__pyx_n_s_srcindexmap_initial;
+static PyObject *__pyx_kp_s_srcindexmap_initial_png;
+static PyObject *__pyx_n_s_srcindexmap_refine;
+static PyObject *__pyx_kp_s_srcindexmap_refine_png;
 static PyObject *__pyx_n_s_start;
+static PyObject *__pyx_n_s_stderr;
 static PyObject *__pyx_n_s_step;
 static PyObject *__pyx_n_s_stop;
 static PyObject *__pyx_kp_s_strided_and_direct;
@@ -2637,14 +2835,23 @@ static PyObject *__pyx_kp_s_strided_and_direct_or_indirect;
 static PyObject *__pyx_kp_s_strided_and_indirect;
 static PyObject *__pyx_kp_s_stringsource;
 static PyObject *__pyx_n_s_struct;
+static PyObject *__pyx_n_s_subplots_adjust;
+static PyObject *__pyx_n_s_sys;
 static PyObject *__pyx_n_s_test;
+static PyObject *__pyx_n_s_title;
 static PyObject *__pyx_kp_s_unable_to_allocate_array_data;
 static PyObject *__pyx_kp_s_unable_to_allocate_shape_and_str;
 static PyObject *__pyx_n_s_unpack;
 static PyObject *__pyx_n_s_update;
-static PyObject *__pyx_n_s_verbose;
+static PyObject *__pyx_n_s_user_dir;
+static PyObject *__pyx_n_s_verbosity;
+static PyObject *__pyx_n_s_vmax;
+static PyObject *__pyx_n_s_vmin;
+static PyObject *__pyx_n_s_w;
+static PyObject *__pyx_n_s_yellow;
 static PyObject *__pyx_n_s_zeros;
-static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_PSE(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_img, PyObject *__pyx_v_img_xmax, PyObject *__pyx_v_img_ymax, PyObject *__pyx_v_kernelrad, PyObject *__pyx_v_sourcesep, PyObject *__pyx_v_pixsat, PyObject *__pyx_v_npts, PyObject *__pyx_v_nrefinepts, PyObject *__pyx_v_sindmap_initial, PyObject *__pyx_v_sindmap_refine, PyObject *__pyx_v_smetadata, PyObject *__pyx_v_verbose, PyObject *__pyx_v_debug); /* proto */
+static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_debuggerPlot(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_array, PyObject *__pyx_v_user_dir, PyObject *__pyx_v_debug_report, PyObject *__pyx_v_savename, PyObject *__pyx_v_figsize, PyObject *__pyx_v_bottom, PyObject *__pyx_v_vmin, PyObject *__pyx_v_vmax, PyObject *__pyx_v_colbar, PyObject *__pyx_v_colbar_extend, PyObject *__pyx_v_title, PyObject *__pyx_v_dscrp, PyObject *__pyx_v_bmargin, PyObject *__pyx_v_disable_console, PyObject *__pyx_v_collist, PyObject *__pyx_v_boundslist); /* proto */
+static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_2PSE(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_img, PyObject *__pyx_v_img_xmax, PyObject *__pyx_v_img_ymax, PyObject *__pyx_v_kernelrad, PyObject *__pyx_v_sourcesep, PyObject *__pyx_v_pixsat, PyObject *__pyx_v_npts, PyObject *__pyx_v_nrefinepts, PyObject *__pyx_v_pixelradius, PyObject *__pyx_v_shape, PyObject *__pyx_v_srcindexmap_initial, PyObject *__pyx_v_srcindexmap_refine, PyObject *__pyx_v_pse_metadata, PyObject *__pyx_v_user_dir, PyObject *__pyx_v_debug_report, PyObject *__pyx_v_filename, PyObject *__pyx_v_verbosity, PyObject *__pyx_v_debug); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __pyx_array_obj *__pyx_v_self, PyObject *__pyx_v_shape, Py_ssize_t __pyx_v_itemsize, PyObject *__pyx_v_format, PyObject *__pyx_v_mode, int __pyx_v_allocate_buffer); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array_2__getbuffer__(struct __pyx_array_obj *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_array___pyx_pf_15View_dot_MemoryView_5array_4__dealloc__(struct __pyx_array_obj *__pyx_v_self); /* proto */
@@ -2691,16 +2898,28 @@ static PyObject *__pyx_tp_new_array(PyTypeObject *t, PyObject *a, PyObject *k); 
 static PyObject *__pyx_tp_new_Enum(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new_memoryview(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
 static PyObject *__pyx_tp_new__memoryviewslice(PyTypeObject *t, PyObject *a, PyObject *k); /*proto*/
+static PyObject *__pyx_float_0_1;
+static PyObject *__pyx_float_0_2;
+static PyObject *__pyx_float_0_5;
+static PyObject *__pyx_float_0_05;
+static PyObject *__pyx_float_0_07;
+static PyObject *__pyx_float_0_15;
+static PyObject *__pyx_float_0_25;
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_2;
 static PyObject *__pyx_int_3;
 static PyObject *__pyx_int_4;
 static PyObject *__pyx_int_5;
+static PyObject *__pyx_int_7;
+static PyObject *__pyx_int_8;
+static PyObject *__pyx_int_9;
+static PyObject *__pyx_int_10;
 static PyObject *__pyx_int_13;
 static PyObject *__pyx_int_29;
 static PyObject *__pyx_int_49;
 static PyObject *__pyx_int_81;
+static PyObject *__pyx_int_99;
 static PyObject *__pyx_int_113;
 static PyObject *__pyx_int_149;
 static PyObject *__pyx_int_197;
@@ -2746,18 +2965,14 @@ static PyObject *__pyx_int_136983863;
 static PyObject *__pyx_int_184977713;
 static PyObject *__pyx_int_neg_1;
 static PyObject *__pyx_tuple_;
-static PyObject *__pyx_slice__3;
-static PyObject *__pyx_slice__5;
-static PyObject *__pyx_tuple__2;
+static PyObject *__pyx_slice__6;
+static PyObject *__pyx_slice__8;
 static PyObject *__pyx_tuple__4;
+static PyObject *__pyx_tuple__5;
 static PyObject *__pyx_tuple__7;
-static PyObject *__pyx_tuple__8;
-static PyObject *__pyx_tuple__9;
 static PyObject *__pyx_tuple__10;
-static PyObject *__pyx_tuple__11;
 static PyObject *__pyx_tuple__12;
 static PyObject *__pyx_tuple__13;
-static PyObject *__pyx_tuple__14;
 static PyObject *__pyx_tuple__15;
 static PyObject *__pyx_tuple__16;
 static PyObject *__pyx_tuple__17;
@@ -2771,17 +2986,1090 @@ static PyObject *__pyx_tuple__24;
 static PyObject *__pyx_tuple__25;
 static PyObject *__pyx_tuple__26;
 static PyObject *__pyx_tuple__27;
+static PyObject *__pyx_tuple__28;
 static PyObject *__pyx_tuple__29;
 static PyObject *__pyx_tuple__30;
 static PyObject *__pyx_tuple__31;
 static PyObject *__pyx_tuple__32;
 static PyObject *__pyx_tuple__33;
 static PyObject *__pyx_tuple__34;
-static PyObject *__pyx_codeobj__28;
-static PyObject *__pyx_codeobj__35;
+static PyObject *__pyx_tuple__35;
+static PyObject *__pyx_tuple__37;
+static PyObject *__pyx_tuple__39;
+static PyObject *__pyx_tuple__40;
+static PyObject *__pyx_tuple__41;
+static PyObject *__pyx_tuple__42;
+static PyObject *__pyx_tuple__43;
+static PyObject *__pyx_tuple__44;
+static PyObject *__pyx_codeobj__36;
+static PyObject *__pyx_codeobj__38;
+static PyObject *__pyx_codeobj__45;
 /* Late includes */
 
-/* "fastrometry/cython_code/PSE.pyx":9
+/* "fastrometry/cython_code/PSE.pyx":7
+ * import cython
+ * 
+ * def debuggerPlot(array, user_dir, debug_report, savename, figsize=(7,7), bottom=0.25, vmin=None, vmax=None, colbar=False, colbar_extend=False, title=None, dscrp=None, bmargin=0.1, disable_console=False, collist=None, boundslist=None):             # <<<<<<<<<<<<<<
+ *     import matplotlib.pyplot as plt
+ *     from matplotlib.colors import BoundaryNorm
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_11fastrometry_11cython_code_3PSE_1debuggerPlot(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_11fastrometry_11cython_code_3PSE_1debuggerPlot = {"debuggerPlot", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_11fastrometry_11cython_code_3PSE_1debuggerPlot, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_11fastrometry_11cython_code_3PSE_1debuggerPlot(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  PyObject *__pyx_v_array = 0;
+  PyObject *__pyx_v_user_dir = 0;
+  PyObject *__pyx_v_debug_report = 0;
+  PyObject *__pyx_v_savename = 0;
+  PyObject *__pyx_v_figsize = 0;
+  PyObject *__pyx_v_bottom = 0;
+  PyObject *__pyx_v_vmin = 0;
+  PyObject *__pyx_v_vmax = 0;
+  PyObject *__pyx_v_colbar = 0;
+  PyObject *__pyx_v_colbar_extend = 0;
+  PyObject *__pyx_v_title = 0;
+  PyObject *__pyx_v_dscrp = 0;
+  PyObject *__pyx_v_bmargin = 0;
+  PyObject *__pyx_v_disable_console = 0;
+  PyObject *__pyx_v_collist = 0;
+  PyObject *__pyx_v_boundslist = 0;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("debuggerPlot (wrapper)", 0);
+  {
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_array,&__pyx_n_s_user_dir,&__pyx_n_s_debug_report,&__pyx_n_s_savename,&__pyx_n_s_figsize,&__pyx_n_s_bottom,&__pyx_n_s_vmin,&__pyx_n_s_vmax,&__pyx_n_s_colbar,&__pyx_n_s_colbar_extend,&__pyx_n_s_title,&__pyx_n_s_dscrp,&__pyx_n_s_bmargin,&__pyx_n_s_disable_console,&__pyx_n_s_collist,&__pyx_n_s_boundslist,0};
+    PyObject* values[16] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+    values[4] = ((PyObject *)__pyx_tuple_);
+    values[5] = ((PyObject *)__pyx_float_0_25);
+    values[6] = ((PyObject *)Py_None);
+    values[7] = ((PyObject *)Py_None);
+    values[8] = ((PyObject *)Py_False);
+    values[9] = ((PyObject *)Py_False);
+    values[10] = ((PyObject *)Py_None);
+    values[11] = ((PyObject *)Py_None);
+    values[12] = ((PyObject *)__pyx_float_0_1);
+    values[13] = ((PyObject *)Py_False);
+    values[14] = ((PyObject *)Py_None);
+    values[15] = ((PyObject *)Py_None);
+    if (unlikely(__pyx_kwds)) {
+      Py_ssize_t kw_args;
+      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
+      switch (pos_args) {
+        case 16: values[15] = PyTuple_GET_ITEM(__pyx_args, 15);
+        CYTHON_FALLTHROUGH;
+        case 15: values[14] = PyTuple_GET_ITEM(__pyx_args, 14);
+        CYTHON_FALLTHROUGH;
+        case 14: values[13] = PyTuple_GET_ITEM(__pyx_args, 13);
+        CYTHON_FALLTHROUGH;
+        case 13: values[12] = PyTuple_GET_ITEM(__pyx_args, 12);
+        CYTHON_FALLTHROUGH;
+        case 12: values[11] = PyTuple_GET_ITEM(__pyx_args, 11);
+        CYTHON_FALLTHROUGH;
+        case 11: values[10] = PyTuple_GET_ITEM(__pyx_args, 10);
+        CYTHON_FALLTHROUGH;
+        case 10: values[9] = PyTuple_GET_ITEM(__pyx_args, 9);
+        CYTHON_FALLTHROUGH;
+        case  9: values[8] = PyTuple_GET_ITEM(__pyx_args, 8);
+        CYTHON_FALLTHROUGH;
+        case  8: values[7] = PyTuple_GET_ITEM(__pyx_args, 7);
+        CYTHON_FALLTHROUGH;
+        case  7: values[6] = PyTuple_GET_ITEM(__pyx_args, 6);
+        CYTHON_FALLTHROUGH;
+        case  6: values[5] = PyTuple_GET_ITEM(__pyx_args, 5);
+        CYTHON_FALLTHROUGH;
+        case  5: values[4] = PyTuple_GET_ITEM(__pyx_args, 4);
+        CYTHON_FALLTHROUGH;
+        case  4: values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
+        CYTHON_FALLTHROUGH;
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        CYTHON_FALLTHROUGH;
+        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        CYTHON_FALLTHROUGH;
+        case  0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      kw_args = PyDict_Size(__pyx_kwds);
+      switch (pos_args) {
+        case  0:
+        if (likely((values[0] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_array)) != 0)) kw_args--;
+        else goto __pyx_L5_argtuple_error;
+        CYTHON_FALLTHROUGH;
+        case  1:
+        if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_user_dir)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("debuggerPlot", 0, 4, 16, 1); __PYX_ERR(0, 7, __pyx_L3_error)
+        }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_debug_report)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("debuggerPlot", 0, 4, 16, 2); __PYX_ERR(0, 7, __pyx_L3_error)
+        }
+        CYTHON_FALLTHROUGH;
+        case  3:
+        if (likely((values[3] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_savename)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("debuggerPlot", 0, 4, 16, 3); __PYX_ERR(0, 7, __pyx_L3_error)
+        }
+        CYTHON_FALLTHROUGH;
+        case  4:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_figsize);
+          if (value) { values[4] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case  5:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_bottom);
+          if (value) { values[5] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case  6:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_vmin);
+          if (value) { values[6] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case  7:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_vmax);
+          if (value) { values[7] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case  8:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_colbar);
+          if (value) { values[8] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case  9:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_colbar_extend);
+          if (value) { values[9] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case 10:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_title);
+          if (value) { values[10] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case 11:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_dscrp);
+          if (value) { values[11] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case 12:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_bmargin);
+          if (value) { values[12] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case 13:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_disable_console);
+          if (value) { values[13] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case 14:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_collist);
+          if (value) { values[14] = value; kw_args--; }
+        }
+        CYTHON_FALLTHROUGH;
+        case 15:
+        if (kw_args > 0) {
+          PyObject* value = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_boundslist);
+          if (value) { values[15] = value; kw_args--; }
+        }
+      }
+      if (unlikely(kw_args > 0)) {
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "debuggerPlot") < 0)) __PYX_ERR(0, 7, __pyx_L3_error)
+      }
+    } else {
+      switch (PyTuple_GET_SIZE(__pyx_args)) {
+        case 16: values[15] = PyTuple_GET_ITEM(__pyx_args, 15);
+        CYTHON_FALLTHROUGH;
+        case 15: values[14] = PyTuple_GET_ITEM(__pyx_args, 14);
+        CYTHON_FALLTHROUGH;
+        case 14: values[13] = PyTuple_GET_ITEM(__pyx_args, 13);
+        CYTHON_FALLTHROUGH;
+        case 13: values[12] = PyTuple_GET_ITEM(__pyx_args, 12);
+        CYTHON_FALLTHROUGH;
+        case 12: values[11] = PyTuple_GET_ITEM(__pyx_args, 11);
+        CYTHON_FALLTHROUGH;
+        case 11: values[10] = PyTuple_GET_ITEM(__pyx_args, 10);
+        CYTHON_FALLTHROUGH;
+        case 10: values[9] = PyTuple_GET_ITEM(__pyx_args, 9);
+        CYTHON_FALLTHROUGH;
+        case  9: values[8] = PyTuple_GET_ITEM(__pyx_args, 8);
+        CYTHON_FALLTHROUGH;
+        case  8: values[7] = PyTuple_GET_ITEM(__pyx_args, 7);
+        CYTHON_FALLTHROUGH;
+        case  7: values[6] = PyTuple_GET_ITEM(__pyx_args, 6);
+        CYTHON_FALLTHROUGH;
+        case  6: values[5] = PyTuple_GET_ITEM(__pyx_args, 5);
+        CYTHON_FALLTHROUGH;
+        case  5: values[4] = PyTuple_GET_ITEM(__pyx_args, 4);
+        CYTHON_FALLTHROUGH;
+        case  4: values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
+        values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+    }
+    __pyx_v_array = values[0];
+    __pyx_v_user_dir = values[1];
+    __pyx_v_debug_report = values[2];
+    __pyx_v_savename = values[3];
+    __pyx_v_figsize = values[4];
+    __pyx_v_bottom = values[5];
+    __pyx_v_vmin = values[6];
+    __pyx_v_vmax = values[7];
+    __pyx_v_colbar = values[8];
+    __pyx_v_colbar_extend = values[9];
+    __pyx_v_title = values[10];
+    __pyx_v_dscrp = values[11];
+    __pyx_v_bmargin = values[12];
+    __pyx_v_disable_console = values[13];
+    __pyx_v_collist = values[14];
+    __pyx_v_boundslist = values[15];
+  }
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("debuggerPlot", 0, 4, 16, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 7, __pyx_L3_error)
+  __pyx_L3_error:;
+  __Pyx_AddTraceback("fastrometry.cython_code.PSE.debuggerPlot", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_RefNannyFinishContext();
+  return NULL;
+  __pyx_L4_argument_unpacking_done:;
+  __pyx_r = __pyx_pf_11fastrometry_11cython_code_3PSE_debuggerPlot(__pyx_self, __pyx_v_array, __pyx_v_user_dir, __pyx_v_debug_report, __pyx_v_savename, __pyx_v_figsize, __pyx_v_bottom, __pyx_v_vmin, __pyx_v_vmax, __pyx_v_colbar, __pyx_v_colbar_extend, __pyx_v_title, __pyx_v_dscrp, __pyx_v_bmargin, __pyx_v_disable_console, __pyx_v_collist, __pyx_v_boundslist);
+
+  /* function exit code */
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_debuggerPlot(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_array, PyObject *__pyx_v_user_dir, PyObject *__pyx_v_debug_report, PyObject *__pyx_v_savename, PyObject *__pyx_v_figsize, PyObject *__pyx_v_bottom, PyObject *__pyx_v_vmin, PyObject *__pyx_v_vmax, PyObject *__pyx_v_colbar, PyObject *__pyx_v_colbar_extend, PyObject *__pyx_v_title, PyObject *__pyx_v_dscrp, PyObject *__pyx_v_bmargin, PyObject *__pyx_v_disable_console, PyObject *__pyx_v_collist, PyObject *__pyx_v_boundslist) {
+  PyObject *__pyx_v_plt = NULL;
+  PyObject *__pyx_v_BoundaryNorm = NULL;
+  PyObject *__pyx_v_ListedColormap = NULL;
+  PyObject *__pyx_v_extend = NULL;
+  PyObject *__pyx_v_sys = NULL;
+  PyObject *__pyx_v_os = NULL;
+  PyObject *__pyx_v_console = NULL;
+  PyObject *__pyx_v_cm = NULL;
+  PyObject *__pyx_v_nm = NULL;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  PyObject *__pyx_t_2 = NULL;
+  int __pyx_t_3;
+  int __pyx_t_4;
+  PyObject *__pyx_t_5 = NULL;
+  PyObject *__pyx_t_6 = NULL;
+  PyObject *__pyx_t_7 = NULL;
+  PyObject *__pyx_t_8 = NULL;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("debuggerPlot", 0);
+
+  /* "fastrometry/cython_code/PSE.pyx":8
+ * 
+ * def debuggerPlot(array, user_dir, debug_report, savename, figsize=(7,7), bottom=0.25, vmin=None, vmax=None, colbar=False, colbar_extend=False, title=None, dscrp=None, bmargin=0.1, disable_console=False, collist=None, boundslist=None):
+ *     import matplotlib.pyplot as plt             # <<<<<<<<<<<<<<
+ *     from matplotlib.colors import BoundaryNorm
+ *     from matplotlib.colors import ListedColormap
+ */
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_INCREF(__pyx_n_s__2);
+  __Pyx_GIVEREF(__pyx_n_s__2);
+  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s__2);
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_matplotlib_pyplot, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 8, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_plt = __pyx_t_2;
+  __pyx_t_2 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":9
+ * def debuggerPlot(array, user_dir, debug_report, savename, figsize=(7,7), bottom=0.25, vmin=None, vmax=None, colbar=False, colbar_extend=False, title=None, dscrp=None, bmargin=0.1, disable_console=False, collist=None, boundslist=None):
+ *     import matplotlib.pyplot as plt
+ *     from matplotlib.colors import BoundaryNorm             # <<<<<<<<<<<<<<
+ *     from matplotlib.colors import ListedColormap
+ *     if colbar_extend is True:
+ */
+  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 9, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_INCREF(__pyx_n_s_BoundaryNorm);
+  __Pyx_GIVEREF(__pyx_n_s_BoundaryNorm);
+  PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_BoundaryNorm);
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_matplotlib_colors, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 9, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_BoundaryNorm); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 9, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_INCREF(__pyx_t_2);
+  __pyx_v_BoundaryNorm = __pyx_t_2;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":10
+ *     import matplotlib.pyplot as plt
+ *     from matplotlib.colors import BoundaryNorm
+ *     from matplotlib.colors import ListedColormap             # <<<<<<<<<<<<<<
+ *     if colbar_extend is True:
+ *         extend = 'both'
+ */
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 10, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_INCREF(__pyx_n_s_ListedColormap);
+  __Pyx_GIVEREF(__pyx_n_s_ListedColormap);
+  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_ListedColormap);
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_matplotlib_colors, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 10, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_ListedColormap); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 10, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_INCREF(__pyx_t_1);
+  __pyx_v_ListedColormap = __pyx_t_1;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":11
+ *     from matplotlib.colors import BoundaryNorm
+ *     from matplotlib.colors import ListedColormap
+ *     if colbar_extend is True:             # <<<<<<<<<<<<<<
+ *         extend = 'both'
+ *     else:
+ */
+  __pyx_t_3 = (__pyx_v_colbar_extend == Py_True);
+  __pyx_t_4 = (__pyx_t_3 != 0);
+  if (__pyx_t_4) {
+
+    /* "fastrometry/cython_code/PSE.pyx":12
+ *     from matplotlib.colors import ListedColormap
+ *     if colbar_extend is True:
+ *         extend = 'both'             # <<<<<<<<<<<<<<
+ *     else:
+ *         extend = 'neither'
+ */
+    __Pyx_INCREF(__pyx_n_s_both);
+    __pyx_v_extend = __pyx_n_s_both;
+
+    /* "fastrometry/cython_code/PSE.pyx":11
+ *     from matplotlib.colors import BoundaryNorm
+ *     from matplotlib.colors import ListedColormap
+ *     if colbar_extend is True:             # <<<<<<<<<<<<<<
+ *         extend = 'both'
+ *     else:
+ */
+    goto __pyx_L3;
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":14
+ *         extend = 'both'
+ *     else:
+ *         extend = 'neither'             # <<<<<<<<<<<<<<
+ *     if disable_console is True:
+ *         import sys, os
+ */
+  /*else*/ {
+    __Pyx_INCREF(__pyx_n_s_neither);
+    __pyx_v_extend = __pyx_n_s_neither;
+  }
+  __pyx_L3:;
+
+  /* "fastrometry/cython_code/PSE.pyx":15
+ *     else:
+ *         extend = 'neither'
+ *     if disable_console is True:             # <<<<<<<<<<<<<<
+ *         import sys, os
+ *         console = sys.stderr
+ */
+  __pyx_t_4 = (__pyx_v_disable_console == Py_True);
+  __pyx_t_3 = (__pyx_t_4 != 0);
+  if (__pyx_t_3) {
+
+    /* "fastrometry/cython_code/PSE.pyx":16
+ *         extend = 'neither'
+ *     if disable_console is True:
+ *         import sys, os             # <<<<<<<<<<<<<<
+ *         console = sys.stderr
+ *         sys.stderr = open(os.devnull,'w')
+ */
+    __pyx_t_2 = __Pyx_Import(__pyx_n_s_sys, 0, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 16, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_v_sys = __pyx_t_2;
+    __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_Import(__pyx_n_s_os, 0, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 16, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_v_os = __pyx_t_2;
+    __pyx_t_2 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":17
+ *     if disable_console is True:
+ *         import sys, os
+ *         console = sys.stderr             # <<<<<<<<<<<<<<
+ *         sys.stderr = open(os.devnull,'w')
+ *     if collist is not None:
+ */
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_sys, __pyx_n_s_stderr); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 17, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_v_console = __pyx_t_2;
+    __pyx_t_2 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":18
+ *         import sys, os
+ *         console = sys.stderr
+ *         sys.stderr = open(os.devnull,'w')             # <<<<<<<<<<<<<<
+ *     if collist is not None:
+ *         cm = ListedColormap(collist)
+ */
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_os, __pyx_n_s_devnull); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 18, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 18, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_GIVEREF(__pyx_t_2);
+    PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_2);
+    __Pyx_INCREF(__pyx_n_s_w);
+    __Pyx_GIVEREF(__pyx_n_s_w);
+    PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_n_s_w);
+    __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_open, __pyx_t_1, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 18, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_sys, __pyx_n_s_stderr, __pyx_t_2) < 0) __PYX_ERR(0, 18, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":15
+ *     else:
+ *         extend = 'neither'
+ *     if disable_console is True:             # <<<<<<<<<<<<<<
+ *         import sys, os
+ *         console = sys.stderr
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":19
+ *         console = sys.stderr
+ *         sys.stderr = open(os.devnull,'w')
+ *     if collist is not None:             # <<<<<<<<<<<<<<
+ *         cm = ListedColormap(collist)
+ *     else:
+ */
+  __pyx_t_3 = (__pyx_v_collist != Py_None);
+  __pyx_t_4 = (__pyx_t_3 != 0);
+  if (__pyx_t_4) {
+
+    /* "fastrometry/cython_code/PSE.pyx":20
+ *         sys.stderr = open(os.devnull,'w')
+ *     if collist is not None:
+ *         cm = ListedColormap(collist)             # <<<<<<<<<<<<<<
+ *     else:
+ *         cm = None
+ */
+    __Pyx_INCREF(__pyx_v_ListedColormap);
+    __pyx_t_1 = __pyx_v_ListedColormap; __pyx_t_5 = NULL;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_1);
+      if (likely(__pyx_t_5)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+        __Pyx_INCREF(__pyx_t_5);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_1, function);
+      }
+    }
+    __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_5, __pyx_v_collist) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_collist);
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 20, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_v_cm = __pyx_t_2;
+    __pyx_t_2 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":19
+ *         console = sys.stderr
+ *         sys.stderr = open(os.devnull,'w')
+ *     if collist is not None:             # <<<<<<<<<<<<<<
+ *         cm = ListedColormap(collist)
+ *     else:
+ */
+    goto __pyx_L5;
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":22
+ *         cm = ListedColormap(collist)
+ *     else:
+ *         cm = None             # <<<<<<<<<<<<<<
+ *     if boundslist is not None:
+ *         nm = BoundaryNorm(boundslist,ncolors=2)
+ */
+  /*else*/ {
+    __Pyx_INCREF(Py_None);
+    __pyx_v_cm = Py_None;
+  }
+  __pyx_L5:;
+
+  /* "fastrometry/cython_code/PSE.pyx":23
+ *     else:
+ *         cm = None
+ *     if boundslist is not None:             # <<<<<<<<<<<<<<
+ *         nm = BoundaryNorm(boundslist,ncolors=2)
+ *     else:
+ */
+  __pyx_t_4 = (__pyx_v_boundslist != Py_None);
+  __pyx_t_3 = (__pyx_t_4 != 0);
+  if (__pyx_t_3) {
+
+    /* "fastrometry/cython_code/PSE.pyx":24
+ *         cm = None
+ *     if boundslist is not None:
+ *         nm = BoundaryNorm(boundslist,ncolors=2)             # <<<<<<<<<<<<<<
+ *     else:
+ *         nm = None
+ */
+    __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 24, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx_v_boundslist);
+    __Pyx_GIVEREF(__pyx_v_boundslist);
+    PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_boundslist);
+    __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 24, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_ncolors, __pyx_int_2) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_v_BoundaryNorm, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 24, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_v_nm = __pyx_t_5;
+    __pyx_t_5 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":23
+ *     else:
+ *         cm = None
+ *     if boundslist is not None:             # <<<<<<<<<<<<<<
+ *         nm = BoundaryNorm(boundslist,ncolors=2)
+ *     else:
+ */
+    goto __pyx_L6;
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":26
+ *         nm = BoundaryNorm(boundslist,ncolors=2)
+ *     else:
+ *         nm = None             # <<<<<<<<<<<<<<
+ *     plt.figure(figsize=figsize)
+ *     plt.subplots_adjust(bottom=bottom)
+ */
+  /*else*/ {
+    __Pyx_INCREF(Py_None);
+    __pyx_v_nm = Py_None;
+  }
+  __pyx_L6:;
+
+  /* "fastrometry/cython_code/PSE.pyx":27
+ *     else:
+ *         nm = None
+ *     plt.figure(figsize=figsize)             # <<<<<<<<<<<<<<
+ *     plt.subplots_adjust(bottom=bottom)
+ *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)
+ */
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_figure); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_figsize, __pyx_v_figsize) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":28
+ *         nm = None
+ *     plt.figure(figsize=figsize)
+ *     plt.subplots_adjust(bottom=bottom)             # <<<<<<<<<<<<<<
+ *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)
+ *     if colbar is True:
+ */
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_subplots_adjust); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 28, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_bottom, __pyx_v_bottom) < 0) __PYX_ERR(0, 28, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 28, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":29
+ *     plt.figure(figsize=figsize)
+ *     plt.subplots_adjust(bottom=bottom)
+ *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)             # <<<<<<<<<<<<<<
+ *     if colbar is True:
+ *         plt.colorbar(extend=extend)
+ */
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_imshow); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_INCREF(__pyx_v_array);
+  __Pyx_GIVEREF(__pyx_v_array);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_array);
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_cmap, __pyx_v_cm) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_norm, __pyx_v_nm) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_vmin, __pyx_v_vmin) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_vmax, __pyx_v_vmax) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_1, __pyx_t_2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":30
+ *     plt.subplots_adjust(bottom=bottom)
+ *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)
+ *     if colbar is True:             # <<<<<<<<<<<<<<
+ *         plt.colorbar(extend=extend)
+ *     plt.title(title)
+ */
+  __pyx_t_3 = (__pyx_v_colbar == Py_True);
+  __pyx_t_4 = (__pyx_t_3 != 0);
+  if (__pyx_t_4) {
+
+    /* "fastrometry/cython_code/PSE.pyx":31
+ *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)
+ *     if colbar is True:
+ *         plt.colorbar(extend=extend)             # <<<<<<<<<<<<<<
+ *     plt.title(title)
+ *     plt.figtext(0.5, bmargin, dscrp, ha="center", fontsize=9)
+ */
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_colorbar); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 31, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 31, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_extend, __pyx_v_extend) < 0) __PYX_ERR(0, 31, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":30
+ *     plt.subplots_adjust(bottom=bottom)
+ *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)
+ *     if colbar is True:             # <<<<<<<<<<<<<<
+ *         plt.colorbar(extend=extend)
+ *     plt.title(title)
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":32
+ *     if colbar is True:
+ *         plt.colorbar(extend=extend)
+ *     plt.title(title)             # <<<<<<<<<<<<<<
+ *     plt.figtext(0.5, bmargin, dscrp, ha="center", fontsize=9)
+ *     plt.savefig(user_dir+"\\debug\\"+debug_report+"\\{}".format(savename))
+ */
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_title); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 32, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_6 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
+    __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_2);
+    if (likely(__pyx_t_6)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+      __Pyx_INCREF(__pyx_t_6);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_2, function);
+    }
+  }
+  __pyx_t_1 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_6, __pyx_v_title) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_v_title);
+  __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 32, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":33
+ *         plt.colorbar(extend=extend)
+ *     plt.title(title)
+ *     plt.figtext(0.5, bmargin, dscrp, ha="center", fontsize=9)             # <<<<<<<<<<<<<<
+ *     plt.savefig(user_dir+"\\debug\\"+debug_report+"\\{}".format(savename))
+ *     plt.show()
+ */
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_figtext); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_INCREF(__pyx_float_0_5);
+  __Pyx_GIVEREF(__pyx_float_0_5);
+  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_float_0_5);
+  __Pyx_INCREF(__pyx_v_bmargin);
+  __Pyx_GIVEREF(__pyx_v_bmargin);
+  PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_v_bmargin);
+  __Pyx_INCREF(__pyx_v_dscrp);
+  __Pyx_GIVEREF(__pyx_v_dscrp);
+  PyTuple_SET_ITEM(__pyx_t_2, 2, __pyx_v_dscrp);
+  __pyx_t_6 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
+  if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_ha, __pyx_n_s_center) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_fontsize, __pyx_int_9) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":34
+ *     plt.title(title)
+ *     plt.figtext(0.5, bmargin, dscrp, ha="center", fontsize=9)
+ *     plt.savefig(user_dir+"\\debug\\"+debug_report+"\\{}".format(savename))             # <<<<<<<<<<<<<<
+ *     plt.show()
+ *     if disable_console is True:
+ */
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_savefig); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 34, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
+  __pyx_t_2 = PyNumber_Add(__pyx_v_user_dir, __pyx_kp_s_debug); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 34, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = PyNumber_Add(__pyx_t_2, __pyx_v_debug_report); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 34, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s__3, __pyx_n_s_format); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 34, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_8 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
+    __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_7);
+    if (likely(__pyx_t_8)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_7);
+      __Pyx_INCREF(__pyx_t_8);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_7, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_8) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_8, __pyx_v_savename) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_v_savename);
+  __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 34, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_7 = PyNumber_Add(__pyx_t_1, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 34, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_6);
+    if (likely(__pyx_t_2)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
+      __Pyx_INCREF(__pyx_t_2);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_6, function);
+    }
+  }
+  __pyx_t_5 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_2, __pyx_t_7) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_7);
+  __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 34, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":35
+ *     plt.figtext(0.5, bmargin, dscrp, ha="center", fontsize=9)
+ *     plt.savefig(user_dir+"\\debug\\"+debug_report+"\\{}".format(savename))
+ *     plt.show()             # <<<<<<<<<<<<<<
+ *     if disable_console is True:
+ *         sys.stderr = console
+ */
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_show); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 35, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
+  __pyx_t_7 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+    __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_6);
+    if (likely(__pyx_t_7)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
+      __Pyx_INCREF(__pyx_t_7);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_6, function);
+    }
+  }
+  __pyx_t_5 = (__pyx_t_7) ? __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_7) : __Pyx_PyObject_CallNoArg(__pyx_t_6);
+  __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+  if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 35, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":36
+ *     plt.savefig(user_dir+"\\debug\\"+debug_report+"\\{}".format(savename))
+ *     plt.show()
+ *     if disable_console is True:             # <<<<<<<<<<<<<<
+ *         sys.stderr = console
+ * 
+ */
+  __pyx_t_4 = (__pyx_v_disable_console == Py_True);
+  __pyx_t_3 = (__pyx_t_4 != 0);
+  if (__pyx_t_3) {
+
+    /* "fastrometry/cython_code/PSE.pyx":37
+ *     plt.show()
+ *     if disable_console is True:
+ *         sys.stderr = console             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+    if (unlikely(!__pyx_v_console)) { __Pyx_RaiseUnboundLocalError("console"); __PYX_ERR(0, 37, __pyx_L1_error) }
+    if (unlikely(!__pyx_v_sys)) { __Pyx_RaiseUnboundLocalError("sys"); __PYX_ERR(0, 37, __pyx_L1_error) }
+    if (__Pyx_PyObject_SetAttrStr(__pyx_v_sys, __pyx_n_s_stderr, __pyx_v_console) < 0) __PYX_ERR(0, 37, __pyx_L1_error)
+
+    /* "fastrometry/cython_code/PSE.pyx":36
+ *     plt.savefig(user_dir+"\\debug\\"+debug_report+"\\{}".format(savename))
+ *     plt.show()
+ *     if disable_console is True:             # <<<<<<<<<<<<<<
+ *         sys.stderr = console
+ * 
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":7
+ * import cython
+ * 
+ * def debuggerPlot(array, user_dir, debug_report, savename, figsize=(7,7), bottom=0.25, vmin=None, vmax=None, colbar=False, colbar_extend=False, title=None, dscrp=None, bmargin=0.1, disable_console=False, collist=None, boundslist=None):             # <<<<<<<<<<<<<<
+ *     import matplotlib.pyplot as plt
+ *     from matplotlib.colors import BoundaryNorm
+ */
+
+  /* function exit code */
+  __pyx_r = Py_None; __Pyx_INCREF(Py_None);
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_5);
+  __Pyx_XDECREF(__pyx_t_6);
+  __Pyx_XDECREF(__pyx_t_7);
+  __Pyx_XDECREF(__pyx_t_8);
+  __Pyx_AddTraceback("fastrometry.cython_code.PSE.debuggerPlot", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_XDECREF(__pyx_v_plt);
+  __Pyx_XDECREF(__pyx_v_BoundaryNorm);
+  __Pyx_XDECREF(__pyx_v_ListedColormap);
+  __Pyx_XDECREF(__pyx_v_extend);
+  __Pyx_XDECREF(__pyx_v_sys);
+  __Pyx_XDECREF(__pyx_v_os);
+  __Pyx_XDECREF(__pyx_v_console);
+  __Pyx_XDECREF(__pyx_v_cm);
+  __Pyx_XDECREF(__pyx_v_nm);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "fastrometry/cython_code/PSE.pyx":41
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * cdef void createROI(int[:,:] roi_view, int img_xmax, int img_ymax, int pixelradius, str shape):             # <<<<<<<<<<<<<<
+ *     cdef:
+ *         Py_ssize_t x
+ */
+
+static void __pyx_f_11fastrometry_11cython_code_3PSE_createROI(__Pyx_memviewslice __pyx_v_roi_view, int __pyx_v_img_xmax, int __pyx_v_img_ymax, int __pyx_v_pixelradius, PyObject *__pyx_v_shape) {
+  Py_ssize_t __pyx_v_x;
+  Py_ssize_t __pyx_v_y;
+  double __pyx_v_img_xcenter;
+  double __pyx_v_img_ycenter;
+  CYTHON_UNUSED double __pyx_v_img_xrad2;
+  CYTHON_UNUSED double __pyx_v_img_yrad2;
+  double __pyx_v_pixelradius2;
+  __Pyx_RefNannyDeclarations
+  int __pyx_t_1;
+  int __pyx_t_2;
+  long __pyx_t_3;
+  long __pyx_t_4;
+  Py_ssize_t __pyx_t_5;
+  long __pyx_t_6;
+  long __pyx_t_7;
+  Py_ssize_t __pyx_t_8;
+  double __pyx_t_9;
+  double __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
+  Py_ssize_t __pyx_t_12;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("createROI", 0);
+
+  /* "fastrometry/cython_code/PSE.pyx":45
+ *         Py_ssize_t x
+ *         Py_ssize_t y
+ *         double img_xcenter = img_xmax/2             # <<<<<<<<<<<<<<
+ *         double img_ycenter = img_ymax/2
+ *         double img_xrad2 = (img_xcenter)*(img_xcenter)
+ */
+  __pyx_v_img_xcenter = __Pyx_div_long(__pyx_v_img_xmax, 2);
+
+  /* "fastrometry/cython_code/PSE.pyx":46
+ *         Py_ssize_t y
+ *         double img_xcenter = img_xmax/2
+ *         double img_ycenter = img_ymax/2             # <<<<<<<<<<<<<<
+ *         double img_xrad2 = (img_xcenter)*(img_xcenter)
+ *         double img_yrad2 = (img_ycenter)*(img_ycenter)
+ */
+  __pyx_v_img_ycenter = __Pyx_div_long(__pyx_v_img_ymax, 2);
+
+  /* "fastrometry/cython_code/PSE.pyx":47
+ *         double img_xcenter = img_xmax/2
+ *         double img_ycenter = img_ymax/2
+ *         double img_xrad2 = (img_xcenter)*(img_xcenter)             # <<<<<<<<<<<<<<
+ *         double img_yrad2 = (img_ycenter)*(img_ycenter)
+ *         double pixelradius2 = pixelradius*pixelradius
+ */
+  __pyx_v_img_xrad2 = (__pyx_v_img_xcenter * __pyx_v_img_xcenter);
+
+  /* "fastrometry/cython_code/PSE.pyx":48
+ *         double img_ycenter = img_ymax/2
+ *         double img_xrad2 = (img_xcenter)*(img_xcenter)
+ *         double img_yrad2 = (img_ycenter)*(img_ycenter)             # <<<<<<<<<<<<<<
+ *         double pixelradius2 = pixelradius*pixelradius
+ * 
+ */
+  __pyx_v_img_yrad2 = (__pyx_v_img_ycenter * __pyx_v_img_ycenter);
+
+  /* "fastrometry/cython_code/PSE.pyx":49
+ *         double img_xrad2 = (img_xcenter)*(img_xcenter)
+ *         double img_yrad2 = (img_ycenter)*(img_ycenter)
+ *         double pixelradius2 = pixelradius*pixelradius             # <<<<<<<<<<<<<<
+ * 
+ *     if shape == "circle":
+ */
+  __pyx_v_pixelradius2 = (__pyx_v_pixelradius * __pyx_v_pixelradius);
+
+  /* "fastrometry/cython_code/PSE.pyx":51
+ *         double pixelradius2 = pixelradius*pixelradius
+ * 
+ *     if shape == "circle":             # <<<<<<<<<<<<<<
+ *         for x in range(1,img_xmax+1):
+ *             for y in range(1,img_ymax+1):
+ */
+  __pyx_t_1 = (__Pyx_PyString_Equals(__pyx_v_shape, __pyx_n_s_circle, Py_EQ)); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 51, __pyx_L1_error)
+  __pyx_t_2 = (__pyx_t_1 != 0);
+  if (__pyx_t_2) {
+
+    /* "fastrometry/cython_code/PSE.pyx":52
+ * 
+ *     if shape == "circle":
+ *         for x in range(1,img_xmax+1):             # <<<<<<<<<<<<<<
+ *             for y in range(1,img_ymax+1):
+ *                 if (x-img_xcenter)*(x-img_xcenter)/pixelradius2+(y-img_ycenter)*(y-img_ycenter)/pixelradius2 > 1:
+ */
+    __pyx_t_3 = (__pyx_v_img_xmax + 1);
+    __pyx_t_4 = __pyx_t_3;
+    for (__pyx_t_5 = 1; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
+      __pyx_v_x = __pyx_t_5;
+
+      /* "fastrometry/cython_code/PSE.pyx":53
+ *     if shape == "circle":
+ *         for x in range(1,img_xmax+1):
+ *             for y in range(1,img_ymax+1):             # <<<<<<<<<<<<<<
+ *                 if (x-img_xcenter)*(x-img_xcenter)/pixelradius2+(y-img_ycenter)*(y-img_ycenter)/pixelradius2 > 1:
+ *                     roi_view[y-1,x-1] = 0
+ */
+      __pyx_t_6 = (__pyx_v_img_ymax + 1);
+      __pyx_t_7 = __pyx_t_6;
+      for (__pyx_t_8 = 1; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
+        __pyx_v_y = __pyx_t_8;
+
+        /* "fastrometry/cython_code/PSE.pyx":54
+ *         for x in range(1,img_xmax+1):
+ *             for y in range(1,img_ymax+1):
+ *                 if (x-img_xcenter)*(x-img_xcenter)/pixelradius2+(y-img_ycenter)*(y-img_ycenter)/pixelradius2 > 1:             # <<<<<<<<<<<<<<
+ *                     roi_view[y-1,x-1] = 0
+ *     return
+ */
+        __pyx_t_9 = ((__pyx_v_x - __pyx_v_img_xcenter) * (__pyx_v_x - __pyx_v_img_xcenter));
+        if (unlikely(__pyx_v_pixelradius2 == 0)) {
+          PyErr_SetString(PyExc_ZeroDivisionError, "float division");
+          __PYX_ERR(0, 54, __pyx_L1_error)
+        }
+        __pyx_t_10 = ((__pyx_v_y - __pyx_v_img_ycenter) * (__pyx_v_y - __pyx_v_img_ycenter));
+        if (unlikely(__pyx_v_pixelradius2 == 0)) {
+          PyErr_SetString(PyExc_ZeroDivisionError, "float division");
+          __PYX_ERR(0, 54, __pyx_L1_error)
+        }
+        __pyx_t_2 = ((((__pyx_t_9 / __pyx_v_pixelradius2) + (__pyx_t_10 / __pyx_v_pixelradius2)) > 1.0) != 0);
+        if (__pyx_t_2) {
+
+          /* "fastrometry/cython_code/PSE.pyx":55
+ *             for y in range(1,img_ymax+1):
+ *                 if (x-img_xcenter)*(x-img_xcenter)/pixelradius2+(y-img_ycenter)*(y-img_ycenter)/pixelradius2 > 1:
+ *                     roi_view[y-1,x-1] = 0             # <<<<<<<<<<<<<<
+ *     return
+ * 
+ */
+          __pyx_t_11 = (__pyx_v_y - 1);
+          __pyx_t_12 = (__pyx_v_x - 1);
+          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_roi_view.data + __pyx_t_11 * __pyx_v_roi_view.strides[0]) ) + __pyx_t_12 * __pyx_v_roi_view.strides[1]) )) = 0;
+
+          /* "fastrometry/cython_code/PSE.pyx":54
+ *         for x in range(1,img_xmax+1):
+ *             for y in range(1,img_ymax+1):
+ *                 if (x-img_xcenter)*(x-img_xcenter)/pixelradius2+(y-img_ycenter)*(y-img_ycenter)/pixelradius2 > 1:             # <<<<<<<<<<<<<<
+ *                     roi_view[y-1,x-1] = 0
+ *     return
+ */
+        }
+      }
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":51
+ *         double pixelradius2 = pixelradius*pixelradius
+ * 
+ *     if shape == "circle":             # <<<<<<<<<<<<<<
+ *         for x in range(1,img_xmax+1):
+ *             for y in range(1,img_ymax+1):
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":56
+ *                 if (x-img_xcenter)*(x-img_xcenter)/pixelradius2+(y-img_ycenter)*(y-img_ycenter)/pixelradius2 > 1:
+ *                     roi_view[y-1,x-1] = 0
+ *     return             # <<<<<<<<<<<<<<
+ * 
+ * @cython.boundscheck(False)
+ */
+  goto __pyx_L0;
+
+  /* "fastrometry/cython_code/PSE.pyx":41
+ * @cython.boundscheck(False)
+ * @cython.wraparound(False)
+ * cdef void createROI(int[:,:] roi_view, int img_xmax, int img_ymax, int pixelradius, str shape):             # <<<<<<<<<<<<<<
+ *     cdef:
+ *         Py_ssize_t x
+ */
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_WriteUnraisable("fastrometry.cython_code.PSE.createROI", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
+  __pyx_L0:;
+  __Pyx_RefNannyFinishContext();
+}
+
+/* "fastrometry/cython_code/PSE.pyx":60
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef int getCircleSize(int rad):             # <<<<<<<<<<<<<<
@@ -2810,19 +4098,19 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_getCircleSize(int __pyx_v_ra
   __pyx_pybuffernd_encasedpixelnos.data = NULL;
   __pyx_pybuffernd_encasedpixelnos.rcbuffer = &__pyx_pybuffer_encasedpixelnos;
 
-  /* "fastrometry/cython_code/PSE.pyx":15
+  /* "fastrometry/cython_code/PSE.pyx":66
  *         ### The integers in the following array each represent the number of pixels encased by a circle whose radius is equal to the index plus one.
  *         ### (see https://en.wikipedia.org/wiki/Gauss_circle_problem)
  *         np.ndarray[dtype=int,ndim=1] encasedpixelnos = np.array([5,13,29,49,81,113,149,197,253,317,377,441,529,613,709,797,901,1009,1129,1257,1373,1517,1653,1793,1961,2121,2289,2453,2629,2821,3001,3209,3409,3625,3853,4053,4293,4513,4777,5025,5261,5525,5789,6077,6361])             # <<<<<<<<<<<<<<
  * 
  *     return encasedpixelnos[rad-1]
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 15, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 15, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_array); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyList_New(45); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 15, __pyx_L1_error)
+  __pyx_t_2 = PyList_New(45); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_int_5);
   __Pyx_GIVEREF(__pyx_int_5);
@@ -2972,16 +4260,16 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_getCircleSize(int __pyx_v_ra
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 15, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 15, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 66, __pyx_L1_error)
   __pyx_t_5 = ((PyArrayObject *)__pyx_t_1);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_encasedpixelnos.rcbuffer->pybuffer, (PyObject*)__pyx_t_5, &__Pyx_TypeInfo_int, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {
       __pyx_v_encasedpixelnos = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_encasedpixelnos.rcbuffer->pybuffer.buf = NULL;
-      __PYX_ERR(0, 15, __pyx_L1_error)
+      __PYX_ERR(0, 66, __pyx_L1_error)
     } else {__pyx_pybuffernd_encasedpixelnos.diminfo[0].strides = __pyx_pybuffernd_encasedpixelnos.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_encasedpixelnos.diminfo[0].shape = __pyx_pybuffernd_encasedpixelnos.rcbuffer->pybuffer.shape[0];
     }
   }
@@ -2989,7 +4277,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_getCircleSize(int __pyx_v_ra
   __pyx_v_encasedpixelnos = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "fastrometry/cython_code/PSE.pyx":17
+  /* "fastrometry/cython_code/PSE.pyx":68
  *         np.ndarray[dtype=int,ndim=1] encasedpixelnos = np.array([5,13,29,49,81,113,149,197,253,317,377,441,529,613,709,797,901,1009,1129,1257,1373,1517,1653,1793,1961,2121,2289,2453,2629,2821,3001,3209,3409,3625,3853,4053,4293,4513,4777,5025,5261,5525,5789,6077,6361])
  * 
  *     return encasedpixelnos[rad-1]             # <<<<<<<<<<<<<<
@@ -3000,7 +4288,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_getCircleSize(int __pyx_v_ra
   __pyx_r = (*__Pyx_BufPtrStrided1d(int *, __pyx_pybuffernd_encasedpixelnos.rcbuffer->pybuffer.buf, __pyx_t_6, __pyx_pybuffernd_encasedpixelnos.diminfo[0].strides));
   goto __pyx_L0;
 
-  /* "fastrometry/cython_code/PSE.pyx":9
+  /* "fastrometry/cython_code/PSE.pyx":60
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef int getCircleSize(int rad):             # <<<<<<<<<<<<<<
@@ -3031,7 +4319,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_getCircleSize(int __pyx_v_ra
   return __pyx_r;
 }
 
-/* "fastrometry/cython_code/PSE.pyx":21
+/* "fastrometry/cython_code/PSE.pyx":72
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef makePixelCircle(int rad, int[:,:] pixcircle):             # <<<<<<<<<<<<<<
@@ -3057,7 +4345,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(int __
   Py_ssize_t __pyx_t_9;
   __Pyx_RefNannySetupContext("makePixelCircle", 0);
 
-  /* "fastrometry/cython_code/PSE.pyx":25
+  /* "fastrometry/cython_code/PSE.pyx":76
  *         Py_ssize_t x
  *         Py_ssize_t y
  *         Py_ssize_t a = 0             # <<<<<<<<<<<<<<
@@ -3066,7 +4354,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(int __
  */
   __pyx_v_a = 0;
 
-  /* "fastrometry/cython_code/PSE.pyx":26
+  /* "fastrometry/cython_code/PSE.pyx":77
  *         Py_ssize_t y
  *         Py_ssize_t a = 0
  *         Py_ssize_t b = 0             # <<<<<<<<<<<<<<
@@ -3075,7 +4363,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(int __
  */
   __pyx_v_b = 0;
 
-  /* "fastrometry/cython_code/PSE.pyx":28
+  /* "fastrometry/cython_code/PSE.pyx":79
  *         Py_ssize_t b = 0
  * 
  *     for x in range(-rad,rad+1):             # <<<<<<<<<<<<<<
@@ -3087,7 +4375,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(int __
   for (__pyx_t_3 = (-__pyx_v_rad); __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_x = __pyx_t_3;
 
-    /* "fastrometry/cython_code/PSE.pyx":29
+    /* "fastrometry/cython_code/PSE.pyx":80
  * 
  *     for x in range(-rad,rad+1):
  *         for y in range(-rad,rad+1):             # <<<<<<<<<<<<<<
@@ -3099,7 +4387,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(int __
     for (__pyx_t_6 = (-__pyx_v_rad); __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
       __pyx_v_y = __pyx_t_6;
 
-      /* "fastrometry/cython_code/PSE.pyx":30
+      /* "fastrometry/cython_code/PSE.pyx":81
  *     for x in range(-rad,rad+1):
  *         for y in range(-rad,rad+1):
  *             if x*x+y*y <= rad*rad:             # <<<<<<<<<<<<<<
@@ -3109,7 +4397,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(int __
       __pyx_t_7 = ((((__pyx_v_x * __pyx_v_x) + (__pyx_v_y * __pyx_v_y)) <= (__pyx_v_rad * __pyx_v_rad)) != 0);
       if (__pyx_t_7) {
 
-        /* "fastrometry/cython_code/PSE.pyx":31
+        /* "fastrometry/cython_code/PSE.pyx":82
  *         for y in range(-rad,rad+1):
  *             if x*x+y*y <= rad*rad:
  *                 pixcircle[a,0] = x             # <<<<<<<<<<<<<<
@@ -3120,7 +4408,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(int __
         __pyx_t_9 = 0;
         *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pixcircle.data + __pyx_t_8 * __pyx_v_pixcircle.strides[0]) ) + __pyx_t_9 * __pyx_v_pixcircle.strides[1]) )) = __pyx_v_x;
 
-        /* "fastrometry/cython_code/PSE.pyx":32
+        /* "fastrometry/cython_code/PSE.pyx":83
  *             if x*x+y*y <= rad*rad:
  *                 pixcircle[a,0] = x
  *                 pixcircle[a,1] = y             # <<<<<<<<<<<<<<
@@ -3131,7 +4419,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(int __
         __pyx_t_8 = 1;
         *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pixcircle.data + __pyx_t_9 * __pyx_v_pixcircle.strides[0]) ) + __pyx_t_8 * __pyx_v_pixcircle.strides[1]) )) = __pyx_v_y;
 
-        /* "fastrometry/cython_code/PSE.pyx":33
+        /* "fastrometry/cython_code/PSE.pyx":84
  *                 pixcircle[a,0] = x
  *                 pixcircle[a,1] = y
  *                 a += 1             # <<<<<<<<<<<<<<
@@ -3140,7 +4428,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(int __
  */
         __pyx_v_a = (__pyx_v_a + 1);
 
-        /* "fastrometry/cython_code/PSE.pyx":30
+        /* "fastrometry/cython_code/PSE.pyx":81
  *     for x in range(-rad,rad+1):
  *         for y in range(-rad,rad+1):
  *             if x*x+y*y <= rad*rad:             # <<<<<<<<<<<<<<
@@ -3151,7 +4439,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(int __
     }
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":21
+  /* "fastrometry/cython_code/PSE.pyx":72
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef makePixelCircle(int rad, int[:,:] pixcircle):             # <<<<<<<<<<<<<<
@@ -3166,15 +4454,15 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(int __
   return __pyx_r;
 }
 
-/* "fastrometry/cython_code/PSE.pyx":37
+/* "fastrometry/cython_code/PSE.pyx":88
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * cdef np.ndarray fillBackgroundMap(double[:,:] bgmap_view, double[:,:] img_view, int img_xmax, int img_ymax, int sourcesep, int verbose, int debug):             # <<<<<<<<<<<<<<
+ * cdef np.ndarray fillBackgroundMap(double[:,:] bgmap_view, double[:,:] img_view, int img_xmax, int img_ymax, int sourcesep):             # <<<<<<<<<<<<<<
  * 
  *     cdef:
  */
 
-static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap(__Pyx_memviewslice __pyx_v_bgmap_view, __Pyx_memviewslice __pyx_v_img_view, int __pyx_v_img_xmax, int __pyx_v_img_ymax, int __pyx_v_sourcesep, CYTHON_UNUSED int __pyx_v_verbose, CYTHON_UNUSED int __pyx_v_debug) {
+static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap(__Pyx_memviewslice __pyx_v_bgmap_view, __Pyx_memviewslice __pyx_v_img_view, int __pyx_v_img_xmax, int __pyx_v_img_ymax, int __pyx_v_sourcesep) {
   Py_ssize_t __pyx_v_x;
   Py_ssize_t __pyx_v_y;
   double __pyx_v_tmp;
@@ -3199,7 +4487,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
   int __pyx_t_9;
   __Pyx_RefNannySetupContext("fillBackgroundMap", 0);
 
-  /* "fastrometry/cython_code/PSE.pyx":47
+  /* "fastrometry/cython_code/PSE.pyx":98
  *         double c
  *         double d
  *         int leftmost_safe_x = 1 + sourcesep             # <<<<<<<<<<<<<<
@@ -3208,7 +4496,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
   __pyx_v_leftmost_safe_x = (1 + __pyx_v_sourcesep);
 
-  /* "fastrometry/cython_code/PSE.pyx":48
+  /* "fastrometry/cython_code/PSE.pyx":99
  *         double d
  *         int leftmost_safe_x = 1 + sourcesep
  *         int topmost_safe_y = 1 + sourcesep             # <<<<<<<<<<<<<<
@@ -3217,7 +4505,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
   __pyx_v_topmost_safe_y = (1 + __pyx_v_sourcesep);
 
-  /* "fastrometry/cython_code/PSE.pyx":49
+  /* "fastrometry/cython_code/PSE.pyx":100
  *         int leftmost_safe_x = 1 + sourcesep
  *         int topmost_safe_y = 1 + sourcesep
  *         int rightmost_safe_x = img_xmax - sourcesep             # <<<<<<<<<<<<<<
@@ -3226,7 +4514,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
   __pyx_v_rightmost_safe_x = (__pyx_v_img_xmax - __pyx_v_sourcesep);
 
-  /* "fastrometry/cython_code/PSE.pyx":50
+  /* "fastrometry/cython_code/PSE.pyx":101
  *         int topmost_safe_y = 1 + sourcesep
  *         int rightmost_safe_x = img_xmax - sourcesep
  *         int bottommost_safe_y = img_ymax - sourcesep             # <<<<<<<<<<<<<<
@@ -3235,7 +4523,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
   __pyx_v_bottommost_safe_y = (__pyx_v_img_ymax - __pyx_v_sourcesep);
 
-  /* "fastrometry/cython_code/PSE.pyx":52
+  /* "fastrometry/cython_code/PSE.pyx":103
  *         int bottommost_safe_y = img_ymax - sourcesep
  * 
  *     for x in range(leftmost_safe_x,rightmost_safe_x+1):             # <<<<<<<<<<<<<<
@@ -3247,7 +4535,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
   for (__pyx_t_3 = __pyx_v_leftmost_safe_x; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_x = __pyx_t_3;
 
-    /* "fastrometry/cython_code/PSE.pyx":53
+    /* "fastrometry/cython_code/PSE.pyx":104
  * 
  *     for x in range(leftmost_safe_x,rightmost_safe_x+1):
  *         for y in range(topmost_safe_y,bottommost_safe_y+1):             # <<<<<<<<<<<<<<
@@ -3259,7 +4547,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
     for (__pyx_t_6 = __pyx_v_topmost_safe_y; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
       __pyx_v_y = __pyx_t_6;
 
-      /* "fastrometry/cython_code/PSE.pyx":54
+      /* "fastrometry/cython_code/PSE.pyx":105
  *     for x in range(leftmost_safe_x,rightmost_safe_x+1):
  *         for y in range(topmost_safe_y,bottommost_safe_y+1):
  *             a = img_view[(y-sourcesep)-1,(x-sourcesep)-1] #NW             # <<<<<<<<<<<<<<
@@ -3270,7 +4558,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
       __pyx_t_8 = ((__pyx_v_x - __pyx_v_sourcesep) - 1);
       __pyx_v_a = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_7 * __pyx_v_img_view.strides[0]) ) + __pyx_t_8 * __pyx_v_img_view.strides[1]) )));
 
-      /* "fastrometry/cython_code/PSE.pyx":55
+      /* "fastrometry/cython_code/PSE.pyx":106
  *         for y in range(topmost_safe_y,bottommost_safe_y+1):
  *             a = img_view[(y-sourcesep)-1,(x-sourcesep)-1] #NW
  *             b = img_view[(y-sourcesep)-1,(x+sourcesep)-1] #NE             # <<<<<<<<<<<<<<
@@ -3281,7 +4569,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
       __pyx_t_7 = ((__pyx_v_x + __pyx_v_sourcesep) - 1);
       __pyx_v_b = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_8 * __pyx_v_img_view.strides[0]) ) + __pyx_t_7 * __pyx_v_img_view.strides[1]) )));
 
-      /* "fastrometry/cython_code/PSE.pyx":56
+      /* "fastrometry/cython_code/PSE.pyx":107
  *             a = img_view[(y-sourcesep)-1,(x-sourcesep)-1] #NW
  *             b = img_view[(y-sourcesep)-1,(x+sourcesep)-1] #NE
  *             c = img_view[(y+sourcesep)-1,(x+sourcesep)-1] #SE             # <<<<<<<<<<<<<<
@@ -3292,7 +4580,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
       __pyx_t_8 = ((__pyx_v_x + __pyx_v_sourcesep) - 1);
       __pyx_v_c = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_7 * __pyx_v_img_view.strides[0]) ) + __pyx_t_8 * __pyx_v_img_view.strides[1]) )));
 
-      /* "fastrometry/cython_code/PSE.pyx":57
+      /* "fastrometry/cython_code/PSE.pyx":108
  *             b = img_view[(y-sourcesep)-1,(x+sourcesep)-1] #NE
  *             c = img_view[(y+sourcesep)-1,(x+sourcesep)-1] #SE
  *             d = img_view[(y+sourcesep)-1,(x-sourcesep)-1] #SW             # <<<<<<<<<<<<<<
@@ -3303,7 +4591,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
       __pyx_t_7 = ((__pyx_v_x - __pyx_v_sourcesep) - 1);
       __pyx_v_d = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_8 * __pyx_v_img_view.strides[0]) ) + __pyx_t_7 * __pyx_v_img_view.strides[1]) )));
 
-      /* "fastrometry/cython_code/PSE.pyx":58
+      /* "fastrometry/cython_code/PSE.pyx":109
  *             c = img_view[(y+sourcesep)-1,(x+sourcesep)-1] #SE
  *             d = img_view[(y+sourcesep)-1,(x-sourcesep)-1] #SW
  *             if a > b:             # <<<<<<<<<<<<<<
@@ -3313,7 +4601,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
       __pyx_t_9 = ((__pyx_v_a > __pyx_v_b) != 0);
       if (__pyx_t_9) {
 
-        /* "fastrometry/cython_code/PSE.pyx":59
+        /* "fastrometry/cython_code/PSE.pyx":110
  *             d = img_view[(y+sourcesep)-1,(x-sourcesep)-1] #SW
  *             if a > b:
  *                 tmp = a             # <<<<<<<<<<<<<<
@@ -3322,7 +4610,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_tmp = __pyx_v_a;
 
-        /* "fastrometry/cython_code/PSE.pyx":60
+        /* "fastrometry/cython_code/PSE.pyx":111
  *             if a > b:
  *                 tmp = a
  *                 a = b             # <<<<<<<<<<<<<<
@@ -3331,7 +4619,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_a = __pyx_v_b;
 
-        /* "fastrometry/cython_code/PSE.pyx":61
+        /* "fastrometry/cython_code/PSE.pyx":112
  *                 tmp = a
  *                 a = b
  *                 b = tmp             # <<<<<<<<<<<<<<
@@ -3340,7 +4628,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_b = __pyx_v_tmp;
 
-        /* "fastrometry/cython_code/PSE.pyx":58
+        /* "fastrometry/cython_code/PSE.pyx":109
  *             c = img_view[(y+sourcesep)-1,(x+sourcesep)-1] #SE
  *             d = img_view[(y+sourcesep)-1,(x-sourcesep)-1] #SW
  *             if a > b:             # <<<<<<<<<<<<<<
@@ -3349,7 +4637,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
       }
 
-      /* "fastrometry/cython_code/PSE.pyx":62
+      /* "fastrometry/cython_code/PSE.pyx":113
  *                 a = b
  *                 b = tmp
  *             if a > c:             # <<<<<<<<<<<<<<
@@ -3359,7 +4647,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
       __pyx_t_9 = ((__pyx_v_a > __pyx_v_c) != 0);
       if (__pyx_t_9) {
 
-        /* "fastrometry/cython_code/PSE.pyx":63
+        /* "fastrometry/cython_code/PSE.pyx":114
  *                 b = tmp
  *             if a > c:
  *                 tmp = a             # <<<<<<<<<<<<<<
@@ -3368,7 +4656,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_tmp = __pyx_v_a;
 
-        /* "fastrometry/cython_code/PSE.pyx":64
+        /* "fastrometry/cython_code/PSE.pyx":115
  *             if a > c:
  *                 tmp = a
  *                 a = c             # <<<<<<<<<<<<<<
@@ -3377,7 +4665,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_a = __pyx_v_c;
 
-        /* "fastrometry/cython_code/PSE.pyx":65
+        /* "fastrometry/cython_code/PSE.pyx":116
  *                 tmp = a
  *                 a = c
  *                 c = tmp             # <<<<<<<<<<<<<<
@@ -3386,7 +4674,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_c = __pyx_v_tmp;
 
-        /* "fastrometry/cython_code/PSE.pyx":62
+        /* "fastrometry/cython_code/PSE.pyx":113
  *                 a = b
  *                 b = tmp
  *             if a > c:             # <<<<<<<<<<<<<<
@@ -3395,7 +4683,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
       }
 
-      /* "fastrometry/cython_code/PSE.pyx":66
+      /* "fastrometry/cython_code/PSE.pyx":117
  *                 a = c
  *                 c = tmp
  *             if a > d:             # <<<<<<<<<<<<<<
@@ -3405,7 +4693,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
       __pyx_t_9 = ((__pyx_v_a > __pyx_v_d) != 0);
       if (__pyx_t_9) {
 
-        /* "fastrometry/cython_code/PSE.pyx":67
+        /* "fastrometry/cython_code/PSE.pyx":118
  *                 c = tmp
  *             if a > d:
  *                 tmp = a             # <<<<<<<<<<<<<<
@@ -3414,7 +4702,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_tmp = __pyx_v_a;
 
-        /* "fastrometry/cython_code/PSE.pyx":68
+        /* "fastrometry/cython_code/PSE.pyx":119
  *             if a > d:
  *                 tmp = a
  *                 a = d             # <<<<<<<<<<<<<<
@@ -3423,7 +4711,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_a = __pyx_v_d;
 
-        /* "fastrometry/cython_code/PSE.pyx":69
+        /* "fastrometry/cython_code/PSE.pyx":120
  *                 tmp = a
  *                 a = d
  *                 d = tmp             # <<<<<<<<<<<<<<
@@ -3432,7 +4720,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_d = __pyx_v_tmp;
 
-        /* "fastrometry/cython_code/PSE.pyx":66
+        /* "fastrometry/cython_code/PSE.pyx":117
  *                 a = c
  *                 c = tmp
  *             if a > d:             # <<<<<<<<<<<<<<
@@ -3441,7 +4729,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
       }
 
-      /* "fastrometry/cython_code/PSE.pyx":70
+      /* "fastrometry/cython_code/PSE.pyx":121
  *                 a = d
  *                 d = tmp
  *             if b > c:             # <<<<<<<<<<<<<<
@@ -3451,7 +4739,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
       __pyx_t_9 = ((__pyx_v_b > __pyx_v_c) != 0);
       if (__pyx_t_9) {
 
-        /* "fastrometry/cython_code/PSE.pyx":71
+        /* "fastrometry/cython_code/PSE.pyx":122
  *                 d = tmp
  *             if b > c:
  *                 tmp = b             # <<<<<<<<<<<<<<
@@ -3460,7 +4748,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_tmp = __pyx_v_b;
 
-        /* "fastrometry/cython_code/PSE.pyx":72
+        /* "fastrometry/cython_code/PSE.pyx":123
  *             if b > c:
  *                 tmp = b
  *                 b = c             # <<<<<<<<<<<<<<
@@ -3469,7 +4757,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_b = __pyx_v_c;
 
-        /* "fastrometry/cython_code/PSE.pyx":73
+        /* "fastrometry/cython_code/PSE.pyx":124
  *                 tmp = b
  *                 b = c
  *                 c = tmp             # <<<<<<<<<<<<<<
@@ -3478,7 +4766,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_c = __pyx_v_tmp;
 
-        /* "fastrometry/cython_code/PSE.pyx":70
+        /* "fastrometry/cython_code/PSE.pyx":121
  *                 a = d
  *                 d = tmp
  *             if b > c:             # <<<<<<<<<<<<<<
@@ -3487,7 +4775,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
       }
 
-      /* "fastrometry/cython_code/PSE.pyx":74
+      /* "fastrometry/cython_code/PSE.pyx":125
  *                 b = c
  *                 c = tmp
  *             if b > d:             # <<<<<<<<<<<<<<
@@ -3497,7 +4785,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
       __pyx_t_9 = ((__pyx_v_b > __pyx_v_d) != 0);
       if (__pyx_t_9) {
 
-        /* "fastrometry/cython_code/PSE.pyx":75
+        /* "fastrometry/cython_code/PSE.pyx":126
  *                 c = tmp
  *             if b > d:
  *                 tmp = b             # <<<<<<<<<<<<<<
@@ -3506,7 +4794,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_tmp = __pyx_v_b;
 
-        /* "fastrometry/cython_code/PSE.pyx":76
+        /* "fastrometry/cython_code/PSE.pyx":127
  *             if b > d:
  *                 tmp = b
  *                 b = d             # <<<<<<<<<<<<<<
@@ -3515,7 +4803,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_b = __pyx_v_d;
 
-        /* "fastrometry/cython_code/PSE.pyx":77
+        /* "fastrometry/cython_code/PSE.pyx":128
  *                 tmp = b
  *                 b = d
  *                 d = tmp             # <<<<<<<<<<<<<<
@@ -3524,7 +4812,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_d = __pyx_v_tmp;
 
-        /* "fastrometry/cython_code/PSE.pyx":74
+        /* "fastrometry/cython_code/PSE.pyx":125
  *                 b = c
  *                 c = tmp
  *             if b > d:             # <<<<<<<<<<<<<<
@@ -3533,7 +4821,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
       }
 
-      /* "fastrometry/cython_code/PSE.pyx":78
+      /* "fastrometry/cython_code/PSE.pyx":129
  *                 b = d
  *                 d = tmp
  *             if c > d:             # <<<<<<<<<<<<<<
@@ -3543,7 +4831,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
       __pyx_t_9 = ((__pyx_v_c > __pyx_v_d) != 0);
       if (__pyx_t_9) {
 
-        /* "fastrometry/cython_code/PSE.pyx":79
+        /* "fastrometry/cython_code/PSE.pyx":130
  *                 d = tmp
  *             if c > d:
  *                 tmp = c             # <<<<<<<<<<<<<<
@@ -3552,7 +4840,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_tmp = __pyx_v_c;
 
-        /* "fastrometry/cython_code/PSE.pyx":80
+        /* "fastrometry/cython_code/PSE.pyx":131
  *             if c > d:
  *                 tmp = c
  *                 c = d             # <<<<<<<<<<<<<<
@@ -3561,7 +4849,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_c = __pyx_v_d;
 
-        /* "fastrometry/cython_code/PSE.pyx":81
+        /* "fastrometry/cython_code/PSE.pyx":132
  *                 tmp = c
  *                 c = d
  *                 d = tmp             # <<<<<<<<<<<<<<
@@ -3570,7 +4858,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
         __pyx_v_d = __pyx_v_tmp;
 
-        /* "fastrometry/cython_code/PSE.pyx":78
+        /* "fastrometry/cython_code/PSE.pyx":129
  *                 b = d
  *                 d = tmp
  *             if c > d:             # <<<<<<<<<<<<<<
@@ -3579,7 +4867,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
  */
       }
 
-      /* "fastrometry/cython_code/PSE.pyx":82
+      /* "fastrometry/cython_code/PSE.pyx":133
  *                 c = d
  *                 d = tmp
  *             bgmap_view[y-1,x-1] = b             # <<<<<<<<<<<<<<
@@ -3592,10 +4880,10 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
     }
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":37
+  /* "fastrometry/cython_code/PSE.pyx":88
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * cdef np.ndarray fillBackgroundMap(double[:,:] bgmap_view, double[:,:] img_view, int img_xmax, int img_ymax, int sourcesep, int verbose, int debug):             # <<<<<<<<<<<<<<
+ * cdef np.ndarray fillBackgroundMap(double[:,:] bgmap_view, double[:,:] img_view, int img_xmax, int img_ymax, int sourcesep):             # <<<<<<<<<<<<<<
  * 
  *     cdef:
  */
@@ -3607,7 +4895,7 @@ static PyArrayObject *__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap
   return __pyx_r;
 }
 
-/* "fastrometry/cython_code/PSE.pyx":86
+/* "fastrometry/cython_code/PSE.pyx":137
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef findCentroids(int x, int y, Py_ssize_t square_rad, double[:,::] IMGview, double center_background, double[:] centroid_results_view):             # <<<<<<<<<<<<<<
@@ -3639,7 +4927,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("findCentroids", 0);
 
-  /* "fastrometry/cython_code/PSE.pyx":88
+  /* "fastrometry/cython_code/PSE.pyx":139
  * cdef findCentroids(int x, int y, Py_ssize_t square_rad, double[:,::] IMGview, double center_background, double[:] centroid_results_view):
  *     cdef:
  *         double sumOfWeightsTimesXDists = 0             # <<<<<<<<<<<<<<
@@ -3648,7 +4936,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
  */
   __pyx_v_sumOfWeightsTimesXDists = 0.0;
 
-  /* "fastrometry/cython_code/PSE.pyx":89
+  /* "fastrometry/cython_code/PSE.pyx":140
  *     cdef:
  *         double sumOfWeightsTimesXDists = 0
  *         double sumOfWeightsTimesYDists = 0             # <<<<<<<<<<<<<<
@@ -3657,7 +4945,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
  */
   __pyx_v_sumOfWeightsTimesYDists = 0.0;
 
-  /* "fastrometry/cython_code/PSE.pyx":90
+  /* "fastrometry/cython_code/PSE.pyx":141
  *         double sumOfWeightsTimesXDists = 0
  *         double sumOfWeightsTimesYDists = 0
  *         double sumOfWeights = 0             # <<<<<<<<<<<<<<
@@ -3666,7 +4954,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
  */
   __pyx_v_sumOfWeights = 0.0;
 
-  /* "fastrometry/cython_code/PSE.pyx":96
+  /* "fastrometry/cython_code/PSE.pyx":147
  *         double y_centroid
  * 
  *     if square_rad == 0:             # <<<<<<<<<<<<<<
@@ -3676,7 +4964,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
   __pyx_t_1 = ((__pyx_v_square_rad == 0) != 0);
   if (__pyx_t_1) {
 
-    /* "fastrometry/cython_code/PSE.pyx":97
+    /* "fastrometry/cython_code/PSE.pyx":148
  * 
  *     if square_rad == 0:
  *         x_centroid = x             # <<<<<<<<<<<<<<
@@ -3685,7 +4973,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
  */
     __pyx_v_x_centroid = __pyx_v_x;
 
-    /* "fastrometry/cython_code/PSE.pyx":98
+    /* "fastrometry/cython_code/PSE.pyx":149
  *     if square_rad == 0:
  *         x_centroid = x
  *         y_centroid = y             # <<<<<<<<<<<<<<
@@ -3694,7 +4982,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
  */
     __pyx_v_y_centroid = __pyx_v_y;
 
-    /* "fastrometry/cython_code/PSE.pyx":96
+    /* "fastrometry/cython_code/PSE.pyx":147
  *         double y_centroid
  * 
  *     if square_rad == 0:             # <<<<<<<<<<<<<<
@@ -3704,7 +4992,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
     goto __pyx_L3;
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":101
+  /* "fastrometry/cython_code/PSE.pyx":152
  * 
  *     else:
  *         for x_armlength in range(-square_rad, square_rad+1):             # <<<<<<<<<<<<<<
@@ -3717,7 +5005,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
     for (__pyx_t_4 = (-__pyx_v_square_rad); __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
       __pyx_v_x_armlength = __pyx_t_4;
 
-      /* "fastrometry/cython_code/PSE.pyx":102
+      /* "fastrometry/cython_code/PSE.pyx":153
  *     else:
  *         for x_armlength in range(-square_rad, square_rad+1):
  *             for y_armlength in range(-square_rad, square_rad+1):             # <<<<<<<<<<<<<<
@@ -3729,7 +5017,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
       for (__pyx_t_7 = (-__pyx_v_square_rad); __pyx_t_7 < __pyx_t_6; __pyx_t_7+=1) {
         __pyx_v_y_armlength = __pyx_t_7;
 
-        /* "fastrometry/cython_code/PSE.pyx":103
+        /* "fastrometry/cython_code/PSE.pyx":154
  *         for x_armlength in range(-square_rad, square_rad+1):
  *             for y_armlength in range(-square_rad, square_rad+1):
  *                 sumOfWeightsTimesXDists += (IMGview[(y+y_armlength)-1, (x+x_armlength)-1]-center_background)*x_armlength             # <<<<<<<<<<<<<<
@@ -3740,7 +5028,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
         __pyx_t_9 = ((__pyx_v_x + __pyx_v_x_armlength) - 1);
         __pyx_v_sumOfWeightsTimesXDists = (__pyx_v_sumOfWeightsTimesXDists + (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_IMGview.data + __pyx_t_8 * __pyx_v_IMGview.strides[0]) ) + __pyx_t_9 * __pyx_v_IMGview.strides[1]) ))) - __pyx_v_center_background) * __pyx_v_x_armlength));
 
-        /* "fastrometry/cython_code/PSE.pyx":104
+        /* "fastrometry/cython_code/PSE.pyx":155
  *             for y_armlength in range(-square_rad, square_rad+1):
  *                 sumOfWeightsTimesXDists += (IMGview[(y+y_armlength)-1, (x+x_armlength)-1]-center_background)*x_armlength
  *                 sumOfWeightsTimesYDists += (IMGview[(y+y_armlength)-1, (x+x_armlength)-1]-center_background)*y_armlength             # <<<<<<<<<<<<<<
@@ -3751,7 +5039,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
         __pyx_t_8 = ((__pyx_v_x + __pyx_v_x_armlength) - 1);
         __pyx_v_sumOfWeightsTimesYDists = (__pyx_v_sumOfWeightsTimesYDists + (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_IMGview.data + __pyx_t_9 * __pyx_v_IMGview.strides[0]) ) + __pyx_t_8 * __pyx_v_IMGview.strides[1]) ))) - __pyx_v_center_background) * __pyx_v_y_armlength));
 
-        /* "fastrometry/cython_code/PSE.pyx":105
+        /* "fastrometry/cython_code/PSE.pyx":156
  *                 sumOfWeightsTimesXDists += (IMGview[(y+y_armlength)-1, (x+x_armlength)-1]-center_background)*x_armlength
  *                 sumOfWeightsTimesYDists += (IMGview[(y+y_armlength)-1, (x+x_armlength)-1]-center_background)*y_armlength
  *                 sumOfWeights += (IMGview[(y+y_armlength)-1, (x+x_armlength)-1]-center_background)             # <<<<<<<<<<<<<<
@@ -3764,7 +5052,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
       }
     }
 
-    /* "fastrometry/cython_code/PSE.pyx":106
+    /* "fastrometry/cython_code/PSE.pyx":157
  *                 sumOfWeightsTimesYDists += (IMGview[(y+y_armlength)-1, (x+x_armlength)-1]-center_background)*y_armlength
  *                 sumOfWeights += (IMGview[(y+y_armlength)-1, (x+x_armlength)-1]-center_background)
  *         x_centroid = x+sumOfWeightsTimesXDists/sumOfWeights             # <<<<<<<<<<<<<<
@@ -3773,11 +5061,11 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
  */
     if (unlikely(__pyx_v_sumOfWeights == 0)) {
       PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-      __PYX_ERR(0, 106, __pyx_L1_error)
+      __PYX_ERR(0, 157, __pyx_L1_error)
     }
     __pyx_v_x_centroid = (__pyx_v_x + (__pyx_v_sumOfWeightsTimesXDists / __pyx_v_sumOfWeights));
 
-    /* "fastrometry/cython_code/PSE.pyx":107
+    /* "fastrometry/cython_code/PSE.pyx":158
  *                 sumOfWeights += (IMGview[(y+y_armlength)-1, (x+x_armlength)-1]-center_background)
  *         x_centroid = x+sumOfWeightsTimesXDists/sumOfWeights
  *         y_centroid = y+sumOfWeightsTimesYDists/sumOfWeights             # <<<<<<<<<<<<<<
@@ -3786,13 +5074,13 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
  */
     if (unlikely(__pyx_v_sumOfWeights == 0)) {
       PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-      __PYX_ERR(0, 107, __pyx_L1_error)
+      __PYX_ERR(0, 158, __pyx_L1_error)
     }
     __pyx_v_y_centroid = (__pyx_v_y + (__pyx_v_sumOfWeightsTimesYDists / __pyx_v_sumOfWeights));
   }
   __pyx_L3:;
 
-  /* "fastrometry/cython_code/PSE.pyx":109
+  /* "fastrometry/cython_code/PSE.pyx":160
  *         y_centroid = y+sumOfWeightsTimesYDists/sumOfWeights
  * 
  *     centroid_results_view[0] = x_centroid             # <<<<<<<<<<<<<<
@@ -3802,7 +5090,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
   __pyx_t_9 = 0;
   *((double *) ( /* dim=0 */ (__pyx_v_centroid_results_view.data + __pyx_t_9 * __pyx_v_centroid_results_view.strides[0]) )) = __pyx_v_x_centroid;
 
-  /* "fastrometry/cython_code/PSE.pyx":110
+  /* "fastrometry/cython_code/PSE.pyx":161
  * 
  *     centroid_results_view[0] = x_centroid
  *     centroid_results_view[1] = y_centroid             # <<<<<<<<<<<<<<
@@ -3812,7 +5100,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
   __pyx_t_9 = 1;
   *((double *) ( /* dim=0 */ (__pyx_v_centroid_results_view.data + __pyx_t_9 * __pyx_v_centroid_results_view.strides[0]) )) = __pyx_v_y_centroid;
 
-  /* "fastrometry/cython_code/PSE.pyx":111
+  /* "fastrometry/cython_code/PSE.pyx":162
  *     centroid_results_view[0] = x_centroid
  *     centroid_results_view[1] = y_centroid
  *     centroid_results_view[2] = sumOfWeights             # <<<<<<<<<<<<<<
@@ -3822,7 +5110,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
   __pyx_t_9 = 2;
   *((double *) ( /* dim=0 */ (__pyx_v_centroid_results_view.data + __pyx_t_9 * __pyx_v_centroid_results_view.strides[0]) )) = __pyx_v_sumOfWeights;
 
-  /* "fastrometry/cython_code/PSE.pyx":86
+  /* "fastrometry/cython_code/PSE.pyx":137
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef findCentroids(int x, int y, Py_ssize_t square_rad, double[:,::] IMGview, double center_background, double[:] centroid_results_view):             # <<<<<<<<<<<<<<
@@ -3842,7 +5130,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(int __py
   return __pyx_r;
 }
 
-/* "fastrometry/cython_code/PSE.pyx":115
+/* "fastrometry/cython_code/PSE.pyx":166
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef findIslandCentroids(double[:,:] img_view, int[:] islandbnds_view, double[:] cntdresults_view):             # <<<<<<<<<<<<<<
@@ -3880,7 +5168,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("findIslandCentroids", 0);
 
-  /* "fastrometry/cython_code/PSE.pyx":119
+  /* "fastrometry/cython_code/PSE.pyx":170
  *         Py_ssize_t x_length
  *         Py_ssize_t y_length
  *         double sumOfWeightsTimesXDists = 0             # <<<<<<<<<<<<<<
@@ -3889,7 +5177,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
  */
   __pyx_v_sumOfWeightsTimesXDists = 0.0;
 
-  /* "fastrometry/cython_code/PSE.pyx":120
+  /* "fastrometry/cython_code/PSE.pyx":171
  *         Py_ssize_t y_length
  *         double sumOfWeightsTimesXDists = 0
  *         double sumOfWeightsTimesYDists = 0             # <<<<<<<<<<<<<<
@@ -3898,7 +5186,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
  */
   __pyx_v_sumOfWeightsTimesYDists = 0.0;
 
-  /* "fastrometry/cython_code/PSE.pyx":121
+  /* "fastrometry/cython_code/PSE.pyx":172
  *         double sumOfWeightsTimesXDists = 0
  *         double sumOfWeightsTimesYDists = 0
  *         double sumOfWeights = 0             # <<<<<<<<<<<<<<
@@ -3907,7 +5195,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
  */
   __pyx_v_sumOfWeights = 0.0;
 
-  /* "fastrometry/cython_code/PSE.pyx":125
+  /* "fastrometry/cython_code/PSE.pyx":176
  *         double y_centroid
  * 
  *     if islandbnds_view[1]-islandbnds_view[0] == 0:             # <<<<<<<<<<<<<<
@@ -3919,7 +5207,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
   __pyx_t_3 = ((((*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_1 * __pyx_v_islandbnds_view.strides[0]) ))) - (*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_2 * __pyx_v_islandbnds_view.strides[0]) )))) == 0) != 0);
   if (__pyx_t_3) {
 
-    /* "fastrometry/cython_code/PSE.pyx":126
+    /* "fastrometry/cython_code/PSE.pyx":177
  * 
  *     if islandbnds_view[1]-islandbnds_view[0] == 0:
  *         islandbnds_view[0] -= 1             # <<<<<<<<<<<<<<
@@ -3929,7 +5217,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
     __pyx_t_2 = 0;
     *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_2 * __pyx_v_islandbnds_view.strides[0]) )) -= 1;
 
-    /* "fastrometry/cython_code/PSE.pyx":127
+    /* "fastrometry/cython_code/PSE.pyx":178
  *     if islandbnds_view[1]-islandbnds_view[0] == 0:
  *         islandbnds_view[0] -= 1
  *         islandbnds_view[1] += 1             # <<<<<<<<<<<<<<
@@ -3939,7 +5227,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
     __pyx_t_2 = 1;
     *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_2 * __pyx_v_islandbnds_view.strides[0]) )) += 1;
 
-    /* "fastrometry/cython_code/PSE.pyx":125
+    /* "fastrometry/cython_code/PSE.pyx":176
  *         double y_centroid
  * 
  *     if islandbnds_view[1]-islandbnds_view[0] == 0:             # <<<<<<<<<<<<<<
@@ -3948,7 +5236,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
  */
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":128
+  /* "fastrometry/cython_code/PSE.pyx":179
  *         islandbnds_view[0] -= 1
  *         islandbnds_view[1] += 1
  *     if islandbnds_view[3]-islandbnds_view[2] == 0:             # <<<<<<<<<<<<<<
@@ -3960,7 +5248,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
   __pyx_t_3 = ((((*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_2 * __pyx_v_islandbnds_view.strides[0]) ))) - (*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_1 * __pyx_v_islandbnds_view.strides[0]) )))) == 0) != 0);
   if (__pyx_t_3) {
 
-    /* "fastrometry/cython_code/PSE.pyx":129
+    /* "fastrometry/cython_code/PSE.pyx":180
  *         islandbnds_view[1] += 1
  *     if islandbnds_view[3]-islandbnds_view[2] == 0:
  *         islandbnds_view[2] -= 1             # <<<<<<<<<<<<<<
@@ -3970,7 +5258,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
     __pyx_t_1 = 2;
     *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_1 * __pyx_v_islandbnds_view.strides[0]) )) -= 1;
 
-    /* "fastrometry/cython_code/PSE.pyx":130
+    /* "fastrometry/cython_code/PSE.pyx":181
  *     if islandbnds_view[3]-islandbnds_view[2] == 0:
  *         islandbnds_view[2] -= 1
  *         islandbnds_view[3] += 1             # <<<<<<<<<<<<<<
@@ -3980,7 +5268,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
     __pyx_t_1 = 3;
     *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_1 * __pyx_v_islandbnds_view.strides[0]) )) += 1;
 
-    /* "fastrometry/cython_code/PSE.pyx":128
+    /* "fastrometry/cython_code/PSE.pyx":179
  *         islandbnds_view[0] -= 1
  *         islandbnds_view[1] += 1
  *     if islandbnds_view[3]-islandbnds_view[2] == 0:             # <<<<<<<<<<<<<<
@@ -3989,7 +5277,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
  */
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":133
+  /* "fastrometry/cython_code/PSE.pyx":184
  * 
  * 
  *     for x in range(islandbnds_view[0], islandbnds_view[1]+1):             # <<<<<<<<<<<<<<
@@ -3997,12 +5285,12 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
  *             sumOfWeightsTimesXDists += img_view[y-1,x-1]*x
  */
   __pyx_t_1 = 0;
-  __pyx_t_4 = __Pyx_PyInt_From_int((*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_1 * __pyx_v_islandbnds_view.strides[0]) )))); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyInt_From_int((*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_1 * __pyx_v_islandbnds_view.strides[0]) )))); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 184, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_1 = 1;
-  __pyx_t_5 = __Pyx_PyInt_From_long(((*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_1 * __pyx_v_islandbnds_view.strides[0]) ))) + 1)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_long(((*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_1 * __pyx_v_islandbnds_view.strides[0]) ))) + 1)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 184, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 184, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_GIVEREF(__pyx_t_4);
   PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_4);
@@ -4010,16 +5298,16 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
   PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_5);
   __pyx_t_4 = 0;
   __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_range, __pyx_t_6, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_range, __pyx_t_6, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 184, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(PyList_CheckExact(__pyx_t_5)) || PyTuple_CheckExact(__pyx_t_5)) {
     __pyx_t_6 = __pyx_t_5; __Pyx_INCREF(__pyx_t_6); __pyx_t_7 = 0;
     __pyx_t_8 = NULL;
   } else {
-    __pyx_t_7 = -1; __pyx_t_6 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 133, __pyx_L1_error)
+    __pyx_t_7 = -1; __pyx_t_6 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 184, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_8 = Py_TYPE(__pyx_t_6)->tp_iternext; if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 133, __pyx_L1_error)
+    __pyx_t_8 = Py_TYPE(__pyx_t_6)->tp_iternext; if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 184, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   for (;;) {
@@ -4027,17 +5315,17 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
       if (likely(PyList_CheckExact(__pyx_t_6))) {
         if (__pyx_t_7 >= PyList_GET_SIZE(__pyx_t_6)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_5 = PyList_GET_ITEM(__pyx_t_6, __pyx_t_7); __Pyx_INCREF(__pyx_t_5); __pyx_t_7++; if (unlikely(0 < 0)) __PYX_ERR(0, 133, __pyx_L1_error)
+        __pyx_t_5 = PyList_GET_ITEM(__pyx_t_6, __pyx_t_7); __Pyx_INCREF(__pyx_t_5); __pyx_t_7++; if (unlikely(0 < 0)) __PYX_ERR(0, 184, __pyx_L1_error)
         #else
-        __pyx_t_5 = PySequence_ITEM(__pyx_t_6, __pyx_t_7); __pyx_t_7++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 133, __pyx_L1_error)
+        __pyx_t_5 = PySequence_ITEM(__pyx_t_6, __pyx_t_7); __pyx_t_7++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 184, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         #endif
       } else {
         if (__pyx_t_7 >= PyTuple_GET_SIZE(__pyx_t_6)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_6, __pyx_t_7); __Pyx_INCREF(__pyx_t_5); __pyx_t_7++; if (unlikely(0 < 0)) __PYX_ERR(0, 133, __pyx_L1_error)
+        __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_6, __pyx_t_7); __Pyx_INCREF(__pyx_t_5); __pyx_t_7++; if (unlikely(0 < 0)) __PYX_ERR(0, 184, __pyx_L1_error)
         #else
-        __pyx_t_5 = PySequence_ITEM(__pyx_t_6, __pyx_t_7); __pyx_t_7++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 133, __pyx_L1_error)
+        __pyx_t_5 = PySequence_ITEM(__pyx_t_6, __pyx_t_7); __pyx_t_7++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 184, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         #endif
       }
@@ -4047,7 +5335,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 133, __pyx_L1_error)
+          else __PYX_ERR(0, 184, __pyx_L1_error)
         }
         break;
       }
@@ -4056,7 +5344,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
     __Pyx_XDECREF_SET(__pyx_v_x, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "fastrometry/cython_code/PSE.pyx":134
+    /* "fastrometry/cython_code/PSE.pyx":185
  * 
  *     for x in range(islandbnds_view[0], islandbnds_view[1]+1):
  *         for y in range(islandbnds_view[2], islandbnds_view[3]+1):             # <<<<<<<<<<<<<<
@@ -4064,12 +5352,12 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
  *             sumOfWeightsTimesYDists += img_view[y-1,x-1]*y
  */
     __pyx_t_1 = 2;
-    __pyx_t_5 = __Pyx_PyInt_From_int((*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_1 * __pyx_v_islandbnds_view.strides[0]) )))); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 134, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyInt_From_int((*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_1 * __pyx_v_islandbnds_view.strides[0]) )))); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 185, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_1 = 3;
-    __pyx_t_4 = __Pyx_PyInt_From_long(((*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_1 * __pyx_v_islandbnds_view.strides[0]) ))) + 1)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 134, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyInt_From_long(((*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_1 * __pyx_v_islandbnds_view.strides[0]) ))) + 1)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 185, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_9 = PyTuple_New(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 134, __pyx_L1_error)
+    __pyx_t_9 = PyTuple_New(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 185, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_GIVEREF(__pyx_t_5);
     PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_5);
@@ -4077,16 +5365,16 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
     PyTuple_SET_ITEM(__pyx_t_9, 1, __pyx_t_4);
     __pyx_t_5 = 0;
     __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_range, __pyx_t_9, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 134, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_range, __pyx_t_9, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 185, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     if (likely(PyList_CheckExact(__pyx_t_4)) || PyTuple_CheckExact(__pyx_t_4)) {
       __pyx_t_9 = __pyx_t_4; __Pyx_INCREF(__pyx_t_9); __pyx_t_10 = 0;
       __pyx_t_11 = NULL;
     } else {
-      __pyx_t_10 = -1; __pyx_t_9 = PyObject_GetIter(__pyx_t_4); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 134, __pyx_L1_error)
+      __pyx_t_10 = -1; __pyx_t_9 = PyObject_GetIter(__pyx_t_4); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 185, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_11 = Py_TYPE(__pyx_t_9)->tp_iternext; if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 134, __pyx_L1_error)
+      __pyx_t_11 = Py_TYPE(__pyx_t_9)->tp_iternext; if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 185, __pyx_L1_error)
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     for (;;) {
@@ -4094,17 +5382,17 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
         if (likely(PyList_CheckExact(__pyx_t_9))) {
           if (__pyx_t_10 >= PyList_GET_SIZE(__pyx_t_9)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_4 = PyList_GET_ITEM(__pyx_t_9, __pyx_t_10); __Pyx_INCREF(__pyx_t_4); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(0, 134, __pyx_L1_error)
+          __pyx_t_4 = PyList_GET_ITEM(__pyx_t_9, __pyx_t_10); __Pyx_INCREF(__pyx_t_4); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(0, 185, __pyx_L1_error)
           #else
-          __pyx_t_4 = PySequence_ITEM(__pyx_t_9, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 134, __pyx_L1_error)
+          __pyx_t_4 = PySequence_ITEM(__pyx_t_9, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 185, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
           #endif
         } else {
           if (__pyx_t_10 >= PyTuple_GET_SIZE(__pyx_t_9)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_9, __pyx_t_10); __Pyx_INCREF(__pyx_t_4); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(0, 134, __pyx_L1_error)
+          __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_9, __pyx_t_10); __Pyx_INCREF(__pyx_t_4); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(0, 185, __pyx_L1_error)
           #else
-          __pyx_t_4 = PySequence_ITEM(__pyx_t_9, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 134, __pyx_L1_error)
+          __pyx_t_4 = PySequence_ITEM(__pyx_t_9, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 185, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
           #endif
         }
@@ -4114,7 +5402,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-            else __PYX_ERR(0, 134, __pyx_L1_error)
+            else __PYX_ERR(0, 185, __pyx_L1_error)
           }
           break;
         }
@@ -4123,90 +5411,90 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
       __Pyx_XDECREF_SET(__pyx_v_y, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "fastrometry/cython_code/PSE.pyx":135
+      /* "fastrometry/cython_code/PSE.pyx":186
  *     for x in range(islandbnds_view[0], islandbnds_view[1]+1):
  *         for y in range(islandbnds_view[2], islandbnds_view[3]+1):
  *             sumOfWeightsTimesXDists += img_view[y-1,x-1]*x             # <<<<<<<<<<<<<<
  *             sumOfWeightsTimesYDists += img_view[y-1,x-1]*y
  *             sumOfWeights += img_view[y-1,x-1]
  */
-      __pyx_t_4 = PyFloat_FromDouble(__pyx_v_sumOfWeightsTimesXDists); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 135, __pyx_L1_error)
+      __pyx_t_4 = PyFloat_FromDouble(__pyx_v_sumOfWeightsTimesXDists); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_5 = __Pyx_PyInt_SubtractObjC(__pyx_v_y, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 135, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyInt_SubtractObjC(__pyx_v_y, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_12 = __Pyx_PyIndex_AsSsize_t(__pyx_t_5); if (unlikely((__pyx_t_12 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 135, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_PyIndex_AsSsize_t(__pyx_t_5); if (unlikely((__pyx_t_12 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyInt_SubtractObjC(__pyx_v_x, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 135, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyInt_SubtractObjC(__pyx_v_x, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_13 = __Pyx_PyIndex_AsSsize_t(__pyx_t_5); if (unlikely((__pyx_t_13 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 135, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyIndex_AsSsize_t(__pyx_t_5); if (unlikely((__pyx_t_13 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_1 = __pyx_t_12;
       __pyx_t_2 = __pyx_t_13;
-      __pyx_t_5 = PyFloat_FromDouble((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_1 * __pyx_v_img_view.strides[0]) ) + __pyx_t_2 * __pyx_v_img_view.strides[1]) )))); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 135, __pyx_L1_error)
+      __pyx_t_5 = PyFloat_FromDouble((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_1 * __pyx_v_img_view.strides[0]) ) + __pyx_t_2 * __pyx_v_img_view.strides[1]) )))); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_14 = PyNumber_Multiply(__pyx_t_5, __pyx_v_x); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 135, __pyx_L1_error)
+      __pyx_t_14 = PyNumber_Multiply(__pyx_t_5, __pyx_v_x); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = PyNumber_InPlaceAdd(__pyx_t_4, __pyx_t_14); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 135, __pyx_L1_error)
+      __pyx_t_5 = PyNumber_InPlaceAdd(__pyx_t_4, __pyx_t_14); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-      __pyx_t_15 = __pyx_PyFloat_AsDouble(__pyx_t_5); if (unlikely((__pyx_t_15 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 135, __pyx_L1_error)
+      __pyx_t_15 = __pyx_PyFloat_AsDouble(__pyx_t_5); if (unlikely((__pyx_t_15 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_v_sumOfWeightsTimesXDists = __pyx_t_15;
 
-      /* "fastrometry/cython_code/PSE.pyx":136
+      /* "fastrometry/cython_code/PSE.pyx":187
  *         for y in range(islandbnds_view[2], islandbnds_view[3]+1):
  *             sumOfWeightsTimesXDists += img_view[y-1,x-1]*x
  *             sumOfWeightsTimesYDists += img_view[y-1,x-1]*y             # <<<<<<<<<<<<<<
  *             sumOfWeights += img_view[y-1,x-1]
  *     x_centroid = sumOfWeightsTimesXDists/sumOfWeights
  */
-      __pyx_t_5 = PyFloat_FromDouble(__pyx_v_sumOfWeightsTimesYDists); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 136, __pyx_L1_error)
+      __pyx_t_5 = PyFloat_FromDouble(__pyx_v_sumOfWeightsTimesYDists); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_14 = __Pyx_PyInt_SubtractObjC(__pyx_v_y, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 136, __pyx_L1_error)
+      __pyx_t_14 = __Pyx_PyInt_SubtractObjC(__pyx_v_y, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_13 = __Pyx_PyIndex_AsSsize_t(__pyx_t_14); if (unlikely((__pyx_t_13 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 136, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyIndex_AsSsize_t(__pyx_t_14); if (unlikely((__pyx_t_13 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-      __pyx_t_14 = __Pyx_PyInt_SubtractObjC(__pyx_v_x, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 136, __pyx_L1_error)
+      __pyx_t_14 = __Pyx_PyInt_SubtractObjC(__pyx_v_x, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_12 = __Pyx_PyIndex_AsSsize_t(__pyx_t_14); if (unlikely((__pyx_t_12 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 136, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_PyIndex_AsSsize_t(__pyx_t_14); if (unlikely((__pyx_t_12 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
       __pyx_t_2 = __pyx_t_13;
       __pyx_t_1 = __pyx_t_12;
-      __pyx_t_14 = PyFloat_FromDouble((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_2 * __pyx_v_img_view.strides[0]) ) + __pyx_t_1 * __pyx_v_img_view.strides[1]) )))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 136, __pyx_L1_error)
+      __pyx_t_14 = PyFloat_FromDouble((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_2 * __pyx_v_img_view.strides[0]) ) + __pyx_t_1 * __pyx_v_img_view.strides[1]) )))); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_4 = PyNumber_Multiply(__pyx_t_14, __pyx_v_y); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 136, __pyx_L1_error)
+      __pyx_t_4 = PyNumber_Multiply(__pyx_t_14, __pyx_v_y); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-      __pyx_t_14 = PyNumber_InPlaceAdd(__pyx_t_5, __pyx_t_4); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 136, __pyx_L1_error)
+      __pyx_t_14 = PyNumber_InPlaceAdd(__pyx_t_5, __pyx_t_4); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_15 = __pyx_PyFloat_AsDouble(__pyx_t_14); if (unlikely((__pyx_t_15 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 136, __pyx_L1_error)
+      __pyx_t_15 = __pyx_PyFloat_AsDouble(__pyx_t_14); if (unlikely((__pyx_t_15 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 187, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
       __pyx_v_sumOfWeightsTimesYDists = __pyx_t_15;
 
-      /* "fastrometry/cython_code/PSE.pyx":137
+      /* "fastrometry/cython_code/PSE.pyx":188
  *             sumOfWeightsTimesXDists += img_view[y-1,x-1]*x
  *             sumOfWeightsTimesYDists += img_view[y-1,x-1]*y
  *             sumOfWeights += img_view[y-1,x-1]             # <<<<<<<<<<<<<<
  *     x_centroid = sumOfWeightsTimesXDists/sumOfWeights
  *     y_centroid = sumOfWeightsTimesYDists/sumOfWeights
  */
-      __pyx_t_14 = __Pyx_PyInt_SubtractObjC(__pyx_v_y, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 137, __pyx_L1_error)
+      __pyx_t_14 = __Pyx_PyInt_SubtractObjC(__pyx_v_y, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 188, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_12 = __Pyx_PyIndex_AsSsize_t(__pyx_t_14); if (unlikely((__pyx_t_12 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 137, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_PyIndex_AsSsize_t(__pyx_t_14); if (unlikely((__pyx_t_12 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 188, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-      __pyx_t_14 = __Pyx_PyInt_SubtractObjC(__pyx_v_x, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 137, __pyx_L1_error)
+      __pyx_t_14 = __Pyx_PyInt_SubtractObjC(__pyx_v_x, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 188, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_13 = __Pyx_PyIndex_AsSsize_t(__pyx_t_14); if (unlikely((__pyx_t_13 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 137, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyIndex_AsSsize_t(__pyx_t_14); if (unlikely((__pyx_t_13 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 188, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
       __pyx_t_1 = __pyx_t_12;
       __pyx_t_2 = __pyx_t_13;
       __pyx_v_sumOfWeights = (__pyx_v_sumOfWeights + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_1 * __pyx_v_img_view.strides[0]) ) + __pyx_t_2 * __pyx_v_img_view.strides[1]) ))));
 
-      /* "fastrometry/cython_code/PSE.pyx":134
+      /* "fastrometry/cython_code/PSE.pyx":185
  * 
  *     for x in range(islandbnds_view[0], islandbnds_view[1]+1):
  *         for y in range(islandbnds_view[2], islandbnds_view[3]+1):             # <<<<<<<<<<<<<<
@@ -4216,7 +5504,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
     }
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-    /* "fastrometry/cython_code/PSE.pyx":133
+    /* "fastrometry/cython_code/PSE.pyx":184
  * 
  * 
  *     for x in range(islandbnds_view[0], islandbnds_view[1]+1):             # <<<<<<<<<<<<<<
@@ -4226,7 +5514,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
   }
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* "fastrometry/cython_code/PSE.pyx":138
+  /* "fastrometry/cython_code/PSE.pyx":189
  *             sumOfWeightsTimesYDists += img_view[y-1,x-1]*y
  *             sumOfWeights += img_view[y-1,x-1]
  *     x_centroid = sumOfWeightsTimesXDists/sumOfWeights             # <<<<<<<<<<<<<<
@@ -4235,11 +5523,11 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
  */
   if (unlikely(__pyx_v_sumOfWeights == 0)) {
     PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-    __PYX_ERR(0, 138, __pyx_L1_error)
+    __PYX_ERR(0, 189, __pyx_L1_error)
   }
   __pyx_v_x_centroid = (__pyx_v_sumOfWeightsTimesXDists / __pyx_v_sumOfWeights);
 
-  /* "fastrometry/cython_code/PSE.pyx":139
+  /* "fastrometry/cython_code/PSE.pyx":190
  *             sumOfWeights += img_view[y-1,x-1]
  *     x_centroid = sumOfWeightsTimesXDists/sumOfWeights
  *     y_centroid = sumOfWeightsTimesYDists/sumOfWeights             # <<<<<<<<<<<<<<
@@ -4248,11 +5536,11 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
  */
   if (unlikely(__pyx_v_sumOfWeights == 0)) {
     PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-    __PYX_ERR(0, 139, __pyx_L1_error)
+    __PYX_ERR(0, 190, __pyx_L1_error)
   }
   __pyx_v_y_centroid = (__pyx_v_sumOfWeightsTimesYDists / __pyx_v_sumOfWeights);
 
-  /* "fastrometry/cython_code/PSE.pyx":141
+  /* "fastrometry/cython_code/PSE.pyx":192
  *     y_centroid = sumOfWeightsTimesYDists/sumOfWeights
  * 
  *     cntdresults_view[0] = x_centroid             # <<<<<<<<<<<<<<
@@ -4262,7 +5550,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
   __pyx_t_2 = 0;
   *((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_2 * __pyx_v_cntdresults_view.strides[0]) )) = __pyx_v_x_centroid;
 
-  /* "fastrometry/cython_code/PSE.pyx":142
+  /* "fastrometry/cython_code/PSE.pyx":193
  * 
  *     cntdresults_view[0] = x_centroid
  *     cntdresults_view[1] = y_centroid             # <<<<<<<<<<<<<<
@@ -4272,7 +5560,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
   __pyx_t_2 = 1;
   *((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_2 * __pyx_v_cntdresults_view.strides[0]) )) = __pyx_v_y_centroid;
 
-  /* "fastrometry/cython_code/PSE.pyx":143
+  /* "fastrometry/cython_code/PSE.pyx":194
  *     cntdresults_view[0] = x_centroid
  *     cntdresults_view[1] = y_centroid
  *     cntdresults_view[2] = sumOfWeights             # <<<<<<<<<<<<<<
@@ -4282,7 +5570,7 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
   __pyx_t_2 = 2;
   *((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_2 * __pyx_v_cntdresults_view.strides[0]) )) = __pyx_v_sumOfWeights;
 
-  /* "fastrometry/cython_code/PSE.pyx":115
+  /* "fastrometry/cython_code/PSE.pyx":166
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef findIslandCentroids(double[:,:] img_view, int[:] islandbnds_view, double[:] cntdresults_view):             # <<<<<<<<<<<<<<
@@ -4309,15 +5597,15 @@ static PyObject *__pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__
   return __pyx_r;
 }
 
-/* "fastrometry/cython_code/PSE.pyx":147
+/* "fastrometry/cython_code/PSE.pyx":198
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * cdef void doQuickerRecursiveWalk(Py_ssize_t x, Py_ssize_t y, int[:,:] occupymap_view, int[:,:] sindmap_view, int g):             # <<<<<<<<<<<<<<
+ * cdef void doQuickerRecursiveWalk(Py_ssize_t x, Py_ssize_t y, int[:,:] occupymap_view, int[:,:] srcindexmap_view, int g):             # <<<<<<<<<<<<<<
  *     occupymap_view[y-1,x-1] = g
- *     sindmap_view[y-1,x-1] = g
+ *     srcindexmap_view[y-1,x-1] = g
  */
 
-static void __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(Py_ssize_t __pyx_v_x, Py_ssize_t __pyx_v_y, __Pyx_memviewslice __pyx_v_occupymap_view, __Pyx_memviewslice __pyx_v_sindmap_view, int __pyx_v_g) {
+static void __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(Py_ssize_t __pyx_v_x, Py_ssize_t __pyx_v_y, __Pyx_memviewslice __pyx_v_occupymap_view, __Pyx_memviewslice __pyx_v_srcindexmap_view, int __pyx_v_g) {
   Py_ssize_t __pyx_v_surr_x;
   Py_ssize_t __pyx_v_surr_y;
   __Pyx_RefNannyDeclarations
@@ -4332,29 +5620,29 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(Py_s
   int __pyx_t_9;
   __Pyx_RefNannySetupContext("doQuickerRecursiveWalk", 0);
 
-  /* "fastrometry/cython_code/PSE.pyx":148
+  /* "fastrometry/cython_code/PSE.pyx":199
  * @cython.wraparound(False)
- * cdef void doQuickerRecursiveWalk(Py_ssize_t x, Py_ssize_t y, int[:,:] occupymap_view, int[:,:] sindmap_view, int g):
+ * cdef void doQuickerRecursiveWalk(Py_ssize_t x, Py_ssize_t y, int[:,:] occupymap_view, int[:,:] srcindexmap_view, int g):
  *     occupymap_view[y-1,x-1] = g             # <<<<<<<<<<<<<<
- *     sindmap_view[y-1,x-1] = g
+ *     srcindexmap_view[y-1,x-1] = g
  *     cdef:
  */
   __pyx_t_1 = (__pyx_v_y - 1);
   __pyx_t_2 = (__pyx_v_x - 1);
   *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_occupymap_view.data + __pyx_t_1 * __pyx_v_occupymap_view.strides[0]) ) + __pyx_t_2 * __pyx_v_occupymap_view.strides[1]) )) = __pyx_v_g;
 
-  /* "fastrometry/cython_code/PSE.pyx":149
- * cdef void doQuickerRecursiveWalk(Py_ssize_t x, Py_ssize_t y, int[:,:] occupymap_view, int[:,:] sindmap_view, int g):
+  /* "fastrometry/cython_code/PSE.pyx":200
+ * cdef void doQuickerRecursiveWalk(Py_ssize_t x, Py_ssize_t y, int[:,:] occupymap_view, int[:,:] srcindexmap_view, int g):
  *     occupymap_view[y-1,x-1] = g
- *     sindmap_view[y-1,x-1] = g             # <<<<<<<<<<<<<<
+ *     srcindexmap_view[y-1,x-1] = g             # <<<<<<<<<<<<<<
  *     cdef:
  *         Py_ssize_t surr_x
  */
   __pyx_t_2 = (__pyx_v_y - 1);
   __pyx_t_1 = (__pyx_v_x - 1);
-  *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sindmap_view.data + __pyx_t_2 * __pyx_v_sindmap_view.strides[0]) ) + __pyx_t_1 * __pyx_v_sindmap_view.strides[1]) )) = __pyx_v_g;
+  *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_srcindexmap_view.data + __pyx_t_2 * __pyx_v_srcindexmap_view.strides[0]) ) + __pyx_t_1 * __pyx_v_srcindexmap_view.strides[1]) )) = __pyx_v_g;
 
-  /* "fastrometry/cython_code/PSE.pyx":153
+  /* "fastrometry/cython_code/PSE.pyx":204
  *         Py_ssize_t surr_x
  *         Py_ssize_t surr_y
  *     for surr_x in range(x-1,x+2):             # <<<<<<<<<<<<<<
@@ -4366,23 +5654,23 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(Py_s
   for (__pyx_t_5 = (__pyx_v_x - 1); __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
     __pyx_v_surr_x = __pyx_t_5;
 
-    /* "fastrometry/cython_code/PSE.pyx":154
+    /* "fastrometry/cython_code/PSE.pyx":205
  *         Py_ssize_t surr_y
  *     for surr_x in range(x-1,x+2):
  *         for surr_y in range(y-1,y+2):             # <<<<<<<<<<<<<<
  *             if occupymap_view[surr_y-1,surr_x-1] == -2:
- *                 doQuickerRecursiveWalk(surr_x,surr_y,occupymap_view,sindmap_view,g)
+ *                 doQuickerRecursiveWalk(surr_x,surr_y,occupymap_view,srcindexmap_view,g)
  */
     __pyx_t_6 = (__pyx_v_y + 2);
     __pyx_t_7 = __pyx_t_6;
     for (__pyx_t_8 = (__pyx_v_y - 1); __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
       __pyx_v_surr_y = __pyx_t_8;
 
-      /* "fastrometry/cython_code/PSE.pyx":155
+      /* "fastrometry/cython_code/PSE.pyx":206
  *     for surr_x in range(x-1,x+2):
  *         for surr_y in range(y-1,y+2):
  *             if occupymap_view[surr_y-1,surr_x-1] == -2:             # <<<<<<<<<<<<<<
- *                 doQuickerRecursiveWalk(surr_x,surr_y,occupymap_view,sindmap_view,g)
+ *                 doQuickerRecursiveWalk(surr_x,surr_y,occupymap_view,srcindexmap_view,g)
  * 
  */
       __pyx_t_1 = (__pyx_v_surr_y - 1);
@@ -4390,39 +5678,39 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(Py_s
       __pyx_t_9 = (((*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_occupymap_view.data + __pyx_t_1 * __pyx_v_occupymap_view.strides[0]) ) + __pyx_t_2 * __pyx_v_occupymap_view.strides[1]) ))) == -2L) != 0);
       if (__pyx_t_9) {
 
-        /* "fastrometry/cython_code/PSE.pyx":156
+        /* "fastrometry/cython_code/PSE.pyx":207
  *         for surr_y in range(y-1,y+2):
  *             if occupymap_view[surr_y-1,surr_x-1] == -2:
- *                 doQuickerRecursiveWalk(surr_x,surr_y,occupymap_view,sindmap_view,g)             # <<<<<<<<<<<<<<
+ *                 doQuickerRecursiveWalk(surr_x,surr_y,occupymap_view,srcindexmap_view,g)             # <<<<<<<<<<<<<<
  * 
  * @cython.boundscheck(False)
  */
-        __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(__pyx_v_surr_x, __pyx_v_surr_y, __pyx_v_occupymap_view, __pyx_v_sindmap_view, __pyx_v_g);
+        __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(__pyx_v_surr_x, __pyx_v_surr_y, __pyx_v_occupymap_view, __pyx_v_srcindexmap_view, __pyx_v_g);
 
-        /* "fastrometry/cython_code/PSE.pyx":155
+        /* "fastrometry/cython_code/PSE.pyx":206
  *     for surr_x in range(x-1,x+2):
  *         for surr_y in range(y-1,y+2):
  *             if occupymap_view[surr_y-1,surr_x-1] == -2:             # <<<<<<<<<<<<<<
- *                 doQuickerRecursiveWalk(surr_x,surr_y,occupymap_view,sindmap_view,g)
+ *                 doQuickerRecursiveWalk(surr_x,surr_y,occupymap_view,srcindexmap_view,g)
  * 
  */
       }
     }
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":147
+  /* "fastrometry/cython_code/PSE.pyx":198
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * cdef void doQuickerRecursiveWalk(Py_ssize_t x, Py_ssize_t y, int[:,:] occupymap_view, int[:,:] sindmap_view, int g):             # <<<<<<<<<<<<<<
+ * cdef void doQuickerRecursiveWalk(Py_ssize_t x, Py_ssize_t y, int[:,:] occupymap_view, int[:,:] srcindexmap_view, int g):             # <<<<<<<<<<<<<<
  *     occupymap_view[y-1,x-1] = g
- *     sindmap_view[y-1,x-1] = g
+ *     srcindexmap_view[y-1,x-1] = g
  */
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
 }
 
-/* "fastrometry/cython_code/PSE.pyx":160
+/* "fastrometry/cython_code/PSE.pyx":211
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef bint isOnIsland(Py_ssize_t surr_x, Py_ssize_t surr_y, double[:,:] img_view, int leftmost_safe_x, int rightmost_safe_x, int topmost_safe_y, int bottommost_safe_y, int[:,:] occupymap_view, double pixsat):             # <<<<<<<<<<<<<<
@@ -4439,7 +5727,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_isOnIsland(Py_ssize_t __pyx_
   Py_ssize_t __pyx_t_4;
   __Pyx_RefNannySetupContext("isOnIsland", 0);
 
-  /* "fastrometry/cython_code/PSE.pyx":161
+  /* "fastrometry/cython_code/PSE.pyx":212
  * @cython.wraparound(False)
  * cdef bint isOnIsland(Py_ssize_t surr_x, Py_ssize_t surr_y, double[:,:] img_view, int leftmost_safe_x, int rightmost_safe_x, int topmost_safe_y, int bottommost_safe_y, int[:,:] occupymap_view, double pixsat):
  *     if leftmost_safe_x <= surr_x <= rightmost_safe_x:             # <<<<<<<<<<<<<<
@@ -4453,7 +5741,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_isOnIsland(Py_ssize_t __pyx_
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "fastrometry/cython_code/PSE.pyx":162
+    /* "fastrometry/cython_code/PSE.pyx":213
  * cdef bint isOnIsland(Py_ssize_t surr_x, Py_ssize_t surr_y, double[:,:] img_view, int leftmost_safe_x, int rightmost_safe_x, int topmost_safe_y, int bottommost_safe_y, int[:,:] occupymap_view, double pixsat):
  *     if leftmost_safe_x <= surr_x <= rightmost_safe_x:
  *         if topmost_safe_y <= surr_y <= bottommost_safe_y:             # <<<<<<<<<<<<<<
@@ -4467,7 +5755,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_isOnIsland(Py_ssize_t __pyx_
     __pyx_t_1 = (__pyx_t_2 != 0);
     if (__pyx_t_1) {
 
-      /* "fastrometry/cython_code/PSE.pyx":163
+      /* "fastrometry/cython_code/PSE.pyx":214
  *     if leftmost_safe_x <= surr_x <= rightmost_safe_x:
  *         if topmost_safe_y <= surr_y <= bottommost_safe_y:
  *             if img_view[surr_y-1,surr_x-1] >= pixsat and occupymap_view[surr_y-1,surr_x-1] == -1:      #if the pixel is in the image, is saturated, and is unclaimed by another source             # <<<<<<<<<<<<<<
@@ -4489,7 +5777,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_isOnIsland(Py_ssize_t __pyx_
       __pyx_L6_bool_binop_done:;
       if (__pyx_t_1) {
 
-        /* "fastrometry/cython_code/PSE.pyx":164
+        /* "fastrometry/cython_code/PSE.pyx":215
  *         if topmost_safe_y <= surr_y <= bottommost_safe_y:
  *             if img_view[surr_y-1,surr_x-1] >= pixsat and occupymap_view[surr_y-1,surr_x-1] == -1:      #if the pixel is in the image, is saturated, and is unclaimed by another source
  *                 return True             # <<<<<<<<<<<<<<
@@ -4499,7 +5787,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_isOnIsland(Py_ssize_t __pyx_
         __pyx_r = 1;
         goto __pyx_L0;
 
-        /* "fastrometry/cython_code/PSE.pyx":163
+        /* "fastrometry/cython_code/PSE.pyx":214
  *     if leftmost_safe_x <= surr_x <= rightmost_safe_x:
  *         if topmost_safe_y <= surr_y <= bottommost_safe_y:
  *             if img_view[surr_y-1,surr_x-1] >= pixsat and occupymap_view[surr_y-1,surr_x-1] == -1:      #if the pixel is in the image, is saturated, and is unclaimed by another source             # <<<<<<<<<<<<<<
@@ -4508,7 +5796,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_isOnIsland(Py_ssize_t __pyx_
  */
       }
 
-      /* "fastrometry/cython_code/PSE.pyx":162
+      /* "fastrometry/cython_code/PSE.pyx":213
  * cdef bint isOnIsland(Py_ssize_t surr_x, Py_ssize_t surr_y, double[:,:] img_view, int leftmost_safe_x, int rightmost_safe_x, int topmost_safe_y, int bottommost_safe_y, int[:,:] occupymap_view, double pixsat):
  *     if leftmost_safe_x <= surr_x <= rightmost_safe_x:
  *         if topmost_safe_y <= surr_y <= bottommost_safe_y:             # <<<<<<<<<<<<<<
@@ -4517,7 +5805,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_isOnIsland(Py_ssize_t __pyx_
  */
     }
 
-    /* "fastrometry/cython_code/PSE.pyx":161
+    /* "fastrometry/cython_code/PSE.pyx":212
  * @cython.wraparound(False)
  * cdef bint isOnIsland(Py_ssize_t surr_x, Py_ssize_t surr_y, double[:,:] img_view, int leftmost_safe_x, int rightmost_safe_x, int topmost_safe_y, int bottommost_safe_y, int[:,:] occupymap_view, double pixsat):
  *     if leftmost_safe_x <= surr_x <= rightmost_safe_x:             # <<<<<<<<<<<<<<
@@ -4527,7 +5815,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_isOnIsland(Py_ssize_t __pyx_
     goto __pyx_L3;
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":166
+  /* "fastrometry/cython_code/PSE.pyx":217
  *                 return True
  *     else:
  *         return False             # <<<<<<<<<<<<<<
@@ -4540,7 +5828,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_isOnIsland(Py_ssize_t __pyx_
   }
   __pyx_L3:;
 
-  /* "fastrometry/cython_code/PSE.pyx":160
+  /* "fastrometry/cython_code/PSE.pyx":211
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef bint isOnIsland(Py_ssize_t surr_x, Py_ssize_t surr_y, double[:,:] img_view, int leftmost_safe_x, int rightmost_safe_x, int topmost_safe_y, int bottommost_safe_y, int[:,:] occupymap_view, double pixsat):             # <<<<<<<<<<<<<<
@@ -4555,7 +5843,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_isOnIsland(Py_ssize_t __pyx_
   return __pyx_r;
 }
 
-/* "fastrometry/cython_code/PSE.pyx":170
+/* "fastrometry/cython_code/PSE.pyx":221
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef void doRecursiveWalk(Py_ssize_t x, Py_ssize_t y, double[:,:] img_view, int leftmost_safe_x, int rightmost_safe_x, int topmost_safe_y, int bottommost_safe_y, int[:] islandbnds_view, int[:,:] occupymap_view, double pixsat, int curr_sind):             # <<<<<<<<<<<<<<
@@ -4578,7 +5866,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
   Py_ssize_t __pyx_t_9;
   __Pyx_RefNannySetupContext("doRecursiveWalk", 0);
 
-  /* "fastrometry/cython_code/PSE.pyx":171
+  /* "fastrometry/cython_code/PSE.pyx":222
  * @cython.wraparound(False)
  * cdef void doRecursiveWalk(Py_ssize_t x, Py_ssize_t y, double[:,:] img_view, int leftmost_safe_x, int rightmost_safe_x, int topmost_safe_y, int bottommost_safe_y, int[:] islandbnds_view, int[:,:] occupymap_view, double pixsat, int curr_sind):
  *     occupymap_view[y-1,x-1] = -2             # <<<<<<<<<<<<<<
@@ -4589,7 +5877,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
   __pyx_t_2 = (__pyx_v_x - 1);
   *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_occupymap_view.data + __pyx_t_1 * __pyx_v_occupymap_view.strides[0]) ) + __pyx_t_2 * __pyx_v_occupymap_view.strides[1]) )) = -2;
 
-  /* "fastrometry/cython_code/PSE.pyx":172
+  /* "fastrometry/cython_code/PSE.pyx":223
  * cdef void doRecursiveWalk(Py_ssize_t x, Py_ssize_t y, double[:,:] img_view, int leftmost_safe_x, int rightmost_safe_x, int topmost_safe_y, int bottommost_safe_y, int[:] islandbnds_view, int[:,:] occupymap_view, double pixsat, int curr_sind):
  *     occupymap_view[y-1,x-1] = -2
  *     if x < islandbnds_view[0]:             # <<<<<<<<<<<<<<
@@ -4600,7 +5888,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
   __pyx_t_3 = ((__pyx_v_x < (*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_2 * __pyx_v_islandbnds_view.strides[0]) )))) != 0);
   if (__pyx_t_3) {
 
-    /* "fastrometry/cython_code/PSE.pyx":173
+    /* "fastrometry/cython_code/PSE.pyx":224
  *     occupymap_view[y-1,x-1] = -2
  *     if x < islandbnds_view[0]:
  *         islandbnds_view[0] = x             # <<<<<<<<<<<<<<
@@ -4610,7 +5898,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
     __pyx_t_2 = 0;
     *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_2 * __pyx_v_islandbnds_view.strides[0]) )) = __pyx_v_x;
 
-    /* "fastrometry/cython_code/PSE.pyx":172
+    /* "fastrometry/cython_code/PSE.pyx":223
  * cdef void doRecursiveWalk(Py_ssize_t x, Py_ssize_t y, double[:,:] img_view, int leftmost_safe_x, int rightmost_safe_x, int topmost_safe_y, int bottommost_safe_y, int[:] islandbnds_view, int[:,:] occupymap_view, double pixsat, int curr_sind):
  *     occupymap_view[y-1,x-1] = -2
  *     if x < islandbnds_view[0]:             # <<<<<<<<<<<<<<
@@ -4619,7 +5907,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
  */
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":174
+  /* "fastrometry/cython_code/PSE.pyx":225
  *     if x < islandbnds_view[0]:
  *         islandbnds_view[0] = x
  *     if x > islandbnds_view[1]:             # <<<<<<<<<<<<<<
@@ -4630,7 +5918,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
   __pyx_t_3 = ((__pyx_v_x > (*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_2 * __pyx_v_islandbnds_view.strides[0]) )))) != 0);
   if (__pyx_t_3) {
 
-    /* "fastrometry/cython_code/PSE.pyx":175
+    /* "fastrometry/cython_code/PSE.pyx":226
  *         islandbnds_view[0] = x
  *     if x > islandbnds_view[1]:
  *         islandbnds_view[1] = x             # <<<<<<<<<<<<<<
@@ -4640,7 +5928,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
     __pyx_t_2 = 1;
     *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_2 * __pyx_v_islandbnds_view.strides[0]) )) = __pyx_v_x;
 
-    /* "fastrometry/cython_code/PSE.pyx":174
+    /* "fastrometry/cython_code/PSE.pyx":225
  *     if x < islandbnds_view[0]:
  *         islandbnds_view[0] = x
  *     if x > islandbnds_view[1]:             # <<<<<<<<<<<<<<
@@ -4649,7 +5937,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
  */
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":176
+  /* "fastrometry/cython_code/PSE.pyx":227
  *     if x > islandbnds_view[1]:
  *         islandbnds_view[1] = x
  *     if y < islandbnds_view[2]:             # <<<<<<<<<<<<<<
@@ -4660,7 +5948,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
   __pyx_t_3 = ((__pyx_v_y < (*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_2 * __pyx_v_islandbnds_view.strides[0]) )))) != 0);
   if (__pyx_t_3) {
 
-    /* "fastrometry/cython_code/PSE.pyx":177
+    /* "fastrometry/cython_code/PSE.pyx":228
  *         islandbnds_view[1] = x
  *     if y < islandbnds_view[2]:
  *         islandbnds_view[2] = y             # <<<<<<<<<<<<<<
@@ -4670,7 +5958,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
     __pyx_t_2 = 2;
     *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_2 * __pyx_v_islandbnds_view.strides[0]) )) = __pyx_v_y;
 
-    /* "fastrometry/cython_code/PSE.pyx":176
+    /* "fastrometry/cython_code/PSE.pyx":227
  *     if x > islandbnds_view[1]:
  *         islandbnds_view[1] = x
  *     if y < islandbnds_view[2]:             # <<<<<<<<<<<<<<
@@ -4679,7 +5967,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
  */
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":178
+  /* "fastrometry/cython_code/PSE.pyx":229
  *     if y < islandbnds_view[2]:
  *         islandbnds_view[2] = y
  *     if y > islandbnds_view[3]:             # <<<<<<<<<<<<<<
@@ -4690,7 +5978,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
   __pyx_t_3 = ((__pyx_v_y > (*((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_2 * __pyx_v_islandbnds_view.strides[0]) )))) != 0);
   if (__pyx_t_3) {
 
-    /* "fastrometry/cython_code/PSE.pyx":179
+    /* "fastrometry/cython_code/PSE.pyx":230
  *         islandbnds_view[2] = y
  *     if y > islandbnds_view[3]:
  *         islandbnds_view[3] = y             # <<<<<<<<<<<<<<
@@ -4700,7 +5988,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
     __pyx_t_2 = 3;
     *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_2 * __pyx_v_islandbnds_view.strides[0]) )) = __pyx_v_y;
 
-    /* "fastrometry/cython_code/PSE.pyx":178
+    /* "fastrometry/cython_code/PSE.pyx":229
  *     if y < islandbnds_view[2]:
  *         islandbnds_view[2] = y
  *     if y > islandbnds_view[3]:             # <<<<<<<<<<<<<<
@@ -4709,7 +5997,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
  */
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":183
+  /* "fastrometry/cython_code/PSE.pyx":234
  *         Py_ssize_t surr_x
  *         Py_ssize_t surr_y
  *     for surr_x in range(x-1,x+2):             # <<<<<<<<<<<<<<
@@ -4721,7 +6009,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
   for (__pyx_t_6 = (__pyx_v_x - 1); __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
     __pyx_v_surr_x = __pyx_t_6;
 
-    /* "fastrometry/cython_code/PSE.pyx":184
+    /* "fastrometry/cython_code/PSE.pyx":235
  *         Py_ssize_t surr_y
  *     for surr_x in range(x-1,x+2):
  *         for surr_y in range(y-1,y+2):             # <<<<<<<<<<<<<<
@@ -4733,7 +6021,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
     for (__pyx_t_9 = (__pyx_v_y - 1); __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
       __pyx_v_surr_y = __pyx_t_9;
 
-      /* "fastrometry/cython_code/PSE.pyx":185
+      /* "fastrometry/cython_code/PSE.pyx":236
  *     for surr_x in range(x-1,x+2):
  *         for surr_y in range(y-1,y+2):
  *             if isOnIsland(surr_x,surr_y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,occupymap_view,pixsat):             # <<<<<<<<<<<<<<
@@ -4743,7 +6031,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
       __pyx_t_3 = (__pyx_f_11fastrometry_11cython_code_3PSE_isOnIsland(__pyx_v_surr_x, __pyx_v_surr_y, __pyx_v_img_view, __pyx_v_leftmost_safe_x, __pyx_v_rightmost_safe_x, __pyx_v_topmost_safe_y, __pyx_v_bottommost_safe_y, __pyx_v_occupymap_view, __pyx_v_pixsat) != 0);
       if (__pyx_t_3) {
 
-        /* "fastrometry/cython_code/PSE.pyx":186
+        /* "fastrometry/cython_code/PSE.pyx":237
  *         for surr_y in range(y-1,y+2):
  *             if isOnIsland(surr_x,surr_y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,occupymap_view,pixsat):
  *                 doRecursiveWalk(surr_x,surr_y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)             # <<<<<<<<<<<<<<
@@ -4752,7 +6040,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
  */
         __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(__pyx_v_surr_x, __pyx_v_surr_y, __pyx_v_img_view, __pyx_v_leftmost_safe_x, __pyx_v_rightmost_safe_x, __pyx_v_topmost_safe_y, __pyx_v_bottommost_safe_y, __pyx_v_islandbnds_view, __pyx_v_occupymap_view, __pyx_v_pixsat, __pyx_v_curr_sind);
 
-        /* "fastrometry/cython_code/PSE.pyx":185
+        /* "fastrometry/cython_code/PSE.pyx":236
  *     for surr_x in range(x-1,x+2):
  *         for surr_y in range(y-1,y+2):
  *             if isOnIsland(surr_x,surr_y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,occupymap_view,pixsat):             # <<<<<<<<<<<<<<
@@ -4763,7 +6051,7 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
     }
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":170
+  /* "fastrometry/cython_code/PSE.pyx":221
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * cdef void doRecursiveWalk(Py_ssize_t x, Py_ssize_t y, double[:,:] img_view, int leftmost_safe_x, int rightmost_safe_x, int topmost_safe_y, int bottommost_safe_y, int[:] islandbnds_view, int[:,:] occupymap_view, double pixsat, int curr_sind):             # <<<<<<<<<<<<<<
@@ -4775,15 +6063,15 @@ static void __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(Py_ssize_t 
   __Pyx_RefNannyFinishContext();
 }
 
-/* "fastrometry/cython_code/PSE.pyx":190
+/* "fastrometry/cython_code/PSE.pyx":241
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * cdef int mapSaturationIslands(double[:,:] img_view, int img_xmax, int img_ymax, np.ndarray[dtype=np.double_t, ndim=2] smetadata, int[:,:] occupymap_view, int[:,:] sindmap_initial_view, int[:,:] sindmap_refine_view, int sourcesep, double pixsat, int npts, int nrefinepts, int curr_sind, int verbose, int debug):             # <<<<<<<<<<<<<<
+ * cdef int mapSaturationIslands(double[:,:] img_view, int img_xmax, int img_ymax, int[:,:] roi_view, np.ndarray[dtype=np.double_t, ndim=2] pse_metadata, int[:,:] occupymap_view, int[:,:] srcindexmap_initial_view, int[:,:] srcindexmap_refine_view, int sourcesep, double pixsat, int npts, int nrefinepts, int curr_sind, str user_dir, str debug_report, int verbosity, int debug):             # <<<<<<<<<<<<<<
  *     cdef:
  *         Py_ssize_t x
  */
 
-static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_memviewslice __pyx_v_img_view, int __pyx_v_img_xmax, int __pyx_v_img_ymax, PyArrayObject *__pyx_v_smetadata, __Pyx_memviewslice __pyx_v_occupymap_view, __Pyx_memviewslice __pyx_v_sindmap_initial_view, __Pyx_memviewslice __pyx_v_sindmap_refine_view, int __pyx_v_sourcesep, double __pyx_v_pixsat, int __pyx_v_npts, int __pyx_v_nrefinepts, int __pyx_v_curr_sind, int __pyx_v_verbose, CYTHON_UNUSED int __pyx_v_debug) {
+static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_memviewslice __pyx_v_img_view, int __pyx_v_img_xmax, int __pyx_v_img_ymax, __Pyx_memviewslice __pyx_v_roi_view, PyArrayObject *__pyx_v_pse_metadata, __Pyx_memviewslice __pyx_v_occupymap_view, __Pyx_memviewslice __pyx_v_srcindexmap_initial_view, __Pyx_memviewslice __pyx_v_srcindexmap_refine_view, int __pyx_v_sourcesep, double __pyx_v_pixsat, int __pyx_v_npts, int __pyx_v_nrefinepts, int __pyx_v_curr_sind, PyObject *__pyx_v_user_dir, PyObject *__pyx_v_debug_report, CYTHON_UNUSED int __pyx_v_verbosity, int __pyx_v_debug) {
   Py_ssize_t __pyx_v_x;
   Py_ssize_t __pyx_v_y;
   Py_ssize_t __pyx_v_g;
@@ -4791,16 +6079,16 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
   int __pyx_v_rightmost_safe_x;
   int __pyx_v_topmost_safe_y;
   int __pyx_v_bottommost_safe_y;
-  __Pyx_memviewslice __pyx_v_smetadata_view = { 0, 0, { 0 }, { 0 }, { 0 } };
+  __Pyx_memviewslice __pyx_v_pse_metadata_view = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_islandbnds_view = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_cntdresults_view = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_newoccupymap_view = { 0, 0, { 0 }, { 0 }, { 0 } };
   PyObject *__pyx_v_dimmest = NULL;
   int __pyx_v_p;
   int __pyx_v_dimmest_ind;
-  PyObject *__pyx_v_smetadata_sorted = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_smetadata;
-  __Pyx_Buffer __pyx_pybuffer_smetadata;
+  PyObject *__pyx_v_pse_metadata_sorted = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_pse_metadata;
+  __Pyx_Buffer __pyx_pybuffer_pse_metadata;
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   __Pyx_memviewslice __pyx_t_1 = { 0, 0, { 0 }, { 0 }, { 0 } };
@@ -4827,22 +6115,21 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
   int __pyx_t_22;
   int __pyx_t_23;
   Py_ssize_t __pyx_t_24;
-  PyObject *__pyx_t_25 = NULL;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("mapSaturationIslands", 0);
-  __pyx_pybuffer_smetadata.pybuffer.buf = NULL;
-  __pyx_pybuffer_smetadata.refcount = 0;
-  __pyx_pybuffernd_smetadata.data = NULL;
-  __pyx_pybuffernd_smetadata.rcbuffer = &__pyx_pybuffer_smetadata;
+  __pyx_pybuffer_pse_metadata.pybuffer.buf = NULL;
+  __pyx_pybuffer_pse_metadata.refcount = 0;
+  __pyx_pybuffernd_pse_metadata.data = NULL;
+  __pyx_pybuffernd_pse_metadata.rcbuffer = &__pyx_pybuffer_pse_metadata;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_smetadata.rcbuffer->pybuffer, (PyObject*)__pyx_v_smetadata, &__Pyx_TypeInfo_nn___pyx_t_5numpy_double_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 190, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer, (PyObject*)__pyx_v_pse_metadata, &__Pyx_TypeInfo_nn___pyx_t_5numpy_double_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 241, __pyx_L1_error)
   }
-  __pyx_pybuffernd_smetadata.diminfo[0].strides = __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_smetadata.diminfo[0].shape = __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_smetadata.diminfo[1].strides = __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_smetadata.diminfo[1].shape = __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.shape[1];
+  __pyx_pybuffernd_pse_metadata.diminfo[0].strides = __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_pse_metadata.diminfo[0].shape = __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_pse_metadata.diminfo[1].strides = __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_pse_metadata.diminfo[1].shape = __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.shape[1];
 
-  /* "fastrometry/cython_code/PSE.pyx":195
+  /* "fastrometry/cython_code/PSE.pyx":246
  *         Py_ssize_t y
  *         Py_ssize_t g
  *         int leftmost_safe_x = 1 + sourcesep             # <<<<<<<<<<<<<<
@@ -4851,7 +6138,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
  */
   __pyx_v_leftmost_safe_x = (1 + __pyx_v_sourcesep);
 
-  /* "fastrometry/cython_code/PSE.pyx":196
+  /* "fastrometry/cython_code/PSE.pyx":247
  *         Py_ssize_t g
  *         int leftmost_safe_x = 1 + sourcesep
  *         int rightmost_safe_x = img_xmax - sourcesep             # <<<<<<<<<<<<<<
@@ -4860,109 +6147,109 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
  */
   __pyx_v_rightmost_safe_x = (__pyx_v_img_xmax - __pyx_v_sourcesep);
 
-  /* "fastrometry/cython_code/PSE.pyx":197
+  /* "fastrometry/cython_code/PSE.pyx":248
  *         int leftmost_safe_x = 1 + sourcesep
  *         int rightmost_safe_x = img_xmax - sourcesep
  *         int topmost_safe_y = 1 + sourcesep             # <<<<<<<<<<<<<<
  *         int bottommost_safe_y = img_ymax - sourcesep
- *         double[:,:] smetadata_view = smetadata
+ *         double[:,:] pse_metadata_view = pse_metadata
  */
   __pyx_v_topmost_safe_y = (1 + __pyx_v_sourcesep);
 
-  /* "fastrometry/cython_code/PSE.pyx":198
+  /* "fastrometry/cython_code/PSE.pyx":249
  *         int rightmost_safe_x = img_xmax - sourcesep
  *         int topmost_safe_y = 1 + sourcesep
  *         int bottommost_safe_y = img_ymax - sourcesep             # <<<<<<<<<<<<<<
- *         double[:,:] smetadata_view = smetadata
+ *         double[:,:] pse_metadata_view = pse_metadata
  *         int[:] islandbnds_view = np.zeros(4,dtype=int)
  */
   __pyx_v_bottommost_safe_y = (__pyx_v_img_ymax - __pyx_v_sourcesep);
 
-  /* "fastrometry/cython_code/PSE.pyx":199
+  /* "fastrometry/cython_code/PSE.pyx":250
  *         int topmost_safe_y = 1 + sourcesep
  *         int bottommost_safe_y = img_ymax - sourcesep
- *         double[:,:] smetadata_view = smetadata             # <<<<<<<<<<<<<<
+ *         double[:,:] pse_metadata_view = pse_metadata             # <<<<<<<<<<<<<<
  *         int[:] islandbnds_view = np.zeros(4,dtype=int)
  *         double[:] cntdresults_view = np.zeros(3,dtype=np.double)
  */
-  __pyx_t_1 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(((PyObject *)__pyx_v_smetadata), PyBUF_WRITABLE); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(0, 199, __pyx_L1_error)
-  __pyx_v_smetadata_view = __pyx_t_1;
+  __pyx_t_1 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(((PyObject *)__pyx_v_pse_metadata), PyBUF_WRITABLE); if (unlikely(!__pyx_t_1.memview)) __PYX_ERR(0, 250, __pyx_L1_error)
+  __pyx_v_pse_metadata_view = __pyx_t_1;
   __pyx_t_1.memview = NULL;
   __pyx_t_1.data = NULL;
 
-  /* "fastrometry/cython_code/PSE.pyx":200
+  /* "fastrometry/cython_code/PSE.pyx":251
  *         int bottommost_safe_y = img_ymax - sourcesep
- *         double[:,:] smetadata_view = smetadata
+ *         double[:,:] pse_metadata_view = pse_metadata
  *         int[:] islandbnds_view = np.zeros(4,dtype=int)             # <<<<<<<<<<<<<<
  *         double[:] cntdresults_view = np.zeros(3,dtype=np.double)
  *         int[:,:] newoccupymap_view = -1*np.ones((img_ymax,img_xmax),dtype=np.int32)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 200, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 251, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_zeros); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 200, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_zeros); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 251, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 200, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 251, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_dtype, ((PyObject *)(&PyInt_Type))) < 0) __PYX_ERR(0, 200, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple_, __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 200, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_dtype, ((PyObject *)(&PyInt_Type))) < 0) __PYX_ERR(0, 251, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__4, __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 251, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_4, PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(0, 200, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_ds_int(__pyx_t_4, PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(0, 251, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_v_islandbnds_view = __pyx_t_5;
   __pyx_t_5.memview = NULL;
   __pyx_t_5.data = NULL;
 
-  /* "fastrometry/cython_code/PSE.pyx":201
- *         double[:,:] smetadata_view = smetadata
+  /* "fastrometry/cython_code/PSE.pyx":252
+ *         double[:,:] pse_metadata_view = pse_metadata
  *         int[:] islandbnds_view = np.zeros(4,dtype=int)
  *         double[:] cntdresults_view = np.zeros(3,dtype=np.double)             # <<<<<<<<<<<<<<
  *         int[:,:] newoccupymap_view = -1*np.ones((img_ymax,img_xmax),dtype=np.int32)
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 252, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_zeros); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_zeros); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 252, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 252, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 252, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_double); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_double); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 252, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_dtype, __pyx_t_6) < 0) __PYX_ERR(0, 201, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_dtype, __pyx_t_6) < 0) __PYX_ERR(0, 252, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__2, __pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__5, __pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 252, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_6, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 201, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_6, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 252, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __pyx_v_cntdresults_view = __pyx_t_7;
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "fastrometry/cython_code/PSE.pyx":202
+  /* "fastrometry/cython_code/PSE.pyx":253
  *         int[:] islandbnds_view = np.zeros(4,dtype=int)
  *         double[:] cntdresults_view = np.zeros(3,dtype=np.double)
  *         int[:,:] newoccupymap_view = -1*np.ones((img_ymax,img_xmax),dtype=np.int32)             # <<<<<<<<<<<<<<
  * 
  *     if pixsat > 0:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_ones); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_ones); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_img_ymax); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_img_ymax); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_img_xmax); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_img_xmax); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_6);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_6);
@@ -4970,35 +6257,35 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_2);
   __pyx_t_6 = 0;
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_3);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_3);
   __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_int32); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_int32); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_8) < 0) __PYX_ERR(0, 202, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_8) < 0) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyNumber_Multiply(__pyx_int_neg_1, __pyx_t_8); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_3 = PyNumber_Multiply(__pyx_int_neg_1, __pyx_t_8); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 202, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_t_3, PyBUF_WRITABLE); if (unlikely(!__pyx_t_9.memview)) __PYX_ERR(0, 253, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_newoccupymap_view = __pyx_t_9;
   __pyx_t_9.memview = NULL;
   __pyx_t_9.data = NULL;
 
-  /* "fastrometry/cython_code/PSE.pyx":204
+  /* "fastrometry/cython_code/PSE.pyx":255
  *         int[:,:] newoccupymap_view = -1*np.ones((img_ymax,img_xmax),dtype=np.int32)
  * 
  *     if pixsat > 0:             # <<<<<<<<<<<<<<
@@ -5008,338 +6295,359 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
   __pyx_t_10 = ((__pyx_v_pixsat > 0.0) != 0);
   if (__pyx_t_10) {
 
-    /* "fastrometry/cython_code/PSE.pyx":205
+    /* "fastrometry/cython_code/PSE.pyx":256
  * 
  *     if pixsat > 0:
  *         for x in range(leftmost_safe_x,rightmost_safe_x+1):             # <<<<<<<<<<<<<<
  *             for y in range(topmost_safe_y,bottommost_safe_y+1):
- *                 if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:
+ *                 if roi_view[y-1,x-1] == 1:
  */
     __pyx_t_11 = (__pyx_v_rightmost_safe_x + 1);
     __pyx_t_12 = __pyx_t_11;
     for (__pyx_t_13 = __pyx_v_leftmost_safe_x; __pyx_t_13 < __pyx_t_12; __pyx_t_13+=1) {
       __pyx_v_x = __pyx_t_13;
 
-      /* "fastrometry/cython_code/PSE.pyx":206
+      /* "fastrometry/cython_code/PSE.pyx":257
  *     if pixsat > 0:
  *         for x in range(leftmost_safe_x,rightmost_safe_x+1):
  *             for y in range(topmost_safe_y,bottommost_safe_y+1):             # <<<<<<<<<<<<<<
- *                 if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:
- *                     islandbnds_view[0] = x
+ *                 if roi_view[y-1,x-1] == 1:
+ *                     if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:
  */
       __pyx_t_14 = (__pyx_v_bottommost_safe_y + 1);
       __pyx_t_15 = __pyx_t_14;
       for (__pyx_t_16 = __pyx_v_topmost_safe_y; __pyx_t_16 < __pyx_t_15; __pyx_t_16+=1) {
         __pyx_v_y = __pyx_t_16;
 
-        /* "fastrometry/cython_code/PSE.pyx":207
+        /* "fastrometry/cython_code/PSE.pyx":258
  *         for x in range(leftmost_safe_x,rightmost_safe_x+1):
  *             for y in range(topmost_safe_y,bottommost_safe_y+1):
- *                 if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:             # <<<<<<<<<<<<<<
- *                     islandbnds_view[0] = x
- *                     islandbnds_view[1] = x
+ *                 if roi_view[y-1,x-1] == 1:             # <<<<<<<<<<<<<<
+ *                     if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:
+ *                         islandbnds_view[0] = x
  */
         __pyx_t_17 = (__pyx_v_y - 1);
         __pyx_t_18 = (__pyx_v_x - 1);
-        __pyx_t_19 = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_17 * __pyx_v_img_view.strides[0]) ) + __pyx_t_18 * __pyx_v_img_view.strides[1]) ))) >= __pyx_v_pixsat) != 0);
-        if (__pyx_t_19) {
-        } else {
-          __pyx_t_10 = __pyx_t_19;
-          goto __pyx_L9_bool_binop_done;
-        }
-        __pyx_t_18 = (__pyx_v_y - 1);
-        __pyx_t_17 = (__pyx_v_x - 1);
-        __pyx_t_19 = (((*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_occupymap_view.data + __pyx_t_18 * __pyx_v_occupymap_view.strides[0]) ) + __pyx_t_17 * __pyx_v_occupymap_view.strides[1]) ))) == -1L) != 0);
-        __pyx_t_10 = __pyx_t_19;
-        __pyx_L9_bool_binop_done:;
+        __pyx_t_10 = (((*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_roi_view.data + __pyx_t_17 * __pyx_v_roi_view.strides[0]) ) + __pyx_t_18 * __pyx_v_roi_view.strides[1]) ))) == 1) != 0);
         if (__pyx_t_10) {
 
-          /* "fastrometry/cython_code/PSE.pyx":208
+          /* "fastrometry/cython_code/PSE.pyx":259
  *             for y in range(topmost_safe_y,bottommost_safe_y+1):
- *                 if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:
- *                     islandbnds_view[0] = x             # <<<<<<<<<<<<<<
- *                     islandbnds_view[1] = x
- *                     islandbnds_view[2] = y
+ *                 if roi_view[y-1,x-1] == 1:
+ *                     if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:             # <<<<<<<<<<<<<<
+ *                         islandbnds_view[0] = x
+ *                         islandbnds_view[1] = x
  */
-          __pyx_t_17 = 0;
-          *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_17 * __pyx_v_islandbnds_view.strides[0]) )) = __pyx_v_x;
-
-          /* "fastrometry/cython_code/PSE.pyx":209
- *                 if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:
- *                     islandbnds_view[0] = x
- *                     islandbnds_view[1] = x             # <<<<<<<<<<<<<<
- *                     islandbnds_view[2] = y
- *                     islandbnds_view[3] = y
- */
-          __pyx_t_17 = 1;
-          *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_17 * __pyx_v_islandbnds_view.strides[0]) )) = __pyx_v_x;
-
-          /* "fastrometry/cython_code/PSE.pyx":210
- *                     islandbnds_view[0] = x
- *                     islandbnds_view[1] = x
- *                     islandbnds_view[2] = y             # <<<<<<<<<<<<<<
- *                     islandbnds_view[3] = y
- *                     doRecursiveWalk(x,y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)
- */
-          __pyx_t_17 = 2;
-          *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_17 * __pyx_v_islandbnds_view.strides[0]) )) = __pyx_v_y;
-
-          /* "fastrometry/cython_code/PSE.pyx":211
- *                     islandbnds_view[1] = x
- *                     islandbnds_view[2] = y
- *                     islandbnds_view[3] = y             # <<<<<<<<<<<<<<
- *                     doRecursiveWalk(x,y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)
- *                     findIslandCentroids(img_view,islandbnds_view,cntdresults_view)
- */
-          __pyx_t_17 = 3;
-          *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_17 * __pyx_v_islandbnds_view.strides[0]) )) = __pyx_v_y;
-
-          /* "fastrometry/cython_code/PSE.pyx":212
- *                     islandbnds_view[2] = y
- *                     islandbnds_view[3] = y
- *                     doRecursiveWalk(x,y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)             # <<<<<<<<<<<<<<
- *                     findIslandCentroids(img_view,islandbnds_view,cntdresults_view)
- *                     if curr_sind < nrefinepts:
- */
-          __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(__pyx_v_x, __pyx_v_y, __pyx_v_img_view, __pyx_v_leftmost_safe_x, __pyx_v_rightmost_safe_x, __pyx_v_topmost_safe_y, __pyx_v_bottommost_safe_y, __pyx_v_islandbnds_view, __pyx_v_occupymap_view, __pyx_v_pixsat, __pyx_v_curr_sind);
-
-          /* "fastrometry/cython_code/PSE.pyx":213
- *                     islandbnds_view[3] = y
- *                     doRecursiveWalk(x,y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)
- *                     findIslandCentroids(img_view,islandbnds_view,cntdresults_view)             # <<<<<<<<<<<<<<
- *                     if curr_sind < nrefinepts:
- *                         smetadata_view[curr_sind,0] = cntdresults_view[0]           #x centroid
- */
-          __pyx_t_3 = __pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__pyx_v_img_view, __pyx_v_islandbnds_view, __pyx_v_cntdresults_view); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 213, __pyx_L1_error)
-          __Pyx_GOTREF(__pyx_t_3);
-          __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-
-          /* "fastrometry/cython_code/PSE.pyx":214
- *                     doRecursiveWalk(x,y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)
- *                     findIslandCentroids(img_view,islandbnds_view,cntdresults_view)
- *                     if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
- *                         smetadata_view[curr_sind,0] = cntdresults_view[0]           #x centroid
- *                         smetadata_view[curr_sind,1] = cntdresults_view[1]           #y centroid
- */
-          __pyx_t_10 = ((__pyx_v_curr_sind < __pyx_v_nrefinepts) != 0);
+          __pyx_t_18 = (__pyx_v_y - 1);
+          __pyx_t_17 = (__pyx_v_x - 1);
+          __pyx_t_19 = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_18 * __pyx_v_img_view.strides[0]) ) + __pyx_t_17 * __pyx_v_img_view.strides[1]) ))) >= __pyx_v_pixsat) != 0);
+          if (__pyx_t_19) {
+          } else {
+            __pyx_t_10 = __pyx_t_19;
+            goto __pyx_L10_bool_binop_done;
+          }
+          __pyx_t_17 = (__pyx_v_y - 1);
+          __pyx_t_18 = (__pyx_v_x - 1);
+          __pyx_t_19 = (((*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_occupymap_view.data + __pyx_t_17 * __pyx_v_occupymap_view.strides[0]) ) + __pyx_t_18 * __pyx_v_occupymap_view.strides[1]) ))) == -1L) != 0);
+          __pyx_t_10 = __pyx_t_19;
+          __pyx_L10_bool_binop_done:;
           if (__pyx_t_10) {
 
-            /* "fastrometry/cython_code/PSE.pyx":215
- *                     findIslandCentroids(img_view,islandbnds_view,cntdresults_view)
- *                     if curr_sind < nrefinepts:
- *                         smetadata_view[curr_sind,0] = cntdresults_view[0]           #x centroid             # <<<<<<<<<<<<<<
- *                         smetadata_view[curr_sind,1] = cntdresults_view[1]           #y centroid
- *                         smetadata_view[curr_sind,2] = cntdresults_view[2]           #total SQUARE kernel sum
+            /* "fastrometry/cython_code/PSE.pyx":260
+ *                 if roi_view[y-1,x-1] == 1:
+ *                     if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:
+ *                         islandbnds_view[0] = x             # <<<<<<<<<<<<<<
+ *                         islandbnds_view[1] = x
+ *                         islandbnds_view[2] = y
  */
-            __pyx_t_17 = 0;
-            __pyx_t_18 = __pyx_v_curr_sind;
-            __pyx_t_20 = 0;
-            *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_18 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_20 * __pyx_v_smetadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_17 * __pyx_v_cntdresults_view.strides[0]) )));
+            __pyx_t_18 = 0;
+            *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_18 * __pyx_v_islandbnds_view.strides[0]) )) = __pyx_v_x;
 
-            /* "fastrometry/cython_code/PSE.pyx":216
- *                     if curr_sind < nrefinepts:
- *                         smetadata_view[curr_sind,0] = cntdresults_view[0]           #x centroid
- *                         smetadata_view[curr_sind,1] = cntdresults_view[1]           #y centroid             # <<<<<<<<<<<<<<
- *                         smetadata_view[curr_sind,2] = cntdresults_view[2]           #total SQUARE kernel sum
- *                     else:
+            /* "fastrometry/cython_code/PSE.pyx":261
+ *                     if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:
+ *                         islandbnds_view[0] = x
+ *                         islandbnds_view[1] = x             # <<<<<<<<<<<<<<
+ *                         islandbnds_view[2] = y
+ *                         islandbnds_view[3] = y
  */
-            __pyx_t_17 = 1;
-            __pyx_t_20 = __pyx_v_curr_sind;
             __pyx_t_18 = 1;
-            *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_20 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_18 * __pyx_v_smetadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_17 * __pyx_v_cntdresults_view.strides[0]) )));
+            *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_18 * __pyx_v_islandbnds_view.strides[0]) )) = __pyx_v_x;
 
-            /* "fastrometry/cython_code/PSE.pyx":217
- *                         smetadata_view[curr_sind,0] = cntdresults_view[0]           #x centroid
- *                         smetadata_view[curr_sind,1] = cntdresults_view[1]           #y centroid
- *                         smetadata_view[curr_sind,2] = cntdresults_view[2]           #total SQUARE kernel sum             # <<<<<<<<<<<<<<
- *                     else:
- *                         dimmest = smetadata_view[0,2]
+            /* "fastrometry/cython_code/PSE.pyx":262
+ *                         islandbnds_view[0] = x
+ *                         islandbnds_view[1] = x
+ *                         islandbnds_view[2] = y             # <<<<<<<<<<<<<<
+ *                         islandbnds_view[3] = y
+ *                         doRecursiveWalk(x,y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)
  */
-            __pyx_t_17 = 2;
-            __pyx_t_18 = __pyx_v_curr_sind;
-            __pyx_t_20 = 2;
-            *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_18 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_20 * __pyx_v_smetadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_17 * __pyx_v_cntdresults_view.strides[0]) )));
+            __pyx_t_18 = 2;
+            *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_18 * __pyx_v_islandbnds_view.strides[0]) )) = __pyx_v_y;
 
-            /* "fastrometry/cython_code/PSE.pyx":214
- *                     doRecursiveWalk(x,y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)
- *                     findIslandCentroids(img_view,islandbnds_view,cntdresults_view)
- *                     if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
- *                         smetadata_view[curr_sind,0] = cntdresults_view[0]           #x centroid
- *                         smetadata_view[curr_sind,1] = cntdresults_view[1]           #y centroid
+            /* "fastrometry/cython_code/PSE.pyx":263
+ *                         islandbnds_view[1] = x
+ *                         islandbnds_view[2] = y
+ *                         islandbnds_view[3] = y             # <<<<<<<<<<<<<<
+ *                         doRecursiveWalk(x,y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)
+ *                         findIslandCentroids(img_view,islandbnds_view,cntdresults_view)
  */
-            goto __pyx_L11;
-          }
+            __pyx_t_18 = 3;
+            *((int *) ( /* dim=0 */ (__pyx_v_islandbnds_view.data + __pyx_t_18 * __pyx_v_islandbnds_view.strides[0]) )) = __pyx_v_y;
 
-          /* "fastrometry/cython_code/PSE.pyx":219
- *                         smetadata_view[curr_sind,2] = cntdresults_view[2]           #total SQUARE kernel sum
- *                     else:
- *                         dimmest = smetadata_view[0,2]             # <<<<<<<<<<<<<<
- *                         for p in range(nrefinepts):
- *                             if smetadata_view[p,2] < dimmest:
+            /* "fastrometry/cython_code/PSE.pyx":264
+ *                         islandbnds_view[2] = y
+ *                         islandbnds_view[3] = y
+ *                         doRecursiveWalk(x,y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)             # <<<<<<<<<<<<<<
+ *                         findIslandCentroids(img_view,islandbnds_view,cntdresults_view)
+ *                         if curr_sind < nrefinepts:
  */
-          /*else*/ {
-            __pyx_t_17 = 0;
-            __pyx_t_20 = 2;
-            __pyx_t_3 = PyFloat_FromDouble((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_17 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_20 * __pyx_v_smetadata_view.strides[1]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 219, __pyx_L1_error)
+            __pyx_f_11fastrometry_11cython_code_3PSE_doRecursiveWalk(__pyx_v_x, __pyx_v_y, __pyx_v_img_view, __pyx_v_leftmost_safe_x, __pyx_v_rightmost_safe_x, __pyx_v_topmost_safe_y, __pyx_v_bottommost_safe_y, __pyx_v_islandbnds_view, __pyx_v_occupymap_view, __pyx_v_pixsat, __pyx_v_curr_sind);
+
+            /* "fastrometry/cython_code/PSE.pyx":265
+ *                         islandbnds_view[3] = y
+ *                         doRecursiveWalk(x,y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)
+ *                         findIslandCentroids(img_view,islandbnds_view,cntdresults_view)             # <<<<<<<<<<<<<<
+ *                         if curr_sind < nrefinepts:
+ *                             pse_metadata_view[curr_sind,0] = cntdresults_view[0]           #x centroid
+ */
+            __pyx_t_3 = __pyx_f_11fastrometry_11cython_code_3PSE_findIslandCentroids(__pyx_v_img_view, __pyx_v_islandbnds_view, __pyx_v_cntdresults_view); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 265, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_3);
-            __Pyx_XDECREF_SET(__pyx_v_dimmest, __pyx_t_3);
-            __pyx_t_3 = 0;
+            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-            /* "fastrometry/cython_code/PSE.pyx":220
- *                     else:
- *                         dimmest = smetadata_view[0,2]
- *                         for p in range(nrefinepts):             # <<<<<<<<<<<<<<
- *                             if smetadata_view[p,2] < dimmest:
- *                                 dimmest = smetadata_view[p,2]
+            /* "fastrometry/cython_code/PSE.pyx":266
+ *                         doRecursiveWalk(x,y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)
+ *                         findIslandCentroids(img_view,islandbnds_view,cntdresults_view)
+ *                         if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
+ *                             pse_metadata_view[curr_sind,0] = cntdresults_view[0]           #x centroid
+ *                             pse_metadata_view[curr_sind,1] = cntdresults_view[1]           #y centroid
  */
-            __pyx_t_21 = __pyx_v_nrefinepts;
-            __pyx_t_22 = __pyx_t_21;
-            for (__pyx_t_23 = 0; __pyx_t_23 < __pyx_t_22; __pyx_t_23+=1) {
-              __pyx_v_p = __pyx_t_23;
+            __pyx_t_10 = ((__pyx_v_curr_sind < __pyx_v_nrefinepts) != 0);
+            if (__pyx_t_10) {
 
-              /* "fastrometry/cython_code/PSE.pyx":221
- *                         dimmest = smetadata_view[0,2]
- *                         for p in range(nrefinepts):
- *                             if smetadata_view[p,2] < dimmest:             # <<<<<<<<<<<<<<
- *                                 dimmest = smetadata_view[p,2]
- *                                 dimmest_ind = p
+              /* "fastrometry/cython_code/PSE.pyx":267
+ *                         findIslandCentroids(img_view,islandbnds_view,cntdresults_view)
+ *                         if curr_sind < nrefinepts:
+ *                             pse_metadata_view[curr_sind,0] = cntdresults_view[0]           #x centroid             # <<<<<<<<<<<<<<
+ *                             pse_metadata_view[curr_sind,1] = cntdresults_view[1]           #y centroid
+ *                             pse_metadata_view[curr_sind,2] = cntdresults_view[2]           #total SQUARE kernel sum
  */
-              __pyx_t_20 = __pyx_v_p;
-              __pyx_t_17 = 2;
-              __pyx_t_3 = PyFloat_FromDouble((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_20 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_17 * __pyx_v_smetadata_view.strides[1]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 221, __pyx_L1_error)
+              __pyx_t_18 = 0;
+              __pyx_t_17 = __pyx_v_curr_sind;
+              __pyx_t_20 = 0;
+              *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_17 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_20 * __pyx_v_pse_metadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_18 * __pyx_v_cntdresults_view.strides[0]) )));
+
+              /* "fastrometry/cython_code/PSE.pyx":268
+ *                         if curr_sind < nrefinepts:
+ *                             pse_metadata_view[curr_sind,0] = cntdresults_view[0]           #x centroid
+ *                             pse_metadata_view[curr_sind,1] = cntdresults_view[1]           #y centroid             # <<<<<<<<<<<<<<
+ *                             pse_metadata_view[curr_sind,2] = cntdresults_view[2]           #total SQUARE kernel sum
+ *                         else:
+ */
+              __pyx_t_18 = 1;
+              __pyx_t_20 = __pyx_v_curr_sind;
+              __pyx_t_17 = 1;
+              *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_20 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_17 * __pyx_v_pse_metadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_18 * __pyx_v_cntdresults_view.strides[0]) )));
+
+              /* "fastrometry/cython_code/PSE.pyx":269
+ *                             pse_metadata_view[curr_sind,0] = cntdresults_view[0]           #x centroid
+ *                             pse_metadata_view[curr_sind,1] = cntdresults_view[1]           #y centroid
+ *                             pse_metadata_view[curr_sind,2] = cntdresults_view[2]           #total SQUARE kernel sum             # <<<<<<<<<<<<<<
+ *                         else:
+ *                             dimmest = pse_metadata_view[0,2]
+ */
+              __pyx_t_18 = 2;
+              __pyx_t_17 = __pyx_v_curr_sind;
+              __pyx_t_20 = 2;
+              *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_17 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_20 * __pyx_v_pse_metadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_18 * __pyx_v_cntdresults_view.strides[0]) )));
+
+              /* "fastrometry/cython_code/PSE.pyx":266
+ *                         doRecursiveWalk(x,y,img_view,leftmost_safe_x,rightmost_safe_x,topmost_safe_y,bottommost_safe_y,islandbnds_view,occupymap_view,pixsat,curr_sind)
+ *                         findIslandCentroids(img_view,islandbnds_view,cntdresults_view)
+ *                         if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
+ *                             pse_metadata_view[curr_sind,0] = cntdresults_view[0]           #x centroid
+ *                             pse_metadata_view[curr_sind,1] = cntdresults_view[1]           #y centroid
+ */
+              goto __pyx_L12;
+            }
+
+            /* "fastrometry/cython_code/PSE.pyx":271
+ *                             pse_metadata_view[curr_sind,2] = cntdresults_view[2]           #total SQUARE kernel sum
+ *                         else:
+ *                             dimmest = pse_metadata_view[0,2]             # <<<<<<<<<<<<<<
+ *                             for p in range(nrefinepts):
+ *                                 if pse_metadata_view[p,2] < dimmest:
+ */
+            /*else*/ {
+              __pyx_t_18 = 0;
+              __pyx_t_20 = 2;
+              __pyx_t_3 = PyFloat_FromDouble((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_18 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_20 * __pyx_v_pse_metadata_view.strides[1]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 271, __pyx_L1_error)
               __Pyx_GOTREF(__pyx_t_3);
-              __pyx_t_8 = PyObject_RichCompare(__pyx_t_3, __pyx_v_dimmest, Py_LT); __Pyx_XGOTREF(__pyx_t_8); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 221, __pyx_L1_error)
-              __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-              __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_t_8); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(0, 221, __pyx_L1_error)
+              __Pyx_XDECREF_SET(__pyx_v_dimmest, __pyx_t_3);
+              __pyx_t_3 = 0;
+
+              /* "fastrometry/cython_code/PSE.pyx":272
+ *                         else:
+ *                             dimmest = pse_metadata_view[0,2]
+ *                             for p in range(nrefinepts):             # <<<<<<<<<<<<<<
+ *                                 if pse_metadata_view[p,2] < dimmest:
+ *                                     dimmest = pse_metadata_view[p,2]
+ */
+              __pyx_t_21 = __pyx_v_nrefinepts;
+              __pyx_t_22 = __pyx_t_21;
+              for (__pyx_t_23 = 0; __pyx_t_23 < __pyx_t_22; __pyx_t_23+=1) {
+                __pyx_v_p = __pyx_t_23;
+
+                /* "fastrometry/cython_code/PSE.pyx":273
+ *                             dimmest = pse_metadata_view[0,2]
+ *                             for p in range(nrefinepts):
+ *                                 if pse_metadata_view[p,2] < dimmest:             # <<<<<<<<<<<<<<
+ *                                     dimmest = pse_metadata_view[p,2]
+ *                                     dimmest_ind = p
+ */
+                __pyx_t_20 = __pyx_v_p;
+                __pyx_t_18 = 2;
+                __pyx_t_3 = PyFloat_FromDouble((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_20 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_18 * __pyx_v_pse_metadata_view.strides[1]) )))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 273, __pyx_L1_error)
+                __Pyx_GOTREF(__pyx_t_3);
+                __pyx_t_8 = PyObject_RichCompare(__pyx_t_3, __pyx_v_dimmest, Py_LT); __Pyx_XGOTREF(__pyx_t_8); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 273, __pyx_L1_error)
+                __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+                __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_t_8); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(0, 273, __pyx_L1_error)
+                __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+                if (__pyx_t_10) {
+
+                  /* "fastrometry/cython_code/PSE.pyx":274
+ *                             for p in range(nrefinepts):
+ *                                 if pse_metadata_view[p,2] < dimmest:
+ *                                     dimmest = pse_metadata_view[p,2]             # <<<<<<<<<<<<<<
+ *                                     dimmest_ind = p
+ *                             if cntdresults_view[2] > dimmest:
+ */
+                  __pyx_t_18 = __pyx_v_p;
+                  __pyx_t_20 = 2;
+                  __pyx_t_8 = PyFloat_FromDouble((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_18 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_20 * __pyx_v_pse_metadata_view.strides[1]) )))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 274, __pyx_L1_error)
+                  __Pyx_GOTREF(__pyx_t_8);
+                  __Pyx_DECREF_SET(__pyx_v_dimmest, __pyx_t_8);
+                  __pyx_t_8 = 0;
+
+                  /* "fastrometry/cython_code/PSE.pyx":275
+ *                                 if pse_metadata_view[p,2] < dimmest:
+ *                                     dimmest = pse_metadata_view[p,2]
+ *                                     dimmest_ind = p             # <<<<<<<<<<<<<<
+ *                             if cntdresults_view[2] > dimmest:
+ *                                 pse_metadata_view[dimmest_ind,0] = cntdresults_view[0]           #x centroid
+ */
+                  __pyx_v_dimmest_ind = __pyx_v_p;
+
+                  /* "fastrometry/cython_code/PSE.pyx":273
+ *                             dimmest = pse_metadata_view[0,2]
+ *                             for p in range(nrefinepts):
+ *                                 if pse_metadata_view[p,2] < dimmest:             # <<<<<<<<<<<<<<
+ *                                     dimmest = pse_metadata_view[p,2]
+ *                                     dimmest_ind = p
+ */
+                }
+              }
+
+              /* "fastrometry/cython_code/PSE.pyx":276
+ *                                     dimmest = pse_metadata_view[p,2]
+ *                                     dimmest_ind = p
+ *                             if cntdresults_view[2] > dimmest:             # <<<<<<<<<<<<<<
+ *                                 pse_metadata_view[dimmest_ind,0] = cntdresults_view[0]           #x centroid
+ *                                 pse_metadata_view[dimmest_ind,1] = cntdresults_view[1]           #y centroid
+ */
+              __pyx_t_20 = 2;
+              __pyx_t_8 = PyFloat_FromDouble((*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_20 * __pyx_v_cntdresults_view.strides[0]) )))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 276, __pyx_L1_error)
+              __Pyx_GOTREF(__pyx_t_8);
+              __pyx_t_3 = PyObject_RichCompare(__pyx_t_8, __pyx_v_dimmest, Py_GT); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 276, __pyx_L1_error)
               __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+              __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(0, 276, __pyx_L1_error)
+              __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
               if (__pyx_t_10) {
 
-                /* "fastrometry/cython_code/PSE.pyx":222
- *                         for p in range(nrefinepts):
- *                             if smetadata_view[p,2] < dimmest:
- *                                 dimmest = smetadata_view[p,2]             # <<<<<<<<<<<<<<
- *                                 dimmest_ind = p
- *                         if cntdresults_view[2] > dimmest:
+                /* "fastrometry/cython_code/PSE.pyx":277
+ *                                     dimmest_ind = p
+ *                             if cntdresults_view[2] > dimmest:
+ *                                 pse_metadata_view[dimmest_ind,0] = cntdresults_view[0]           #x centroid             # <<<<<<<<<<<<<<
+ *                                 pse_metadata_view[dimmest_ind,1] = cntdresults_view[1]           #y centroid
+ *                                 pse_metadata_view[dimmest_ind,2] = cntdresults_view[2]           #total SQUARE kernel sum
  */
-                __pyx_t_17 = __pyx_v_p;
+                __pyx_t_20 = 0;
+                __pyx_t_18 = __pyx_v_dimmest_ind;
+                __pyx_t_17 = 0;
+                *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_18 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_17 * __pyx_v_pse_metadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_20 * __pyx_v_cntdresults_view.strides[0]) )));
+
+                /* "fastrometry/cython_code/PSE.pyx":278
+ *                             if cntdresults_view[2] > dimmest:
+ *                                 pse_metadata_view[dimmest_ind,0] = cntdresults_view[0]           #x centroid
+ *                                 pse_metadata_view[dimmest_ind,1] = cntdresults_view[1]           #y centroid             # <<<<<<<<<<<<<<
+ *                                 pse_metadata_view[dimmest_ind,2] = cntdresults_view[2]           #total SQUARE kernel sum
+ *                         curr_sind += 1
+ */
+                __pyx_t_20 = 1;
+                __pyx_t_17 = __pyx_v_dimmest_ind;
+                __pyx_t_18 = 1;
+                *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_17 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_18 * __pyx_v_pse_metadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_20 * __pyx_v_cntdresults_view.strides[0]) )));
+
+                /* "fastrometry/cython_code/PSE.pyx":279
+ *                                 pse_metadata_view[dimmest_ind,0] = cntdresults_view[0]           #x centroid
+ *                                 pse_metadata_view[dimmest_ind,1] = cntdresults_view[1]           #y centroid
+ *                                 pse_metadata_view[dimmest_ind,2] = cntdresults_view[2]           #total SQUARE kernel sum             # <<<<<<<<<<<<<<
+ *                         curr_sind += 1
+ * 
+ */
                 __pyx_t_20 = 2;
-                __pyx_t_8 = PyFloat_FromDouble((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_17 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_20 * __pyx_v_smetadata_view.strides[1]) )))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 222, __pyx_L1_error)
-                __Pyx_GOTREF(__pyx_t_8);
-                __Pyx_DECREF_SET(__pyx_v_dimmest, __pyx_t_8);
-                __pyx_t_8 = 0;
+                __pyx_t_18 = __pyx_v_dimmest_ind;
+                __pyx_t_17 = 2;
+                *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_18 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_17 * __pyx_v_pse_metadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_20 * __pyx_v_cntdresults_view.strides[0]) )));
 
-                /* "fastrometry/cython_code/PSE.pyx":223
- *                             if smetadata_view[p,2] < dimmest:
- *                                 dimmest = smetadata_view[p,2]
- *                                 dimmest_ind = p             # <<<<<<<<<<<<<<
- *                         if cntdresults_view[2] > dimmest:
- *                             smetadata_view[dimmest_ind,0] = cntdresults_view[0]           #x centroid
- */
-                __pyx_v_dimmest_ind = __pyx_v_p;
-
-                /* "fastrometry/cython_code/PSE.pyx":221
- *                         dimmest = smetadata_view[0,2]
- *                         for p in range(nrefinepts):
- *                             if smetadata_view[p,2] < dimmest:             # <<<<<<<<<<<<<<
- *                                 dimmest = smetadata_view[p,2]
- *                                 dimmest_ind = p
+                /* "fastrometry/cython_code/PSE.pyx":276
+ *                                     dimmest = pse_metadata_view[p,2]
+ *                                     dimmest_ind = p
+ *                             if cntdresults_view[2] > dimmest:             # <<<<<<<<<<<<<<
+ *                                 pse_metadata_view[dimmest_ind,0] = cntdresults_view[0]           #x centroid
+ *                                 pse_metadata_view[dimmest_ind,1] = cntdresults_view[1]           #y centroid
  */
               }
             }
+            __pyx_L12:;
 
-            /* "fastrometry/cython_code/PSE.pyx":224
- *                                 dimmest = smetadata_view[p,2]
- *                                 dimmest_ind = p
- *                         if cntdresults_view[2] > dimmest:             # <<<<<<<<<<<<<<
- *                             smetadata_view[dimmest_ind,0] = cntdresults_view[0]           #x centroid
- *                             smetadata_view[dimmest_ind,1] = cntdresults_view[1]           #y centroid
- */
-            __pyx_t_20 = 2;
-            __pyx_t_8 = PyFloat_FromDouble((*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_20 * __pyx_v_cntdresults_view.strides[0]) )))); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 224, __pyx_L1_error)
-            __Pyx_GOTREF(__pyx_t_8);
-            __pyx_t_3 = PyObject_RichCompare(__pyx_t_8, __pyx_v_dimmest, Py_GT); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 224, __pyx_L1_error)
-            __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-            __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(0, 224, __pyx_L1_error)
-            __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-            if (__pyx_t_10) {
-
-              /* "fastrometry/cython_code/PSE.pyx":225
- *                                 dimmest_ind = p
- *                         if cntdresults_view[2] > dimmest:
- *                             smetadata_view[dimmest_ind,0] = cntdresults_view[0]           #x centroid             # <<<<<<<<<<<<<<
- *                             smetadata_view[dimmest_ind,1] = cntdresults_view[1]           #y centroid
- *                             smetadata_view[dimmest_ind,2] = cntdresults_view[2]           #total SQUARE kernel sum
- */
-              __pyx_t_20 = 0;
-              __pyx_t_17 = __pyx_v_dimmest_ind;
-              __pyx_t_18 = 0;
-              *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_17 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_18 * __pyx_v_smetadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_20 * __pyx_v_cntdresults_view.strides[0]) )));
-
-              /* "fastrometry/cython_code/PSE.pyx":226
- *                         if cntdresults_view[2] > dimmest:
- *                             smetadata_view[dimmest_ind,0] = cntdresults_view[0]           #x centroid
- *                             smetadata_view[dimmest_ind,1] = cntdresults_view[1]           #y centroid             # <<<<<<<<<<<<<<
- *                             smetadata_view[dimmest_ind,2] = cntdresults_view[2]           #total SQUARE kernel sum
- *                     curr_sind += 1
- */
-              __pyx_t_20 = 1;
-              __pyx_t_18 = __pyx_v_dimmest_ind;
-              __pyx_t_17 = 1;
-              *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_18 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_17 * __pyx_v_smetadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_20 * __pyx_v_cntdresults_view.strides[0]) )));
-
-              /* "fastrometry/cython_code/PSE.pyx":227
- *                             smetadata_view[dimmest_ind,0] = cntdresults_view[0]           #x centroid
- *                             smetadata_view[dimmest_ind,1] = cntdresults_view[1]           #y centroid
- *                             smetadata_view[dimmest_ind,2] = cntdresults_view[2]           #total SQUARE kernel sum             # <<<<<<<<<<<<<<
- *                     curr_sind += 1
+            /* "fastrometry/cython_code/PSE.pyx":280
+ *                                 pse_metadata_view[dimmest_ind,1] = cntdresults_view[1]           #y centroid
+ *                                 pse_metadata_view[dimmest_ind,2] = cntdresults_view[2]           #total SQUARE kernel sum
+ *                         curr_sind += 1             # <<<<<<<<<<<<<<
  * 
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]
  */
-              __pyx_t_20 = 2;
-              __pyx_t_17 = __pyx_v_dimmest_ind;
-              __pyx_t_18 = 2;
-              *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_17 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_18 * __pyx_v_smetadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_20 * __pyx_v_cntdresults_view.strides[0]) )));
+            __pyx_v_curr_sind = (__pyx_v_curr_sind + 1);
 
-              /* "fastrometry/cython_code/PSE.pyx":224
- *                                 dimmest = smetadata_view[p,2]
- *                                 dimmest_ind = p
- *                         if cntdresults_view[2] > dimmest:             # <<<<<<<<<<<<<<
- *                             smetadata_view[dimmest_ind,0] = cntdresults_view[0]           #x centroid
- *                             smetadata_view[dimmest_ind,1] = cntdresults_view[1]           #y centroid
+            /* "fastrometry/cython_code/PSE.pyx":259
+ *             for y in range(topmost_safe_y,bottommost_safe_y+1):
+ *                 if roi_view[y-1,x-1] == 1:
+ *                     if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:             # <<<<<<<<<<<<<<
+ *                         islandbnds_view[0] = x
+ *                         islandbnds_view[1] = x
  */
-            }
           }
-          __pyx_L11:;
 
-          /* "fastrometry/cython_code/PSE.pyx":228
- *                             smetadata_view[dimmest_ind,1] = cntdresults_view[1]           #y centroid
- *                             smetadata_view[dimmest_ind,2] = cntdresults_view[2]           #total SQUARE kernel sum
- *                     curr_sind += 1             # <<<<<<<<<<<<<<
- * 
- *         smetadata_sorted = smetadata[smetadata[:,2].argsort()][::-1]
- */
-          __pyx_v_curr_sind = (__pyx_v_curr_sind + 1);
-
-          /* "fastrometry/cython_code/PSE.pyx":207
+          /* "fastrometry/cython_code/PSE.pyx":258
  *         for x in range(leftmost_safe_x,rightmost_safe_x+1):
  *             for y in range(topmost_safe_y,bottommost_safe_y+1):
- *                 if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:             # <<<<<<<<<<<<<<
- *                     islandbnds_view[0] = x
- *                     islandbnds_view[1] = x
+ *                 if roi_view[y-1,x-1] == 1:             # <<<<<<<<<<<<<<
+ *                     if img_view[y-1,x-1] >= pixsat and occupymap_view[y-1,x-1] == -1:
+ *                         islandbnds_view[0] = x
  */
         }
       }
     }
 
-    /* "fastrometry/cython_code/PSE.pyx":230
- *                     curr_sind += 1
+    /* "fastrometry/cython_code/PSE.pyx":282
+ *                         curr_sind += 1
  * 
- *         smetadata_sorted = smetadata[smetadata[:,2].argsort()][::-1]             # <<<<<<<<<<<<<<
- *         smetadata[:] = smetadata_sorted
- * 
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]             # <<<<<<<<<<<<<<
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_islandsonly.csv",pse_metadata,delimiter=",")
  */
-    __pyx_t_8 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_smetadata), __pyx_tuple__4); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 230, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_pse_metadata), __pyx_tuple__7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 282, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_argsort); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 230, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_argsort); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 282, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __pyx_t_8 = NULL;
@@ -5354,42 +6662,137 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
     }
     __pyx_t_3 = (__pyx_t_8) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_8) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 230, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 282, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_smetadata), __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 230, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_pse_metadata), __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 282, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_t_2, __pyx_slice__5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 230, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_t_2, __pyx_slice__8); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 282, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_v_smetadata_sorted = __pyx_t_3;
+    __pyx_v_pse_metadata_sorted = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "fastrometry/cython_code/PSE.pyx":231
+    /* "fastrometry/cython_code/PSE.pyx":283
  * 
- *         smetadata_sorted = smetadata[smetadata[:,2].argsort()][::-1]
- *         smetadata[:] = smetadata_sorted             # <<<<<<<<<<<<<<
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]
+ *         if debug:             # <<<<<<<<<<<<<<
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_islandsonly.csv",pse_metadata,delimiter=",")
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_islandsonly_sorted.csv",pse_metadata_sorted,delimiter=",")
+ */
+    __pyx_t_10 = (__pyx_v_debug != 0);
+    if (__pyx_t_10) {
+
+      /* "fastrometry/cython_code/PSE.pyx":284
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_islandsonly.csv",pse_metadata,delimiter=",")             # <<<<<<<<<<<<<<
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_islandsonly_sorted.csv",pse_metadata_sorted,delimiter=",")
+ *         pse_metadata[:] = pse_metadata_sorted
+ */
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 284, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_savetxt); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 284, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __pyx_t_3 = PyNumber_Add(__pyx_v_user_dir, __pyx_kp_s_debug); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 284, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_8 = PyNumber_Add(__pyx_t_3, __pyx_v_debug_report); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 284, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __pyx_t_3 = PyNumber_Add(__pyx_t_8, __pyx_kp_s_pse_metadata_islandsonly_csv); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 284, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+      __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 284, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __Pyx_GIVEREF(__pyx_t_3);
+      PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_3);
+      __Pyx_INCREF(((PyObject *)__pyx_v_pse_metadata));
+      __Pyx_GIVEREF(((PyObject *)__pyx_v_pse_metadata));
+      PyTuple_SET_ITEM(__pyx_t_8, 1, ((PyObject *)__pyx_v_pse_metadata));
+      __pyx_t_3 = 0;
+      __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 284, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_delimiter, __pyx_kp_s__9) < 0) __PYX_ERR(0, 284, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_8, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 284, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":285
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_islandsonly.csv",pse_metadata,delimiter=",")
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_islandsonly_sorted.csv",pse_metadata_sorted,delimiter=",")             # <<<<<<<<<<<<<<
+ *         pse_metadata[:] = pse_metadata_sorted
+ * 
+ */
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 285, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_savetxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 285, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __pyx_t_4 = PyNumber_Add(__pyx_v_user_dir, __pyx_kp_s_debug); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 285, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_8 = PyNumber_Add(__pyx_t_4, __pyx_v_debug_report); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 285, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __pyx_t_4 = PyNumber_Add(__pyx_t_8, __pyx_kp_s_pse_metadata_islandsonly_sorted); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 285, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+      __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 285, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_8);
+      __Pyx_GIVEREF(__pyx_t_4);
+      PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_4);
+      __Pyx_INCREF(__pyx_v_pse_metadata_sorted);
+      __Pyx_GIVEREF(__pyx_v_pse_metadata_sorted);
+      PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_v_pse_metadata_sorted);
+      __pyx_t_4 = 0;
+      __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 285, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_delimiter, __pyx_kp_s__9) < 0) __PYX_ERR(0, 285, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_8, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 285, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":283
+ * 
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]
+ *         if debug:             # <<<<<<<<<<<<<<
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_islandsonly.csv",pse_metadata,delimiter=",")
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_islandsonly_sorted.csv",pse_metadata_sorted,delimiter=",")
+ */
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":286
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_islandsonly.csv",pse_metadata,delimiter=",")
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_islandsonly_sorted.csv",pse_metadata_sorted,delimiter=",")
+ *         pse_metadata[:] = pse_metadata_sorted             # <<<<<<<<<<<<<<
  * 
  *         if curr_sind < nrefinepts:
  */
-    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_smetadata), __pyx_slice__3, __pyx_v_smetadata_sorted) < 0)) __PYX_ERR(0, 231, __pyx_L1_error)
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_pse_metadata), __pyx_slice__6, __pyx_v_pse_metadata_sorted) < 0)) __PYX_ERR(0, 286, __pyx_L1_error)
 
-    /* "fastrometry/cython_code/PSE.pyx":233
- *         smetadata[:] = smetadata_sorted
+    /* "fastrometry/cython_code/PSE.pyx":288
+ *         pse_metadata[:] = pse_metadata_sorted
  * 
  *         if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
  *             for g in range(curr_sind):
- *                 doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, newoccupymap_view, g)
+ *                 doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, newoccupymap_view, g)
  */
     __pyx_t_10 = ((__pyx_v_curr_sind < __pyx_v_nrefinepts) != 0);
     if (__pyx_t_10) {
 
-      /* "fastrometry/cython_code/PSE.pyx":234
+      /* "fastrometry/cython_code/PSE.pyx":289
  * 
  *         if curr_sind < nrefinepts:
  *             for g in range(curr_sind):             # <<<<<<<<<<<<<<
- *                 doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, newoccupymap_view, g)
+ *                 doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, newoccupymap_view, g)
  *                 occupymap_view[:] = newoccupymap_view[:]
  */
       __pyx_t_21 = __pyx_v_curr_sind;
@@ -5397,40 +6800,40 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
       for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_22; __pyx_t_13+=1) {
         __pyx_v_g = __pyx_t_13;
 
-        /* "fastrometry/cython_code/PSE.pyx":235
+        /* "fastrometry/cython_code/PSE.pyx":290
  *         if curr_sind < nrefinepts:
  *             for g in range(curr_sind):
- *                 doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, newoccupymap_view, g)             # <<<<<<<<<<<<<<
+ *                 doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, newoccupymap_view, g)             # <<<<<<<<<<<<<<
  *                 occupymap_view[:] = newoccupymap_view[:]
  *         if curr_sind >= nrefinepts:
  */
         __pyx_t_20 = __pyx_v_g;
-        __pyx_t_18 = 0;
-        __pyx_t_17 = __pyx_v_g;
+        __pyx_t_17 = 0;
+        __pyx_t_18 = __pyx_v_g;
         __pyx_t_24 = 1;
-        __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_smetadata.diminfo[0].strides, __pyx_t_18, __pyx_pybuffernd_smetadata.diminfo[1].strides))), ((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_smetadata.diminfo[0].strides, __pyx_t_24, __pyx_pybuffernd_smetadata.diminfo[1].strides))), __pyx_v_occupymap_view, __pyx_v_newoccupymap_view, __pyx_v_g);
+        __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_pse_metadata.diminfo[0].strides, __pyx_t_17, __pyx_pybuffernd_pse_metadata.diminfo[1].strides))), ((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_pse_metadata.diminfo[0].strides, __pyx_t_24, __pyx_pybuffernd_pse_metadata.diminfo[1].strides))), __pyx_v_occupymap_view, __pyx_v_newoccupymap_view, __pyx_v_g);
 
-        /* "fastrometry/cython_code/PSE.pyx":236
+        /* "fastrometry/cython_code/PSE.pyx":291
  *             for g in range(curr_sind):
- *                 doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, newoccupymap_view, g)
+ *                 doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, newoccupymap_view, g)
  *                 occupymap_view[:] = newoccupymap_view[:]             # <<<<<<<<<<<<<<
  *         if curr_sind >= nrefinepts:
  *             for g in range(nrefinepts):
  */
-        if (unlikely(__pyx_memoryview_copy_contents(__pyx_v_newoccupymap_view, __pyx_v_occupymap_view, 2, 2, 0) < 0)) __PYX_ERR(0, 236, __pyx_L1_error)
+        if (unlikely(__pyx_memoryview_copy_contents(__pyx_v_newoccupymap_view, __pyx_v_occupymap_view, 2, 2, 0) < 0)) __PYX_ERR(0, 291, __pyx_L1_error)
       }
 
-      /* "fastrometry/cython_code/PSE.pyx":233
- *         smetadata[:] = smetadata_sorted
+      /* "fastrometry/cython_code/PSE.pyx":288
+ *         pse_metadata[:] = pse_metadata_sorted
  * 
  *         if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
  *             for g in range(curr_sind):
- *                 doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, newoccupymap_view, g)
+ *                 doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, newoccupymap_view, g)
  */
     }
 
-    /* "fastrometry/cython_code/PSE.pyx":237
- *                 doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, newoccupymap_view, g)
+    /* "fastrometry/cython_code/PSE.pyx":292
+ *                 doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, newoccupymap_view, g)
  *                 occupymap_view[:] = newoccupymap_view[:]
  *         if curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
  *             for g in range(nrefinepts):
@@ -5439,83 +6842,83 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
     __pyx_t_10 = ((__pyx_v_curr_sind >= __pyx_v_nrefinepts) != 0);
     if (__pyx_t_10) {
 
-      /* "fastrometry/cython_code/PSE.pyx":238
+      /* "fastrometry/cython_code/PSE.pyx":293
  *                 occupymap_view[:] = newoccupymap_view[:]
  *         if curr_sind >= nrefinepts:
  *             for g in range(nrefinepts):             # <<<<<<<<<<<<<<
  *                 if g < npts:
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_initial_view, g)
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_initial_view, g)
  */
       __pyx_t_21 = __pyx_v_nrefinepts;
       __pyx_t_22 = __pyx_t_21;
       for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_22; __pyx_t_13+=1) {
         __pyx_v_g = __pyx_t_13;
 
-        /* "fastrometry/cython_code/PSE.pyx":239
+        /* "fastrometry/cython_code/PSE.pyx":294
  *         if curr_sind >= nrefinepts:
  *             for g in range(nrefinepts):
  *                 if g < npts:             # <<<<<<<<<<<<<<
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_initial_view, g)
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_refine_view, g)
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_initial_view, g)
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_refine_view, g)
  */
         __pyx_t_10 = ((__pyx_v_g < __pyx_v_npts) != 0);
         if (__pyx_t_10) {
 
-          /* "fastrometry/cython_code/PSE.pyx":240
+          /* "fastrometry/cython_code/PSE.pyx":295
  *             for g in range(nrefinepts):
  *                 if g < npts:
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_initial_view, g)             # <<<<<<<<<<<<<<
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_refine_view, g)
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_initial_view, g)             # <<<<<<<<<<<<<<
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_refine_view, g)
  *                 else:
  */
           __pyx_t_24 = __pyx_v_g;
-          __pyx_t_17 = 0;
-          __pyx_t_18 = __pyx_v_g;
-          __pyx_t_20 = 1;
-          __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_smetadata.diminfo[0].strides, __pyx_t_17, __pyx_pybuffernd_smetadata.diminfo[1].strides))), ((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_smetadata.diminfo[0].strides, __pyx_t_20, __pyx_pybuffernd_smetadata.diminfo[1].strides))), __pyx_v_occupymap_view, __pyx_v_sindmap_initial_view, __pyx_v_g);
-
-          /* "fastrometry/cython_code/PSE.pyx":241
- *                 if g < npts:
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_initial_view, g)
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_refine_view, g)             # <<<<<<<<<<<<<<
- *                 else:
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_refine_view, g)
- */
-          __pyx_t_20 = __pyx_v_g;
           __pyx_t_18 = 0;
           __pyx_t_17 = __pyx_v_g;
-          __pyx_t_24 = 1;
-          __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_smetadata.diminfo[0].strides, __pyx_t_18, __pyx_pybuffernd_smetadata.diminfo[1].strides))), ((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_smetadata.diminfo[0].strides, __pyx_t_24, __pyx_pybuffernd_smetadata.diminfo[1].strides))), __pyx_v_occupymap_view, __pyx_v_sindmap_refine_view, __pyx_v_g);
+          __pyx_t_20 = 1;
+          __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_pse_metadata.diminfo[0].strides, __pyx_t_18, __pyx_pybuffernd_pse_metadata.diminfo[1].strides))), ((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_pse_metadata.diminfo[0].strides, __pyx_t_20, __pyx_pybuffernd_pse_metadata.diminfo[1].strides))), __pyx_v_occupymap_view, __pyx_v_srcindexmap_initial_view, __pyx_v_g);
 
-          /* "fastrometry/cython_code/PSE.pyx":239
+          /* "fastrometry/cython_code/PSE.pyx":296
+ *                 if g < npts:
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_initial_view, g)
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_refine_view, g)             # <<<<<<<<<<<<<<
+ *                 else:
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_refine_view, g)
+ */
+          __pyx_t_20 = __pyx_v_g;
+          __pyx_t_17 = 0;
+          __pyx_t_18 = __pyx_v_g;
+          __pyx_t_24 = 1;
+          __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.buf, __pyx_t_20, __pyx_pybuffernd_pse_metadata.diminfo[0].strides, __pyx_t_17, __pyx_pybuffernd_pse_metadata.diminfo[1].strides))), ((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_pse_metadata.diminfo[0].strides, __pyx_t_24, __pyx_pybuffernd_pse_metadata.diminfo[1].strides))), __pyx_v_occupymap_view, __pyx_v_srcindexmap_refine_view, __pyx_v_g);
+
+          /* "fastrometry/cython_code/PSE.pyx":294
  *         if curr_sind >= nrefinepts:
  *             for g in range(nrefinepts):
  *                 if g < npts:             # <<<<<<<<<<<<<<
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_initial_view, g)
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_refine_view, g)
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_initial_view, g)
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_refine_view, g)
  */
-          goto __pyx_L22;
+          goto __pyx_L24;
         }
 
-        /* "fastrometry/cython_code/PSE.pyx":243
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_refine_view, g)
+        /* "fastrometry/cython_code/PSE.pyx":298
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_refine_view, g)
  *                 else:
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_refine_view, g)             # <<<<<<<<<<<<<<
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_refine_view, g)             # <<<<<<<<<<<<<<
  * 
- *     if verbose >= 1:
+ *     return curr_sind
  */
         /*else*/ {
           __pyx_t_24 = __pyx_v_g;
-          __pyx_t_17 = 0;
-          __pyx_t_18 = __pyx_v_g;
+          __pyx_t_18 = 0;
+          __pyx_t_17 = __pyx_v_g;
           __pyx_t_20 = 1;
-          __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_smetadata.diminfo[0].strides, __pyx_t_17, __pyx_pybuffernd_smetadata.diminfo[1].strides))), ((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.buf, __pyx_t_18, __pyx_pybuffernd_smetadata.diminfo[0].strides, __pyx_t_20, __pyx_pybuffernd_smetadata.diminfo[1].strides))), __pyx_v_occupymap_view, __pyx_v_sindmap_refine_view, __pyx_v_g);
+          __pyx_f_11fastrometry_11cython_code_3PSE_doQuickerRecursiveWalk(((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.buf, __pyx_t_24, __pyx_pybuffernd_pse_metadata.diminfo[0].strides, __pyx_t_18, __pyx_pybuffernd_pse_metadata.diminfo[1].strides))), ((Py_ssize_t)(*__Pyx_BufPtrStrided2d(__pyx_t_5numpy_double_t *, __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_pse_metadata.diminfo[0].strides, __pyx_t_20, __pyx_pybuffernd_pse_metadata.diminfo[1].strides))), __pyx_v_occupymap_view, __pyx_v_srcindexmap_refine_view, __pyx_v_g);
         }
-        __pyx_L22:;
+        __pyx_L24:;
       }
 
-      /* "fastrometry/cython_code/PSE.pyx":237
- *                 doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, newoccupymap_view, g)
+      /* "fastrometry/cython_code/PSE.pyx":292
+ *                 doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, newoccupymap_view, g)
  *                 occupymap_view[:] = newoccupymap_view[:]
  *         if curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
  *             for g in range(nrefinepts):
@@ -5523,7 +6926,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
  */
     }
 
-    /* "fastrometry/cython_code/PSE.pyx":204
+    /* "fastrometry/cython_code/PSE.pyx":255
  *         int[:,:] newoccupymap_view = -1*np.ones((img_ymax,img_xmax),dtype=np.int32)
  * 
  *     if pixsat > 0:             # <<<<<<<<<<<<<<
@@ -5532,162 +6935,8 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
  */
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":245
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_refine_view, g)
- * 
- *     if verbose >= 1:             # <<<<<<<<<<<<<<
- *         if curr_sind < nrefinepts:
- *             print("Found {} saturation islands. Will map remaining sources.".format(curr_sind))
- */
-  __pyx_t_10 = ((__pyx_v_verbose >= 1) != 0);
-  if (__pyx_t_10) {
-
-    /* "fastrometry/cython_code/PSE.pyx":246
- * 
- *     if verbose >= 1:
- *         if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
- *             print("Found {} saturation islands. Will map remaining sources.".format(curr_sind))
- *         elif curr_sind >= nrefinepts:
- */
-    __pyx_t_10 = ((__pyx_v_curr_sind < __pyx_v_nrefinepts) != 0);
-    if (__pyx_t_10) {
-
-      /* "fastrometry/cython_code/PSE.pyx":247
- *     if verbose >= 1:
- *         if curr_sind < nrefinepts:
- *             print("Found {} saturation islands. Will map remaining sources.".format(curr_sind))             # <<<<<<<<<<<<<<
- *         elif curr_sind >= nrefinepts:
- *             print("Found {} saturation islands, which is greater than or equal to the required {}. Will cut and stop.".format(curr_sind, nrefinepts))
- */
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Found_saturation_islands_Will_ma, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 247, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_curr_sind); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 247, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_4 = NULL;
-      if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
-        __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
-        if (likely(__pyx_t_4)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-          __Pyx_INCREF(__pyx_t_4);
-          __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_2, function);
-        }
-      }
-      __pyx_t_3 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_4, __pyx_t_8) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_8);
-      __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 247, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 247, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-
-      /* "fastrometry/cython_code/PSE.pyx":246
- * 
- *     if verbose >= 1:
- *         if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
- *             print("Found {} saturation islands. Will map remaining sources.".format(curr_sind))
- *         elif curr_sind >= nrefinepts:
- */
-      goto __pyx_L24;
-    }
-
-    /* "fastrometry/cython_code/PSE.pyx":248
- *         if curr_sind < nrefinepts:
- *             print("Found {} saturation islands. Will map remaining sources.".format(curr_sind))
- *         elif curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
- *             print("Found {} saturation islands, which is greater than or equal to the required {}. Will cut and stop.".format(curr_sind, nrefinepts))
- * 
- */
-    __pyx_t_10 = ((__pyx_v_curr_sind >= __pyx_v_nrefinepts) != 0);
-    if (__pyx_t_10) {
-
-      /* "fastrometry/cython_code/PSE.pyx":249
- *             print("Found {} saturation islands. Will map remaining sources.".format(curr_sind))
- *         elif curr_sind >= nrefinepts:
- *             print("Found {} saturation islands, which is greater than or equal to the required {}. Will cut and stop.".format(curr_sind, nrefinepts))             # <<<<<<<<<<<<<<
- * 
- *     return curr_sind
- */
-      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Found_saturation_islands_which_i, __pyx_n_s_format); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 249, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-      __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_curr_sind); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 249, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_nrefinepts); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 249, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_6 = NULL;
-      __pyx_t_21 = 0;
-      if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
-        __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_2);
-        if (likely(__pyx_t_6)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-          __Pyx_INCREF(__pyx_t_6);
-          __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_2, function);
-          __pyx_t_21 = 1;
-        }
-      }
-      #if CYTHON_FAST_PYCALL
-      if (PyFunction_Check(__pyx_t_2)) {
-        PyObject *__pyx_temp[3] = {__pyx_t_6, __pyx_t_8, __pyx_t_4};
-        __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_21, 2+__pyx_t_21); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 249, __pyx_L1_error)
-        __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        __Pyx_GOTREF(__pyx_t_3);
-        __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      } else
-      #endif
-      #if CYTHON_FAST_PYCCALL
-      if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
-        PyObject *__pyx_temp[3] = {__pyx_t_6, __pyx_t_8, __pyx_t_4};
-        __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_21, 2+__pyx_t_21); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 249, __pyx_L1_error)
-        __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-        __Pyx_GOTREF(__pyx_t_3);
-        __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      } else
-      #endif
-      {
-        __pyx_t_25 = PyTuple_New(2+__pyx_t_21); if (unlikely(!__pyx_t_25)) __PYX_ERR(0, 249, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_25);
-        if (__pyx_t_6) {
-          __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_25, 0, __pyx_t_6); __pyx_t_6 = NULL;
-        }
-        __Pyx_GIVEREF(__pyx_t_8);
-        PyTuple_SET_ITEM(__pyx_t_25, 0+__pyx_t_21, __pyx_t_8);
-        __Pyx_GIVEREF(__pyx_t_4);
-        PyTuple_SET_ITEM(__pyx_t_25, 1+__pyx_t_21, __pyx_t_4);
-        __pyx_t_8 = 0;
-        __pyx_t_4 = 0;
-        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_25, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 249, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_3);
-        __Pyx_DECREF(__pyx_t_25); __pyx_t_25 = 0;
-      }
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-      if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 249, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-
-      /* "fastrometry/cython_code/PSE.pyx":248
- *         if curr_sind < nrefinepts:
- *             print("Found {} saturation islands. Will map remaining sources.".format(curr_sind))
- *         elif curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
- *             print("Found {} saturation islands, which is greater than or equal to the required {}. Will cut and stop.".format(curr_sind, nrefinepts))
- * 
- */
-    }
-    __pyx_L24:;
-
-    /* "fastrometry/cython_code/PSE.pyx":245
- *                     doQuickerRecursiveWalk(int(smetadata[g,0]), int(smetadata[g,1]), occupymap_view, sindmap_refine_view, g)
- * 
- *     if verbose >= 1:             # <<<<<<<<<<<<<<
- *         if curr_sind < nrefinepts:
- *             print("Found {} saturation islands. Will map remaining sources.".format(curr_sind))
- */
-  }
-
-  /* "fastrometry/cython_code/PSE.pyx":251
- *             print("Found {} saturation islands, which is greater than or equal to the required {}. Will cut and stop.".format(curr_sind, nrefinepts))
+  /* "fastrometry/cython_code/PSE.pyx":300
+ *                     doQuickerRecursiveWalk(int(pse_metadata[g,0]), int(pse_metadata[g,1]), occupymap_view, srcindexmap_refine_view, g)
  * 
  *     return curr_sind             # <<<<<<<<<<<<<<
  * 
@@ -5696,10 +6945,10 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
   __pyx_r = __pyx_v_curr_sind;
   goto __pyx_L0;
 
-  /* "fastrometry/cython_code/PSE.pyx":190
+  /* "fastrometry/cython_code/PSE.pyx":241
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * cdef int mapSaturationIslands(double[:,:] img_view, int img_xmax, int img_ymax, np.ndarray[dtype=np.double_t, ndim=2] smetadata, int[:,:] occupymap_view, int[:,:] sindmap_initial_view, int[:,:] sindmap_refine_view, int sourcesep, double pixsat, int npts, int nrefinepts, int curr_sind, int verbose, int debug):             # <<<<<<<<<<<<<<
+ * cdef int mapSaturationIslands(double[:,:] img_view, int img_xmax, int img_ymax, int[:,:] roi_view, np.ndarray[dtype=np.double_t, ndim=2] pse_metadata, int[:,:] occupymap_view, int[:,:] srcindexmap_initial_view, int[:,:] srcindexmap_refine_view, int sourcesep, double pixsat, int npts, int nrefinepts, int curr_sind, str user_dir, str debug_report, int verbosity, int debug):             # <<<<<<<<<<<<<<
  *     cdef:
  *         Py_ssize_t x
  */
@@ -5715,38 +6964,37 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__Pyx_m
   __PYX_XDEC_MEMVIEW(&__pyx_t_7, 1);
   __Pyx_XDECREF(__pyx_t_8);
   __PYX_XDEC_MEMVIEW(&__pyx_t_9, 1);
-  __Pyx_XDECREF(__pyx_t_25);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_smetadata.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
   __Pyx_WriteUnraisable("fastrometry.cython_code.PSE.mapSaturationIslands", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_smetadata.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer);
   __pyx_L2:;
-  __PYX_XDEC_MEMVIEW(&__pyx_v_smetadata_view, 1);
+  __PYX_XDEC_MEMVIEW(&__pyx_v_pse_metadata_view, 1);
   __PYX_XDEC_MEMVIEW(&__pyx_v_islandbnds_view, 1);
   __PYX_XDEC_MEMVIEW(&__pyx_v_cntdresults_view, 1);
   __PYX_XDEC_MEMVIEW(&__pyx_v_newoccupymap_view, 1);
   __Pyx_XDECREF(__pyx_v_dimmest);
-  __Pyx_XDECREF(__pyx_v_smetadata_sorted);
+  __Pyx_XDECREF(__pyx_v_pse_metadata_sorted);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "fastrometry/cython_code/PSE.pyx":255
+/* "fastrometry/cython_code/PSE.pyx":304
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * cdef int mapRemainingSources(double[:,:] img_view, int img_xmax, int img_ymax, double img_max, double img_median, np.ndarray[dtype=np.double_t,ndim=2] smetadata, double[:,:] bgmap_view, int[:,:] sindmap_initial_view, int[:,:] sindmap_refine_view, int[:,:] occupymap_view, int kernelrad, int[:,:] kernelcircle_view, int kernelsize, int sourcesep, int[:,:] sourcesepcircle_view, int sourcesepsize, int npts, int nrefinepts, int curr_sind, int verbose, int debug):             # <<<<<<<<<<<<<<
+ * cdef int mapRemainingSources(double[:,:] img_view, int img_xmax, int img_ymax, double img_max, double img_median, int[:,:] roi_view, np.ndarray[dtype=np.double_t,ndim=2] pse_metadata, double[:,:] bgmap_view, int[:,:] srcindexmap_initial_view, int[:,:] srcindexmap_refine_view, int[:,:] occupymap_view, int kernelrad, int[:,:] kernelcircle_view, int kernelsize, int sourcesep, int[:,:] sourcesepcircle_view, int sourcesepsize, int npts, int nrefinepts, int curr_sind, str user_dir, str debug_report, int verbosity, int debug):             # <<<<<<<<<<<<<<
  * 
  *     cdef:
  */
 
-static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_memviewslice __pyx_v_img_view, int __pyx_v_img_xmax, int __pyx_v_img_ymax, double __pyx_v_img_max, double __pyx_v_img_median, PyArrayObject *__pyx_v_smetadata, __Pyx_memviewslice __pyx_v_bgmap_view, __Pyx_memviewslice __pyx_v_sindmap_initial_view, __Pyx_memviewslice __pyx_v_sindmap_refine_view, __Pyx_memviewslice __pyx_v_occupymap_view, int __pyx_v_kernelrad, __Pyx_memviewslice __pyx_v_kernelcircle_view, int __pyx_v_kernelsize, int __pyx_v_sourcesep, __Pyx_memviewslice __pyx_v_sourcesepcircle_view, int __pyx_v_sourcesepsize, int __pyx_v_npts, int __pyx_v_nrefinepts, int __pyx_v_curr_sind, int __pyx_v_verbose, CYTHON_UNUSED int __pyx_v_debug) {
+static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_memviewslice __pyx_v_img_view, int __pyx_v_img_xmax, int __pyx_v_img_ymax, double __pyx_v_img_max, double __pyx_v_img_median, __Pyx_memviewslice __pyx_v_roi_view, PyArrayObject *__pyx_v_pse_metadata, __Pyx_memviewslice __pyx_v_bgmap_view, __Pyx_memviewslice __pyx_v_srcindexmap_initial_view, __Pyx_memviewslice __pyx_v_srcindexmap_refine_view, __Pyx_memviewslice __pyx_v_occupymap_view, int __pyx_v_kernelrad, __Pyx_memviewslice __pyx_v_kernelcircle_view, int __pyx_v_kernelsize, int __pyx_v_sourcesep, __Pyx_memviewslice __pyx_v_sourcesepcircle_view, int __pyx_v_sourcesepsize, int __pyx_v_npts, int __pyx_v_nrefinepts, int __pyx_v_curr_sind, PyObject *__pyx_v_user_dir, PyObject *__pyx_v_debug_report, int __pyx_v_verbosity, int __pyx_v_debug) {
   int __pyx_v_num_islands;
   Py_ssize_t __pyx_v_iter;
   Py_ssize_t __pyx_v_i;
@@ -5758,6 +7006,8 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
   Py_ssize_t __pyx_v_q;
   Py_ssize_t __pyx_v_r;
   Py_ssize_t __pyx_v_s;
+  Py_ssize_t __pyx_v_r2;
+  Py_ssize_t __pyx_v_s2;
   Py_ssize_t __pyx_v_t;
   Py_ssize_t __pyx_v_u;
   Py_ssize_t __pyx_v_x;
@@ -5775,13 +7025,14 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
   double __pyx_v_kernelsum;
   int __pyx_v_localpeak;
   double __pyx_v_dimmest;
-  int __pyx_v_num_psesources;
   Py_ssize_t __pyx_v_dimmest_ind;
-  __Pyx_memviewslice __pyx_v_smetadata_view = { 0, 0, { 0 }, { 0 }, { 0 } };
+  __Pyx_memviewslice __pyx_v_pse_metadata_view = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_cntdresults_view = { 0, 0, { 0 }, { 0 }, { 0 } };
-  PyObject *__pyx_v_smetadata_sorted = NULL;
-  __Pyx_LocalBuf_ND __pyx_pybuffernd_smetadata;
-  __Pyx_Buffer __pyx_pybuffer_smetadata;
+  PyObject *__pyx_v_pse_metadata_sorted = NULL;
+  PyObject *__pyx_v_num_zeros = NULL;
+  PyObject *__pyx_v_rr = NULL;
+  __Pyx_LocalBuf_ND __pyx_pybuffernd_pse_metadata;
+  __Pyx_Buffer __pyx_pybuffer_pse_metadata;
   int __pyx_r;
   __Pyx_RefNannyDeclarations
   double __pyx_t_1;
@@ -5793,8 +7044,8 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
   __Pyx_memviewslice __pyx_t_7 = { 0, 0, { 0 }, { 0 }, { 0 } };
   int __pyx_t_8;
   int __pyx_t_9;
-  Py_ssize_t __pyx_t_10;
-  int __pyx_t_11;
+  int __pyx_t_10;
+  Py_ssize_t __pyx_t_11;
   long __pyx_t_12;
   long __pyx_t_13;
   Py_ssize_t __pyx_t_14;
@@ -5815,32 +7066,31 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
   long __pyx_t_29;
   long __pyx_t_30;
   Py_ssize_t __pyx_t_31;
-  PyObject *__pyx_t_32 = NULL;
-  PyObject *__pyx_t_33 = NULL;
+  PyObject *(*__pyx_t_32)(PyObject *);
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("mapRemainingSources", 0);
-  __pyx_pybuffer_smetadata.pybuffer.buf = NULL;
-  __pyx_pybuffer_smetadata.refcount = 0;
-  __pyx_pybuffernd_smetadata.data = NULL;
-  __pyx_pybuffernd_smetadata.rcbuffer = &__pyx_pybuffer_smetadata;
+  __pyx_pybuffer_pse_metadata.pybuffer.buf = NULL;
+  __pyx_pybuffer_pse_metadata.refcount = 0;
+  __pyx_pybuffernd_pse_metadata.data = NULL;
+  __pyx_pybuffernd_pse_metadata.rcbuffer = &__pyx_pybuffer_pse_metadata;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_smetadata.rcbuffer->pybuffer, (PyObject*)__pyx_v_smetadata, &__Pyx_TypeInfo_nn___pyx_t_5numpy_double_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 255, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer, (PyObject*)__pyx_v_pse_metadata, &__Pyx_TypeInfo_nn___pyx_t_5numpy_double_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(0, 304, __pyx_L1_error)
   }
-  __pyx_pybuffernd_smetadata.diminfo[0].strides = __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_smetadata.diminfo[0].shape = __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_smetadata.diminfo[1].strides = __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_smetadata.diminfo[1].shape = __pyx_pybuffernd_smetadata.rcbuffer->pybuffer.shape[1];
+  __pyx_pybuffernd_pse_metadata.diminfo[0].strides = __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_pse_metadata.diminfo[0].shape = __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_pse_metadata.diminfo[1].strides = __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_pse_metadata.diminfo[1].shape = __pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer.shape[1];
 
-  /* "fastrometry/cython_code/PSE.pyx":258
+  /* "fastrometry/cython_code/PSE.pyx":307
  * 
  *     cdef:
  *         int num_islands = curr_sind     ###The curr_sind reflects the amount of sources found so far, or equivalently the index of the next source             # <<<<<<<<<<<<<<
- *                                         ###to be put in smetadata (since smetadata is 0-based like all numpy arrays). So num_islands is a number
- *                                         ###representing the next index to be filled after all the saturation islands have been put in smetadata.
+ *                                         ###to be put in pse_metadata (since pse_metadata is 0-based like all numpy arrays). So num_islands is a number
+ *                                         ###representing the next index to be filled after all the saturation islands have been put in pse_metadata.
  */
   __pyx_v_num_islands = __pyx_v_curr_sind;
 
-  /* "fastrometry/cython_code/PSE.pyx":277
+  /* "fastrometry/cython_code/PSE.pyx":328
  *         Py_ssize_t prevx
  *         Py_ssize_t prevy
  *         int leftmost_safe_x = 1 + sourcesep             # <<<<<<<<<<<<<<
@@ -5849,7 +7099,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
  */
   __pyx_v_leftmost_safe_x = (1 + __pyx_v_sourcesep);
 
-  /* "fastrometry/cython_code/PSE.pyx":278
+  /* "fastrometry/cython_code/PSE.pyx":329
  *         Py_ssize_t prevy
  *         int leftmost_safe_x = 1 + sourcesep
  *         int topmost_safe_y = 1 + sourcesep             # <<<<<<<<<<<<<<
@@ -5858,7 +7108,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
  */
   __pyx_v_topmost_safe_y = (1 + __pyx_v_sourcesep);
 
-  /* "fastrometry/cython_code/PSE.pyx":279
+  /* "fastrometry/cython_code/PSE.pyx":330
  *         int leftmost_safe_x = 1 + sourcesep
  *         int topmost_safe_y = 1 + sourcesep
  *         int rightmost_safe_x = img_xmax - sourcesep             # <<<<<<<<<<<<<<
@@ -5867,7 +7117,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
  */
   __pyx_v_rightmost_safe_x = (__pyx_v_img_xmax - __pyx_v_sourcesep);
 
-  /* "fastrometry/cython_code/PSE.pyx":280
+  /* "fastrometry/cython_code/PSE.pyx":331
  *         int topmost_safe_y = 1 + sourcesep
  *         int rightmost_safe_x = img_xmax - sourcesep
  *         int bottommost_safe_y = img_ymax - sourcesep             # <<<<<<<<<<<<<<
@@ -5876,7 +7126,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
  */
   __pyx_v_bottommost_safe_y = (__pyx_v_img_ymax - __pyx_v_sourcesep);
 
-  /* "fastrometry/cython_code/PSE.pyx":281
+  /* "fastrometry/cython_code/PSE.pyx":332
  *         int rightmost_safe_x = img_xmax - sourcesep
  *         int bottommost_safe_y = img_ymax - sourcesep
  *         int div_factor = 8             # <<<<<<<<<<<<<<
@@ -5885,7 +7135,7 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
  */
   __pyx_v_div_factor = 8;
 
-  /* "fastrometry/cython_code/PSE.pyx":282
+  /* "fastrometry/cython_code/PSE.pyx":333
  *         int bottommost_safe_y = img_ymax - sourcesep
  *         int div_factor = 8
  *         double pixelthresh = (img_max-img_median)/div_factor + img_median             # <<<<<<<<<<<<<<
@@ -5895,11 +7145,11 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
   __pyx_t_1 = (__pyx_v_img_max - __pyx_v_img_median);
   if (unlikely(__pyx_v_div_factor == 0)) {
     PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-    __PYX_ERR(0, 282, __pyx_L1_error)
+    __PYX_ERR(0, 333, __pyx_L1_error)
   }
   __pyx_v_pixelthresh = ((__pyx_t_1 / __pyx_v_div_factor) + __pyx_v_img_median);
 
-  /* "fastrometry/cython_code/PSE.pyx":283
+  /* "fastrometry/cython_code/PSE.pyx":334
  *         int div_factor = 8
  *         double pixelthresh = (img_max-img_median)/div_factor + img_median
  *         int max_iters = 20             # <<<<<<<<<<<<<<
@@ -5908,792 +7158,896 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
  */
   __pyx_v_max_iters = 20;
 
-  /* "fastrometry/cython_code/PSE.pyx":290
+  /* "fastrometry/cython_code/PSE.pyx":341
  *         int num_psesources
  *         Py_ssize_t dimmest_ind
- *         double[:,:] smetadata_view = smetadata             # <<<<<<<<<<<<<<
+ *         double[:,:] pse_metadata_view = pse_metadata             # <<<<<<<<<<<<<<
  *         double[:] cntdresults_view = np.zeros(3,dtype=np.double)
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(((PyObject *)__pyx_v_smetadata), PyBUF_WRITABLE); if (unlikely(!__pyx_t_2.memview)) __PYX_ERR(0, 290, __pyx_L1_error)
-  __pyx_v_smetadata_view = __pyx_t_2;
+  __pyx_t_2 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(((PyObject *)__pyx_v_pse_metadata), PyBUF_WRITABLE); if (unlikely(!__pyx_t_2.memview)) __PYX_ERR(0, 341, __pyx_L1_error)
+  __pyx_v_pse_metadata_view = __pyx_t_2;
   __pyx_t_2.memview = NULL;
   __pyx_t_2.data = NULL;
 
-  /* "fastrometry/cython_code/PSE.pyx":291
+  /* "fastrometry/cython_code/PSE.pyx":342
  *         Py_ssize_t dimmest_ind
- *         double[:,:] smetadata_view = smetadata
+ *         double[:,:] pse_metadata_view = pse_metadata
  *         double[:] cntdresults_view = np.zeros(3,dtype=np.double)             # <<<<<<<<<<<<<<
  * 
- *     sindmap_initial_view[:] = occupymap_view[:]
+ *     srcindexmap_initial_view[:] = occupymap_view[:]
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 342, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_zeros); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_zeros); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 342, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 342, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 342, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_double); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_double); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 342, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_6) < 0) __PYX_ERR(0, 291, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_6) < 0) __PYX_ERR(0, 342, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__2, __pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__5, __pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 342, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_6, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_ds_double(__pyx_t_6, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 342, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __pyx_v_cntdresults_view = __pyx_t_7;
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
 
-  /* "fastrometry/cython_code/PSE.pyx":293
+  /* "fastrometry/cython_code/PSE.pyx":344
  *         double[:] cntdresults_view = np.zeros(3,dtype=np.double)
  * 
- *     sindmap_initial_view[:] = occupymap_view[:]             # <<<<<<<<<<<<<<
- *     sindmap_refine_view[:] = occupymap_view[:]
+ *     srcindexmap_initial_view[:] = occupymap_view[:]             # <<<<<<<<<<<<<<
+ *     srcindexmap_refine_view[:] = occupymap_view[:]
  * 
  */
-  if (unlikely(__pyx_memoryview_copy_contents(__pyx_v_occupymap_view, __pyx_v_sindmap_initial_view, 2, 2, 0) < 0)) __PYX_ERR(0, 293, __pyx_L1_error)
+  if (unlikely(__pyx_memoryview_copy_contents(__pyx_v_occupymap_view, __pyx_v_srcindexmap_initial_view, 2, 2, 0) < 0)) __PYX_ERR(0, 344, __pyx_L1_error)
 
-  /* "fastrometry/cython_code/PSE.pyx":294
+  /* "fastrometry/cython_code/PSE.pyx":345
  * 
- *     sindmap_initial_view[:] = occupymap_view[:]
- *     sindmap_refine_view[:] = occupymap_view[:]             # <<<<<<<<<<<<<<
+ *     srcindexmap_initial_view[:] = occupymap_view[:]
+ *     srcindexmap_refine_view[:] = occupymap_view[:]             # <<<<<<<<<<<<<<
+ * 
+ *     if verbosity == 2:
+ */
+  if (unlikely(__pyx_memoryview_copy_contents(__pyx_v_occupymap_view, __pyx_v_srcindexmap_refine_view, 2, 2, 0) < 0)) __PYX_ERR(0, 345, __pyx_L1_error)
+
+  /* "fastrometry/cython_code/PSE.pyx":347
+ *     srcindexmap_refine_view[:] = occupymap_view[:]
+ * 
+ *     if verbosity == 2:             # <<<<<<<<<<<<<<
+ *         print("| | Trying various pixel thresholds...")
+ * 
+ */
+  __pyx_t_8 = ((__pyx_v_verbosity == 2) != 0);
+  if (__pyx_t_8) {
+
+    /* "fastrometry/cython_code/PSE.pyx":348
+ * 
+ *     if verbosity == 2:
+ *         print("| | Trying various pixel thresholds...")             # <<<<<<<<<<<<<<
  * 
  *     for iter in range(max_iters):
  */
-  if (unlikely(__pyx_memoryview_copy_contents(__pyx_v_occupymap_view, __pyx_v_sindmap_refine_view, 2, 2, 0) < 0)) __PYX_ERR(0, 294, __pyx_L1_error)
+    if (__Pyx_PrintOne(0, __pyx_kp_s_Trying_various_pixel_thresholds) < 0) __PYX_ERR(0, 348, __pyx_L1_error)
 
-  /* "fastrometry/cython_code/PSE.pyx":296
- *     sindmap_refine_view[:] = occupymap_view[:]
+    /* "fastrometry/cython_code/PSE.pyx":347
+ *     srcindexmap_refine_view[:] = occupymap_view[:]
+ * 
+ *     if verbosity == 2:             # <<<<<<<<<<<<<<
+ *         print("| | Trying various pixel thresholds...")
+ * 
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":350
+ *         print("| | Trying various pixel thresholds...")
  * 
  *     for iter in range(max_iters):             # <<<<<<<<<<<<<<
- * 
- *         if verbose >= 1:
- */
-  __pyx_t_8 = __pyx_v_max_iters;
-  __pyx_t_9 = __pyx_t_8;
-  for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
-    __pyx_v_iter = __pyx_t_10;
-
-    /* "fastrometry/cython_code/PSE.pyx":298
- *     for iter in range(max_iters):
- * 
- *         if verbose >= 1:             # <<<<<<<<<<<<<<
- *             print("iteration ",iter)
- *             print("pixel thresh",pixelthresh)
- */
-    __pyx_t_11 = ((__pyx_v_verbose >= 1) != 0);
-    if (__pyx_t_11) {
-
-      /* "fastrometry/cython_code/PSE.pyx":299
- * 
- *         if verbose >= 1:
- *             print("iteration ",iter)             # <<<<<<<<<<<<<<
- *             print("pixel thresh",pixelthresh)
- * 
- */
-      __pyx_t_6 = PyInt_FromSsize_t(__pyx_v_iter); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 299, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 299, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_INCREF(__pyx_kp_s_iteration);
-      __Pyx_GIVEREF(__pyx_kp_s_iteration);
-      PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_kp_s_iteration);
-      __Pyx_GIVEREF(__pyx_t_6);
-      PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_6);
-      __pyx_t_6 = 0;
-      if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 299, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-
-      /* "fastrometry/cython_code/PSE.pyx":300
- *         if verbose >= 1:
- *             print("iteration ",iter)
- *             print("pixel thresh",pixelthresh)             # <<<<<<<<<<<<<<
- * 
  *         for x in range(leftmost_safe_x, rightmost_safe_x+1):
+ *             for y in range(topmost_safe_y, bottommost_safe_y+1):
  */
-      __pyx_t_3 = PyFloat_FromDouble(__pyx_v_pixelthresh); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 300, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 300, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_INCREF(__pyx_kp_s_pixel_thresh);
-      __Pyx_GIVEREF(__pyx_kp_s_pixel_thresh);
-      PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_kp_s_pixel_thresh);
-      __Pyx_GIVEREF(__pyx_t_3);
-      PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
-      __pyx_t_3 = 0;
-      if (__Pyx_PrintOne(0, __pyx_t_6) < 0) __PYX_ERR(0, 300, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+  __pyx_t_9 = __pyx_v_max_iters;
+  __pyx_t_10 = __pyx_t_9;
+  for (__pyx_t_11 = 0; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
+    __pyx_v_iter = __pyx_t_11;
 
-      /* "fastrometry/cython_code/PSE.pyx":298
+    /* "fastrometry/cython_code/PSE.pyx":351
+ * 
  *     for iter in range(max_iters):
- * 
- *         if verbose >= 1:             # <<<<<<<<<<<<<<
- *             print("iteration ",iter)
- *             print("pixel thresh",pixelthresh)
- */
-    }
-
-    /* "fastrometry/cython_code/PSE.pyx":302
- *             print("pixel thresh",pixelthresh)
- * 
  *         for x in range(leftmost_safe_x, rightmost_safe_x+1):             # <<<<<<<<<<<<<<
  *             for y in range(topmost_safe_y, bottommost_safe_y+1):
- *                 if occupymap_view[y-1,x-1] == -1:
+ *                 if roi_view[y-1,x-1] == 1:
  */
     __pyx_t_12 = (__pyx_v_rightmost_safe_x + 1);
     __pyx_t_13 = __pyx_t_12;
     for (__pyx_t_14 = __pyx_v_leftmost_safe_x; __pyx_t_14 < __pyx_t_13; __pyx_t_14+=1) {
       __pyx_v_x = __pyx_t_14;
 
-      /* "fastrometry/cython_code/PSE.pyx":303
- * 
+      /* "fastrometry/cython_code/PSE.pyx":352
+ *     for iter in range(max_iters):
  *         for x in range(leftmost_safe_x, rightmost_safe_x+1):
  *             for y in range(topmost_safe_y, bottommost_safe_y+1):             # <<<<<<<<<<<<<<
- *                 if occupymap_view[y-1,x-1] == -1:
- *                     centerbg = bgmap_view[y-1,x-1]
+ *                 if roi_view[y-1,x-1] == 1:
+ *                     if occupymap_view[y-1,x-1] == -1:
  */
       __pyx_t_15 = (__pyx_v_bottommost_safe_y + 1);
       __pyx_t_16 = __pyx_t_15;
       for (__pyx_t_17 = __pyx_v_topmost_safe_y; __pyx_t_17 < __pyx_t_16; __pyx_t_17+=1) {
         __pyx_v_y = __pyx_t_17;
 
-        /* "fastrometry/cython_code/PSE.pyx":304
+        /* "fastrometry/cython_code/PSE.pyx":353
  *         for x in range(leftmost_safe_x, rightmost_safe_x+1):
  *             for y in range(topmost_safe_y, bottommost_safe_y+1):
- *                 if occupymap_view[y-1,x-1] == -1:             # <<<<<<<<<<<<<<
- *                     centerbg = bgmap_view[y-1,x-1]
- *                     if img_view[y-1,x-1] - centerbg > pixelthresh:
+ *                 if roi_view[y-1,x-1] == 1:             # <<<<<<<<<<<<<<
+ *                     if occupymap_view[y-1,x-1] == -1:
+ *                         centerbg = bgmap_view[y-1,x-1]
  */
         __pyx_t_18 = (__pyx_v_y - 1);
         __pyx_t_19 = (__pyx_v_x - 1);
-        __pyx_t_11 = (((*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_occupymap_view.data + __pyx_t_18 * __pyx_v_occupymap_view.strides[0]) ) + __pyx_t_19 * __pyx_v_occupymap_view.strides[1]) ))) == -1L) != 0);
-        if (__pyx_t_11) {
+        __pyx_t_8 = (((*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_roi_view.data + __pyx_t_18 * __pyx_v_roi_view.strides[0]) ) + __pyx_t_19 * __pyx_v_roi_view.strides[1]) ))) == 1) != 0);
+        if (__pyx_t_8) {
 
-          /* "fastrometry/cython_code/PSE.pyx":305
+          /* "fastrometry/cython_code/PSE.pyx":354
  *             for y in range(topmost_safe_y, bottommost_safe_y+1):
- *                 if occupymap_view[y-1,x-1] == -1:
- *                     centerbg = bgmap_view[y-1,x-1]             # <<<<<<<<<<<<<<
- *                     if img_view[y-1,x-1] - centerbg > pixelthresh:
- *                         localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels
+ *                 if roi_view[y-1,x-1] == 1:
+ *                     if occupymap_view[y-1,x-1] == -1:             # <<<<<<<<<<<<<<
+ *                         centerbg = bgmap_view[y-1,x-1]
+ *                         if img_view[y-1,x-1] - centerbg > pixelthresh:
  */
           __pyx_t_19 = (__pyx_v_y - 1);
           __pyx_t_18 = (__pyx_v_x - 1);
-          __pyx_v_centerbg = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_bgmap_view.data + __pyx_t_19 * __pyx_v_bgmap_view.strides[0]) ) + __pyx_t_18 * __pyx_v_bgmap_view.strides[1]) )));
+          __pyx_t_8 = (((*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_occupymap_view.data + __pyx_t_19 * __pyx_v_occupymap_view.strides[0]) ) + __pyx_t_18 * __pyx_v_occupymap_view.strides[1]) ))) == -1L) != 0);
+          if (__pyx_t_8) {
 
-          /* "fastrometry/cython_code/PSE.pyx":306
- *                 if occupymap_view[y-1,x-1] == -1:
- *                     centerbg = bgmap_view[y-1,x-1]
- *                     if img_view[y-1,x-1] - centerbg > pixelthresh:             # <<<<<<<<<<<<<<
- *                         localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels
- *                         for i in range(sourcesepsize):
+            /* "fastrometry/cython_code/PSE.pyx":355
+ *                 if roi_view[y-1,x-1] == 1:
+ *                     if occupymap_view[y-1,x-1] == -1:
+ *                         centerbg = bgmap_view[y-1,x-1]             # <<<<<<<<<<<<<<
+ *                         if img_view[y-1,x-1] - centerbg > pixelthresh:
+ *                             localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels
  */
-          __pyx_t_18 = (__pyx_v_y - 1);
-          __pyx_t_19 = (__pyx_v_x - 1);
-          __pyx_t_11 = ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_18 * __pyx_v_img_view.strides[0]) ) + __pyx_t_19 * __pyx_v_img_view.strides[1]) ))) - __pyx_v_centerbg) > __pyx_v_pixelthresh) != 0);
-          if (__pyx_t_11) {
+            __pyx_t_18 = (__pyx_v_y - 1);
+            __pyx_t_19 = (__pyx_v_x - 1);
+            __pyx_v_centerbg = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_bgmap_view.data + __pyx_t_18 * __pyx_v_bgmap_view.strides[0]) ) + __pyx_t_19 * __pyx_v_bgmap_view.strides[1]) )));
 
-            /* "fastrometry/cython_code/PSE.pyx":307
- *                     centerbg = bgmap_view[y-1,x-1]
- *                     if img_view[y-1,x-1] - centerbg > pixelthresh:
- *                         localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels             # <<<<<<<<<<<<<<
- *                         for i in range(sourcesepsize):
- *                             if img_view[(y+sourcesepcircle_view[i,1])-1,(x+sourcesepcircle_view[i,0])-1] > img_view[y-1,x-1]:
+            /* "fastrometry/cython_code/PSE.pyx":356
+ *                     if occupymap_view[y-1,x-1] == -1:
+ *                         centerbg = bgmap_view[y-1,x-1]
+ *                         if img_view[y-1,x-1] - centerbg > pixelthresh:             # <<<<<<<<<<<<<<
+ *                             localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels
+ *                             for i in range(sourcesepsize):
  */
-            __pyx_v_localpeak = 1;
+            __pyx_t_19 = (__pyx_v_y - 1);
+            __pyx_t_18 = (__pyx_v_x - 1);
+            __pyx_t_8 = ((((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_19 * __pyx_v_img_view.strides[0]) ) + __pyx_t_18 * __pyx_v_img_view.strides[1]) ))) - __pyx_v_centerbg) > __pyx_v_pixelthresh) != 0);
+            if (__pyx_t_8) {
 
-            /* "fastrometry/cython_code/PSE.pyx":308
- *                     if img_view[y-1,x-1] - centerbg > pixelthresh:
- *                         localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels
- *                         for i in range(sourcesepsize):             # <<<<<<<<<<<<<<
- *                             if img_view[(y+sourcesepcircle_view[i,1])-1,(x+sourcesepcircle_view[i,0])-1] > img_view[y-1,x-1]:
- *                                 localpeak = False
+              /* "fastrometry/cython_code/PSE.pyx":357
+ *                         centerbg = bgmap_view[y-1,x-1]
+ *                         if img_view[y-1,x-1] - centerbg > pixelthresh:
+ *                             localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels             # <<<<<<<<<<<<<<
+ *                             for i in range(sourcesepsize):
+ *                                 if img_view[(y+sourcesepcircle_view[i,1])-1,(x+sourcesepcircle_view[i,0])-1] > img_view[y-1,x-1]:
  */
-            __pyx_t_20 = __pyx_v_sourcesepsize;
-            __pyx_t_21 = __pyx_t_20;
-            for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
-              __pyx_v_i = __pyx_t_22;
+              __pyx_v_localpeak = 1;
 
-              /* "fastrometry/cython_code/PSE.pyx":309
- *                         localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels
- *                         for i in range(sourcesepsize):
- *                             if img_view[(y+sourcesepcircle_view[i,1])-1,(x+sourcesepcircle_view[i,0])-1] > img_view[y-1,x-1]:             # <<<<<<<<<<<<<<
- *                                 localpeak = False
- *                                 break
- */
-              __pyx_t_19 = __pyx_v_i;
-              __pyx_t_18 = 1;
-              __pyx_t_23 = __pyx_v_i;
-              __pyx_t_24 = 0;
-              __pyx_t_25 = ((__pyx_v_y + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sourcesepcircle_view.data + __pyx_t_19 * __pyx_v_sourcesepcircle_view.strides[0]) ) + __pyx_t_18 * __pyx_v_sourcesepcircle_view.strides[1]) )))) - 1);
-              __pyx_t_26 = ((__pyx_v_x + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sourcesepcircle_view.data + __pyx_t_23 * __pyx_v_sourcesepcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_sourcesepcircle_view.strides[1]) )))) - 1);
-              __pyx_t_27 = (__pyx_v_y - 1);
-              __pyx_t_28 = (__pyx_v_x - 1);
-              __pyx_t_11 = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_25 * __pyx_v_img_view.strides[0]) ) + __pyx_t_26 * __pyx_v_img_view.strides[1]) ))) > (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_27 * __pyx_v_img_view.strides[0]) ) + __pyx_t_28 * __pyx_v_img_view.strides[1]) )))) != 0);
-              if (__pyx_t_11) {
-
-                /* "fastrometry/cython_code/PSE.pyx":310
- *                         for i in range(sourcesepsize):
- *                             if img_view[(y+sourcesepcircle_view[i,1])-1,(x+sourcesepcircle_view[i,0])-1] > img_view[y-1,x-1]:
- *                                 localpeak = False             # <<<<<<<<<<<<<<
- *                                 break
- *                         if localpeak == True:
- */
-                __pyx_v_localpeak = 0;
-
-                /* "fastrometry/cython_code/PSE.pyx":311
- *                             if img_view[(y+sourcesepcircle_view[i,1])-1,(x+sourcesepcircle_view[i,0])-1] > img_view[y-1,x-1]:
- *                                 localpeak = False
- *                                 break             # <<<<<<<<<<<<<<
- *                         if localpeak == True:
- *                             for j in range(sourcesepsize):
- */
-                goto __pyx_L13_break;
-
-                /* "fastrometry/cython_code/PSE.pyx":309
- *                         localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels
- *                         for i in range(sourcesepsize):
- *                             if img_view[(y+sourcesepcircle_view[i,1])-1,(x+sourcesepcircle_view[i,0])-1] > img_view[y-1,x-1]:             # <<<<<<<<<<<<<<
- *                                 localpeak = False
- *                                 break
- */
-              }
-            }
-            __pyx_L13_break:;
-
-            /* "fastrometry/cython_code/PSE.pyx":312
- *                                 localpeak = False
- *                                 break
- *                         if localpeak == True:             # <<<<<<<<<<<<<<
- *                             for j in range(sourcesepsize):
- *                                 occupymap_view[(y+sourcesepcircle_view[j,1])-1, (x+sourcesepcircle_view[j,0])-1] = -2
- */
-            __pyx_t_11 = ((__pyx_v_localpeak == 1) != 0);
-            if (__pyx_t_11) {
-
-              /* "fastrometry/cython_code/PSE.pyx":313
- *                                 break
- *                         if localpeak == True:
- *                             for j in range(sourcesepsize):             # <<<<<<<<<<<<<<
- *                                 occupymap_view[(y+sourcesepcircle_view[j,1])-1, (x+sourcesepcircle_view[j,0])-1] = -2
- * 
+              /* "fastrometry/cython_code/PSE.pyx":358
+ *                         if img_view[y-1,x-1] - centerbg > pixelthresh:
+ *                             localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels
+ *                             for i in range(sourcesepsize):             # <<<<<<<<<<<<<<
+ *                                 if img_view[(y+sourcesepcircle_view[i,1])-1,(x+sourcesepcircle_view[i,0])-1] > img_view[y-1,x-1]:
+ *                                     localpeak = False
  */
               __pyx_t_20 = __pyx_v_sourcesepsize;
               __pyx_t_21 = __pyx_t_20;
               for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
-                __pyx_v_j = __pyx_t_22;
+                __pyx_v_i = __pyx_t_22;
 
-                /* "fastrometry/cython_code/PSE.pyx":314
- *                         if localpeak == True:
- *                             for j in range(sourcesepsize):
- *                                 occupymap_view[(y+sourcesepcircle_view[j,1])-1, (x+sourcesepcircle_view[j,0])-1] = -2             # <<<<<<<<<<<<<<
- * 
- *                             if curr_sind < nrefinepts-1:
+                /* "fastrometry/cython_code/PSE.pyx":359
+ *                             localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels
+ *                             for i in range(sourcesepsize):
+ *                                 if img_view[(y+sourcesepcircle_view[i,1])-1,(x+sourcesepcircle_view[i,0])-1] > img_view[y-1,x-1]:             # <<<<<<<<<<<<<<
+ *                                     localpeak = False
+ *                                     break
  */
-                __pyx_t_28 = __pyx_v_j;
-                __pyx_t_27 = 1;
-                __pyx_t_24 = __pyx_v_j;
-                __pyx_t_23 = 0;
-                __pyx_t_18 = ((__pyx_v_y + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sourcesepcircle_view.data + __pyx_t_28 * __pyx_v_sourcesepcircle_view.strides[0]) ) + __pyx_t_27 * __pyx_v_sourcesepcircle_view.strides[1]) )))) - 1);
-                __pyx_t_19 = ((__pyx_v_x + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sourcesepcircle_view.data + __pyx_t_24 * __pyx_v_sourcesepcircle_view.strides[0]) ) + __pyx_t_23 * __pyx_v_sourcesepcircle_view.strides[1]) )))) - 1);
-                *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_occupymap_view.data + __pyx_t_18 * __pyx_v_occupymap_view.strides[0]) ) + __pyx_t_19 * __pyx_v_occupymap_view.strides[1]) )) = -2;
-              }
-
-              /* "fastrometry/cython_code/PSE.pyx":316
- *                                 occupymap_view[(y+sourcesepcircle_view[j,1])-1, (x+sourcesepcircle_view[j,0])-1] = -2
- * 
- *                             if curr_sind < nrefinepts-1:             # <<<<<<<<<<<<<<
- *                                 ###If the slot about to be filled in smetadata isn't nrefinepts-1 (the nrefinepts'th source), we can now go onto the
- *                                 ###next (x,y) and not perform unhelpful expensive calculations (aka, kernel integration and centroiding). These
- */
-              __pyx_t_11 = ((__pyx_v_curr_sind < (__pyx_v_nrefinepts - 1)) != 0);
-              if (__pyx_t_11) {
-
-                /* "fastrometry/cython_code/PSE.pyx":323
- *                                 ###a "good run", we will come back and do the calculations.
- * 
- *                                 smetadata_view[curr_sind,0] = x             # <<<<<<<<<<<<<<
- *                                 smetadata_view[curr_sind,1] = y
- *                                 smetadata_view[curr_sind,2] = 0
- */
-                __pyx_t_23 = __pyx_v_curr_sind;
+                __pyx_t_18 = __pyx_v_i;
+                __pyx_t_19 = 1;
+                __pyx_t_23 = __pyx_v_i;
                 __pyx_t_24 = 0;
-                *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_23 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_smetadata_view.strides[1]) )) = __pyx_v_x;
+                __pyx_t_25 = ((__pyx_v_y + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sourcesepcircle_view.data + __pyx_t_18 * __pyx_v_sourcesepcircle_view.strides[0]) ) + __pyx_t_19 * __pyx_v_sourcesepcircle_view.strides[1]) )))) - 1);
+                __pyx_t_26 = ((__pyx_v_x + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sourcesepcircle_view.data + __pyx_t_23 * __pyx_v_sourcesepcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_sourcesepcircle_view.strides[1]) )))) - 1);
+                __pyx_t_27 = (__pyx_v_y - 1);
+                __pyx_t_28 = (__pyx_v_x - 1);
+                __pyx_t_8 = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_25 * __pyx_v_img_view.strides[0]) ) + __pyx_t_26 * __pyx_v_img_view.strides[1]) ))) > (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_27 * __pyx_v_img_view.strides[0]) ) + __pyx_t_28 * __pyx_v_img_view.strides[1]) )))) != 0);
+                if (__pyx_t_8) {
 
-                /* "fastrometry/cython_code/PSE.pyx":324
- * 
- *                                 smetadata_view[curr_sind,0] = x
- *                                 smetadata_view[curr_sind,1] = y             # <<<<<<<<<<<<<<
- *                                 smetadata_view[curr_sind,2] = 0
- * 
+                  /* "fastrometry/cython_code/PSE.pyx":360
+ *                             for i in range(sourcesepsize):
+ *                                 if img_view[(y+sourcesepcircle_view[i,1])-1,(x+sourcesepcircle_view[i,0])-1] > img_view[y-1,x-1]:
+ *                                     localpeak = False             # <<<<<<<<<<<<<<
+ *                                     break
+ *                             if localpeak == True:
  */
-                __pyx_t_24 = __pyx_v_curr_sind;
-                __pyx_t_23 = 1;
-                *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_24 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_smetadata_view.strides[1]) )) = __pyx_v_y;
+                  __pyx_v_localpeak = 0;
 
-                /* "fastrometry/cython_code/PSE.pyx":325
- *                                 smetadata_view[curr_sind,0] = x
- *                                 smetadata_view[curr_sind,1] = y
- *                                 smetadata_view[curr_sind,2] = 0             # <<<<<<<<<<<<<<
- * 
- *                                 curr_sind += 1
+                  /* "fastrometry/cython_code/PSE.pyx":361
+ *                                 if img_view[(y+sourcesepcircle_view[i,1])-1,(x+sourcesepcircle_view[i,0])-1] > img_view[y-1,x-1]:
+ *                                     localpeak = False
+ *                                     break             # <<<<<<<<<<<<<<
+ *                             if localpeak == True:
+ *                                 for j in range(sourcesepsize):
  */
-                __pyx_t_23 = __pyx_v_curr_sind;
-                __pyx_t_24 = 2;
-                *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_23 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_smetadata_view.strides[1]) )) = 0.0;
+                  goto __pyx_L14_break;
 
-                /* "fastrometry/cython_code/PSE.pyx":327
- *                                 smetadata_view[curr_sind,2] = 0
- * 
- *                                 curr_sind += 1             # <<<<<<<<<<<<<<
- * 
- *                             elif curr_sind == nrefinepts-1:
+                  /* "fastrometry/cython_code/PSE.pyx":359
+ *                             localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels
+ *                             for i in range(sourcesepsize):
+ *                                 if img_view[(y+sourcesepcircle_view[i,1])-1,(x+sourcesepcircle_view[i,0])-1] > img_view[y-1,x-1]:             # <<<<<<<<<<<<<<
+ *                                     localpeak = False
+ *                                     break
  */
-                __pyx_v_curr_sind = (__pyx_v_curr_sind + 1);
-
-                /* "fastrometry/cython_code/PSE.pyx":316
- *                                 occupymap_view[(y+sourcesepcircle_view[j,1])-1, (x+sourcesepcircle_view[j,0])-1] = -2
- * 
- *                             if curr_sind < nrefinepts-1:             # <<<<<<<<<<<<<<
- *                                 ###If the slot about to be filled in smetadata isn't nrefinepts-1 (the nrefinepts'th source), we can now go onto the
- *                                 ###next (x,y) and not perform unhelpful expensive calculations (aka, kernel integration and centroiding). These
- */
-                goto __pyx_L18;
+                }
               }
+              __pyx_L14_break:;
 
-              /* "fastrometry/cython_code/PSE.pyx":329
- *                                 curr_sind += 1
- * 
- *                             elif curr_sind == nrefinepts-1:             # <<<<<<<<<<<<<<
- *                                 ###If we got to this point, we know that this loop gives us at least nrefinepts sources. We go back (by accessing
- *                                 ###the smetadata) and perform kernel integration to get the brightnesses of all sources found so far.
+              /* "fastrometry/cython_code/PSE.pyx":362
+ *                                     localpeak = False
+ *                                     break
+ *                             if localpeak == True:             # <<<<<<<<<<<<<<
+ *                                 for j in range(sourcesepsize):
+ *                                     occupymap_view[(y+sourcesepcircle_view[j,1])-1, (x+sourcesepcircle_view[j,0])-1] = -2
  */
-              __pyx_t_11 = ((__pyx_v_curr_sind == (__pyx_v_nrefinepts - 1)) != 0);
-              if (__pyx_t_11) {
+              __pyx_t_8 = ((__pyx_v_localpeak == 1) != 0);
+              if (__pyx_t_8) {
 
-                /* "fastrometry/cython_code/PSE.pyx":333
- *                                 ###the smetadata) and perform kernel integration to get the brightnesses of all sources found so far.
+                /* "fastrometry/cython_code/PSE.pyx":363
+ *                                     break
+ *                             if localpeak == True:
+ *                                 for j in range(sourcesepsize):             # <<<<<<<<<<<<<<
+ *                                     occupymap_view[(y+sourcesepcircle_view[j,1])-1, (x+sourcesepcircle_view[j,0])-1] = -2
  * 
- *                                 for k in range(num_islands,nrefinepts-1):             # <<<<<<<<<<<<<<
- *                                     prevx = int(smetadata_view[k,0])
- *                                     prevy = int(smetadata_view[k,1])
  */
-                __pyx_t_29 = (__pyx_v_nrefinepts - 1);
-                __pyx_t_30 = __pyx_t_29;
-                for (__pyx_t_22 = __pyx_v_num_islands; __pyx_t_22 < __pyx_t_30; __pyx_t_22+=1) {
-                  __pyx_v_k = __pyx_t_22;
+                __pyx_t_20 = __pyx_v_sourcesepsize;
+                __pyx_t_21 = __pyx_t_20;
+                for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
+                  __pyx_v_j = __pyx_t_22;
 
-                  /* "fastrometry/cython_code/PSE.pyx":334
+                  /* "fastrometry/cython_code/PSE.pyx":364
+ *                             if localpeak == True:
+ *                                 for j in range(sourcesepsize):
+ *                                     occupymap_view[(y+sourcesepcircle_view[j,1])-1, (x+sourcesepcircle_view[j,0])-1] = -2             # <<<<<<<<<<<<<<
  * 
- *                                 for k in range(num_islands,nrefinepts-1):
- *                                     prevx = int(smetadata_view[k,0])             # <<<<<<<<<<<<<<
- *                                     prevy = int(smetadata_view[k,1])
- *                                     kernelsum = 0
+ *                                 if curr_sind < nrefinepts-1:
  */
-                  __pyx_t_24 = __pyx_v_k;
+                  __pyx_t_28 = __pyx_v_j;
+                  __pyx_t_27 = 1;
+                  __pyx_t_24 = __pyx_v_j;
                   __pyx_t_23 = 0;
-                  __pyx_v_prevx = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_24 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_smetadata_view.strides[1]) ))));
+                  __pyx_t_19 = ((__pyx_v_y + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sourcesepcircle_view.data + __pyx_t_28 * __pyx_v_sourcesepcircle_view.strides[0]) ) + __pyx_t_27 * __pyx_v_sourcesepcircle_view.strides[1]) )))) - 1);
+                  __pyx_t_18 = ((__pyx_v_x + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sourcesepcircle_view.data + __pyx_t_24 * __pyx_v_sourcesepcircle_view.strides[0]) ) + __pyx_t_23 * __pyx_v_sourcesepcircle_view.strides[1]) )))) - 1);
+                  *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_occupymap_view.data + __pyx_t_19 * __pyx_v_occupymap_view.strides[0]) ) + __pyx_t_18 * __pyx_v_occupymap_view.strides[1]) )) = -2;
+                }
 
-                  /* "fastrometry/cython_code/PSE.pyx":335
- *                                 for k in range(num_islands,nrefinepts-1):
- *                                     prevx = int(smetadata_view[k,0])
- *                                     prevy = int(smetadata_view[k,1])             # <<<<<<<<<<<<<<
- *                                     kernelsum = 0
- *                                     for m in range(kernelsize):
+                /* "fastrometry/cython_code/PSE.pyx":366
+ *                                     occupymap_view[(y+sourcesepcircle_view[j,1])-1, (x+sourcesepcircle_view[j,0])-1] = -2
+ * 
+ *                                 if curr_sind < nrefinepts-1:             # <<<<<<<<<<<<<<
+ *                                     ###If the slot about to be filled in pse_metadata isn't nrefinepts-1 (the nrefinepts'th source), we can now go onto the
+ *                                     ###next (x,y) and not perform unhelpful expensive calculations (aka, kernel integration and centroiding). These
  */
-                  __pyx_t_23 = __pyx_v_k;
-                  __pyx_t_24 = 1;
-                  __pyx_v_prevy = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_23 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_smetadata_view.strides[1]) ))));
+                __pyx_t_8 = ((__pyx_v_curr_sind < (__pyx_v_nrefinepts - 1)) != 0);
+                if (__pyx_t_8) {
 
-                  /* "fastrometry/cython_code/PSE.pyx":336
- *                                     prevx = int(smetadata_view[k,0])
- *                                     prevy = int(smetadata_view[k,1])
+                  /* "fastrometry/cython_code/PSE.pyx":373
+ *                                     ###a "good run", we will come back and do the calculations.
+ * 
+ *                                     pse_metadata_view[curr_sind,0] = x             # <<<<<<<<<<<<<<
+ *                                     pse_metadata_view[curr_sind,1] = y
+ *                                     pse_metadata_view[curr_sind,2] = 0
+ */
+                  __pyx_t_23 = __pyx_v_curr_sind;
+                  __pyx_t_24 = 0;
+                  *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[1]) )) = __pyx_v_x;
+
+                  /* "fastrometry/cython_code/PSE.pyx":374
+ * 
+ *                                     pse_metadata_view[curr_sind,0] = x
+ *                                     pse_metadata_view[curr_sind,1] = y             # <<<<<<<<<<<<<<
+ *                                     pse_metadata_view[curr_sind,2] = 0
+ * 
+ */
+                  __pyx_t_24 = __pyx_v_curr_sind;
+                  __pyx_t_23 = 1;
+                  *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[1]) )) = __pyx_v_y;
+
+                  /* "fastrometry/cython_code/PSE.pyx":375
+ *                                     pse_metadata_view[curr_sind,0] = x
+ *                                     pse_metadata_view[curr_sind,1] = y
+ *                                     pse_metadata_view[curr_sind,2] = 0             # <<<<<<<<<<<<<<
+ * 
+ *                                     curr_sind += 1
+ */
+                  __pyx_t_23 = __pyx_v_curr_sind;
+                  __pyx_t_24 = 2;
+                  *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[1]) )) = 0.0;
+
+                  /* "fastrometry/cython_code/PSE.pyx":377
+ *                                     pse_metadata_view[curr_sind,2] = 0
+ * 
+ *                                     curr_sind += 1             # <<<<<<<<<<<<<<
+ * 
+ *                                 elif curr_sind == nrefinepts-1:
+ */
+                  __pyx_v_curr_sind = (__pyx_v_curr_sind + 1);
+
+                  /* "fastrometry/cython_code/PSE.pyx":366
+ *                                     occupymap_view[(y+sourcesepcircle_view[j,1])-1, (x+sourcesepcircle_view[j,0])-1] = -2
+ * 
+ *                                 if curr_sind < nrefinepts-1:             # <<<<<<<<<<<<<<
+ *                                     ###If the slot about to be filled in pse_metadata isn't nrefinepts-1 (the nrefinepts'th source), we can now go onto the
+ *                                     ###next (x,y) and not perform unhelpful expensive calculations (aka, kernel integration and centroiding). These
+ */
+                  goto __pyx_L19;
+                }
+
+                /* "fastrometry/cython_code/PSE.pyx":379
+ *                                     curr_sind += 1
+ * 
+ *                                 elif curr_sind == nrefinepts-1:             # <<<<<<<<<<<<<<
+ *                                     ###If we got to this point, we know that this loop gives us at least nrefinepts sources. We go back (by accessing
+ *                                     ###the pse_metadata) and perform kernel integration to get the brightnesses of all sources found so far.
+ */
+                __pyx_t_8 = ((__pyx_v_curr_sind == (__pyx_v_nrefinepts - 1)) != 0);
+                if (__pyx_t_8) {
+
+                  /* "fastrometry/cython_code/PSE.pyx":383
+ *                                     ###the pse_metadata) and perform kernel integration to get the brightnesses of all sources found so far.
+ * 
+ *                                     for k in range(num_islands,nrefinepts-1):             # <<<<<<<<<<<<<<
+ *                                         prevx = int(pse_metadata_view[k,0])
+ *                                         prevy = int(pse_metadata_view[k,1])
+ */
+                  __pyx_t_29 = (__pyx_v_nrefinepts - 1);
+                  __pyx_t_30 = __pyx_t_29;
+                  for (__pyx_t_22 = __pyx_v_num_islands; __pyx_t_22 < __pyx_t_30; __pyx_t_22+=1) {
+                    __pyx_v_k = __pyx_t_22;
+
+                    /* "fastrometry/cython_code/PSE.pyx":384
+ * 
+ *                                     for k in range(num_islands,nrefinepts-1):
+ *                                         prevx = int(pse_metadata_view[k,0])             # <<<<<<<<<<<<<<
+ *                                         prevy = int(pse_metadata_view[k,1])
+ *                                         kernelsum = 0
+ */
+                    __pyx_t_24 = __pyx_v_k;
+                    __pyx_t_23 = 0;
+                    __pyx_v_prevx = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[1]) ))));
+
+                    /* "fastrometry/cython_code/PSE.pyx":385
+ *                                     for k in range(num_islands,nrefinepts-1):
+ *                                         prevx = int(pse_metadata_view[k,0])
+ *                                         prevy = int(pse_metadata_view[k,1])             # <<<<<<<<<<<<<<
+ *                                         kernelsum = 0
+ *                                         for m in range(kernelsize):
+ */
+                    __pyx_t_23 = __pyx_v_k;
+                    __pyx_t_24 = 1;
+                    __pyx_v_prevy = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[1]) ))));
+
+                    /* "fastrometry/cython_code/PSE.pyx":386
+ *                                         prevx = int(pse_metadata_view[k,0])
+ *                                         prevy = int(pse_metadata_view[k,1])
+ *                                         kernelsum = 0             # <<<<<<<<<<<<<<
+ *                                         for m in range(kernelsize):
+ *                                             kernelsum += img_view[(prevy+kernelcircle_view[m,1])-1,(prevx+kernelcircle_view[m,0])-1]
+ */
+                    __pyx_v_kernelsum = 0.0;
+
+                    /* "fastrometry/cython_code/PSE.pyx":387
+ *                                         prevy = int(pse_metadata_view[k,1])
+ *                                         kernelsum = 0
+ *                                         for m in range(kernelsize):             # <<<<<<<<<<<<<<
+ *                                             kernelsum += img_view[(prevy+kernelcircle_view[m,1])-1,(prevx+kernelcircle_view[m,0])-1]
+ *                                         kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize
+ */
+                    __pyx_t_20 = __pyx_v_kernelsize;
+                    __pyx_t_21 = __pyx_t_20;
+                    for (__pyx_t_31 = 0; __pyx_t_31 < __pyx_t_21; __pyx_t_31+=1) {
+                      __pyx_v_m = __pyx_t_31;
+
+                      /* "fastrometry/cython_code/PSE.pyx":388
+ *                                         kernelsum = 0
+ *                                         for m in range(kernelsize):
+ *                                             kernelsum += img_view[(prevy+kernelcircle_view[m,1])-1,(prevx+kernelcircle_view[m,0])-1]             # <<<<<<<<<<<<<<
+ *                                         kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize
+ *                                         pse_metadata_view[k,2] = kernelsum
+ */
+                      __pyx_t_24 = __pyx_v_m;
+                      __pyx_t_23 = 1;
+                      __pyx_t_27 = __pyx_v_m;
+                      __pyx_t_28 = 0;
+                      __pyx_t_18 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+                      __pyx_t_19 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+                      __pyx_v_kernelsum = (__pyx_v_kernelsum + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_18 * __pyx_v_img_view.strides[0]) ) + __pyx_t_19 * __pyx_v_img_view.strides[1]) ))));
+                    }
+
+                    /* "fastrometry/cython_code/PSE.pyx":389
+ *                                         for m in range(kernelsize):
+ *                                             kernelsum += img_view[(prevy+kernelcircle_view[m,1])-1,(prevx+kernelcircle_view[m,0])-1]
+ *                                         kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize             # <<<<<<<<<<<<<<
+ *                                         pse_metadata_view[k,2] = kernelsum
+ * 
+ */
+                    __pyx_t_28 = (__pyx_v_prevy - 1);
+                    __pyx_t_27 = (__pyx_v_prevx - 1);
+                    __pyx_v_kernelsum = (__pyx_v_kernelsum - ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_bgmap_view.data + __pyx_t_28 * __pyx_v_bgmap_view.strides[0]) ) + __pyx_t_27 * __pyx_v_bgmap_view.strides[1]) ))) * __pyx_v_kernelsize));
+
+                    /* "fastrometry/cython_code/PSE.pyx":390
+ *                                             kernelsum += img_view[(prevy+kernelcircle_view[m,1])-1,(prevx+kernelcircle_view[m,0])-1]
+ *                                         kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize
+ *                                         pse_metadata_view[k,2] = kernelsum             # <<<<<<<<<<<<<<
+ * 
+ *                                     ###Now getting the brightness of the current nrefinepts'th source
+ */
+                    __pyx_t_27 = __pyx_v_k;
+                    __pyx_t_28 = 2;
+                    *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_27 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_28 * __pyx_v_pse_metadata_view.strides[1]) )) = __pyx_v_kernelsum;
+                  }
+
+                  /* "fastrometry/cython_code/PSE.pyx":393
+ * 
+ *                                     ###Now getting the brightness of the current nrefinepts'th source
  *                                     kernelsum = 0             # <<<<<<<<<<<<<<
- *                                     for m in range(kernelsize):
- *                                         kernelsum += img_view[(prevy+kernelcircle_view[m,1])-1,(prevx+kernelcircle_view[m,0])-1]
+ *                                     for n in range(kernelsize):
+ *                                         kernelsum += img_view[(x+kernelcircle_view[n,1])-1,(y+kernelcircle_view[n,0])-1]
  */
                   __pyx_v_kernelsum = 0.0;
 
-                  /* "fastrometry/cython_code/PSE.pyx":337
- *                                     prevy = int(smetadata_view[k,1])
+                  /* "fastrometry/cython_code/PSE.pyx":394
+ *                                     ###Now getting the brightness of the current nrefinepts'th source
  *                                     kernelsum = 0
- *                                     for m in range(kernelsize):             # <<<<<<<<<<<<<<
- *                                         kernelsum += img_view[(prevy+kernelcircle_view[m,1])-1,(prevx+kernelcircle_view[m,0])-1]
- *                                     kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize
+ *                                     for n in range(kernelsize):             # <<<<<<<<<<<<<<
+ *                                         kernelsum += img_view[(x+kernelcircle_view[n,1])-1,(y+kernelcircle_view[n,0])-1]
+ *                                     kernelsum -= centerbg*kernelsize
  */
                   __pyx_t_20 = __pyx_v_kernelsize;
                   __pyx_t_21 = __pyx_t_20;
-                  for (__pyx_t_31 = 0; __pyx_t_31 < __pyx_t_21; __pyx_t_31+=1) {
-                    __pyx_v_m = __pyx_t_31;
+                  for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
+                    __pyx_v_n = __pyx_t_22;
 
-                    /* "fastrometry/cython_code/PSE.pyx":338
+                    /* "fastrometry/cython_code/PSE.pyx":395
  *                                     kernelsum = 0
- *                                     for m in range(kernelsize):
- *                                         kernelsum += img_view[(prevy+kernelcircle_view[m,1])-1,(prevx+kernelcircle_view[m,0])-1]             # <<<<<<<<<<<<<<
- *                                     kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize
- *                                     smetadata_view[k,2] = kernelsum
+ *                                     for n in range(kernelsize):
+ *                                         kernelsum += img_view[(x+kernelcircle_view[n,1])-1,(y+kernelcircle_view[n,0])-1]             # <<<<<<<<<<<<<<
+ *                                     kernelsum -= centerbg*kernelsize
+ * 
  */
-                    __pyx_t_24 = __pyx_v_m;
-                    __pyx_t_23 = 1;
-                    __pyx_t_27 = __pyx_v_m;
-                    __pyx_t_28 = 0;
-                    __pyx_t_19 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-                    __pyx_t_18 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+                    __pyx_t_28 = __pyx_v_n;
+                    __pyx_t_27 = 1;
+                    __pyx_t_23 = __pyx_v_n;
+                    __pyx_t_24 = 0;
+                    __pyx_t_19 = ((__pyx_v_x + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+                    __pyx_t_18 = ((__pyx_v_y + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
                     __pyx_v_kernelsum = (__pyx_v_kernelsum + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_19 * __pyx_v_img_view.strides[0]) ) + __pyx_t_18 * __pyx_v_img_view.strides[1]) ))));
                   }
 
-                  /* "fastrometry/cython_code/PSE.pyx":339
- *                                     for m in range(kernelsize):
- *                                         kernelsum += img_view[(prevy+kernelcircle_view[m,1])-1,(prevx+kernelcircle_view[m,0])-1]
- *                                     kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize             # <<<<<<<<<<<<<<
- *                                     smetadata_view[k,2] = kernelsum
+                  /* "fastrometry/cython_code/PSE.pyx":396
+ *                                     for n in range(kernelsize):
+ *                                         kernelsum += img_view[(x+kernelcircle_view[n,1])-1,(y+kernelcircle_view[n,0])-1]
+ *                                     kernelsum -= centerbg*kernelsize             # <<<<<<<<<<<<<<
  * 
+ *                                     pse_metadata_view[nrefinepts-1,0] = x
  */
-                  __pyx_t_28 = (__pyx_v_prevy - 1);
-                  __pyx_t_27 = (__pyx_v_prevx - 1);
-                  __pyx_v_kernelsum = (__pyx_v_kernelsum - ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_bgmap_view.data + __pyx_t_28 * __pyx_v_bgmap_view.strides[0]) ) + __pyx_t_27 * __pyx_v_bgmap_view.strides[1]) ))) * __pyx_v_kernelsize));
+                  __pyx_v_kernelsum = (__pyx_v_kernelsum - (__pyx_v_centerbg * __pyx_v_kernelsize));
 
-                  /* "fastrometry/cython_code/PSE.pyx":340
- *                                         kernelsum += img_view[(prevy+kernelcircle_view[m,1])-1,(prevx+kernelcircle_view[m,0])-1]
- *                                     kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize
- *                                     smetadata_view[k,2] = kernelsum             # <<<<<<<<<<<<<<
+                  /* "fastrometry/cython_code/PSE.pyx":398
+ *                                     kernelsum -= centerbg*kernelsize
  * 
- *                                 ###Now getting the brightness of the current nrefinepts'th source
+ *                                     pse_metadata_view[nrefinepts-1,0] = x             # <<<<<<<<<<<<<<
+ *                                     pse_metadata_view[nrefinepts-1,1] = y
+ *                                     pse_metadata_view[nrefinepts-1,2] = kernelsum
  */
-                  __pyx_t_27 = __pyx_v_k;
-                  __pyx_t_28 = 2;
-                  *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_27 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_28 * __pyx_v_smetadata_view.strides[1]) )) = __pyx_v_kernelsum;
-                }
+                  __pyx_t_24 = (__pyx_v_nrefinepts - 1);
+                  __pyx_t_23 = 0;
+                  *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[1]) )) = __pyx_v_x;
 
-                /* "fastrometry/cython_code/PSE.pyx":343
+                  /* "fastrometry/cython_code/PSE.pyx":399
  * 
- *                                 ###Now getting the brightness of the current nrefinepts'th source
- *                                 kernelsum = 0             # <<<<<<<<<<<<<<
- *                                 for n in range(kernelsize):
- *                                     kernelsum += img_view[(x+kernelcircle_view[n,1])-1,(y+kernelcircle_view[n,0])-1]
+ *                                     pse_metadata_view[nrefinepts-1,0] = x
+ *                                     pse_metadata_view[nrefinepts-1,1] = y             # <<<<<<<<<<<<<<
+ *                                     pse_metadata_view[nrefinepts-1,2] = kernelsum
+ * 
  */
-                __pyx_v_kernelsum = 0.0;
+                  __pyx_t_23 = (__pyx_v_nrefinepts - 1);
+                  __pyx_t_24 = 1;
+                  *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[1]) )) = __pyx_v_y;
 
-                /* "fastrometry/cython_code/PSE.pyx":344
- *                                 ###Now getting the brightness of the current nrefinepts'th source
- *                                 kernelsum = 0
- *                                 for n in range(kernelsize):             # <<<<<<<<<<<<<<
- *                                     kernelsum += img_view[(x+kernelcircle_view[n,1])-1,(y+kernelcircle_view[n,0])-1]
- *                                 kernelsum -= centerbg*kernelsize
- */
-                __pyx_t_20 = __pyx_v_kernelsize;
-                __pyx_t_21 = __pyx_t_20;
-                for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
-                  __pyx_v_n = __pyx_t_22;
-
-                  /* "fastrometry/cython_code/PSE.pyx":345
- *                                 kernelsum = 0
- *                                 for n in range(kernelsize):
- *                                     kernelsum += img_view[(x+kernelcircle_view[n,1])-1,(y+kernelcircle_view[n,0])-1]             # <<<<<<<<<<<<<<
- *                                 kernelsum -= centerbg*kernelsize
+                  /* "fastrometry/cython_code/PSE.pyx":400
+ *                                     pse_metadata_view[nrefinepts-1,0] = x
+ *                                     pse_metadata_view[nrefinepts-1,1] = y
+ *                                     pse_metadata_view[nrefinepts-1,2] = kernelsum             # <<<<<<<<<<<<<<
  * 
+ *                                     curr_sind += 1
  */
-                  __pyx_t_28 = __pyx_v_n;
-                  __pyx_t_27 = 1;
-                  __pyx_t_23 = __pyx_v_n;
-                  __pyx_t_24 = 0;
-                  __pyx_t_18 = ((__pyx_v_x + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-                  __pyx_t_19 = ((__pyx_v_y + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-                  __pyx_v_kernelsum = (__pyx_v_kernelsum + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_18 * __pyx_v_img_view.strides[0]) ) + __pyx_t_19 * __pyx_v_img_view.strides[1]) ))));
-                }
-
-                /* "fastrometry/cython_code/PSE.pyx":346
- *                                 for n in range(kernelsize):
- *                                     kernelsum += img_view[(x+kernelcircle_view[n,1])-1,(y+kernelcircle_view[n,0])-1]
- *                                 kernelsum -= centerbg*kernelsize             # <<<<<<<<<<<<<<
- * 
- *                                 smetadata_view[499,0] = x
- */
-                __pyx_v_kernelsum = (__pyx_v_kernelsum - (__pyx_v_centerbg * __pyx_v_kernelsize));
-
-                /* "fastrometry/cython_code/PSE.pyx":348
- *                                 kernelsum -= centerbg*kernelsize
- * 
- *                                 smetadata_view[499,0] = x             # <<<<<<<<<<<<<<
- *                                 smetadata_view[499,1] = y
- *                                 smetadata_view[499,2] = kernelsum
- */
-                __pyx_t_24 = 0x1F3;
-                __pyx_t_23 = 0;
-                *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_24 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_smetadata_view.strides[1]) )) = __pyx_v_x;
-
-                /* "fastrometry/cython_code/PSE.pyx":349
- * 
- *                                 smetadata_view[499,0] = x
- *                                 smetadata_view[499,1] = y             # <<<<<<<<<<<<<<
- *                                 smetadata_view[499,2] = kernelsum
- * 
- */
-                __pyx_t_23 = 0x1F3;
-                __pyx_t_24 = 1;
-                *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_23 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_smetadata_view.strides[1]) )) = __pyx_v_y;
-
-                /* "fastrometry/cython_code/PSE.pyx":350
- *                                 smetadata_view[499,0] = x
- *                                 smetadata_view[499,1] = y
- *                                 smetadata_view[499,2] = kernelsum             # <<<<<<<<<<<<<<
- * 
- *                                 curr_sind += 1
- */
-                __pyx_t_24 = 0x1F3;
-                __pyx_t_23 = 2;
-                *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_24 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_smetadata_view.strides[1]) )) = __pyx_v_kernelsum;
-
-                /* "fastrometry/cython_code/PSE.pyx":352
- *                                 smetadata_view[499,2] = kernelsum
- * 
- *                                 curr_sind += 1             # <<<<<<<<<<<<<<
- * 
- *                             else:
- */
-                __pyx_v_curr_sind = (__pyx_v_curr_sind + 1);
-
-                /* "fastrometry/cython_code/PSE.pyx":329
- *                                 curr_sind += 1
- * 
- *                             elif curr_sind == nrefinepts-1:             # <<<<<<<<<<<<<<
- *                                 ###If we got to this point, we know that this loop gives us at least nrefinepts sources. We go back (by accessing
- *                                 ###the smetadata) and perform kernel integration to get the brightnesses of all sources found so far.
- */
-                goto __pyx_L18;
-              }
-
-              /* "fastrometry/cython_code/PSE.pyx":358
- *                                 ###in the nrefinepts found and, if this new source is brighter, replace the dimmest one.
- * 
- *                                 dimmest = smetadata_view[0,2]             # <<<<<<<<<<<<<<
- *                                 for p in range(num_islands,nrefinepts):
- *                                     if smetadata_view[p,2] < dimmest:
- */
-              /*else*/ {
-                __pyx_t_23 = 0;
-                __pyx_t_24 = 2;
-                __pyx_v_dimmest = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_23 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_smetadata_view.strides[1]) )));
-
-                /* "fastrometry/cython_code/PSE.pyx":359
- * 
- *                                 dimmest = smetadata_view[0,2]
- *                                 for p in range(num_islands,nrefinepts):             # <<<<<<<<<<<<<<
- *                                     if smetadata_view[p,2] < dimmest:
- *                                         dimmest = smetadata_view[p,2]
- */
-                __pyx_t_20 = __pyx_v_nrefinepts;
-                __pyx_t_21 = __pyx_t_20;
-                for (__pyx_t_22 = __pyx_v_num_islands; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
-                  __pyx_v_p = __pyx_t_22;
-
-                  /* "fastrometry/cython_code/PSE.pyx":360
- *                                 dimmest = smetadata_view[0,2]
- *                                 for p in range(num_islands,nrefinepts):
- *                                     if smetadata_view[p,2] < dimmest:             # <<<<<<<<<<<<<<
- *                                         dimmest = smetadata_view[p,2]
- *                                         dimmest_ind = p
- */
-                  __pyx_t_24 = __pyx_v_p;
+                  __pyx_t_24 = (__pyx_v_nrefinepts - 1);
                   __pyx_t_23 = 2;
-                  __pyx_t_11 = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_24 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_smetadata_view.strides[1]) ))) < __pyx_v_dimmest) != 0);
-                  if (__pyx_t_11) {
+                  *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[1]) )) = __pyx_v_kernelsum;
 
-                    /* "fastrometry/cython_code/PSE.pyx":361
- *                                 for p in range(num_islands,nrefinepts):
- *                                     if smetadata_view[p,2] < dimmest:
- *                                         dimmest = smetadata_view[p,2]             # <<<<<<<<<<<<<<
- *                                         dimmest_ind = p
+                  /* "fastrometry/cython_code/PSE.pyx":402
+ *                                     pse_metadata_view[nrefinepts-1,2] = kernelsum
  * 
+ *                                     curr_sind += 1             # <<<<<<<<<<<<<<
+ * 
+ *                                 else:
+ */
+                  __pyx_v_curr_sind = (__pyx_v_curr_sind + 1);
+
+                  /* "fastrometry/cython_code/PSE.pyx":379
+ *                                     curr_sind += 1
+ * 
+ *                                 elif curr_sind == nrefinepts-1:             # <<<<<<<<<<<<<<
+ *                                     ###If we got to this point, we know that this loop gives us at least nrefinepts sources. We go back (by accessing
+ *                                     ###the pse_metadata) and perform kernel integration to get the brightnesses of all sources found so far.
+ */
+                  goto __pyx_L19;
+                }
+
+                /* "fastrometry/cython_code/PSE.pyx":408
+ *                                     ###in the nrefinepts found and, if this new source is brighter, replace the dimmest one.
+ * 
+ *                                     dimmest = np.inf             # <<<<<<<<<<<<<<
+ *                                     for p in range(num_islands,nrefinepts):
+ *                                         if pse_metadata_view[p,2] < dimmest:
+ */
+                /*else*/ {
+                  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 408, __pyx_L1_error)
+                  __Pyx_GOTREF(__pyx_t_6);
+                  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_inf); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 408, __pyx_L1_error)
+                  __Pyx_GOTREF(__pyx_t_3);
+                  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+                  __pyx_t_1 = __pyx_PyFloat_AsDouble(__pyx_t_3); if (unlikely((__pyx_t_1 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 408, __pyx_L1_error)
+                  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+                  __pyx_v_dimmest = __pyx_t_1;
+
+                  /* "fastrometry/cython_code/PSE.pyx":409
+ * 
+ *                                     dimmest = np.inf
+ *                                     for p in range(num_islands,nrefinepts):             # <<<<<<<<<<<<<<
+ *                                         if pse_metadata_view[p,2] < dimmest:
+ *                                             dimmest = pse_metadata_view[p,2]
+ */
+                  __pyx_t_20 = __pyx_v_nrefinepts;
+                  __pyx_t_21 = __pyx_t_20;
+                  for (__pyx_t_22 = __pyx_v_num_islands; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
+                    __pyx_v_p = __pyx_t_22;
+
+                    /* "fastrometry/cython_code/PSE.pyx":410
+ *                                     dimmest = np.inf
+ *                                     for p in range(num_islands,nrefinepts):
+ *                                         if pse_metadata_view[p,2] < dimmest:             # <<<<<<<<<<<<<<
+ *                                             dimmest = pse_metadata_view[p,2]
+ *                                             dimmest_ind = p
  */
                     __pyx_t_23 = __pyx_v_p;
                     __pyx_t_24 = 2;
-                    __pyx_v_dimmest = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_23 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_smetadata_view.strides[1]) )));
+                    __pyx_t_8 = (((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[1]) ))) < __pyx_v_dimmest) != 0);
+                    if (__pyx_t_8) {
 
-                    /* "fastrometry/cython_code/PSE.pyx":362
- *                                     if smetadata_view[p,2] < dimmest:
- *                                         dimmest = smetadata_view[p,2]
- *                                         dimmest_ind = p             # <<<<<<<<<<<<<<
+                      /* "fastrometry/cython_code/PSE.pyx":411
+ *                                     for p in range(num_islands,nrefinepts):
+ *                                         if pse_metadata_view[p,2] < dimmest:
+ *                                             dimmest = pse_metadata_view[p,2]             # <<<<<<<<<<<<<<
+ *                                             dimmest_ind = p
  * 
- *                                 kernelsum = 0
  */
-                    __pyx_v_dimmest_ind = __pyx_v_p;
+                      __pyx_t_24 = __pyx_v_p;
+                      __pyx_t_23 = 2;
+                      __pyx_v_dimmest = (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[1]) )));
 
-                    /* "fastrometry/cython_code/PSE.pyx":360
- *                                 dimmest = smetadata_view[0,2]
- *                                 for p in range(num_islands,nrefinepts):
- *                                     if smetadata_view[p,2] < dimmest:             # <<<<<<<<<<<<<<
- *                                         dimmest = smetadata_view[p,2]
- *                                         dimmest_ind = p
+                      /* "fastrometry/cython_code/PSE.pyx":412
+ *                                         if pse_metadata_view[p,2] < dimmest:
+ *                                             dimmest = pse_metadata_view[p,2]
+ *                                             dimmest_ind = p             # <<<<<<<<<<<<<<
+ * 
+ *                                     kernelsum = 0
+ */
+                      __pyx_v_dimmest_ind = __pyx_v_p;
+
+                      /* "fastrometry/cython_code/PSE.pyx":410
+ *                                     dimmest = np.inf
+ *                                     for p in range(num_islands,nrefinepts):
+ *                                         if pse_metadata_view[p,2] < dimmest:             # <<<<<<<<<<<<<<
+ *                                             dimmest = pse_metadata_view[p,2]
+ *                                             dimmest_ind = p
+ */
+                    }
+                  }
+
+                  /* "fastrometry/cython_code/PSE.pyx":414
+ *                                             dimmest_ind = p
+ * 
+ *                                     kernelsum = 0             # <<<<<<<<<<<<<<
+ *                                     for q in range(kernelsize):
+ *                                         kernelsum += img_view[(y+kernelcircle_view[q,1])-1,(x+kernelcircle_view[q,0])-1]
+ */
+                  __pyx_v_kernelsum = 0.0;
+
+                  /* "fastrometry/cython_code/PSE.pyx":415
+ * 
+ *                                     kernelsum = 0
+ *                                     for q in range(kernelsize):             # <<<<<<<<<<<<<<
+ *                                         kernelsum += img_view[(y+kernelcircle_view[q,1])-1,(x+kernelcircle_view[q,0])-1]
+ *                                     kernelsum -= centerbg*kernelsize
+ */
+                  __pyx_t_20 = __pyx_v_kernelsize;
+                  __pyx_t_21 = __pyx_t_20;
+                  for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
+                    __pyx_v_q = __pyx_t_22;
+
+                    /* "fastrometry/cython_code/PSE.pyx":416
+ *                                     kernelsum = 0
+ *                                     for q in range(kernelsize):
+ *                                         kernelsum += img_view[(y+kernelcircle_view[q,1])-1,(x+kernelcircle_view[q,0])-1]             # <<<<<<<<<<<<<<
+ *                                     kernelsum -= centerbg*kernelsize
+ *                                     if kernelsum > dimmest:
+ */
+                    __pyx_t_23 = __pyx_v_q;
+                    __pyx_t_24 = 1;
+                    __pyx_t_27 = __pyx_v_q;
+                    __pyx_t_28 = 0;
+                    __pyx_t_18 = ((__pyx_v_y + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+                    __pyx_t_19 = ((__pyx_v_x + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+                    __pyx_v_kernelsum = (__pyx_v_kernelsum + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_18 * __pyx_v_img_view.strides[0]) ) + __pyx_t_19 * __pyx_v_img_view.strides[1]) ))));
+                  }
+
+                  /* "fastrometry/cython_code/PSE.pyx":417
+ *                                     for q in range(kernelsize):
+ *                                         kernelsum += img_view[(y+kernelcircle_view[q,1])-1,(x+kernelcircle_view[q,0])-1]
+ *                                     kernelsum -= centerbg*kernelsize             # <<<<<<<<<<<<<<
+ *                                     if kernelsum > dimmest:
+ *                                         pse_metadata_view[dimmest_ind,0] = x
+ */
+                  __pyx_v_kernelsum = (__pyx_v_kernelsum - (__pyx_v_centerbg * __pyx_v_kernelsize));
+
+                  /* "fastrometry/cython_code/PSE.pyx":418
+ *                                         kernelsum += img_view[(y+kernelcircle_view[q,1])-1,(x+kernelcircle_view[q,0])-1]
+ *                                     kernelsum -= centerbg*kernelsize
+ *                                     if kernelsum > dimmest:             # <<<<<<<<<<<<<<
+ *                                         pse_metadata_view[dimmest_ind,0] = x
+ *                                         pse_metadata_view[dimmest_ind,1] = y
+ */
+                  __pyx_t_8 = ((__pyx_v_kernelsum > __pyx_v_dimmest) != 0);
+                  if (__pyx_t_8) {
+
+                    /* "fastrometry/cython_code/PSE.pyx":419
+ *                                     kernelsum -= centerbg*kernelsize
+ *                                     if kernelsum > dimmest:
+ *                                         pse_metadata_view[dimmest_ind,0] = x             # <<<<<<<<<<<<<<
+ *                                         pse_metadata_view[dimmest_ind,1] = y
+ *                                         pse_metadata_view[dimmest_ind,2] = kernelsum
+ */
+                    __pyx_t_28 = __pyx_v_dimmest_ind;
+                    __pyx_t_27 = 0;
+                    *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_28 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_27 * __pyx_v_pse_metadata_view.strides[1]) )) = __pyx_v_x;
+
+                    /* "fastrometry/cython_code/PSE.pyx":420
+ *                                     if kernelsum > dimmest:
+ *                                         pse_metadata_view[dimmest_ind,0] = x
+ *                                         pse_metadata_view[dimmest_ind,1] = y             # <<<<<<<<<<<<<<
+ *                                         pse_metadata_view[dimmest_ind,2] = kernelsum
+ * 
+ */
+                    __pyx_t_27 = __pyx_v_dimmest_ind;
+                    __pyx_t_28 = 1;
+                    *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_27 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_28 * __pyx_v_pse_metadata_view.strides[1]) )) = __pyx_v_y;
+
+                    /* "fastrometry/cython_code/PSE.pyx":421
+ *                                         pse_metadata_view[dimmest_ind,0] = x
+ *                                         pse_metadata_view[dimmest_ind,1] = y
+ *                                         pse_metadata_view[dimmest_ind,2] = kernelsum             # <<<<<<<<<<<<<<
+ * 
+ * 
+ */
+                    __pyx_t_28 = __pyx_v_dimmest_ind;
+                    __pyx_t_27 = 2;
+                    *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_28 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_27 * __pyx_v_pse_metadata_view.strides[1]) )) = __pyx_v_kernelsum;
+
+                    /* "fastrometry/cython_code/PSE.pyx":418
+ *                                         kernelsum += img_view[(y+kernelcircle_view[q,1])-1,(x+kernelcircle_view[q,0])-1]
+ *                                     kernelsum -= centerbg*kernelsize
+ *                                     if kernelsum > dimmest:             # <<<<<<<<<<<<<<
+ *                                         pse_metadata_view[dimmest_ind,0] = x
+ *                                         pse_metadata_view[dimmest_ind,1] = y
  */
                   }
+
+                  /* "fastrometry/cython_code/PSE.pyx":424
+ * 
+ * 
+ *                                     curr_sind += 1             # <<<<<<<<<<<<<<
+ * 
+ *         if verbosity == 2:
+ */
+                  __pyx_v_curr_sind = (__pyx_v_curr_sind + 1);
                 }
+                __pyx_L19:;
 
-                /* "fastrometry/cython_code/PSE.pyx":364
- *                                         dimmest_ind = p
- * 
- *                                 kernelsum = 0             # <<<<<<<<<<<<<<
- *                                 for q in range(kernelsize):
- *                                     kernelsum += img_view[(y+kernelcircle_view[q,1])-1,(x+kernelcircle_view[q,0])-1]
+                /* "fastrometry/cython_code/PSE.pyx":362
+ *                                     localpeak = False
+ *                                     break
+ *                             if localpeak == True:             # <<<<<<<<<<<<<<
+ *                                 for j in range(sourcesepsize):
+ *                                     occupymap_view[(y+sourcesepcircle_view[j,1])-1, (x+sourcesepcircle_view[j,0])-1] = -2
  */
-                __pyx_v_kernelsum = 0.0;
-
-                /* "fastrometry/cython_code/PSE.pyx":365
- * 
- *                                 kernelsum = 0
- *                                 for q in range(kernelsize):             # <<<<<<<<<<<<<<
- *                                     kernelsum += img_view[(y+kernelcircle_view[q,1])-1,(x+kernelcircle_view[q,0])-1]
- *                                 kernelsum -= centerbg*kernelsize
- */
-                __pyx_t_20 = __pyx_v_kernelsize;
-                __pyx_t_21 = __pyx_t_20;
-                for (__pyx_t_22 = 0; __pyx_t_22 < __pyx_t_21; __pyx_t_22+=1) {
-                  __pyx_v_q = __pyx_t_22;
-
-                  /* "fastrometry/cython_code/PSE.pyx":366
- *                                 kernelsum = 0
- *                                 for q in range(kernelsize):
- *                                     kernelsum += img_view[(y+kernelcircle_view[q,1])-1,(x+kernelcircle_view[q,0])-1]             # <<<<<<<<<<<<<<
- *                                 kernelsum -= centerbg*kernelsize
- *                                 if kernelsum > dimmest:
- */
-                  __pyx_t_24 = __pyx_v_q;
-                  __pyx_t_23 = 1;
-                  __pyx_t_27 = __pyx_v_q;
-                  __pyx_t_28 = 0;
-                  __pyx_t_19 = ((__pyx_v_y + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-                  __pyx_t_18 = ((__pyx_v_x + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-                  __pyx_v_kernelsum = (__pyx_v_kernelsum + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_19 * __pyx_v_img_view.strides[0]) ) + __pyx_t_18 * __pyx_v_img_view.strides[1]) ))));
-                }
-
-                /* "fastrometry/cython_code/PSE.pyx":367
- *                                 for q in range(kernelsize):
- *                                     kernelsum += img_view[(y+kernelcircle_view[q,1])-1,(x+kernelcircle_view[q,0])-1]
- *                                 kernelsum -= centerbg*kernelsize             # <<<<<<<<<<<<<<
- *                                 if kernelsum > dimmest:
- *                                     smetadata_view[dimmest_ind,0] = x
- */
-                __pyx_v_kernelsum = (__pyx_v_kernelsum - (__pyx_v_centerbg * __pyx_v_kernelsize));
-
-                /* "fastrometry/cython_code/PSE.pyx":368
- *                                     kernelsum += img_view[(y+kernelcircle_view[q,1])-1,(x+kernelcircle_view[q,0])-1]
- *                                 kernelsum -= centerbg*kernelsize
- *                                 if kernelsum > dimmest:             # <<<<<<<<<<<<<<
- *                                     smetadata_view[dimmest_ind,0] = x
- *                                     smetadata_view[dimmest_ind,1] = y
- */
-                __pyx_t_11 = ((__pyx_v_kernelsum > __pyx_v_dimmest) != 0);
-                if (__pyx_t_11) {
-
-                  /* "fastrometry/cython_code/PSE.pyx":369
- *                                 kernelsum -= centerbg*kernelsize
- *                                 if kernelsum > dimmest:
- *                                     smetadata_view[dimmest_ind,0] = x             # <<<<<<<<<<<<<<
- *                                     smetadata_view[dimmest_ind,1] = y
- *                                     smetadata_view[dimmest_ind,2] = kernelsum
- */
-                  __pyx_t_28 = __pyx_v_dimmest_ind;
-                  __pyx_t_27 = 0;
-                  *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_28 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_27 * __pyx_v_smetadata_view.strides[1]) )) = __pyx_v_x;
-
-                  /* "fastrometry/cython_code/PSE.pyx":370
- *                                 if kernelsum > dimmest:
- *                                     smetadata_view[dimmest_ind,0] = x
- *                                     smetadata_view[dimmest_ind,1] = y             # <<<<<<<<<<<<<<
- *                                     smetadata_view[dimmest_ind,2] = kernelsum
- * 
- */
-                  __pyx_t_27 = __pyx_v_dimmest_ind;
-                  __pyx_t_28 = 1;
-                  *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_27 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_28 * __pyx_v_smetadata_view.strides[1]) )) = __pyx_v_y;
-
-                  /* "fastrometry/cython_code/PSE.pyx":371
- *                                     smetadata_view[dimmest_ind,0] = x
- *                                     smetadata_view[dimmest_ind,1] = y
- *                                     smetadata_view[dimmest_ind,2] = kernelsum             # <<<<<<<<<<<<<<
- * 
- *                                 curr_sind += 1
- */
-                  __pyx_t_28 = __pyx_v_dimmest_ind;
-                  __pyx_t_27 = 2;
-                  *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_28 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_27 * __pyx_v_smetadata_view.strides[1]) )) = __pyx_v_kernelsum;
-
-                  /* "fastrometry/cython_code/PSE.pyx":368
- *                                     kernelsum += img_view[(y+kernelcircle_view[q,1])-1,(x+kernelcircle_view[q,0])-1]
- *                                 kernelsum -= centerbg*kernelsize
- *                                 if kernelsum > dimmest:             # <<<<<<<<<<<<<<
- *                                     smetadata_view[dimmest_ind,0] = x
- *                                     smetadata_view[dimmest_ind,1] = y
- */
-                }
-
-                /* "fastrometry/cython_code/PSE.pyx":373
- *                                     smetadata_view[dimmest_ind,2] = kernelsum
- * 
- *                                 curr_sind += 1             # <<<<<<<<<<<<<<
- * 
- * 
- */
-                __pyx_v_curr_sind = (__pyx_v_curr_sind + 1);
               }
-              __pyx_L18:;
 
-              /* "fastrometry/cython_code/PSE.pyx":312
- *                                 localpeak = False
- *                                 break
- *                         if localpeak == True:             # <<<<<<<<<<<<<<
- *                             for j in range(sourcesepsize):
- *                                 occupymap_view[(y+sourcesepcircle_view[j,1])-1, (x+sourcesepcircle_view[j,0])-1] = -2
+              /* "fastrometry/cython_code/PSE.pyx":356
+ *                     if occupymap_view[y-1,x-1] == -1:
+ *                         centerbg = bgmap_view[y-1,x-1]
+ *                         if img_view[y-1,x-1] - centerbg > pixelthresh:             # <<<<<<<<<<<<<<
+ *                             localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels
+ *                             for i in range(sourcesepsize):
  */
             }
 
-            /* "fastrometry/cython_code/PSE.pyx":306
- *                 if occupymap_view[y-1,x-1] == -1:
- *                     centerbg = bgmap_view[y-1,x-1]
- *                     if img_view[y-1,x-1] - centerbg > pixelthresh:             # <<<<<<<<<<<<<<
- *                         localpeak = True        ##in other words, set to True preemptively and test using the surrounding pixels
- *                         for i in range(sourcesepsize):
+            /* "fastrometry/cython_code/PSE.pyx":354
+ *             for y in range(topmost_safe_y, bottommost_safe_y+1):
+ *                 if roi_view[y-1,x-1] == 1:
+ *                     if occupymap_view[y-1,x-1] == -1:             # <<<<<<<<<<<<<<
+ *                         centerbg = bgmap_view[y-1,x-1]
+ *                         if img_view[y-1,x-1] - centerbg > pixelthresh:
  */
           }
 
-          /* "fastrometry/cython_code/PSE.pyx":304
+          /* "fastrometry/cython_code/PSE.pyx":353
  *         for x in range(leftmost_safe_x, rightmost_safe_x+1):
  *             for y in range(topmost_safe_y, bottommost_safe_y+1):
- *                 if occupymap_view[y-1,x-1] == -1:             # <<<<<<<<<<<<<<
- *                     centerbg = bgmap_view[y-1,x-1]
- *                     if img_view[y-1,x-1] - centerbg > pixelthresh:
+ *                 if roi_view[y-1,x-1] == 1:             # <<<<<<<<<<<<<<
+ *                     if occupymap_view[y-1,x-1] == -1:
+ *                         centerbg = bgmap_view[y-1,x-1]
  */
         }
       }
     }
 
-    /* "fastrometry/cython_code/PSE.pyx":376
+    /* "fastrometry/cython_code/PSE.pyx":426
+ *                                     curr_sind += 1
  * 
- * 
- *         if curr_sind < nrefinepts:      ###from this point it is easiest to think of curr_sind representing             # <<<<<<<<<<<<<<
- *                                         ###the amount of sources found after iterating through all pixels
- *             div_factor *= 2
+ *         if verbosity == 2:             # <<<<<<<<<<<<<<
+ *             print("| | | Iteration: {}".format(iter))
+ *             print("| | | Pixel threshold: {}".format(pixelthresh))
  */
-    __pyx_t_11 = ((__pyx_v_curr_sind < __pyx_v_nrefinepts) != 0);
-    if (__pyx_t_11) {
+    __pyx_t_8 = ((__pyx_v_verbosity == 2) != 0);
+    if (__pyx_t_8) {
 
-      /* "fastrometry/cython_code/PSE.pyx":378
- *         if curr_sind < nrefinepts:      ###from this point it is easiest to think of curr_sind representing
- *                                         ###the amount of sources found after iterating through all pixels
+      /* "fastrometry/cython_code/PSE.pyx":427
+ * 
+ *         if verbosity == 2:
+ *             print("| | | Iteration: {}".format(iter))             # <<<<<<<<<<<<<<
+ *             print("| | | Pixel threshold: {}".format(pixelthresh))
+ *             print("| | | Sources found: {}".format(curr_sind))
+ */
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Iteration, __pyx_n_s_format); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 427, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      __pyx_t_4 = PyInt_FromSsize_t(__pyx_v_iter); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 427, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_5 = NULL;
+      if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+        __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_6);
+        if (likely(__pyx_t_5)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
+          __Pyx_INCREF(__pyx_t_5);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_6, function);
+        }
+      }
+      __pyx_t_3 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_4);
+      __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 427, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 427, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":428
+ *         if verbosity == 2:
+ *             print("| | | Iteration: {}".format(iter))
+ *             print("| | | Pixel threshold: {}".format(pixelthresh))             # <<<<<<<<<<<<<<
+ *             print("| | | Sources found: {}".format(curr_sind))
+ * 
+ */
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Pixel_threshold, __pyx_n_s_format); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 428, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      __pyx_t_4 = PyFloat_FromDouble(__pyx_v_pixelthresh); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 428, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_5 = NULL;
+      if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+        __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_6);
+        if (likely(__pyx_t_5)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
+          __Pyx_INCREF(__pyx_t_5);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_6, function);
+        }
+      }
+      __pyx_t_3 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_4);
+      __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 428, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 428, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":429
+ *             print("| | | Iteration: {}".format(iter))
+ *             print("| | | Pixel threshold: {}".format(pixelthresh))
+ *             print("| | | Sources found: {}".format(curr_sind))             # <<<<<<<<<<<<<<
+ * 
+ *         if curr_sind < nrefinepts:  ###Here think of curr_sind representing the amount of sources found this iteration
+ */
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Sources_found, __pyx_n_s_format); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 429, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_curr_sind); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 429, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_5 = NULL;
+      if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+        __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_6);
+        if (likely(__pyx_t_5)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
+          __Pyx_INCREF(__pyx_t_5);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_6, function);
+        }
+      }
+      __pyx_t_3 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_4);
+      __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 429, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 429, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":426
+ *                                     curr_sind += 1
+ * 
+ *         if verbosity == 2:             # <<<<<<<<<<<<<<
+ *             print("| | | Iteration: {}".format(iter))
+ *             print("| | | Pixel threshold: {}".format(pixelthresh))
+ */
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":431
+ *             print("| | | Sources found: {}".format(curr_sind))
+ * 
+ *         if curr_sind < nrefinepts:  ###Here think of curr_sind representing the amount of sources found this iteration             # <<<<<<<<<<<<<<
+ *             div_factor *= 2
+ *             pixelthresh = (img_max-img_median)/div_factor + img_median
+ */
+    __pyx_t_8 = ((__pyx_v_curr_sind < __pyx_v_nrefinepts) != 0);
+    if (__pyx_t_8) {
+
+      /* "fastrometry/cython_code/PSE.pyx":432
+ * 
+ *         if curr_sind < nrefinepts:  ###Here think of curr_sind representing the amount of sources found this iteration
  *             div_factor *= 2             # <<<<<<<<<<<<<<
  *             pixelthresh = (img_max-img_median)/div_factor + img_median
  *         else:
  */
       __pyx_v_div_factor = (__pyx_v_div_factor * 2);
 
-      /* "fastrometry/cython_code/PSE.pyx":379
- *                                         ###the amount of sources found after iterating through all pixels
+      /* "fastrometry/cython_code/PSE.pyx":433
+ *         if curr_sind < nrefinepts:  ###Here think of curr_sind representing the amount of sources found this iteration
  *             div_factor *= 2
  *             pixelthresh = (img_max-img_median)/div_factor + img_median             # <<<<<<<<<<<<<<
  *         else:
@@ -6702,447 +8056,970 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
       __pyx_t_1 = (__pyx_v_img_max - __pyx_v_img_median);
       if (unlikely(__pyx_v_div_factor == 0)) {
         PyErr_SetString(PyExc_ZeroDivisionError, "float division");
-        __PYX_ERR(0, 379, __pyx_L1_error)
+        __PYX_ERR(0, 433, __pyx_L1_error)
       }
       __pyx_v_pixelthresh = ((__pyx_t_1 / __pyx_v_div_factor) + __pyx_v_img_median);
 
-      /* "fastrometry/cython_code/PSE.pyx":376
+      /* "fastrometry/cython_code/PSE.pyx":431
+ *             print("| | | Sources found: {}".format(curr_sind))
  * 
- * 
- *         if curr_sind < nrefinepts:      ###from this point it is easiest to think of curr_sind representing             # <<<<<<<<<<<<<<
- *                                         ###the amount of sources found after iterating through all pixels
+ *         if curr_sind < nrefinepts:  ###Here think of curr_sind representing the amount of sources found this iteration             # <<<<<<<<<<<<<<
  *             div_factor *= 2
+ *             pixelthresh = (img_max-img_median)/div_factor + img_median
  */
-      goto __pyx_L31;
+      goto __pyx_L33;
     }
 
-    /* "fastrometry/cython_code/PSE.pyx":381
+    /* "fastrometry/cython_code/PSE.pyx":435
  *             pixelthresh = (img_max-img_median)/div_factor + img_median
  *         else:
  *             break             # <<<<<<<<<<<<<<
  * 
- *     smetadata_sorted = smetadata[smetadata[:,2].argsort()][::-1]   ###sort smetadata by brightness
+ *     if debug:
  */
     /*else*/ {
-      goto __pyx_L4_break;
+      goto __pyx_L5_break;
     }
-    __pyx_L31:;
+    __pyx_L33:;
   }
-  __pyx_L4_break:;
+  __pyx_L5_break:;
 
-  /* "fastrometry/cython_code/PSE.pyx":383
+  /* "fastrometry/cython_code/PSE.pyx":437
  *             break
  * 
- *     smetadata_sorted = smetadata[smetadata[:,2].argsort()][::-1]   ###sort smetadata by brightness             # <<<<<<<<<<<<<<
- *     smetadata[:] = smetadata_sorted
+ *     if debug:             # <<<<<<<<<<<<<<
+ *         np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources.csv",pse_metadata,delimiter=",")
  * 
  */
-  __pyx_t_3 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_smetadata), __pyx_tuple__4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 383, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_argsort); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 383, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = NULL;
-  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
-    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_4);
-    if (likely(__pyx_t_3)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-      __Pyx_INCREF(__pyx_t_3);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_4, function);
-    }
-  }
-  __pyx_t_6 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_4);
-  __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 383, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_smetadata), __pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 383, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_slice__5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 383, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_v_smetadata_sorted = __pyx_t_6;
-  __pyx_t_6 = 0;
+  __pyx_t_8 = (__pyx_v_debug != 0);
+  if (__pyx_t_8) {
 
-  /* "fastrometry/cython_code/PSE.pyx":384
+    /* "fastrometry/cython_code/PSE.pyx":438
  * 
- *     smetadata_sorted = smetadata[smetadata[:,2].argsort()][::-1]   ###sort smetadata by brightness
- *     smetadata[:] = smetadata_sorted             # <<<<<<<<<<<<<<
+ *     if debug:
+ *         np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources.csv",pse_metadata,delimiter=",")             # <<<<<<<<<<<<<<
  * 
  *     if curr_sind < nrefinepts:
  */
-  if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_smetadata), __pyx_slice__3, __pyx_v_smetadata_sorted) < 0)) __PYX_ERR(0, 384, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 438, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_savetxt); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 438, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_3 = PyNumber_Add(__pyx_v_user_dir, __pyx_kp_s_debug); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 438, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_4 = PyNumber_Add(__pyx_t_3, __pyx_v_debug_report); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 438, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_3 = PyNumber_Add(__pyx_t_4, __pyx_kp_s_pse_metadata_allsources_csv); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 438, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 438, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_3);
+    __Pyx_INCREF(((PyObject *)__pyx_v_pse_metadata));
+    __Pyx_GIVEREF(((PyObject *)__pyx_v_pse_metadata));
+    PyTuple_SET_ITEM(__pyx_t_4, 1, ((PyObject *)__pyx_v_pse_metadata));
+    __pyx_t_3 = 0;
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 438, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_delimiter, __pyx_kp_s__9) < 0) __PYX_ERR(0, 438, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 438, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "fastrometry/cython_code/PSE.pyx":386
- *     smetadata[:] = smetadata_sorted
+    /* "fastrometry/cython_code/PSE.pyx":437
+ *             break
+ * 
+ *     if debug:             # <<<<<<<<<<<<<<
+ *         np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources.csv",pse_metadata,delimiter=",")
+ * 
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":440
+ *         np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources.csv",pse_metadata,delimiter=",")
  * 
  *     if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
  *         ###If max_iters iterations have been performed and we still don't have nrefinepts sources,
  *         ###we just have to take what we have and do all the heavy calculations for those now.
  */
-  __pyx_t_11 = ((__pyx_v_curr_sind < __pyx_v_nrefinepts) != 0);
-  if (__pyx_t_11) {
+  __pyx_t_8 = ((__pyx_v_curr_sind < __pyx_v_nrefinepts) != 0);
+  if (__pyx_t_8) {
 
-    /* "fastrometry/cython_code/PSE.pyx":390
+    /* "fastrometry/cython_code/PSE.pyx":444
  *         ###we just have to take what we have and do all the heavy calculations for those now.
  * 
- *         num_psesources = curr_sind             # <<<<<<<<<<<<<<
+ *         if verbosity == 2:             # <<<<<<<<<<<<<<
+ *             print("| | done")
  * 
- *         for r in range(num_islands,num_psesources):
  */
-    __pyx_v_num_psesources = __pyx_v_curr_sind;
+    __pyx_t_8 = ((__pyx_v_verbosity == 2) != 0);
+    if (__pyx_t_8) {
 
-    /* "fastrometry/cython_code/PSE.pyx":392
- *         num_psesources = curr_sind
+      /* "fastrometry/cython_code/PSE.pyx":445
  * 
- *         for r in range(num_islands,num_psesources):             # <<<<<<<<<<<<<<
- *             prevx = int(smetadata_view[r,0])
- *             prevy = int(smetadata_view[r,1])
+ *         if verbosity == 2:
+ *             print("| | done")             # <<<<<<<<<<<<<<
+ * 
+ *         for r in range(num_islands,curr_sind):
  */
-    __pyx_t_8 = __pyx_v_num_psesources;
-    __pyx_t_9 = __pyx_t_8;
-    for (__pyx_t_10 = __pyx_v_num_islands; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
-      __pyx_v_r = __pyx_t_10;
+      if (__Pyx_PrintOne(0, __pyx_kp_s_done) < 0) __PYX_ERR(0, 445, __pyx_L1_error)
 
-      /* "fastrometry/cython_code/PSE.pyx":393
+      /* "fastrometry/cython_code/PSE.pyx":444
+ *         ###we just have to take what we have and do all the heavy calculations for those now.
  * 
- *         for r in range(num_islands,num_psesources):
- *             prevx = int(smetadata_view[r,0])             # <<<<<<<<<<<<<<
- *             prevy = int(smetadata_view[r,1])
+ *         if verbosity == 2:             # <<<<<<<<<<<<<<
+ *             print("| | done")
+ * 
+ */
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":447
+ *             print("| | done")
+ * 
+ *         for r in range(num_islands,curr_sind):             # <<<<<<<<<<<<<<
+ *             prevx = int(pse_metadata_view[r,0])
+ *             prevy = int(pse_metadata_view[r,1])
+ */
+    __pyx_t_9 = __pyx_v_curr_sind;
+    __pyx_t_10 = __pyx_t_9;
+    for (__pyx_t_11 = __pyx_v_num_islands; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
+      __pyx_v_r = __pyx_t_11;
+
+      /* "fastrometry/cython_code/PSE.pyx":448
+ * 
+ *         for r in range(num_islands,curr_sind):
+ *             prevx = int(pse_metadata_view[r,0])             # <<<<<<<<<<<<<<
+ *             prevy = int(pse_metadata_view[r,1])
  *             kernelsum = 0
  */
       __pyx_t_27 = __pyx_v_r;
       __pyx_t_28 = 0;
-      __pyx_v_prevx = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_27 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_28 * __pyx_v_smetadata_view.strides[1]) ))));
+      __pyx_v_prevx = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_27 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_28 * __pyx_v_pse_metadata_view.strides[1]) ))));
 
-      /* "fastrometry/cython_code/PSE.pyx":394
- *         for r in range(num_islands,num_psesources):
- *             prevx = int(smetadata_view[r,0])
- *             prevy = int(smetadata_view[r,1])             # <<<<<<<<<<<<<<
+      /* "fastrometry/cython_code/PSE.pyx":449
+ *         for r in range(num_islands,curr_sind):
+ *             prevx = int(pse_metadata_view[r,0])
+ *             prevy = int(pse_metadata_view[r,1])             # <<<<<<<<<<<<<<
  *             kernelsum = 0
- *             if r < npts:
+ *             for s in range(kernelsize):
  */
       __pyx_t_28 = __pyx_v_r;
       __pyx_t_27 = 1;
-      __pyx_v_prevy = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_28 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_27 * __pyx_v_smetadata_view.strides[1]) ))));
+      __pyx_v_prevy = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_28 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_27 * __pyx_v_pse_metadata_view.strides[1]) ))));
 
-      /* "fastrometry/cython_code/PSE.pyx":395
- *             prevx = int(smetadata_view[r,0])
- *             prevy = int(smetadata_view[r,1])
+      /* "fastrometry/cython_code/PSE.pyx":450
+ *             prevx = int(pse_metadata_view[r,0])
+ *             prevy = int(pse_metadata_view[r,1])
  *             kernelsum = 0             # <<<<<<<<<<<<<<
- *             if r < npts:
- *                 for s in range(kernelsize):
+ *             for s in range(kernelsize):
+ *                 kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]
  */
       __pyx_v_kernelsum = 0.0;
 
-      /* "fastrometry/cython_code/PSE.pyx":396
- *             prevy = int(smetadata_view[r,1])
+      /* "fastrometry/cython_code/PSE.pyx":451
+ *             prevy = int(pse_metadata_view[r,1])
  *             kernelsum = 0
- *             if r < npts:             # <<<<<<<<<<<<<<
- *                 for s in range(kernelsize):
- *                     kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]
+ *             for s in range(kernelsize):             # <<<<<<<<<<<<<<
+ *                 kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]
+ *             kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize
  */
-      __pyx_t_11 = ((__pyx_v_r < __pyx_v_npts) != 0);
-      if (__pyx_t_11) {
+      __pyx_t_20 = __pyx_v_kernelsize;
+      __pyx_t_21 = __pyx_t_20;
+      for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_21; __pyx_t_14+=1) {
+        __pyx_v_s = __pyx_t_14;
 
-        /* "fastrometry/cython_code/PSE.pyx":397
+        /* "fastrometry/cython_code/PSE.pyx":452
  *             kernelsum = 0
- *             if r < npts:
- *                 for s in range(kernelsize):             # <<<<<<<<<<<<<<
- *                     kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]
- *                     sindmap_refine_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1] = r
+ *             for s in range(kernelsize):
+ *                 kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]             # <<<<<<<<<<<<<<
+ *             kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize
+ *             pse_metadata_view[r,2] = kernelsum
+ */
+        __pyx_t_27 = __pyx_v_s;
+        __pyx_t_28 = 1;
+        __pyx_t_24 = __pyx_v_s;
+        __pyx_t_23 = 0;
+        __pyx_t_19 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+        __pyx_t_18 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+        __pyx_v_kernelsum = (__pyx_v_kernelsum + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_19 * __pyx_v_img_view.strides[0]) ) + __pyx_t_18 * __pyx_v_img_view.strides[1]) ))));
+      }
+
+      /* "fastrometry/cython_code/PSE.pyx":453
+ *             for s in range(kernelsize):
+ *                 kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]
+ *             kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize             # <<<<<<<<<<<<<<
+ *             pse_metadata_view[r,2] = kernelsum
+ * 
+ */
+      __pyx_t_23 = (__pyx_v_prevy - 1);
+      __pyx_t_24 = (__pyx_v_prevx - 1);
+      __pyx_v_kernelsum = (__pyx_v_kernelsum - ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_bgmap_view.data + __pyx_t_23 * __pyx_v_bgmap_view.strides[0]) ) + __pyx_t_24 * __pyx_v_bgmap_view.strides[1]) ))) * __pyx_v_kernelsize));
+
+      /* "fastrometry/cython_code/PSE.pyx":454
+ *                 kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]
+ *             kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize
+ *             pse_metadata_view[r,2] = kernelsum             # <<<<<<<<<<<<<<
+ * 
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]   ###sort pse_metadata by brightness
+ */
+      __pyx_t_24 = __pyx_v_r;
+      __pyx_t_23 = 2;
+      *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[1]) )) = __pyx_v_kernelsum;
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":456
+ *             pse_metadata_view[r,2] = kernelsum
+ * 
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]   ###sort pse_metadata by brightness             # <<<<<<<<<<<<<<
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted.csv",pse_metadata_sorted,delimiter=",")
+ */
+    __pyx_t_3 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_pse_metadata), __pyx_tuple__7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 456, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_argsort); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 456, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_3 = NULL;
+    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+      __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_4);
+      if (likely(__pyx_t_3)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+        __Pyx_INCREF(__pyx_t_3);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_4, function);
+      }
+    }
+    __pyx_t_5 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_4);
+    __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 456, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_t_4 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_pse_metadata), __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 456, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_slice__8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 456, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_v_pse_metadata_sorted = __pyx_t_5;
+    __pyx_t_5 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":457
+ * 
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]   ###sort pse_metadata by brightness
+ *         if debug:             # <<<<<<<<<<<<<<
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted.csv",pse_metadata_sorted,delimiter=",")
+ *         num_zeros = nrefinepts - curr_sind      ###If not all nrefinepts slots are filled, there will be leftover zeros that need to be pushed to the back of the array
+ */
+    __pyx_t_8 = (__pyx_v_debug != 0);
+    if (__pyx_t_8) {
+
+      /* "fastrometry/cython_code/PSE.pyx":458
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]   ###sort pse_metadata by brightness
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted.csv",pse_metadata_sorted,delimiter=",")             # <<<<<<<<<<<<<<
+ *         num_zeros = nrefinepts - curr_sind      ###If not all nrefinepts slots are filled, there will be leftover zeros that need to be pushed to the back of the array
+ *         for rr in range(num_islands, nrefinepts):
+ */
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 458, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_savetxt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 458, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __pyx_t_5 = PyNumber_Add(__pyx_v_user_dir, __pyx_kp_s_debug); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 458, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_3 = PyNumber_Add(__pyx_t_5, __pyx_v_debug_report); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 458, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __pyx_t_5 = PyNumber_Add(__pyx_t_3, __pyx_kp_s_pse_metadata_allsources_sorted); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 458, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 458, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_GIVEREF(__pyx_t_5);
+      PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_5);
+      __Pyx_INCREF(__pyx_v_pse_metadata_sorted);
+      __Pyx_GIVEREF(__pyx_v_pse_metadata_sorted);
+      PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_v_pse_metadata_sorted);
+      __pyx_t_5 = 0;
+      __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 458, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_delimiter, __pyx_kp_s__9) < 0) __PYX_ERR(0, 458, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 458, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":457
+ * 
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]   ###sort pse_metadata by brightness
+ *         if debug:             # <<<<<<<<<<<<<<
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted.csv",pse_metadata_sorted,delimiter=",")
+ *         num_zeros = nrefinepts - curr_sind      ###If not all nrefinepts slots are filled, there will be leftover zeros that need to be pushed to the back of the array
+ */
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":459
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted.csv",pse_metadata_sorted,delimiter=",")
+ *         num_zeros = nrefinepts - curr_sind      ###If not all nrefinepts slots are filled, there will be leftover zeros that need to be pushed to the back of the array             # <<<<<<<<<<<<<<
+ *         for rr in range(num_islands, nrefinepts):
+ *             if pse_metadata_sorted[rr,2] < 0:
+ */
+    __pyx_t_6 = __Pyx_PyInt_From_int((__pyx_v_nrefinepts - __pyx_v_curr_sind)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 459, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_v_num_zeros = __pyx_t_6;
+    __pyx_t_6 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":460
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted.csv",pse_metadata_sorted,delimiter=",")
+ *         num_zeros = nrefinepts - curr_sind      ###If not all nrefinepts slots are filled, there will be leftover zeros that need to be pushed to the back of the array
+ *         for rr in range(num_islands, nrefinepts):             # <<<<<<<<<<<<<<
+ *             if pse_metadata_sorted[rr,2] < 0:
+ *                 pse_metadata_sorted[rr-num_zeros,:] = pse_metadata_sorted[rr,:]
+ */
+    __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_num_islands); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 460, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_nrefinepts); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 460, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 460, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_GIVEREF(__pyx_t_6);
+    PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_6);
+    __Pyx_GIVEREF(__pyx_t_5);
+    PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_5);
+    __pyx_t_6 = 0;
+    __pyx_t_5 = 0;
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_range, __pyx_t_3, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 460, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (likely(PyList_CheckExact(__pyx_t_5)) || PyTuple_CheckExact(__pyx_t_5)) {
+      __pyx_t_3 = __pyx_t_5; __Pyx_INCREF(__pyx_t_3); __pyx_t_11 = 0;
+      __pyx_t_32 = NULL;
+    } else {
+      __pyx_t_11 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 460, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_32 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_32)) __PYX_ERR(0, 460, __pyx_L1_error)
+    }
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    for (;;) {
+      if (likely(!__pyx_t_32)) {
+        if (likely(PyList_CheckExact(__pyx_t_3))) {
+          if (__pyx_t_11 >= PyList_GET_SIZE(__pyx_t_3)) break;
+          #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
+          __pyx_t_5 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_11); __Pyx_INCREF(__pyx_t_5); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(0, 460, __pyx_L1_error)
+          #else
+          __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 460, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_5);
+          #endif
+        } else {
+          if (__pyx_t_11 >= PyTuple_GET_SIZE(__pyx_t_3)) break;
+          #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
+          __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_11); __Pyx_INCREF(__pyx_t_5); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(0, 460, __pyx_L1_error)
+          #else
+          __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 460, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_5);
+          #endif
+        }
+      } else {
+        __pyx_t_5 = __pyx_t_32(__pyx_t_3);
+        if (unlikely(!__pyx_t_5)) {
+          PyObject* exc_type = PyErr_Occurred();
+          if (exc_type) {
+            if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
+            else __PYX_ERR(0, 460, __pyx_L1_error)
+          }
+          break;
+        }
+        __Pyx_GOTREF(__pyx_t_5);
+      }
+      __Pyx_XDECREF_SET(__pyx_v_rr, __pyx_t_5);
+      __pyx_t_5 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":461
+ *         num_zeros = nrefinepts - curr_sind      ###If not all nrefinepts slots are filled, there will be leftover zeros that need to be pushed to the back of the array
+ *         for rr in range(num_islands, nrefinepts):
+ *             if pse_metadata_sorted[rr,2] < 0:             # <<<<<<<<<<<<<<
+ *                 pse_metadata_sorted[rr-num_zeros,:] = pse_metadata_sorted[rr,:]
+ *                 pse_metadata_sorted[rr,:] = 0
+ */
+      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 461, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_INCREF(__pyx_v_rr);
+      __Pyx_GIVEREF(__pyx_v_rr);
+      PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_v_rr);
+      __Pyx_INCREF(__pyx_int_2);
+      __Pyx_GIVEREF(__pyx_int_2);
+      PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_int_2);
+      __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_v_pse_metadata_sorted, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 461, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __pyx_t_5 = PyObject_RichCompare(__pyx_t_6, __pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 461, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 461, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      if (__pyx_t_8) {
+
+        /* "fastrometry/cython_code/PSE.pyx":462
+ *         for rr in range(num_islands, nrefinepts):
+ *             if pse_metadata_sorted[rr,2] < 0:
+ *                 pse_metadata_sorted[rr-num_zeros,:] = pse_metadata_sorted[rr,:]             # <<<<<<<<<<<<<<
+ *                 pse_metadata_sorted[rr,:] = 0
+ *         if debug:
+ */
+        __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 462, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __Pyx_INCREF(__pyx_v_rr);
+        __Pyx_GIVEREF(__pyx_v_rr);
+        PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_v_rr);
+        __Pyx_INCREF(__pyx_slice__6);
+        __Pyx_GIVEREF(__pyx_slice__6);
+        PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_slice__6);
+        __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_v_pse_metadata_sorted, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 462, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_6);
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+        __pyx_t_5 = PyNumber_Subtract(__pyx_v_rr, __pyx_v_num_zeros); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 462, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 462, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_GIVEREF(__pyx_t_5);
+        PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_5);
+        __Pyx_INCREF(__pyx_slice__6);
+        __Pyx_GIVEREF(__pyx_slice__6);
+        PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_slice__6);
+        __pyx_t_5 = 0;
+        if (unlikely(PyObject_SetItem(__pyx_v_pse_metadata_sorted, __pyx_t_4, __pyx_t_6) < 0)) __PYX_ERR(0, 462, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+
+        /* "fastrometry/cython_code/PSE.pyx":463
+ *             if pse_metadata_sorted[rr,2] < 0:
+ *                 pse_metadata_sorted[rr-num_zeros,:] = pse_metadata_sorted[rr,:]
+ *                 pse_metadata_sorted[rr,:] = 0             # <<<<<<<<<<<<<<
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted_zerosmoved.csv",pse_metadata_sorted,delimiter=",")
+ */
+        __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 463, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_6);
+        __Pyx_INCREF(__pyx_v_rr);
+        __Pyx_GIVEREF(__pyx_v_rr);
+        PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_v_rr);
+        __Pyx_INCREF(__pyx_slice__6);
+        __Pyx_GIVEREF(__pyx_slice__6);
+        PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_slice__6);
+        if (unlikely(PyObject_SetItem(__pyx_v_pse_metadata_sorted, __pyx_t_6, __pyx_int_0) < 0)) __PYX_ERR(0, 463, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+
+        /* "fastrometry/cython_code/PSE.pyx":461
+ *         num_zeros = nrefinepts - curr_sind      ###If not all nrefinepts slots are filled, there will be leftover zeros that need to be pushed to the back of the array
+ *         for rr in range(num_islands, nrefinepts):
+ *             if pse_metadata_sorted[rr,2] < 0:             # <<<<<<<<<<<<<<
+ *                 pse_metadata_sorted[rr-num_zeros,:] = pse_metadata_sorted[rr,:]
+ *                 pse_metadata_sorted[rr,:] = 0
+ */
+      }
+
+      /* "fastrometry/cython_code/PSE.pyx":460
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted.csv",pse_metadata_sorted,delimiter=",")
+ *         num_zeros = nrefinepts - curr_sind      ###If not all nrefinepts slots are filled, there will be leftover zeros that need to be pushed to the back of the array
+ *         for rr in range(num_islands, nrefinepts):             # <<<<<<<<<<<<<<
+ *             if pse_metadata_sorted[rr,2] < 0:
+ *                 pse_metadata_sorted[rr-num_zeros,:] = pse_metadata_sorted[rr,:]
+ */
+    }
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":464
+ *                 pse_metadata_sorted[rr-num_zeros,:] = pse_metadata_sorted[rr,:]
+ *                 pse_metadata_sorted[rr,:] = 0
+ *         if debug:             # <<<<<<<<<<<<<<
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted_zerosmoved.csv",pse_metadata_sorted,delimiter=",")
+ *         pse_metadata[:] = pse_metadata_sorted
+ */
+    __pyx_t_8 = (__pyx_v_debug != 0);
+    if (__pyx_t_8) {
+
+      /* "fastrometry/cython_code/PSE.pyx":465
+ *                 pse_metadata_sorted[rr,:] = 0
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted_zerosmoved.csv",pse_metadata_sorted,delimiter=",")             # <<<<<<<<<<<<<<
+ *         pse_metadata[:] = pse_metadata_sorted
+ * 
+ */
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 465, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_savetxt); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 465, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __pyx_t_3 = PyNumber_Add(__pyx_v_user_dir, __pyx_kp_s_debug); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 465, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_4 = PyNumber_Add(__pyx_t_3, __pyx_v_debug_report); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 465, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __pyx_t_3 = PyNumber_Add(__pyx_t_4, __pyx_kp_s_pse_metadata_allsources_sorted_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 465, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 465, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_GIVEREF(__pyx_t_3);
+      PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_3);
+      __Pyx_INCREF(__pyx_v_pse_metadata_sorted);
+      __Pyx_GIVEREF(__pyx_v_pse_metadata_sorted);
+      PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_v_pse_metadata_sorted);
+      __pyx_t_3 = 0;
+      __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 465, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_delimiter, __pyx_kp_s__9) < 0) __PYX_ERR(0, 465, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 465, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":464
+ *                 pse_metadata_sorted[rr-num_zeros,:] = pse_metadata_sorted[rr,:]
+ *                 pse_metadata_sorted[rr,:] = 0
+ *         if debug:             # <<<<<<<<<<<<<<
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted_zerosmoved.csv",pse_metadata_sorted,delimiter=",")
+ *         pse_metadata[:] = pse_metadata_sorted
+ */
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":466
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted_zerosmoved.csv",pse_metadata_sorted,delimiter=",")
+ *         pse_metadata[:] = pse_metadata_sorted             # <<<<<<<<<<<<<<
+ * 
+ *         for r2 in range(num_islands, curr_sind):
+ */
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_pse_metadata), __pyx_slice__6, __pyx_v_pse_metadata_sorted) < 0)) __PYX_ERR(0, 466, __pyx_L1_error)
+
+    /* "fastrometry/cython_code/PSE.pyx":468
+ *         pse_metadata[:] = pse_metadata_sorted
+ * 
+ *         for r2 in range(num_islands, curr_sind):             # <<<<<<<<<<<<<<
+ *             prevx = int(pse_metadata_view[r2,0])
+ *             prevy = int(pse_metadata_view[r2,1])
+ */
+    __pyx_t_9 = __pyx_v_curr_sind;
+    __pyx_t_10 = __pyx_t_9;
+    for (__pyx_t_11 = __pyx_v_num_islands; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
+      __pyx_v_r2 = __pyx_t_11;
+
+      /* "fastrometry/cython_code/PSE.pyx":469
+ * 
+ *         for r2 in range(num_islands, curr_sind):
+ *             prevx = int(pse_metadata_view[r2,0])             # <<<<<<<<<<<<<<
+ *             prevy = int(pse_metadata_view[r2,1])
+ *             if r2 < npts:
+ */
+      __pyx_t_23 = __pyx_v_r2;
+      __pyx_t_24 = 0;
+      __pyx_v_prevx = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[1]) ))));
+
+      /* "fastrometry/cython_code/PSE.pyx":470
+ *         for r2 in range(num_islands, curr_sind):
+ *             prevx = int(pse_metadata_view[r2,0])
+ *             prevy = int(pse_metadata_view[r2,1])             # <<<<<<<<<<<<<<
+ *             if r2 < npts:
+ *                 for s2 in range(kernelsize):
+ */
+      __pyx_t_24 = __pyx_v_r2;
+      __pyx_t_23 = 1;
+      __pyx_v_prevy = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[1]) ))));
+
+      /* "fastrometry/cython_code/PSE.pyx":471
+ *             prevx = int(pse_metadata_view[r2,0])
+ *             prevy = int(pse_metadata_view[r2,1])
+ *             if r2 < npts:             # <<<<<<<<<<<<<<
+ *                 for s2 in range(kernelsize):
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[s2,1])-1,(prevx+kernelcircle_view[s2,0])-1] = r2
+ */
+      __pyx_t_8 = ((__pyx_v_r2 < __pyx_v_npts) != 0);
+      if (__pyx_t_8) {
+
+        /* "fastrometry/cython_code/PSE.pyx":472
+ *             prevy = int(pse_metadata_view[r2,1])
+ *             if r2 < npts:
+ *                 for s2 in range(kernelsize):             # <<<<<<<<<<<<<<
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[s2,1])-1,(prevx+kernelcircle_view[s2,0])-1] = r2
+ *                     srcindexmap_initial_view[(prevy+kernelcircle_view[s2,1])-1,(prevx+kernelcircle_view[s2,0])-1] = r2
  */
         __pyx_t_20 = __pyx_v_kernelsize;
         __pyx_t_21 = __pyx_t_20;
         for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_21; __pyx_t_14+=1) {
-          __pyx_v_s = __pyx_t_14;
+          __pyx_v_s2 = __pyx_t_14;
 
-          /* "fastrometry/cython_code/PSE.pyx":398
- *             if r < npts:
- *                 for s in range(kernelsize):
- *                     kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]             # <<<<<<<<<<<<<<
- *                     sindmap_refine_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1] = r
- *                     sindmap_initial_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1] = r
- */
-          __pyx_t_27 = __pyx_v_s;
-          __pyx_t_28 = 1;
-          __pyx_t_23 = __pyx_v_s;
-          __pyx_t_24 = 0;
-          __pyx_t_18 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          __pyx_t_19 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          __pyx_v_kernelsum = (__pyx_v_kernelsum + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_18 * __pyx_v_img_view.strides[0]) ) + __pyx_t_19 * __pyx_v_img_view.strides[1]) ))));
-
-          /* "fastrometry/cython_code/PSE.pyx":399
- *                 for s in range(kernelsize):
- *                     kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]
- *                     sindmap_refine_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1] = r             # <<<<<<<<<<<<<<
- *                     sindmap_initial_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1] = r
+          /* "fastrometry/cython_code/PSE.pyx":473
+ *             if r2 < npts:
+ *                 for s2 in range(kernelsize):
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[s2,1])-1,(prevx+kernelcircle_view[s2,0])-1] = r2             # <<<<<<<<<<<<<<
+ *                     srcindexmap_initial_view[(prevy+kernelcircle_view[s2,1])-1,(prevx+kernelcircle_view[s2,0])-1] = r2
  *             else:
  */
-          __pyx_t_24 = __pyx_v_s;
-          __pyx_t_23 = 1;
-          __pyx_t_28 = __pyx_v_s;
+          __pyx_t_23 = __pyx_v_s2;
+          __pyx_t_24 = 1;
+          __pyx_t_28 = __pyx_v_s2;
           __pyx_t_27 = 0;
-          __pyx_t_19 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          __pyx_t_18 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sindmap_refine_view.data + __pyx_t_19 * __pyx_v_sindmap_refine_view.strides[0]) ) + __pyx_t_18 * __pyx_v_sindmap_refine_view.strides[1]) )) = __pyx_v_r;
+          __pyx_t_18 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+          __pyx_t_19 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_srcindexmap_refine_view.data + __pyx_t_18 * __pyx_v_srcindexmap_refine_view.strides[0]) ) + __pyx_t_19 * __pyx_v_srcindexmap_refine_view.strides[1]) )) = __pyx_v_r2;
 
-          /* "fastrometry/cython_code/PSE.pyx":400
- *                     kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]
- *                     sindmap_refine_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1] = r
- *                     sindmap_initial_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1] = r             # <<<<<<<<<<<<<<
+          /* "fastrometry/cython_code/PSE.pyx":474
+ *                 for s2 in range(kernelsize):
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[s2,1])-1,(prevx+kernelcircle_view[s2,0])-1] = r2
+ *                     srcindexmap_initial_view[(prevy+kernelcircle_view[s2,1])-1,(prevx+kernelcircle_view[s2,0])-1] = r2             # <<<<<<<<<<<<<<
  *             else:
- *                 for s in range(kernelsize):
+ *                 for s2 in range(kernelsize):
  */
-          __pyx_t_27 = __pyx_v_s;
+          __pyx_t_27 = __pyx_v_s2;
           __pyx_t_28 = 1;
-          __pyx_t_23 = __pyx_v_s;
-          __pyx_t_24 = 0;
-          __pyx_t_18 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          __pyx_t_19 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sindmap_initial_view.data + __pyx_t_18 * __pyx_v_sindmap_initial_view.strides[0]) ) + __pyx_t_19 * __pyx_v_sindmap_initial_view.strides[1]) )) = __pyx_v_r;
+          __pyx_t_24 = __pyx_v_s2;
+          __pyx_t_23 = 0;
+          __pyx_t_19 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+          __pyx_t_18 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_srcindexmap_initial_view.data + __pyx_t_19 * __pyx_v_srcindexmap_initial_view.strides[0]) ) + __pyx_t_18 * __pyx_v_srcindexmap_initial_view.strides[1]) )) = __pyx_v_r2;
         }
 
-        /* "fastrometry/cython_code/PSE.pyx":396
- *             prevy = int(smetadata_view[r,1])
- *             kernelsum = 0
- *             if r < npts:             # <<<<<<<<<<<<<<
- *                 for s in range(kernelsize):
- *                     kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]
+        /* "fastrometry/cython_code/PSE.pyx":471
+ *             prevx = int(pse_metadata_view[r2,0])
+ *             prevy = int(pse_metadata_view[r2,1])
+ *             if r2 < npts:             # <<<<<<<<<<<<<<
+ *                 for s2 in range(kernelsize):
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[s2,1])-1,(prevx+kernelcircle_view[s2,0])-1] = r2
  */
-        goto __pyx_L35;
+        goto __pyx_L48;
       }
 
-      /* "fastrometry/cython_code/PSE.pyx":402
- *                     sindmap_initial_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1] = r
+      /* "fastrometry/cython_code/PSE.pyx":476
+ *                     srcindexmap_initial_view[(prevy+kernelcircle_view[s2,1])-1,(prevx+kernelcircle_view[s2,0])-1] = r2
  *             else:
- *                 for s in range(kernelsize):             # <<<<<<<<<<<<<<
- *                     kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]
- *                     sindmap_refine_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1] = r
+ *                 for s2 in range(kernelsize):             # <<<<<<<<<<<<<<
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[s2,1])-1,(prevx+kernelcircle_view[s2,0])-1] = r2
+ * 
  */
       /*else*/ {
         __pyx_t_20 = __pyx_v_kernelsize;
         __pyx_t_21 = __pyx_t_20;
         for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_21; __pyx_t_14+=1) {
-          __pyx_v_s = __pyx_t_14;
+          __pyx_v_s2 = __pyx_t_14;
 
-          /* "fastrometry/cython_code/PSE.pyx":403
+          /* "fastrometry/cython_code/PSE.pyx":477
  *             else:
- *                 for s in range(kernelsize):
- *                     kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]             # <<<<<<<<<<<<<<
- *                     sindmap_refine_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1] = r
- *             kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize
- */
-          __pyx_t_24 = __pyx_v_s;
-          __pyx_t_23 = 1;
-          __pyx_t_28 = __pyx_v_s;
-          __pyx_t_27 = 0;
-          __pyx_t_19 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          __pyx_t_18 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          __pyx_v_kernelsum = (__pyx_v_kernelsum + (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_img_view.data + __pyx_t_19 * __pyx_v_img_view.strides[0]) ) + __pyx_t_18 * __pyx_v_img_view.strides[1]) ))));
-
-          /* "fastrometry/cython_code/PSE.pyx":404
- *                 for s in range(kernelsize):
- *                     kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]
- *                     sindmap_refine_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1] = r             # <<<<<<<<<<<<<<
- *             kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize
+ *                 for s2 in range(kernelsize):
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[s2,1])-1,(prevx+kernelcircle_view[s2,0])-1] = r2             # <<<<<<<<<<<<<<
  * 
+ *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
  */
-          __pyx_t_27 = __pyx_v_s;
-          __pyx_t_28 = 1;
-          __pyx_t_23 = __pyx_v_s;
-          __pyx_t_24 = 0;
-          __pyx_t_18 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          __pyx_t_19 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sindmap_refine_view.data + __pyx_t_18 * __pyx_v_sindmap_refine_view.strides[0]) ) + __pyx_t_19 * __pyx_v_sindmap_refine_view.strides[1]) )) = __pyx_v_r;
+          __pyx_t_23 = __pyx_v_s2;
+          __pyx_t_24 = 1;
+          __pyx_t_28 = __pyx_v_s2;
+          __pyx_t_27 = 0;
+          __pyx_t_18 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+          __pyx_t_19 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_srcindexmap_refine_view.data + __pyx_t_18 * __pyx_v_srcindexmap_refine_view.strides[0]) ) + __pyx_t_19 * __pyx_v_srcindexmap_refine_view.strides[1]) )) = __pyx_v_r2;
         }
       }
-      __pyx_L35:;
+      __pyx_L48:;
 
-      /* "fastrometry/cython_code/PSE.pyx":405
- *                     kernelsum += img_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1]
- *                     sindmap_refine_view[(prevy+kernelcircle_view[s,1])-1,(prevx+kernelcircle_view[s,0])-1] = r
- *             kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize             # <<<<<<<<<<<<<<
- * 
- *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
- */
-      __pyx_t_24 = (__pyx_v_prevy - 1);
-      __pyx_t_23 = (__pyx_v_prevx - 1);
-      __pyx_v_kernelsum = (__pyx_v_kernelsum - ((*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_bgmap_view.data + __pyx_t_24 * __pyx_v_bgmap_view.strides[0]) ) + __pyx_t_23 * __pyx_v_bgmap_view.strides[1]) ))) * __pyx_v_kernelsize));
-
-      /* "fastrometry/cython_code/PSE.pyx":407
- *             kernelsum -= bgmap_view[prevy-1,prevx-1]*kernelsize
+      /* "fastrometry/cython_code/PSE.pyx":479
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[s2,1])-1,(prevx+kernelcircle_view[s2,0])-1] = r2
  * 
  *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)             # <<<<<<<<<<<<<<
- *             smetadata_view[r,0] = cntdresults_view[0]   #x centroid
- *             smetadata_view[r,1] = cntdresults_view[1]   #y centroid
+ *             pse_metadata_view[r2,0] = cntdresults_view[0]   #x centroid
+ *             pse_metadata_view[r2,1] = cntdresults_view[1]   #y centroid
  */
-      __pyx_t_23 = (__pyx_v_prevy - 1);
-      __pyx_t_24 = (__pyx_v_prevx - 1);
-      __pyx_t_6 = __pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(__pyx_v_prevx, __pyx_v_prevy, __pyx_v_kernelrad, __pyx_v_img_view, (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_bgmap_view.data + __pyx_t_23 * __pyx_v_bgmap_view.strides[0]) ) + __pyx_t_24 * __pyx_v_bgmap_view.strides[1]) ))), __pyx_v_cntdresults_view); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 407, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __pyx_t_27 = (__pyx_v_prevy - 1);
+      __pyx_t_28 = (__pyx_v_prevx - 1);
+      __pyx_t_5 = __pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(__pyx_v_prevx, __pyx_v_prevy, __pyx_v_kernelrad, __pyx_v_img_view, (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_bgmap_view.data + __pyx_t_27 * __pyx_v_bgmap_view.strides[0]) ) + __pyx_t_28 * __pyx_v_bgmap_view.strides[1]) ))), __pyx_v_cntdresults_view); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 479, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "fastrometry/cython_code/PSE.pyx":408
+      /* "fastrometry/cython_code/PSE.pyx":480
  * 
  *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
- *             smetadata_view[r,0] = cntdresults_view[0]   #x centroid             # <<<<<<<<<<<<<<
- *             smetadata_view[r,1] = cntdresults_view[1]   #y centroid
- *             smetadata_view[r,2] = kernelsum
+ *             pse_metadata_view[r2,0] = cntdresults_view[0]   #x centroid             # <<<<<<<<<<<<<<
+ *             pse_metadata_view[r2,1] = cntdresults_view[1]   #y centroid
+ * 
  */
-      __pyx_t_24 = 0;
-      __pyx_t_23 = __pyx_v_r;
       __pyx_t_28 = 0;
-      *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_23 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_28 * __pyx_v_smetadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_24 * __pyx_v_cntdresults_view.strides[0]) )));
+      __pyx_t_27 = __pyx_v_r2;
+      __pyx_t_24 = 0;
+      *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_27 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_28 * __pyx_v_cntdresults_view.strides[0]) )));
 
-      /* "fastrometry/cython_code/PSE.pyx":409
+      /* "fastrometry/cython_code/PSE.pyx":481
  *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
- *             smetadata_view[r,0] = cntdresults_view[0]   #x centroid
- *             smetadata_view[r,1] = cntdresults_view[1]   #y centroid             # <<<<<<<<<<<<<<
- *             smetadata_view[r,2] = kernelsum
+ *             pse_metadata_view[r2,0] = cntdresults_view[0]   #x centroid
+ *             pse_metadata_view[r2,1] = cntdresults_view[1]   #y centroid             # <<<<<<<<<<<<<<
  * 
+ *     elif curr_sind >= nrefinepts:
  */
-      __pyx_t_24 = 1;
-      __pyx_t_28 = __pyx_v_r;
-      __pyx_t_23 = 1;
-      *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_28 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_smetadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_24 * __pyx_v_cntdresults_view.strides[0]) )));
-
-      /* "fastrometry/cython_code/PSE.pyx":410
- *             smetadata_view[r,0] = cntdresults_view[0]   #x centroid
- *             smetadata_view[r,1] = cntdresults_view[1]   #y centroid
- *             smetadata_view[r,2] = kernelsum             # <<<<<<<<<<<<<<
- * 
- *     else:
- */
-      __pyx_t_24 = __pyx_v_r;
-      __pyx_t_23 = 2;
-      *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_24 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_smetadata_view.strides[1]) )) = __pyx_v_kernelsum;
+      __pyx_t_28 = 1;
+      __pyx_t_24 = __pyx_v_r2;
+      __pyx_t_27 = 1;
+      *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_24 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_27 * __pyx_v_pse_metadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_28 * __pyx_v_cntdresults_view.strides[0]) )));
     }
 
-    /* "fastrometry/cython_code/PSE.pyx":386
- *     smetadata[:] = smetadata_sorted
+    /* "fastrometry/cython_code/PSE.pyx":440
+ *         np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources.csv",pse_metadata,delimiter=",")
  * 
  *     if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
  *         ###If max_iters iterations have been performed and we still don't have nrefinepts sources,
  *         ###we just have to take what we have and do all the heavy calculations for those now.
  */
-    goto __pyx_L32;
+    goto __pyx_L35;
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":417
- *         ###the kernels in the sindmap and finding centroids
+  /* "fastrometry/cython_code/PSE.pyx":483
+ *             pse_metadata_view[r2,1] = cntdresults_view[1]   #y centroid
  * 
- *         num_psesources = nrefinepts             # <<<<<<<<<<<<<<
+ *     elif curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
  * 
- *         for t in range(num_islands,nrefinepts):
+ *         if verbosity == 2:
  */
-  /*else*/ {
-    __pyx_v_num_psesources = __pyx_v_nrefinepts;
+  __pyx_t_8 = ((__pyx_v_curr_sind >= __pyx_v_nrefinepts) != 0);
+  if (__pyx_t_8) {
 
-    /* "fastrometry/cython_code/PSE.pyx":419
- *         num_psesources = nrefinepts
+    /* "fastrometry/cython_code/PSE.pyx":485
+ *     elif curr_sind >= nrefinepts:
+ * 
+ *         if verbosity == 2:             # <<<<<<<<<<<<<<
+ *             print("| | done")
+ * 
+ */
+    __pyx_t_8 = ((__pyx_v_verbosity == 2) != 0);
+    if (__pyx_t_8) {
+
+      /* "fastrometry/cython_code/PSE.pyx":486
+ * 
+ *         if verbosity == 2:
+ *             print("| | done")             # <<<<<<<<<<<<<<
+ * 
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]   ###sort pse_metadata by brightness
+ */
+      if (__Pyx_PrintOne(0, __pyx_kp_s_done) < 0) __PYX_ERR(0, 486, __pyx_L1_error)
+
+      /* "fastrometry/cython_code/PSE.pyx":485
+ *     elif curr_sind >= nrefinepts:
+ * 
+ *         if verbosity == 2:             # <<<<<<<<<<<<<<
+ *             print("| | done")
+ * 
+ */
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":488
+ *             print("| | done")
+ * 
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]   ###sort pse_metadata by brightness             # <<<<<<<<<<<<<<
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted.csv",pse_metadata_sorted,delimiter=",")
+ */
+    __pyx_t_3 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_pse_metadata), __pyx_tuple__7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 488, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_argsort); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 488, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_3 = NULL;
+    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+      __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_4);
+      if (likely(__pyx_t_3)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+        __Pyx_INCREF(__pyx_t_3);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_4, function);
+      }
+    }
+    __pyx_t_5 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_4);
+    __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 488, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_t_4 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_pse_metadata), __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 488, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_t_4, __pyx_slice__8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 488, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_v_pse_metadata_sorted = __pyx_t_5;
+    __pyx_t_5 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":489
+ * 
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]   ###sort pse_metadata by brightness
+ *         if debug:             # <<<<<<<<<<<<<<
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted.csv",pse_metadata_sorted,delimiter=",")
+ *         pse_metadata[:] = pse_metadata_sorted
+ */
+    __pyx_t_8 = (__pyx_v_debug != 0);
+    if (__pyx_t_8) {
+
+      /* "fastrometry/cython_code/PSE.pyx":490
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]   ###sort pse_metadata by brightness
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted.csv",pse_metadata_sorted,delimiter=",")             # <<<<<<<<<<<<<<
+ *         pse_metadata[:] = pse_metadata_sorted
+ * 
+ */
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 490, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_savetxt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 490, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __pyx_t_5 = PyNumber_Add(__pyx_v_user_dir, __pyx_kp_s_debug); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 490, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_3 = PyNumber_Add(__pyx_t_5, __pyx_v_debug_report); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 490, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __pyx_t_5 = PyNumber_Add(__pyx_t_3, __pyx_kp_s_pse_metadata_allsources_sorted); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 490, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 490, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_GIVEREF(__pyx_t_5);
+      PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_5);
+      __Pyx_INCREF(__pyx_v_pse_metadata_sorted);
+      __Pyx_GIVEREF(__pyx_v_pse_metadata_sorted);
+      PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_v_pse_metadata_sorted);
+      __pyx_t_5 = 0;
+      __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 490, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
+      if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_delimiter, __pyx_kp_s__9) < 0) __PYX_ERR(0, 490, __pyx_L1_error)
+      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 490, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":489
+ * 
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]   ###sort pse_metadata by brightness
+ *         if debug:             # <<<<<<<<<<<<<<
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted.csv",pse_metadata_sorted,delimiter=",")
+ *         pse_metadata[:] = pse_metadata_sorted
+ */
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":491
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_allsources_sorted.csv",pse_metadata_sorted,delimiter=",")
+ *         pse_metadata[:] = pse_metadata_sorted             # <<<<<<<<<<<<<<
+ * 
+ *         ###If we have nrefinepts or more sources, we have already calculated kernel sums for
+ */
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_pse_metadata), __pyx_slice__6, __pyx_v_pse_metadata_sorted) < 0)) __PYX_ERR(0, 491, __pyx_L1_error)
+
+    /* "fastrometry/cython_code/PSE.pyx":497
+ *         ###the kernels in the srcindexmap and finding centroids
  * 
  *         for t in range(num_islands,nrefinepts):             # <<<<<<<<<<<<<<
- *             prevx = int(smetadata_view[t,0])
- *             prevy = int(smetadata_view[t,1])
+ *             prevx = int(pse_metadata_view[t,0])
+ *             prevy = int(pse_metadata_view[t,1])
  */
-    __pyx_t_8 = __pyx_v_nrefinepts;
-    __pyx_t_9 = __pyx_t_8;
-    for (__pyx_t_10 = __pyx_v_num_islands; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
-      __pyx_v_t = __pyx_t_10;
+    __pyx_t_9 = __pyx_v_nrefinepts;
+    __pyx_t_10 = __pyx_t_9;
+    for (__pyx_t_11 = __pyx_v_num_islands; __pyx_t_11 < __pyx_t_10; __pyx_t_11+=1) {
+      __pyx_v_t = __pyx_t_11;
 
-      /* "fastrometry/cython_code/PSE.pyx":420
+      /* "fastrometry/cython_code/PSE.pyx":498
  * 
  *         for t in range(num_islands,nrefinepts):
- *             prevx = int(smetadata_view[t,0])             # <<<<<<<<<<<<<<
- *             prevy = int(smetadata_view[t,1])
+ *             prevx = int(pse_metadata_view[t,0])             # <<<<<<<<<<<<<<
+ *             prevy = int(pse_metadata_view[t,1])
  *             if t < npts:
  */
-      __pyx_t_23 = __pyx_v_t;
-      __pyx_t_24 = 0;
-      __pyx_v_prevx = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_23 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_smetadata_view.strides[1]) ))));
+      __pyx_t_28 = __pyx_v_t;
+      __pyx_t_27 = 0;
+      __pyx_v_prevx = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_28 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_27 * __pyx_v_pse_metadata_view.strides[1]) ))));
 
-      /* "fastrometry/cython_code/PSE.pyx":421
+      /* "fastrometry/cython_code/PSE.pyx":499
  *         for t in range(num_islands,nrefinepts):
- *             prevx = int(smetadata_view[t,0])
- *             prevy = int(smetadata_view[t,1])             # <<<<<<<<<<<<<<
+ *             prevx = int(pse_metadata_view[t,0])
+ *             prevy = int(pse_metadata_view[t,1])             # <<<<<<<<<<<<<<
  *             if t < npts:
  *                 for u in range(kernelsize):
  */
-      __pyx_t_24 = __pyx_v_t;
-      __pyx_t_23 = 1;
-      __pyx_v_prevy = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_24 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_smetadata_view.strides[1]) ))));
+      __pyx_t_27 = __pyx_v_t;
+      __pyx_t_28 = 1;
+      __pyx_v_prevy = ((Py_ssize_t)(*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_27 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_28 * __pyx_v_pse_metadata_view.strides[1]) ))));
 
-      /* "fastrometry/cython_code/PSE.pyx":422
- *             prevx = int(smetadata_view[t,0])
- *             prevy = int(smetadata_view[t,1])
+      /* "fastrometry/cython_code/PSE.pyx":500
+ *             prevx = int(pse_metadata_view[t,0])
+ *             prevy = int(pse_metadata_view[t,1])
  *             if t < npts:             # <<<<<<<<<<<<<<
  *                 for u in range(kernelsize):
- *                     sindmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
  */
-      __pyx_t_11 = ((__pyx_v_t < __pyx_v_npts) != 0);
-      if (__pyx_t_11) {
+      __pyx_t_8 = ((__pyx_v_t < __pyx_v_npts) != 0);
+      if (__pyx_t_8) {
 
-        /* "fastrometry/cython_code/PSE.pyx":423
- *             prevy = int(smetadata_view[t,1])
+        /* "fastrometry/cython_code/PSE.pyx":501
+ *             prevy = int(pse_metadata_view[t,1])
  *             if t < npts:
  *                 for u in range(kernelsize):             # <<<<<<<<<<<<<<
- *                     sindmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
- *                     sindmap_initial_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
+ *                     srcindexmap_initial_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
  */
         __pyx_t_20 = __pyx_v_kernelsize;
         __pyx_t_21 = __pyx_t_20;
         for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_21; __pyx_t_14+=1) {
           __pyx_v_u = __pyx_t_14;
 
-          /* "fastrometry/cython_code/PSE.pyx":424
+          /* "fastrometry/cython_code/PSE.pyx":502
  *             if t < npts:
  *                 for u in range(kernelsize):
- *                     sindmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t             # <<<<<<<<<<<<<<
- *                     sindmap_initial_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t             # <<<<<<<<<<<<<<
+ *                     srcindexmap_initial_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
  *             else:
+ */
+          __pyx_t_28 = __pyx_v_u;
+          __pyx_t_27 = 1;
+          __pyx_t_24 = __pyx_v_u;
+          __pyx_t_23 = 0;
+          __pyx_t_19 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+          __pyx_t_18 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_srcindexmap_refine_view.data + __pyx_t_19 * __pyx_v_srcindexmap_refine_view.strides[0]) ) + __pyx_t_18 * __pyx_v_srcindexmap_refine_view.strides[1]) )) = __pyx_v_t;
+
+          /* "fastrometry/cython_code/PSE.pyx":503
+ *                 for u in range(kernelsize):
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
+ *                     srcindexmap_initial_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t             # <<<<<<<<<<<<<<
+ *             else:
+ *                 for u in range(kernelsize):
  */
           __pyx_t_23 = __pyx_v_u;
           __pyx_t_24 = 1;
-          __pyx_t_28 = __pyx_v_u;
-          __pyx_t_27 = 0;
-          __pyx_t_19 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          __pyx_t_18 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sindmap_refine_view.data + __pyx_t_19 * __pyx_v_sindmap_refine_view.strides[0]) ) + __pyx_t_18 * __pyx_v_sindmap_refine_view.strides[1]) )) = __pyx_v_t;
-
-          /* "fastrometry/cython_code/PSE.pyx":425
- *                 for u in range(kernelsize):
- *                     sindmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
- *                     sindmap_initial_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t             # <<<<<<<<<<<<<<
- *             else:
- *                 for u in range(kernelsize):
- */
           __pyx_t_27 = __pyx_v_u;
-          __pyx_t_28 = 1;
-          __pyx_t_24 = __pyx_v_u;
-          __pyx_t_23 = 0;
-          __pyx_t_18 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          __pyx_t_19 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sindmap_initial_view.data + __pyx_t_18 * __pyx_v_sindmap_initial_view.strides[0]) ) + __pyx_t_19 * __pyx_v_sindmap_initial_view.strides[1]) )) = __pyx_v_t;
+          __pyx_t_28 = 0;
+          __pyx_t_18 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+          __pyx_t_19 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_srcindexmap_initial_view.data + __pyx_t_18 * __pyx_v_srcindexmap_initial_view.strides[0]) ) + __pyx_t_19 * __pyx_v_srcindexmap_initial_view.strides[1]) )) = __pyx_v_t;
         }
 
-        /* "fastrometry/cython_code/PSE.pyx":422
- *             prevx = int(smetadata_view[t,0])
- *             prevy = int(smetadata_view[t,1])
+        /* "fastrometry/cython_code/PSE.pyx":500
+ *             prevx = int(pse_metadata_view[t,0])
+ *             prevy = int(pse_metadata_view[t,1])
  *             if t < npts:             # <<<<<<<<<<<<<<
  *                 for u in range(kernelsize):
- *                     sindmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
  */
-        goto __pyx_L42;
+        goto __pyx_L57;
       }
 
-      /* "fastrometry/cython_code/PSE.pyx":427
- *                     sindmap_initial_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
+      /* "fastrometry/cython_code/PSE.pyx":505
+ *                     srcindexmap_initial_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
  *             else:
  *                 for u in range(kernelsize):             # <<<<<<<<<<<<<<
- *                     sindmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
  *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
  */
       /*else*/ {
@@ -7151,267 +9028,86 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
         for (__pyx_t_14 = 0; __pyx_t_14 < __pyx_t_21; __pyx_t_14+=1) {
           __pyx_v_u = __pyx_t_14;
 
-          /* "fastrometry/cython_code/PSE.pyx":428
+          /* "fastrometry/cython_code/PSE.pyx":506
  *             else:
  *                 for u in range(kernelsize):
- *                     sindmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t             # <<<<<<<<<<<<<<
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t             # <<<<<<<<<<<<<<
  *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
- *             smetadata_view[t,0] = cntdresults_view[0]   #x centroid
+ *             pse_metadata_view[t,0] = cntdresults_view[0]   #x centroid
  */
-          __pyx_t_23 = __pyx_v_u;
-          __pyx_t_24 = 1;
           __pyx_t_28 = __pyx_v_u;
-          __pyx_t_27 = 0;
-          __pyx_t_19 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          __pyx_t_18 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
-          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sindmap_refine_view.data + __pyx_t_19 * __pyx_v_sindmap_refine_view.strides[0]) ) + __pyx_t_18 * __pyx_v_sindmap_refine_view.strides[1]) )) = __pyx_v_t;
+          __pyx_t_27 = 1;
+          __pyx_t_24 = __pyx_v_u;
+          __pyx_t_23 = 0;
+          __pyx_t_19 = ((__pyx_v_prevy + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_28 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_27 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+          __pyx_t_18 = ((__pyx_v_prevx + (*((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_kernelcircle_view.data + __pyx_t_24 * __pyx_v_kernelcircle_view.strides[0]) ) + __pyx_t_23 * __pyx_v_kernelcircle_view.strides[1]) )))) - 1);
+          *((int *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_srcindexmap_refine_view.data + __pyx_t_19 * __pyx_v_srcindexmap_refine_view.strides[0]) ) + __pyx_t_18 * __pyx_v_srcindexmap_refine_view.strides[1]) )) = __pyx_v_t;
         }
       }
-      __pyx_L42:;
+      __pyx_L57:;
 
-      /* "fastrometry/cython_code/PSE.pyx":429
+      /* "fastrometry/cython_code/PSE.pyx":507
  *                 for u in range(kernelsize):
- *                     sindmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
  *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)             # <<<<<<<<<<<<<<
- *             smetadata_view[t,0] = cntdresults_view[0]   #x centroid
- *             smetadata_view[t,1] = cntdresults_view[1]   #y centroid
+ *             pse_metadata_view[t,0] = cntdresults_view[0]   #x centroid
+ *             pse_metadata_view[t,1] = cntdresults_view[1]   #y centroid
  */
-      __pyx_t_27 = (__pyx_v_prevy - 1);
-      __pyx_t_28 = (__pyx_v_prevx - 1);
-      __pyx_t_6 = __pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(__pyx_v_prevx, __pyx_v_prevy, __pyx_v_kernelrad, __pyx_v_img_view, (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_bgmap_view.data + __pyx_t_27 * __pyx_v_bgmap_view.strides[0]) ) + __pyx_t_28 * __pyx_v_bgmap_view.strides[1]) ))), __pyx_v_cntdresults_view); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 429, __pyx_L1_error)
+      __pyx_t_23 = (__pyx_v_prevy - 1);
+      __pyx_t_24 = (__pyx_v_prevx - 1);
+      __pyx_t_6 = __pyx_f_11fastrometry_11cython_code_3PSE_findCentroids(__pyx_v_prevx, __pyx_v_prevy, __pyx_v_kernelrad, __pyx_v_img_view, (*((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_bgmap_view.data + __pyx_t_23 * __pyx_v_bgmap_view.strides[0]) ) + __pyx_t_24 * __pyx_v_bgmap_view.strides[1]) ))), __pyx_v_cntdresults_view); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 507, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "fastrometry/cython_code/PSE.pyx":430
- *                     sindmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
+      /* "fastrometry/cython_code/PSE.pyx":508
+ *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
  *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
- *             smetadata_view[t,0] = cntdresults_view[0]   #x centroid             # <<<<<<<<<<<<<<
- *             smetadata_view[t,1] = cntdresults_view[1]   #y centroid
+ *             pse_metadata_view[t,0] = cntdresults_view[0]   #x centroid             # <<<<<<<<<<<<<<
+ *             pse_metadata_view[t,1] = cntdresults_view[1]   #y centroid
  * 
  */
-      __pyx_t_28 = 0;
-      __pyx_t_27 = __pyx_v_t;
       __pyx_t_24 = 0;
-      *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_27 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_24 * __pyx_v_smetadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_28 * __pyx_v_cntdresults_view.strides[0]) )));
+      __pyx_t_23 = __pyx_v_t;
+      __pyx_t_27 = 0;
+      *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_27 * __pyx_v_pse_metadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_24 * __pyx_v_cntdresults_view.strides[0]) )));
 
-      /* "fastrometry/cython_code/PSE.pyx":431
+      /* "fastrometry/cython_code/PSE.pyx":509
  *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
- *             smetadata_view[t,0] = cntdresults_view[0]   #x centroid
- *             smetadata_view[t,1] = cntdresults_view[1]   #y centroid             # <<<<<<<<<<<<<<
+ *             pse_metadata_view[t,0] = cntdresults_view[0]   #x centroid
+ *             pse_metadata_view[t,1] = cntdresults_view[1]   #y centroid             # <<<<<<<<<<<<<<
  * 
- *     if verbose >= 1:
+ *     return curr_sind
  */
-      __pyx_t_28 = 1;
-      __pyx_t_24 = __pyx_v_t;
-      __pyx_t_27 = 1;
-      *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_smetadata_view.data + __pyx_t_24 * __pyx_v_smetadata_view.strides[0]) ) + __pyx_t_27 * __pyx_v_smetadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_28 * __pyx_v_cntdresults_view.strides[0]) )));
-    }
-  }
-  __pyx_L32:;
-
-  /* "fastrometry/cython_code/PSE.pyx":433
- *             smetadata_view[t,1] = cntdresults_view[1]   #y centroid
- * 
- *     if verbose >= 1:             # <<<<<<<<<<<<<<
- *         if curr_sind < nrefinepts:
- *             print("Unsuccessful at finding {} sources. Found {} sources".format(nrefinepts,num_psesources))
- */
-  __pyx_t_11 = ((__pyx_v_verbose >= 1) != 0);
-  if (__pyx_t_11) {
-
-    /* "fastrometry/cython_code/PSE.pyx":434
- * 
- *     if verbose >= 1:
- *         if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
- *             print("Unsuccessful at finding {} sources. Found {} sources".format(nrefinepts,num_psesources))
- *         elif curr_sind >= nrefinepts:
- */
-    __pyx_t_11 = ((__pyx_v_curr_sind < __pyx_v_nrefinepts) != 0);
-    if (__pyx_t_11) {
-
-      /* "fastrometry/cython_code/PSE.pyx":435
- *     if verbose >= 1:
- *         if curr_sind < nrefinepts:
- *             print("Unsuccessful at finding {} sources. Found {} sources".format(nrefinepts,num_psesources))             # <<<<<<<<<<<<<<
- *         elif curr_sind >= nrefinepts:
- *             print("Found {} sources, which is greater than or equal to the required minimum of {}.".format(curr_sind, nrefinepts))
- */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Unsuccessful_at_finding_sources, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 435, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_nrefinepts); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 435, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_num_psesources); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 435, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_32 = NULL;
-      __pyx_t_8 = 0;
-      if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
-        __pyx_t_32 = PyMethod_GET_SELF(__pyx_t_4);
-        if (likely(__pyx_t_32)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-          __Pyx_INCREF(__pyx_t_32);
-          __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_4, function);
-          __pyx_t_8 = 1;
-        }
-      }
-      #if CYTHON_FAST_PYCALL
-      if (PyFunction_Check(__pyx_t_4)) {
-        PyObject *__pyx_temp[3] = {__pyx_t_32, __pyx_t_3, __pyx_t_5};
-        __pyx_t_6 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_8, 2+__pyx_t_8); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 435, __pyx_L1_error)
-        __Pyx_XDECREF(__pyx_t_32); __pyx_t_32 = 0;
-        __Pyx_GOTREF(__pyx_t_6);
-        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      } else
-      #endif
-      #if CYTHON_FAST_PYCCALL
-      if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
-        PyObject *__pyx_temp[3] = {__pyx_t_32, __pyx_t_3, __pyx_t_5};
-        __pyx_t_6 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_8, 2+__pyx_t_8); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 435, __pyx_L1_error)
-        __Pyx_XDECREF(__pyx_t_32); __pyx_t_32 = 0;
-        __Pyx_GOTREF(__pyx_t_6);
-        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      } else
-      #endif
-      {
-        __pyx_t_33 = PyTuple_New(2+__pyx_t_8); if (unlikely(!__pyx_t_33)) __PYX_ERR(0, 435, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_33);
-        if (__pyx_t_32) {
-          __Pyx_GIVEREF(__pyx_t_32); PyTuple_SET_ITEM(__pyx_t_33, 0, __pyx_t_32); __pyx_t_32 = NULL;
-        }
-        __Pyx_GIVEREF(__pyx_t_3);
-        PyTuple_SET_ITEM(__pyx_t_33, 0+__pyx_t_8, __pyx_t_3);
-        __Pyx_GIVEREF(__pyx_t_5);
-        PyTuple_SET_ITEM(__pyx_t_33, 1+__pyx_t_8, __pyx_t_5);
-        __pyx_t_3 = 0;
-        __pyx_t_5 = 0;
-        __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_33, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 435, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_6);
-        __Pyx_DECREF(__pyx_t_33); __pyx_t_33 = 0;
-      }
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (__Pyx_PrintOne(0, __pyx_t_6) < 0) __PYX_ERR(0, 435, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-      /* "fastrometry/cython_code/PSE.pyx":434
- * 
- *     if verbose >= 1:
- *         if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
- *             print("Unsuccessful at finding {} sources. Found {} sources".format(nrefinepts,num_psesources))
- *         elif curr_sind >= nrefinepts:
- */
-      goto __pyx_L48;
+      __pyx_t_24 = 1;
+      __pyx_t_27 = __pyx_v_t;
+      __pyx_t_23 = 1;
+      *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_27 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_23 * __pyx_v_pse_metadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_24 * __pyx_v_cntdresults_view.strides[0]) )));
     }
 
-    /* "fastrometry/cython_code/PSE.pyx":436
- *         if curr_sind < nrefinepts:
- *             print("Unsuccessful at finding {} sources. Found {} sources".format(nrefinepts,num_psesources))
- *         elif curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
- *             print("Found {} sources, which is greater than or equal to the required minimum of {}.".format(curr_sind, nrefinepts))
+    /* "fastrometry/cython_code/PSE.pyx":483
+ *             pse_metadata_view[r2,1] = cntdresults_view[1]   #y centroid
  * 
- */
-    __pyx_t_11 = ((__pyx_v_curr_sind >= __pyx_v_nrefinepts) != 0);
-    if (__pyx_t_11) {
-
-      /* "fastrometry/cython_code/PSE.pyx":437
- *             print("Unsuccessful at finding {} sources. Found {} sources".format(nrefinepts,num_psesources))
- *         elif curr_sind >= nrefinepts:
- *             print("Found {} sources, which is greater than or equal to the required minimum of {}.".format(curr_sind, nrefinepts))             # <<<<<<<<<<<<<<
+ *     elif curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
  * 
- *     return num_psesources
- */
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Found_sources_which_is_greater_t, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 437, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_33 = __Pyx_PyInt_From_int(__pyx_v_curr_sind); if (unlikely(!__pyx_t_33)) __PYX_ERR(0, 437, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_33);
-      __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_nrefinepts); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 437, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_3 = NULL;
-      __pyx_t_8 = 0;
-      if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
-        __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_4);
-        if (likely(__pyx_t_3)) {
-          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
-          __Pyx_INCREF(__pyx_t_3);
-          __Pyx_INCREF(function);
-          __Pyx_DECREF_SET(__pyx_t_4, function);
-          __pyx_t_8 = 1;
-        }
-      }
-      #if CYTHON_FAST_PYCALL
-      if (PyFunction_Check(__pyx_t_4)) {
-        PyObject *__pyx_temp[3] = {__pyx_t_3, __pyx_t_33, __pyx_t_5};
-        __pyx_t_6 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_8, 2+__pyx_t_8); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 437, __pyx_L1_error)
-        __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __Pyx_GOTREF(__pyx_t_6);
-        __Pyx_DECREF(__pyx_t_33); __pyx_t_33 = 0;
-        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      } else
-      #endif
-      #if CYTHON_FAST_PYCCALL
-      if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
-        PyObject *__pyx_temp[3] = {__pyx_t_3, __pyx_t_33, __pyx_t_5};
-        __pyx_t_6 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_8, 2+__pyx_t_8); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 437, __pyx_L1_error)
-        __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __Pyx_GOTREF(__pyx_t_6);
-        __Pyx_DECREF(__pyx_t_33); __pyx_t_33 = 0;
-        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      } else
-      #endif
-      {
-        __pyx_t_32 = PyTuple_New(2+__pyx_t_8); if (unlikely(!__pyx_t_32)) __PYX_ERR(0, 437, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_32);
-        if (__pyx_t_3) {
-          __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_32, 0, __pyx_t_3); __pyx_t_3 = NULL;
-        }
-        __Pyx_GIVEREF(__pyx_t_33);
-        PyTuple_SET_ITEM(__pyx_t_32, 0+__pyx_t_8, __pyx_t_33);
-        __Pyx_GIVEREF(__pyx_t_5);
-        PyTuple_SET_ITEM(__pyx_t_32, 1+__pyx_t_8, __pyx_t_5);
-        __pyx_t_33 = 0;
-        __pyx_t_5 = 0;
-        __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_32, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 437, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_6);
-        __Pyx_DECREF(__pyx_t_32); __pyx_t_32 = 0;
-      }
-      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (__Pyx_PrintOne(0, __pyx_t_6) < 0) __PYX_ERR(0, 437, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-      /* "fastrometry/cython_code/PSE.pyx":436
- *         if curr_sind < nrefinepts:
- *             print("Unsuccessful at finding {} sources. Found {} sources".format(nrefinepts,num_psesources))
- *         elif curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
- *             print("Found {} sources, which is greater than or equal to the required minimum of {}.".format(curr_sind, nrefinepts))
- * 
- */
-    }
-    __pyx_L48:;
-
-    /* "fastrometry/cython_code/PSE.pyx":433
- *             smetadata_view[t,1] = cntdresults_view[1]   #y centroid
- * 
- *     if verbose >= 1:             # <<<<<<<<<<<<<<
- *         if curr_sind < nrefinepts:
- *             print("Unsuccessful at finding {} sources. Found {} sources".format(nrefinepts,num_psesources))
+ *         if verbosity == 2:
  */
   }
+  __pyx_L35:;
 
-  /* "fastrometry/cython_code/PSE.pyx":439
- *             print("Found {} sources, which is greater than or equal to the required minimum of {}.".format(curr_sind, nrefinepts))
+  /* "fastrometry/cython_code/PSE.pyx":511
+ *             pse_metadata_view[t,1] = cntdresults_view[1]   #y centroid
  * 
- *     return num_psesources             # <<<<<<<<<<<<<<
+ *     return curr_sind             # <<<<<<<<<<<<<<
  * 
- * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, sindmap_initial, sindmap_refine, smetadata, verbose, debug):
+ * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, pixelradius, shape, srcindexmap_initial, srcindexmap_refine, pse_metadata, user_dir, debug_report, filename, verbosity, debug):
  */
-  __pyx_r = __pyx_v_num_psesources;
+  __pyx_r = __pyx_v_curr_sind;
   goto __pyx_L0;
 
-  /* "fastrometry/cython_code/PSE.pyx":255
+  /* "fastrometry/cython_code/PSE.pyx":304
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
- * cdef int mapRemainingSources(double[:,:] img_view, int img_xmax, int img_ymax, double img_max, double img_median, np.ndarray[dtype=np.double_t,ndim=2] smetadata, double[:,:] bgmap_view, int[:,:] sindmap_initial_view, int[:,:] sindmap_refine_view, int[:,:] occupymap_view, int kernelrad, int[:,:] kernelcircle_view, int kernelsize, int sourcesep, int[:,:] sourcesepcircle_view, int sourcesepsize, int npts, int nrefinepts, int curr_sind, int verbose, int debug):             # <<<<<<<<<<<<<<
+ * cdef int mapRemainingSources(double[:,:] img_view, int img_xmax, int img_ymax, double img_max, double img_median, int[:,:] roi_view, np.ndarray[dtype=np.double_t,ndim=2] pse_metadata, double[:,:] bgmap_view, int[:,:] srcindexmap_initial_view, int[:,:] srcindexmap_refine_view, int[:,:] occupymap_view, int kernelrad, int[:,:] kernelcircle_view, int kernelsize, int sourcesep, int[:,:] sourcesepcircle_view, int sourcesepsize, int npts, int nrefinepts, int curr_sind, str user_dir, str debug_report, int verbosity, int debug):             # <<<<<<<<<<<<<<
  * 
  *     cdef:
  */
@@ -7424,39 +9120,39 @@ static int __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__Pyx_me
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __PYX_XDEC_MEMVIEW(&__pyx_t_7, 1);
-  __Pyx_XDECREF(__pyx_t_32);
-  __Pyx_XDECREF(__pyx_t_33);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
     __Pyx_ErrFetch(&__pyx_type, &__pyx_value, &__pyx_tb);
-    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_smetadata.rcbuffer->pybuffer);
+    __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
   __Pyx_WriteUnraisable("fastrometry.cython_code.PSE.mapRemainingSources", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
-  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_smetadata.rcbuffer->pybuffer);
+  __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_pse_metadata.rcbuffer->pybuffer);
   __pyx_L2:;
-  __PYX_XDEC_MEMVIEW(&__pyx_v_smetadata_view, 1);
+  __PYX_XDEC_MEMVIEW(&__pyx_v_pse_metadata_view, 1);
   __PYX_XDEC_MEMVIEW(&__pyx_v_cntdresults_view, 1);
-  __Pyx_XDECREF(__pyx_v_smetadata_sorted);
+  __Pyx_XDECREF(__pyx_v_pse_metadata_sorted);
+  __Pyx_XDECREF(__pyx_v_num_zeros);
+  __Pyx_XDECREF(__pyx_v_rr);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "fastrometry/cython_code/PSE.pyx":441
- *     return num_psesources
+/* "fastrometry/cython_code/PSE.pyx":513
+ *     return curr_sind
  * 
- * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, sindmap_initial, sindmap_refine, smetadata, verbose, debug):             # <<<<<<<<<<<<<<
+ * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, pixelradius, shape, srcindexmap_initial, srcindexmap_refine, pse_metadata, user_dir, debug_report, filename, verbosity, debug):             # <<<<<<<<<<<<<<
  * 
- *     if debug >= 1:
+ *     num_psesources = 0
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11fastrometry_11cython_code_3PSE_1PSE(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_11fastrometry_11cython_code_3PSE_1PSE = {"PSE", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_11fastrometry_11cython_code_3PSE_1PSE, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_11fastrometry_11cython_code_3PSE_1PSE(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_11fastrometry_11cython_code_3PSE_3PSE(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_11fastrometry_11cython_code_3PSE_3PSE = {"PSE", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_11fastrometry_11cython_code_3PSE_3PSE, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_11fastrometry_11cython_code_3PSE_3PSE(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_img = 0;
   PyObject *__pyx_v_img_xmax = 0;
   PyObject *__pyx_v_img_ymax = 0;
@@ -7465,10 +9161,15 @@ static PyObject *__pyx_pw_11fastrometry_11cython_code_3PSE_1PSE(PyObject *__pyx_
   PyObject *__pyx_v_pixsat = 0;
   PyObject *__pyx_v_npts = 0;
   PyObject *__pyx_v_nrefinepts = 0;
-  PyObject *__pyx_v_sindmap_initial = 0;
-  PyObject *__pyx_v_sindmap_refine = 0;
-  PyObject *__pyx_v_smetadata = 0;
-  PyObject *__pyx_v_verbose = 0;
+  PyObject *__pyx_v_pixelradius = 0;
+  PyObject *__pyx_v_shape = 0;
+  PyObject *__pyx_v_srcindexmap_initial = 0;
+  PyObject *__pyx_v_srcindexmap_refine = 0;
+  PyObject *__pyx_v_pse_metadata = 0;
+  PyObject *__pyx_v_user_dir = 0;
+  PyObject *__pyx_v_debug_report = 0;
+  PyObject *__pyx_v_filename = 0;
+  PyObject *__pyx_v_verbosity = 0;
   PyObject *__pyx_v_debug = 0;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
@@ -7477,12 +9178,22 @@ static PyObject *__pyx_pw_11fastrometry_11cython_code_3PSE_1PSE(PyObject *__pyx_
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("PSE (wrapper)", 0);
   {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_img,&__pyx_n_s_img_xmax,&__pyx_n_s_img_ymax,&__pyx_n_s_kernelrad,&__pyx_n_s_sourcesep,&__pyx_n_s_pixsat,&__pyx_n_s_npts,&__pyx_n_s_nrefinepts,&__pyx_n_s_sindmap_initial,&__pyx_n_s_sindmap_refine,&__pyx_n_s_smetadata,&__pyx_n_s_verbose,&__pyx_n_s_debug,0};
-    PyObject* values[13] = {0,0,0,0,0,0,0,0,0,0,0,0,0};
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_img,&__pyx_n_s_img_xmax,&__pyx_n_s_img_ymax,&__pyx_n_s_kernelrad,&__pyx_n_s_sourcesep,&__pyx_n_s_pixsat,&__pyx_n_s_npts,&__pyx_n_s_nrefinepts,&__pyx_n_s_pixelradius,&__pyx_n_s_shape,&__pyx_n_s_srcindexmap_initial,&__pyx_n_s_srcindexmap_refine,&__pyx_n_s_pse_metadata,&__pyx_n_s_user_dir,&__pyx_n_s_debug_report,&__pyx_n_s_filename,&__pyx_n_s_verbosity,&__pyx_n_s_debug_2,0};
+    PyObject* values[18] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
     if (unlikely(__pyx_kwds)) {
       Py_ssize_t kw_args;
       const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
       switch (pos_args) {
+        case 18: values[17] = PyTuple_GET_ITEM(__pyx_args, 17);
+        CYTHON_FALLTHROUGH;
+        case 17: values[16] = PyTuple_GET_ITEM(__pyx_args, 16);
+        CYTHON_FALLTHROUGH;
+        case 16: values[15] = PyTuple_GET_ITEM(__pyx_args, 15);
+        CYTHON_FALLTHROUGH;
+        case 15: values[14] = PyTuple_GET_ITEM(__pyx_args, 14);
+        CYTHON_FALLTHROUGH;
+        case 14: values[13] = PyTuple_GET_ITEM(__pyx_args, 13);
+        CYTHON_FALLTHROUGH;
         case 13: values[12] = PyTuple_GET_ITEM(__pyx_args, 12);
         CYTHON_FALLTHROUGH;
         case 12: values[11] = PyTuple_GET_ITEM(__pyx_args, 11);
@@ -7521,79 +9232,109 @@ static PyObject *__pyx_pw_11fastrometry_11cython_code_3PSE_1PSE(PyObject *__pyx_
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_img_xmax)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, 1); __PYX_ERR(0, 441, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 1); __PYX_ERR(0, 513, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
         if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_img_ymax)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, 2); __PYX_ERR(0, 441, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 2); __PYX_ERR(0, 513, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  3:
         if (likely((values[3] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_kernelrad)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, 3); __PYX_ERR(0, 441, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 3); __PYX_ERR(0, 513, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  4:
         if (likely((values[4] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_sourcesep)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, 4); __PYX_ERR(0, 441, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 4); __PYX_ERR(0, 513, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  5:
         if (likely((values[5] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_pixsat)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, 5); __PYX_ERR(0, 441, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 5); __PYX_ERR(0, 513, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  6:
         if (likely((values[6] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_npts)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, 6); __PYX_ERR(0, 441, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 6); __PYX_ERR(0, 513, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  7:
         if (likely((values[7] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_nrefinepts)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, 7); __PYX_ERR(0, 441, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 7); __PYX_ERR(0, 513, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  8:
-        if (likely((values[8] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_sindmap_initial)) != 0)) kw_args--;
+        if (likely((values[8] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_pixelradius)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, 8); __PYX_ERR(0, 441, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 8); __PYX_ERR(0, 513, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  9:
-        if (likely((values[9] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_sindmap_refine)) != 0)) kw_args--;
+        if (likely((values[9] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_shape)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, 9); __PYX_ERR(0, 441, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 9); __PYX_ERR(0, 513, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case 10:
-        if (likely((values[10] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_smetadata)) != 0)) kw_args--;
+        if (likely((values[10] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_srcindexmap_initial)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, 10); __PYX_ERR(0, 441, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 10); __PYX_ERR(0, 513, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case 11:
-        if (likely((values[11] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_verbose)) != 0)) kw_args--;
+        if (likely((values[11] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_srcindexmap_refine)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, 11); __PYX_ERR(0, 441, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 11); __PYX_ERR(0, 513, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case 12:
-        if (likely((values[12] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_debug)) != 0)) kw_args--;
+        if (likely((values[12] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_pse_metadata)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, 12); __PYX_ERR(0, 441, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 12); __PYX_ERR(0, 513, __pyx_L3_error)
+        }
+        CYTHON_FALLTHROUGH;
+        case 13:
+        if (likely((values[13] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_user_dir)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 13); __PYX_ERR(0, 513, __pyx_L3_error)
+        }
+        CYTHON_FALLTHROUGH;
+        case 14:
+        if (likely((values[14] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_debug_report)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 14); __PYX_ERR(0, 513, __pyx_L3_error)
+        }
+        CYTHON_FALLTHROUGH;
+        case 15:
+        if (likely((values[15] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_filename)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 15); __PYX_ERR(0, 513, __pyx_L3_error)
+        }
+        CYTHON_FALLTHROUGH;
+        case 16:
+        if (likely((values[16] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_verbosity)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 16); __PYX_ERR(0, 513, __pyx_L3_error)
+        }
+        CYTHON_FALLTHROUGH;
+        case 17:
+        if (likely((values[17] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_debug_2)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, 17); __PYX_ERR(0, 513, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "PSE") < 0)) __PYX_ERR(0, 441, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "PSE") < 0)) __PYX_ERR(0, 513, __pyx_L3_error)
       }
-    } else if (PyTuple_GET_SIZE(__pyx_args) != 13) {
+    } else if (PyTuple_GET_SIZE(__pyx_args) != 18) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
@@ -7609,6 +9350,11 @@ static PyObject *__pyx_pw_11fastrometry_11cython_code_3PSE_1PSE(PyObject *__pyx_
       values[10] = PyTuple_GET_ITEM(__pyx_args, 10);
       values[11] = PyTuple_GET_ITEM(__pyx_args, 11);
       values[12] = PyTuple_GET_ITEM(__pyx_args, 12);
+      values[13] = PyTuple_GET_ITEM(__pyx_args, 13);
+      values[14] = PyTuple_GET_ITEM(__pyx_args, 14);
+      values[15] = PyTuple_GET_ITEM(__pyx_args, 15);
+      values[16] = PyTuple_GET_ITEM(__pyx_args, 16);
+      values[17] = PyTuple_GET_ITEM(__pyx_args, 17);
     }
     __pyx_v_img = values[0];
     __pyx_v_img_xmax = values[1];
@@ -7618,39 +9364,51 @@ static PyObject *__pyx_pw_11fastrometry_11cython_code_3PSE_1PSE(PyObject *__pyx_
     __pyx_v_pixsat = values[5];
     __pyx_v_npts = values[6];
     __pyx_v_nrefinepts = values[7];
-    __pyx_v_sindmap_initial = values[8];
-    __pyx_v_sindmap_refine = values[9];
-    __pyx_v_smetadata = values[10];
-    __pyx_v_verbose = values[11];
-    __pyx_v_debug = values[12];
+    __pyx_v_pixelradius = values[8];
+    __pyx_v_shape = values[9];
+    __pyx_v_srcindexmap_initial = values[10];
+    __pyx_v_srcindexmap_refine = values[11];
+    __pyx_v_pse_metadata = values[12];
+    __pyx_v_user_dir = values[13];
+    __pyx_v_debug_report = values[14];
+    __pyx_v_filename = values[15];
+    __pyx_v_verbosity = values[16];
+    __pyx_v_debug = values[17];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("PSE", 1, 13, 13, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 441, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("PSE", 1, 18, 18, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 513, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("fastrometry.cython_code.PSE.PSE", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_11fastrometry_11cython_code_3PSE_PSE(__pyx_self, __pyx_v_img, __pyx_v_img_xmax, __pyx_v_img_ymax, __pyx_v_kernelrad, __pyx_v_sourcesep, __pyx_v_pixsat, __pyx_v_npts, __pyx_v_nrefinepts, __pyx_v_sindmap_initial, __pyx_v_sindmap_refine, __pyx_v_smetadata, __pyx_v_verbose, __pyx_v_debug);
+  __pyx_r = __pyx_pf_11fastrometry_11cython_code_3PSE_2PSE(__pyx_self, __pyx_v_img, __pyx_v_img_xmax, __pyx_v_img_ymax, __pyx_v_kernelrad, __pyx_v_sourcesep, __pyx_v_pixsat, __pyx_v_npts, __pyx_v_nrefinepts, __pyx_v_pixelradius, __pyx_v_shape, __pyx_v_srcindexmap_initial, __pyx_v_srcindexmap_refine, __pyx_v_pse_metadata, __pyx_v_user_dir, __pyx_v_debug_report, __pyx_v_filename, __pyx_v_verbosity, __pyx_v_debug);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_PSE(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_img, PyObject *__pyx_v_img_xmax, PyObject *__pyx_v_img_ymax, PyObject *__pyx_v_kernelrad, PyObject *__pyx_v_sourcesep, PyObject *__pyx_v_pixsat, PyObject *__pyx_v_npts, PyObject *__pyx_v_nrefinepts, PyObject *__pyx_v_sindmap_initial, PyObject *__pyx_v_sindmap_refine, PyObject *__pyx_v_smetadata, PyObject *__pyx_v_verbose, PyObject *__pyx_v_debug) {
-  PyObject *__pyx_v_plt = NULL;
+static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_2PSE(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_img, PyObject *__pyx_v_img_xmax, PyObject *__pyx_v_img_ymax, PyObject *__pyx_v_kernelrad, PyObject *__pyx_v_sourcesep, PyObject *__pyx_v_pixsat, PyObject *__pyx_v_npts, PyObject *__pyx_v_nrefinepts, PyObject *__pyx_v_pixelradius, PyObject *__pyx_v_shape, PyObject *__pyx_v_srcindexmap_initial, PyObject *__pyx_v_srcindexmap_refine, PyObject *__pyx_v_pse_metadata, PyObject *__pyx_v_user_dir, PyObject *__pyx_v_debug_report, PyObject *__pyx_v_filename, PyObject *__pyx_v_verbosity, PyObject *__pyx_v_debug) {
+  PyObject *__pyx_v_num_psesources = NULL;
+  int __pyx_v_skipRemainingSources;
+  PyObject *__pyx_v_roi = NULL;
+  PyObject *__pyx_v_description = NULL;
   PyObject *__pyx_v_bgmap = NULL;
   long __pyx_v_curr_sind;
   PyObject *__pyx_v_occupymap = NULL;
-  PyObject *__pyx_v_num_psesources = NULL;
   int __pyx_v_kernelsize;
   PyObject *__pyx_v_kernelcircle = NULL;
   int __pyx_v_sourcesepsize;
   PyObject *__pyx_v_sourcesepcircle = NULL;
   PyObject *__pyx_v_img_median = NULL;
   PyObject *__pyx_v_img_max = NULL;
+  PyObject *__pyx_v_plt = NULL;
+  PyObject *__pyx_v_LogNorm = NULL;
+  PyObject *__pyx_v_fits = NULL;
+  PyObject *__pyx_v_image_data = NULL;
+  PyObject *__pyx_v_dscrp = NULL;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -7660,79 +9418,277 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_PSE(CYTHON_UNUSED PyO
   PyObject *__pyx_t_5 = NULL;
   PyObject *__pyx_t_6 = NULL;
   __Pyx_memviewslice __pyx_t_7 = { 0, 0, { 0 }, { 0 }, { 0 } };
-  __Pyx_memviewslice __pyx_t_8 = { 0, 0, { 0 }, { 0 }, { 0 } };
+  int __pyx_t_8;
   int __pyx_t_9;
   int __pyx_t_10;
-  int __pyx_t_11;
-  int __pyx_t_12;
-  int __pyx_t_13;
-  __Pyx_memviewslice __pyx_t_14 = { 0, 0, { 0 }, { 0 }, { 0 } };
+  __Pyx_memviewslice __pyx_t_11 = { 0, 0, { 0 }, { 0 }, { 0 } };
+  __Pyx_memviewslice __pyx_t_12 = { 0, 0, { 0 }, { 0 }, { 0 } };
+  PyObject *__pyx_t_13 = NULL;
+  PyObject *__pyx_t_14 = NULL;
   __Pyx_memviewslice __pyx_t_15 = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_t_16 = { 0, 0, { 0 }, { 0 }, { 0 } };
-  double __pyx_t_17;
-  int __pyx_t_18;
+  __Pyx_memviewslice __pyx_t_17 = { 0, 0, { 0 }, { 0 }, { 0 } };
+  double __pyx_t_18;
   int __pyx_t_19;
-  double __pyx_t_20;
-  __Pyx_memviewslice __pyx_t_21 = { 0, 0, { 0 }, { 0 }, { 0 } };
-  __Pyx_memviewslice __pyx_t_22 = { 0, 0, { 0 }, { 0 }, { 0 } };
-  int __pyx_t_23;
+  int __pyx_t_20;
+  int __pyx_t_21;
+  int __pyx_t_22;
+  double __pyx_t_23;
+  __Pyx_memviewslice __pyx_t_24 = { 0, 0, { 0 }, { 0 }, { 0 } };
+  __Pyx_memviewslice __pyx_t_25 = { 0, 0, { 0 }, { 0 }, { 0 } };
+  int __pyx_t_26;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PSE", 0);
 
-  /* "fastrometry/cython_code/PSE.pyx":443
- * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, sindmap_initial, sindmap_refine, smetadata, verbose, debug):
+  /* "fastrometry/cython_code/PSE.pyx":515
+ * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, pixelradius, shape, srcindexmap_initial, srcindexmap_refine, pse_metadata, user_dir, debug_report, filename, verbosity, debug):
  * 
- *     if debug >= 1:             # <<<<<<<<<<<<<<
- *         import matplotlib.pyplot as plt
+ *     num_psesources = 0             # <<<<<<<<<<<<<<
+ *     skipRemainingSources = False
  * 
  */
-  __pyx_t_1 = PyObject_RichCompare(__pyx_v_debug, __pyx_int_1, Py_GE); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 443, __pyx_L1_error)
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 443, __pyx_L1_error)
+  __Pyx_INCREF(__pyx_int_0);
+  __pyx_v_num_psesources = __pyx_int_0;
+
+  /* "fastrometry/cython_code/PSE.pyx":516
+ * 
+ *     num_psesources = 0
+ *     skipRemainingSources = False             # <<<<<<<<<<<<<<
+ * 
+ *     if verbosity == 2:
+ */
+  __pyx_v_skipRemainingSources = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":518
+ *     skipRemainingSources = False
+ * 
+ *     if verbosity == 2:             # <<<<<<<<<<<<<<
+ *         print("| Creating ROI map...")
+ *     roi = np.ones((img_ymax,img_xmax),dtype=np.int)
+ */
+  __pyx_t_1 = __Pyx_PyInt_EqObjC(__pyx_v_verbosity, __pyx_int_2, 2, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 518, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 518, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_2) {
 
-    /* "fastrometry/cython_code/PSE.pyx":444
+    /* "fastrometry/cython_code/PSE.pyx":519
  * 
- *     if debug >= 1:
- *         import matplotlib.pyplot as plt             # <<<<<<<<<<<<<<
- * 
- *     bgmap = np.zeros((img_ymax,img_xmax),dtype=np.double)
+ *     if verbosity == 2:
+ *         print("| Creating ROI map...")             # <<<<<<<<<<<<<<
+ *     roi = np.ones((img_ymax,img_xmax),dtype=np.int)
+ *     createROI(roi, img_xmax, img_ymax, pixelradius, shape)
  */
-    __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 444, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_INCREF(__pyx_n_s__6);
-    __Pyx_GIVEREF(__pyx_n_s__6);
-    PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s__6);
-    __pyx_t_3 = __Pyx_Import(__pyx_n_s_matplotlib_pyplot, __pyx_t_1, -1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 444, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_v_plt = __pyx_t_3;
-    __pyx_t_3 = 0;
+    if (__Pyx_PrintOne(0, __pyx_kp_s_Creating_ROI_map) < 0) __PYX_ERR(0, 519, __pyx_L1_error)
 
-    /* "fastrometry/cython_code/PSE.pyx":443
- * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, sindmap_initial, sindmap_refine, smetadata, verbose, debug):
+    /* "fastrometry/cython_code/PSE.pyx":518
+ *     skipRemainingSources = False
  * 
- *     if debug >= 1:             # <<<<<<<<<<<<<<
- *         import matplotlib.pyplot as plt
+ *     if verbosity == 2:             # <<<<<<<<<<<<<<
+ *         print("| Creating ROI map...")
+ *     roi = np.ones((img_ymax,img_xmax),dtype=np.int)
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":520
+ *     if verbosity == 2:
+ *         print("| Creating ROI map...")
+ *     roi = np.ones((img_ymax,img_xmax),dtype=np.int)             # <<<<<<<<<<<<<<
+ *     createROI(roi, img_xmax, img_ymax, pixelradius, shape)
+ *     if debug:
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 520, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_ones); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 520, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 520, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_INCREF(__pyx_v_img_ymax);
+  __Pyx_GIVEREF(__pyx_v_img_ymax);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_img_ymax);
+  __Pyx_INCREF(__pyx_v_img_xmax);
+  __Pyx_GIVEREF(__pyx_v_img_xmax);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_v_img_xmax);
+  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 520, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_1);
+  __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 520, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 520, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_int); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 520, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dtype, __pyx_t_6) < 0) __PYX_ERR(0, 520, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_4, __pyx_t_1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 520, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_roi = __pyx_t_6;
+  __pyx_t_6 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":521
+ *         print("| Creating ROI map...")
+ *     roi = np.ones((img_ymax,img_xmax),dtype=np.int)
+ *     createROI(roi, img_xmax, img_ymax, pixelradius, shape)             # <<<<<<<<<<<<<<
+ *     if debug:
+ *         description = "Region to be scanned by PSE. Specified by the options shape and buffer."
+ */
+  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_roi, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyInt_As_int(__pyx_v_img_xmax); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyInt_As_int(__pyx_v_img_ymax); if (unlikely((__pyx_t_9 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_pixelradius); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 521, __pyx_L1_error)
+  if (!(likely(PyString_CheckExact(__pyx_v_shape))||((__pyx_v_shape) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "str", Py_TYPE(__pyx_v_shape)->tp_name), 0))) __PYX_ERR(0, 521, __pyx_L1_error)
+  __pyx_f_11fastrometry_11cython_code_3PSE_createROI(__pyx_t_7, __pyx_t_8, __pyx_t_9, __pyx_t_10, ((PyObject*)__pyx_v_shape));
+  __PYX_XDEC_MEMVIEW(&__pyx_t_7, 1);
+  __pyx_t_7.memview = NULL;
+  __pyx_t_7.data = NULL;
+
+  /* "fastrometry/cython_code/PSE.pyx":522
+ *     roi = np.ones((img_ymax,img_xmax),dtype=np.int)
+ *     createROI(roi, img_xmax, img_ymax, pixelradius, shape)
+ *     if debug:             # <<<<<<<<<<<<<<
+ *         description = "Region to be scanned by PSE. Specified by the options shape and buffer."
+ *         debuggerPlot(roi, user_dir, debug_report, "ROI.png", title="ROI", dscrp=description)
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_debug); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 522, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fastrometry/cython_code/PSE.pyx":523
+ *     createROI(roi, img_xmax, img_ymax, pixelradius, shape)
+ *     if debug:
+ *         description = "Region to be scanned by PSE. Specified by the options shape and buffer."             # <<<<<<<<<<<<<<
+ *         debuggerPlot(roi, user_dir, debug_report, "ROI.png", title="ROI", dscrp=description)
+ *     if verbosity == 2:
+ */
+    __Pyx_INCREF(__pyx_kp_s_Region_to_be_scanned_by_PSE_Spec);
+    __pyx_v_description = __pyx_kp_s_Region_to_be_scanned_by_PSE_Spec;
+
+    /* "fastrometry/cython_code/PSE.pyx":524
+ *     if debug:
+ *         description = "Region to be scanned by PSE. Specified by the options shape and buffer."
+ *         debuggerPlot(roi, user_dir, debug_report, "ROI.png", title="ROI", dscrp=description)             # <<<<<<<<<<<<<<
+ *     if verbosity == 2:
+ *         print("| done")
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_debuggerPlot); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 524, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_t_1 = PyTuple_New(4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 524, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_INCREF(__pyx_v_roi);
+    __Pyx_GIVEREF(__pyx_v_roi);
+    PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_v_roi);
+    __Pyx_INCREF(__pyx_v_user_dir);
+    __Pyx_GIVEREF(__pyx_v_user_dir);
+    PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_v_user_dir);
+    __Pyx_INCREF(__pyx_v_debug_report);
+    __Pyx_GIVEREF(__pyx_v_debug_report);
+    PyTuple_SET_ITEM(__pyx_t_1, 2, __pyx_v_debug_report);
+    __Pyx_INCREF(__pyx_kp_s_ROI_png);
+    __Pyx_GIVEREF(__pyx_kp_s_ROI_png);
+    PyTuple_SET_ITEM(__pyx_t_1, 3, __pyx_kp_s_ROI_png);
+    __pyx_t_4 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 524, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_title, __pyx_n_s_ROI) < 0) __PYX_ERR(0, 524, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_dscrp, __pyx_v_description) < 0) __PYX_ERR(0, 524, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_1, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 524, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":522
+ *     roi = np.ones((img_ymax,img_xmax),dtype=np.int)
+ *     createROI(roi, img_xmax, img_ymax, pixelradius, shape)
+ *     if debug:             # <<<<<<<<<<<<<<
+ *         description = "Region to be scanned by PSE. Specified by the options shape and buffer."
+ *         debuggerPlot(roi, user_dir, debug_report, "ROI.png", title="ROI", dscrp=description)
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":525
+ *         description = "Region to be scanned by PSE. Specified by the options shape and buffer."
+ *         debuggerPlot(roi, user_dir, debug_report, "ROI.png", title="ROI", dscrp=description)
+ *     if verbosity == 2:             # <<<<<<<<<<<<<<
+ *         print("| done")
+ * 
+ */
+  __pyx_t_3 = __Pyx_PyInt_EqObjC(__pyx_v_verbosity, __pyx_int_2, 2, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 525, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 525, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (__pyx_t_2) {
+
+    /* "fastrometry/cython_code/PSE.pyx":526
+ *         debuggerPlot(roi, user_dir, debug_report, "ROI.png", title="ROI", dscrp=description)
+ *     if verbosity == 2:
+ *         print("| done")             # <<<<<<<<<<<<<<
+ * 
+ *     if verbosity == 2:
+ */
+    if (__Pyx_PrintOne(0, __pyx_kp_s_done_2) < 0) __PYX_ERR(0, 526, __pyx_L1_error)
+
+    /* "fastrometry/cython_code/PSE.pyx":525
+ *         description = "Region to be scanned by PSE. Specified by the options shape and buffer."
+ *         debuggerPlot(roi, user_dir, debug_report, "ROI.png", title="ROI", dscrp=description)
+ *     if verbosity == 2:             # <<<<<<<<<<<<<<
+ *         print("| done")
  * 
  */
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":446
- *         import matplotlib.pyplot as plt
+  /* "fastrometry/cython_code/PSE.pyx":528
+ *         print("| done")
  * 
- *     bgmap = np.zeros((img_ymax,img_xmax),dtype=np.double)             # <<<<<<<<<<<<<<
- *     fillBackgroundMap(bgmap, img, img_xmax, img_ymax, sourcesep, verbose, debug)
- * 
+ *     if verbosity == 2:             # <<<<<<<<<<<<<<
+ *         print("| Creating background map...")
+ *     bgmap = np.zeros((img_ymax,img_xmax),dtype=np.double)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 446, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_EqObjC(__pyx_v_verbosity, __pyx_int_2, 2, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 528, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_zeros); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 446, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 528, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 446, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fastrometry/cython_code/PSE.pyx":529
+ * 
+ *     if verbosity == 2:
+ *         print("| Creating background map...")             # <<<<<<<<<<<<<<
+ *     bgmap = np.zeros((img_ymax,img_xmax),dtype=np.double)
+ *     fillBackgroundMap(bgmap, img, img_xmax, img_ymax, sourcesep)
+ */
+    if (__Pyx_PrintOne(0, __pyx_kp_s_Creating_background_map) < 0) __PYX_ERR(0, 529, __pyx_L1_error)
+
+    /* "fastrometry/cython_code/PSE.pyx":528
+ *         print("| done")
+ * 
+ *     if verbosity == 2:             # <<<<<<<<<<<<<<
+ *         print("| Creating background map...")
+ *     bgmap = np.zeros((img_ymax,img_xmax),dtype=np.double)
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":530
+ *     if verbosity == 2:
+ *         print("| Creating background map...")
+ *     bgmap = np.zeros((img_ymax,img_xmax),dtype=np.double)             # <<<<<<<<<<<<<<
+ *     fillBackgroundMap(bgmap, img, img_xmax, img_ymax, sourcesep)
+ *     if debug:
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 530, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_zeros); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 530, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 530, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_INCREF(__pyx_v_img_ymax);
   __Pyx_GIVEREF(__pyx_v_img_ymax);
@@ -7740,1011 +9696,2270 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_PSE(CYTHON_UNUSED PyO
   __Pyx_INCREF(__pyx_v_img_xmax);
   __Pyx_GIVEREF(__pyx_v_img_xmax);
   PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_v_img_xmax);
-  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 446, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 530, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_3);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_3);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_3);
   __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 446, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 530, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 446, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 530, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_double); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 530, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_double); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 446, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_6) < 0) __PYX_ERR(0, 446, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 446, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dtype, __pyx_t_5) < 0) __PYX_ERR(0, 530, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 530, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_v_bgmap = __pyx_t_6;
-  __pyx_t_6 = 0;
+  __pyx_v_bgmap = __pyx_t_5;
+  __pyx_t_5 = 0;
 
-  /* "fastrometry/cython_code/PSE.pyx":447
- * 
+  /* "fastrometry/cython_code/PSE.pyx":531
+ *         print("| Creating background map...")
  *     bgmap = np.zeros((img_ymax,img_xmax),dtype=np.double)
- *     fillBackgroundMap(bgmap, img, img_xmax, img_ymax, sourcesep, verbose, debug)             # <<<<<<<<<<<<<<
+ *     fillBackgroundMap(bgmap, img, img_xmax, img_ymax, sourcesep)             # <<<<<<<<<<<<<<
+ *     if debug:
+ *         description = "Used for determining the amplitude-above-background for each pixel. \nThe PSE does not scan pixels in a thin ({}-pixel-wide) strip around \nthe border, so the background is not calculated there.".format(sourcesep)
+ */
+  __pyx_t_11 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(__pyx_v_bgmap, PyBUF_WRITABLE); if (unlikely(!__pyx_t_11.memview)) __PYX_ERR(0, 531, __pyx_L1_error)
+  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(__pyx_v_img, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 531, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_img_xmax); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 531, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyInt_As_int(__pyx_v_img_ymax); if (unlikely((__pyx_t_9 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 531, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyInt_As_int(__pyx_v_sourcesep); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 531, __pyx_L1_error)
+  __pyx_t_5 = ((PyObject *)__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap(__pyx_t_11, __pyx_t_12, __pyx_t_10, __pyx_t_9, __pyx_t_8)); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 531, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __PYX_XDEC_MEMVIEW(&__pyx_t_11, 1);
+  __pyx_t_11.memview = NULL;
+  __pyx_t_11.data = NULL;
+  __PYX_XDEC_MEMVIEW(&__pyx_t_12, 1);
+  __pyx_t_12.memview = NULL;
+  __pyx_t_12.data = NULL;
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":532
+ *     bgmap = np.zeros((img_ymax,img_xmax),dtype=np.double)
+ *     fillBackgroundMap(bgmap, img, img_xmax, img_ymax, sourcesep)
+ *     if debug:             # <<<<<<<<<<<<<<
+ *         description = "Used for determining the amplitude-above-background for each pixel. \nThe PSE does not scan pixels in a thin ({}-pixel-wide) strip around \nthe border, so the background is not calculated there.".format(sourcesep)
+ *         debuggerPlot(bgmap, user_dir, debug_report, "bgmap.png", bottom=0.2, vmin=np.percentile(bgmap,1), vmax=np.percentile(bgmap,99), colbar=True, colbar_extend=True, title="Background map", dscrp=description)
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_debug); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 532, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fastrometry/cython_code/PSE.pyx":533
+ *     fillBackgroundMap(bgmap, img, img_xmax, img_ymax, sourcesep)
+ *     if debug:
+ *         description = "Used for determining the amplitude-above-background for each pixel. \nThe PSE does not scan pixels in a thin ({}-pixel-wide) strip around \nthe border, so the background is not calculated there.".format(sourcesep)             # <<<<<<<<<<<<<<
+ *         debuggerPlot(bgmap, user_dir, debug_report, "bgmap.png", bottom=0.2, vmin=np.percentile(bgmap,1), vmax=np.percentile(bgmap,99), colbar=True, colbar_extend=True, title="Background map", dscrp=description)
+ *     if verbosity == 2:
+ */
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Used_for_determining_the_amplitu, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 533, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_1 = NULL;
+    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_3);
+      if (likely(__pyx_t_1)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+        __Pyx_INCREF(__pyx_t_1);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_3, function);
+      }
+    }
+    __pyx_t_5 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_1, __pyx_v_sourcesep) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_sourcesep);
+    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 533, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_XDECREF_SET(__pyx_v_description, __pyx_t_5);
+    __pyx_t_5 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":534
+ *     if debug:
+ *         description = "Used for determining the amplitude-above-background for each pixel. \nThe PSE does not scan pixels in a thin ({}-pixel-wide) strip around \nthe border, so the background is not calculated there.".format(sourcesep)
+ *         debuggerPlot(bgmap, user_dir, debug_report, "bgmap.png", bottom=0.2, vmin=np.percentile(bgmap,1), vmax=np.percentile(bgmap,99), colbar=True, colbar_extend=True, title="Background map", dscrp=description)             # <<<<<<<<<<<<<<
+ *     if verbosity == 2:
+ *         print("| done")
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_debuggerPlot); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 534, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_3 = PyTuple_New(4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 534, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_INCREF(__pyx_v_bgmap);
+    __Pyx_GIVEREF(__pyx_v_bgmap);
+    PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_bgmap);
+    __Pyx_INCREF(__pyx_v_user_dir);
+    __Pyx_GIVEREF(__pyx_v_user_dir);
+    PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_v_user_dir);
+    __Pyx_INCREF(__pyx_v_debug_report);
+    __Pyx_GIVEREF(__pyx_v_debug_report);
+    PyTuple_SET_ITEM(__pyx_t_3, 2, __pyx_v_debug_report);
+    __Pyx_INCREF(__pyx_kp_s_bgmap_png);
+    __Pyx_GIVEREF(__pyx_kp_s_bgmap_png);
+    PyTuple_SET_ITEM(__pyx_t_3, 3, __pyx_kp_s_bgmap_png);
+    __pyx_t_1 = __Pyx_PyDict_NewPresized(7); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 534, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_bottom, __pyx_float_0_2) < 0) __PYX_ERR(0, 534, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 534, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_percentile); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 534, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_13);
+    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    __pyx_t_6 = NULL;
+    __pyx_t_8 = 0;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_13))) {
+      __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_13);
+      if (likely(__pyx_t_6)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_13);
+        __Pyx_INCREF(__pyx_t_6);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_13, function);
+        __pyx_t_8 = 1;
+      }
+    }
+    #if CYTHON_FAST_PYCALL
+    if (PyFunction_Check(__pyx_t_13)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_6, __pyx_v_bgmap, __pyx_int_1};
+      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_8, 2+__pyx_t_8); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_GOTREF(__pyx_t_4);
+    } else
+    #endif
+    #if CYTHON_FAST_PYCCALL
+    if (__Pyx_PyFastCFunction_Check(__pyx_t_13)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_6, __pyx_v_bgmap, __pyx_int_1};
+      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_8, 2+__pyx_t_8); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_GOTREF(__pyx_t_4);
+    } else
+    #endif
+    {
+      __pyx_t_14 = PyTuple_New(2+__pyx_t_8); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 534, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_14);
+      if (__pyx_t_6) {
+        __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_t_6); __pyx_t_6 = NULL;
+      }
+      __Pyx_INCREF(__pyx_v_bgmap);
+      __Pyx_GIVEREF(__pyx_v_bgmap);
+      PyTuple_SET_ITEM(__pyx_t_14, 0+__pyx_t_8, __pyx_v_bgmap);
+      __Pyx_INCREF(__pyx_int_1);
+      __Pyx_GIVEREF(__pyx_int_1);
+      PyTuple_SET_ITEM(__pyx_t_14, 1+__pyx_t_8, __pyx_int_1);
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_t_14, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_vmin, __pyx_t_4) < 0) __PYX_ERR(0, 534, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_GetModuleGlobalName(__pyx_t_13, __pyx_n_s_np); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 534, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_13);
+    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_n_s_percentile); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 534, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
+    __pyx_t_13 = NULL;
+    __pyx_t_8 = 0;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_14))) {
+      __pyx_t_13 = PyMethod_GET_SELF(__pyx_t_14);
+      if (likely(__pyx_t_13)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_14);
+        __Pyx_INCREF(__pyx_t_13);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_14, function);
+        __pyx_t_8 = 1;
+      }
+    }
+    #if CYTHON_FAST_PYCALL
+    if (PyFunction_Check(__pyx_t_14)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_13, __pyx_v_bgmap, __pyx_int_99};
+      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_14, __pyx_temp+1-__pyx_t_8, 2+__pyx_t_8); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
+      __Pyx_GOTREF(__pyx_t_4);
+    } else
+    #endif
+    #if CYTHON_FAST_PYCCALL
+    if (__Pyx_PyFastCFunction_Check(__pyx_t_14)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_13, __pyx_v_bgmap, __pyx_int_99};
+      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_14, __pyx_temp+1-__pyx_t_8, 2+__pyx_t_8); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
+      __Pyx_GOTREF(__pyx_t_4);
+    } else
+    #endif
+    {
+      __pyx_t_6 = PyTuple_New(2+__pyx_t_8); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 534, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      if (__pyx_t_13) {
+        __Pyx_GIVEREF(__pyx_t_13); PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_13); __pyx_t_13 = NULL;
+      }
+      __Pyx_INCREF(__pyx_v_bgmap);
+      __Pyx_GIVEREF(__pyx_v_bgmap);
+      PyTuple_SET_ITEM(__pyx_t_6, 0+__pyx_t_8, __pyx_v_bgmap);
+      __Pyx_INCREF(__pyx_int_99);
+      __Pyx_GIVEREF(__pyx_int_99);
+      PyTuple_SET_ITEM(__pyx_t_6, 1+__pyx_t_8, __pyx_int_99);
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_t_6, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_vmax, __pyx_t_4) < 0) __PYX_ERR(0, 534, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_colbar, Py_True) < 0) __PYX_ERR(0, 534, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_colbar_extend, Py_True) < 0) __PYX_ERR(0, 534, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_title, __pyx_kp_s_Background_map) < 0) __PYX_ERR(0, 534, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_dscrp, __pyx_v_description) < 0) __PYX_ERR(0, 534, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":532
+ *     bgmap = np.zeros((img_ymax,img_xmax),dtype=np.double)
+ *     fillBackgroundMap(bgmap, img, img_xmax, img_ymax, sourcesep)
+ *     if debug:             # <<<<<<<<<<<<<<
+ *         description = "Used for determining the amplitude-above-background for each pixel. \nThe PSE does not scan pixels in a thin ({}-pixel-wide) strip around \nthe border, so the background is not calculated there.".format(sourcesep)
+ *         debuggerPlot(bgmap, user_dir, debug_report, "bgmap.png", bottom=0.2, vmin=np.percentile(bgmap,1), vmax=np.percentile(bgmap,99), colbar=True, colbar_extend=True, title="Background map", dscrp=description)
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":535
+ *         description = "Used for determining the amplitude-above-background for each pixel. \nThe PSE does not scan pixels in a thin ({}-pixel-wide) strip around \nthe border, so the background is not calculated there.".format(sourcesep)
+ *         debuggerPlot(bgmap, user_dir, debug_report, "bgmap.png", bottom=0.2, vmin=np.percentile(bgmap,1), vmax=np.percentile(bgmap,99), colbar=True, colbar_extend=True, title="Background map", dscrp=description)
+ *     if verbosity == 2:             # <<<<<<<<<<<<<<
+ *         print("| done")
+ * 
+ */
+  __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_v_verbosity, __pyx_int_2, 2, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 535, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 535, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  if (__pyx_t_2) {
+
+    /* "fastrometry/cython_code/PSE.pyx":536
+ *         debuggerPlot(bgmap, user_dir, debug_report, "bgmap.png", bottom=0.2, vmin=np.percentile(bgmap,1), vmax=np.percentile(bgmap,99), colbar=True, colbar_extend=True, title="Background map", dscrp=description)
+ *     if verbosity == 2:
+ *         print("| done")             # <<<<<<<<<<<<<<
  * 
  *     curr_sind = 0
  */
-  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(__pyx_v_bgmap, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 447, __pyx_L1_error)
-  __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(__pyx_v_img, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 447, __pyx_L1_error)
-  __pyx_t_9 = __Pyx_PyInt_As_int(__pyx_v_img_xmax); if (unlikely((__pyx_t_9 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 447, __pyx_L1_error)
-  __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_img_ymax); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 447, __pyx_L1_error)
-  __pyx_t_11 = __Pyx_PyInt_As_int(__pyx_v_sourcesep); if (unlikely((__pyx_t_11 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 447, __pyx_L1_error)
-  __pyx_t_12 = __Pyx_PyInt_As_int(__pyx_v_verbose); if (unlikely((__pyx_t_12 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 447, __pyx_L1_error)
-  __pyx_t_13 = __Pyx_PyInt_As_int(__pyx_v_debug); if (unlikely((__pyx_t_13 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 447, __pyx_L1_error)
-  __pyx_t_6 = ((PyObject *)__pyx_f_11fastrometry_11cython_code_3PSE_fillBackgroundMap(__pyx_t_7, __pyx_t_8, __pyx_t_9, __pyx_t_10, __pyx_t_11, __pyx_t_12, __pyx_t_13)); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 447, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  __PYX_XDEC_MEMVIEW(&__pyx_t_7, 1);
-  __pyx_t_7.memview = NULL;
-  __pyx_t_7.data = NULL;
-  __PYX_XDEC_MEMVIEW(&__pyx_t_8, 1);
-  __pyx_t_8.memview = NULL;
-  __pyx_t_8.data = NULL;
-  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    if (__Pyx_PrintOne(0, __pyx_kp_s_done_2) < 0) __PYX_ERR(0, 536, __pyx_L1_error)
 
-  /* "fastrometry/cython_code/PSE.pyx":449
- *     fillBackgroundMap(bgmap, img, img_xmax, img_ymax, sourcesep, verbose, debug)
+    /* "fastrometry/cython_code/PSE.pyx":535
+ *         description = "Used for determining the amplitude-above-background for each pixel. \nThe PSE does not scan pixels in a thin ({}-pixel-wide) strip around \nthe border, so the background is not calculated there.".format(sourcesep)
+ *         debuggerPlot(bgmap, user_dir, debug_report, "bgmap.png", bottom=0.2, vmin=np.percentile(bgmap,1), vmax=np.percentile(bgmap,99), colbar=True, colbar_extend=True, title="Background map", dscrp=description)
+ *     if verbosity == 2:             # <<<<<<<<<<<<<<
+ *         print("| done")
+ * 
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":538
+ *         print("| done")
  * 
  *     curr_sind = 0             # <<<<<<<<<<<<<<
- *     occupymap = -1*np.ones(img.shape,dtype=np.int32)
- *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, smetadata, occupymap, sindmap_initial, sindmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, verbose, debug)     #return curr_sind to use in mapRemainingSources
+ *     occupymap = -1*np.ones(img.shape,dtype=np.int)
+ * 
  */
   __pyx_v_curr_sind = 0;
 
-  /* "fastrometry/cython_code/PSE.pyx":450
+  /* "fastrometry/cython_code/PSE.pyx":539
  * 
  *     curr_sind = 0
- *     occupymap = -1*np.ones(img.shape,dtype=np.int32)             # <<<<<<<<<<<<<<
- *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, smetadata, occupymap, sindmap_initial, sindmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, verbose, debug)     #return curr_sind to use in mapRemainingSources
+ *     occupymap = -1*np.ones(img.shape,dtype=np.int)             # <<<<<<<<<<<<<<
  * 
+ *     if verbosity >= 1:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 450, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_ones); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 450, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_img, __pyx_n_s_shape); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 450, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 450, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 539, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_GIVEREF(__pyx_t_6);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_6);
-  __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 450, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 450, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_ones); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 539, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_int32); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 450, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_dtype, __pyx_t_5) < 0) __PYX_ERR(0, 450, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_4, __pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 450, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyNumber_Multiply(__pyx_int_neg_1, __pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 450, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_v_occupymap = __pyx_t_6;
-  __pyx_t_6 = 0;
-
-  /* "fastrometry/cython_code/PSE.pyx":451
- *     curr_sind = 0
- *     occupymap = -1*np.ones(img.shape,dtype=np.int32)
- *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, smetadata, occupymap, sindmap_initial, sindmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, verbose, debug)     #return curr_sind to use in mapRemainingSources             # <<<<<<<<<<<<<<
- * 
- *     if verbose >= 1:
- */
-  __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(__pyx_v_img, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 451, __pyx_L1_error)
-  __pyx_t_13 = __Pyx_PyInt_As_int(__pyx_v_img_xmax); if (unlikely((__pyx_t_13 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 451, __pyx_L1_error)
-  __pyx_t_12 = __Pyx_PyInt_As_int(__pyx_v_img_ymax); if (unlikely((__pyx_t_12 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 451, __pyx_L1_error)
-  if (!(likely(((__pyx_v_smetadata) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_smetadata, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 451, __pyx_L1_error)
-  __pyx_t_14 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_occupymap, PyBUF_WRITABLE); if (unlikely(!__pyx_t_14.memview)) __PYX_ERR(0, 451, __pyx_L1_error)
-  __pyx_t_15 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_sindmap_initial, PyBUF_WRITABLE); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(0, 451, __pyx_L1_error)
-  __pyx_t_16 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_sindmap_refine, PyBUF_WRITABLE); if (unlikely(!__pyx_t_16.memview)) __PYX_ERR(0, 451, __pyx_L1_error)
-  __pyx_t_11 = __Pyx_PyInt_As_int(__pyx_v_sourcesep); if (unlikely((__pyx_t_11 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 451, __pyx_L1_error)
-  __pyx_t_17 = __pyx_PyFloat_AsDouble(__pyx_v_pixsat); if (unlikely((__pyx_t_17 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 451, __pyx_L1_error)
-  __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_npts); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 451, __pyx_L1_error)
-  __pyx_t_9 = __Pyx_PyInt_As_int(__pyx_v_nrefinepts); if (unlikely((__pyx_t_9 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 451, __pyx_L1_error)
-  __pyx_t_18 = __Pyx_PyInt_As_int(__pyx_v_verbose); if (unlikely((__pyx_t_18 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 451, __pyx_L1_error)
-  __pyx_t_19 = __Pyx_PyInt_As_int(__pyx_v_debug); if (unlikely((__pyx_t_19 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 451, __pyx_L1_error)
-  __pyx_v_curr_sind = __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__pyx_t_8, __pyx_t_13, __pyx_t_12, ((PyArrayObject *)__pyx_v_smetadata), __pyx_t_14, __pyx_t_15, __pyx_t_16, __pyx_t_11, __pyx_t_17, __pyx_t_10, __pyx_t_9, __pyx_v_curr_sind, __pyx_t_18, __pyx_t_19);
-  __PYX_XDEC_MEMVIEW(&__pyx_t_8, 1);
-  __pyx_t_8.memview = NULL;
-  __pyx_t_8.data = NULL;
-  __PYX_XDEC_MEMVIEW(&__pyx_t_14, 1);
-  __pyx_t_14.memview = NULL;
-  __pyx_t_14.data = NULL;
-  __PYX_XDEC_MEMVIEW(&__pyx_t_15, 1);
-  __pyx_t_15.memview = NULL;
-  __pyx_t_15.data = NULL;
-  __PYX_XDEC_MEMVIEW(&__pyx_t_16, 1);
-  __pyx_t_16.memview = NULL;
-  __pyx_t_16.data = NULL;
-
-  /* "fastrometry/cython_code/PSE.pyx":453
- *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, smetadata, occupymap, sindmap_initial, sindmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, verbose, debug)     #return curr_sind to use in mapRemainingSources
- * 
- *     if verbose >= 1:             # <<<<<<<<<<<<<<
- *         print("Found {} saturation islands.".format(curr_sind))
- * 
- */
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_verbose, __pyx_int_1, Py_GE); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 453, __pyx_L1_error)
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 453, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (__pyx_t_2) {
-
-    /* "fastrometry/cython_code/PSE.pyx":454
- * 
- *     if verbose >= 1:
- *         print("Found {} saturation islands.".format(curr_sind))             # <<<<<<<<<<<<<<
- * 
- *     if debug >= 1:
- */
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Found_saturation_islands, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 454, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = __Pyx_PyInt_From_long(__pyx_v_curr_sind); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 454, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_3)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_3);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-      }
-    }
-    __pyx_t_6 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_4);
-    __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 454, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (__Pyx_PrintOne(0, __pyx_t_6) < 0) __PYX_ERR(0, 454, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-    /* "fastrometry/cython_code/PSE.pyx":453
- *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, smetadata, occupymap, sindmap_initial, sindmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, verbose, debug)     #return curr_sind to use in mapRemainingSources
- * 
- *     if verbose >= 1:             # <<<<<<<<<<<<<<
- *         print("Found {} saturation islands.".format(curr_sind))
- * 
- */
-  }
-
-  /* "fastrometry/cython_code/PSE.pyx":456
- *         print("Found {} saturation islands.".format(curr_sind))
- * 
- *     if debug >= 1:             # <<<<<<<<<<<<<<
- *         plt.imshow(occupymap)
- *         plt.colorbar()
- */
-  __pyx_t_6 = PyObject_RichCompare(__pyx_v_debug, __pyx_int_1, Py_GE); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 456, __pyx_L1_error)
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_6); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 456, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (__pyx_t_2) {
-
-    /* "fastrometry/cython_code/PSE.pyx":457
- * 
- *     if debug >= 1:
- *         plt.imshow(occupymap)             # <<<<<<<<<<<<<<
- *         plt.colorbar()
- *         plt.show()
- */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 457, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_imshow); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 457, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_4)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_4);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-      }
-    }
-    __pyx_t_6 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_4, __pyx_v_occupymap) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_occupymap);
-    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 457, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-    /* "fastrometry/cython_code/PSE.pyx":458
- *     if debug >= 1:
- *         plt.imshow(occupymap)
- *         plt.colorbar()             # <<<<<<<<<<<<<<
- *         plt.show()
- *         plt.imshow(sindmap_initial)
- */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 458, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_colorbar); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 458, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_4)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_4);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-      }
-    }
-    __pyx_t_6 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
-    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 458, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-    /* "fastrometry/cython_code/PSE.pyx":459
- *         plt.imshow(occupymap)
- *         plt.colorbar()
- *         plt.show()             # <<<<<<<<<<<<<<
- *         plt.imshow(sindmap_initial)
- *         plt.colorbar()
- */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 459, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_show); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 459, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_4)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_4);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-      }
-    }
-    __pyx_t_6 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
-    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 459, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-    /* "fastrometry/cython_code/PSE.pyx":460
- *         plt.colorbar()
- *         plt.show()
- *         plt.imshow(sindmap_initial)             # <<<<<<<<<<<<<<
- *         plt.colorbar()
- *         plt.show()
- */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 460, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_imshow); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 460, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_4)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_4);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-      }
-    }
-    __pyx_t_6 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_4, __pyx_v_sindmap_initial) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_sindmap_initial);
-    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 460, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-    /* "fastrometry/cython_code/PSE.pyx":461
- *         plt.show()
- *         plt.imshow(sindmap_initial)
- *         plt.colorbar()             # <<<<<<<<<<<<<<
- *         plt.show()
- *         plt.imshow(sindmap_refine)
- */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 461, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_colorbar); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 461, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_4)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_4);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-      }
-    }
-    __pyx_t_6 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
-    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 461, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-    /* "fastrometry/cython_code/PSE.pyx":462
- *         plt.imshow(sindmap_initial)
- *         plt.colorbar()
- *         plt.show()             # <<<<<<<<<<<<<<
- *         plt.imshow(sindmap_refine)
- *         plt.colorbar()
- */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 462, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_show); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 462, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_4)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_4);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-      }
-    }
-    __pyx_t_6 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
-    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 462, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-    /* "fastrometry/cython_code/PSE.pyx":463
- *         plt.colorbar()
- *         plt.show()
- *         plt.imshow(sindmap_refine)             # <<<<<<<<<<<<<<
- *         plt.colorbar()
- *         plt.show()
- */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 463, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_imshow); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 463, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_4)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_4);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-      }
-    }
-    __pyx_t_6 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_4, __pyx_v_sindmap_refine) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_sindmap_refine);
-    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 463, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-    /* "fastrometry/cython_code/PSE.pyx":464
- *         plt.show()
- *         plt.imshow(sindmap_refine)
- *         plt.colorbar()             # <<<<<<<<<<<<<<
- *         plt.show()
- * 
- */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 464, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_colorbar); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 464, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_4)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_4);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-      }
-    }
-    __pyx_t_6 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
-    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 464, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-    /* "fastrometry/cython_code/PSE.pyx":465
- *         plt.imshow(sindmap_refine)
- *         plt.colorbar()
- *         plt.show()             # <<<<<<<<<<<<<<
- * 
- *     if curr_sind >= nrefinepts:
- */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 465, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_show); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 465, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_4)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_4);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-      }
-    }
-    __pyx_t_6 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
-    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 465, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-
-    /* "fastrometry/cython_code/PSE.pyx":456
- *         print("Found {} saturation islands.".format(curr_sind))
- * 
- *     if debug >= 1:             # <<<<<<<<<<<<<<
- *         plt.imshow(occupymap)
- *         plt.colorbar()
- */
-  }
-
-  /* "fastrometry/cython_code/PSE.pyx":467
- *         plt.show()
- * 
- *     if curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
- *         num_psesources = nrefinepts
- *         return num_psesources
- */
-  __pyx_t_6 = __Pyx_PyInt_From_long(__pyx_v_curr_sind); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 467, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = PyObject_RichCompare(__pyx_t_6, __pyx_v_nrefinepts, Py_GE); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 467, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 467, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (__pyx_t_2) {
-
-    /* "fastrometry/cython_code/PSE.pyx":468
- * 
- *     if curr_sind >= nrefinepts:
- *         num_psesources = nrefinepts             # <<<<<<<<<<<<<<
- *         return num_psesources
- * 
- */
-    __Pyx_INCREF(__pyx_v_nrefinepts);
-    __pyx_v_num_psesources = __pyx_v_nrefinepts;
-
-    /* "fastrometry/cython_code/PSE.pyx":469
- *     if curr_sind >= nrefinepts:
- *         num_psesources = nrefinepts
- *         return num_psesources             # <<<<<<<<<<<<<<
- * 
- *     kernelsize = getCircleSize(kernelrad)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __Pyx_INCREF(__pyx_v_num_psesources);
-    __pyx_r = __pyx_v_num_psesources;
-    goto __pyx_L0;
-
-    /* "fastrometry/cython_code/PSE.pyx":467
- *         plt.show()
- * 
- *     if curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
- *         num_psesources = nrefinepts
- *         return num_psesources
- */
-  }
-
-  /* "fastrometry/cython_code/PSE.pyx":471
- *         return num_psesources
- * 
- *     kernelsize = getCircleSize(kernelrad)             # <<<<<<<<<<<<<<
- *     kernelcircle = np.zeros((kernelsize,2),dtype=np.int32)
- *     makePixelCircle(kernelrad,kernelcircle)
- */
-  __pyx_t_19 = __Pyx_PyInt_As_int(__pyx_v_kernelrad); if (unlikely((__pyx_t_19 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 471, __pyx_L1_error)
-  __pyx_v_kernelsize = __pyx_f_11fastrometry_11cython_code_3PSE_getCircleSize(__pyx_t_19);
-
-  /* "fastrometry/cython_code/PSE.pyx":472
- * 
- *     kernelsize = getCircleSize(kernelrad)
- *     kernelcircle = np.zeros((kernelsize,2),dtype=np.int32)             # <<<<<<<<<<<<<<
- *     makePixelCircle(kernelrad,kernelcircle)
- * 
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 472, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_zeros); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 472, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_kernelsize); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 472, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 472, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_img, __pyx_n_s_shape); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 539, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_GIVEREF(__pyx_t_5);
-  PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_5);
-  __Pyx_INCREF(__pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_int_2);
-  __pyx_t_5 = 0;
-  __pyx_t_5 = PyTuple_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 472, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 539, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_4);
-  PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4);
+  PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_4);
   __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 472, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 539, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 472, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 472, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_dtype, __pyx_t_1) < 0) __PYX_ERR(0, 472, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_6, __pyx_t_5, __pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 472, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 539, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_int); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 539, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_14);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_v_kernelcircle = __pyx_t_1;
-  __pyx_t_1 = 0;
-
-  /* "fastrometry/cython_code/PSE.pyx":473
- *     kernelsize = getCircleSize(kernelrad)
- *     kernelcircle = np.zeros((kernelsize,2),dtype=np.int32)
- *     makePixelCircle(kernelrad,kernelcircle)             # <<<<<<<<<<<<<<
- * 
- *     sourcesepsize = getCircleSize(sourcesep)
- */
-  __pyx_t_19 = __Pyx_PyInt_As_int(__pyx_v_kernelrad); if (unlikely((__pyx_t_19 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 473, __pyx_L1_error)
-  __pyx_t_16 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_kernelcircle, PyBUF_WRITABLE); if (unlikely(!__pyx_t_16.memview)) __PYX_ERR(0, 473, __pyx_L1_error)
-  __pyx_t_1 = __pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(__pyx_t_19, __pyx_t_16); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 473, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __PYX_XDEC_MEMVIEW(&__pyx_t_16, 1);
-  __pyx_t_16.memview = NULL;
-  __pyx_t_16.data = NULL;
+  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_dtype, __pyx_t_14) < 0) __PYX_ERR(0, 539, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+  __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_t_4); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 539, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_14);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-  /* "fastrometry/cython_code/PSE.pyx":475
- *     makePixelCircle(kernelrad,kernelcircle)
- * 
- *     sourcesepsize = getCircleSize(sourcesep)             # <<<<<<<<<<<<<<
- *     sourcesepcircle = np.zeros((sourcesepsize,2),dtype=np.int32)
- *     makePixelCircle(sourcesep,sourcesepcircle)
- */
-  __pyx_t_19 = __Pyx_PyInt_As_int(__pyx_v_sourcesep); if (unlikely((__pyx_t_19 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 475, __pyx_L1_error)
-  __pyx_v_sourcesepsize = __pyx_f_11fastrometry_11cython_code_3PSE_getCircleSize(__pyx_t_19);
-
-  /* "fastrometry/cython_code/PSE.pyx":476
- * 
- *     sourcesepsize = getCircleSize(sourcesep)
- *     sourcesepcircle = np.zeros((sourcesepsize,2),dtype=np.int32)             # <<<<<<<<<<<<<<
- *     makePixelCircle(sourcesep,sourcesepcircle)
- * 
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_zeros); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 476, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_4 = PyNumber_Multiply(__pyx_int_neg_1, __pyx_t_14); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 539, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_sourcesepsize); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_GIVEREF(__pyx_t_1);
-  PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1);
-  __Pyx_INCREF(__pyx_int_2);
-  __Pyx_GIVEREF(__pyx_int_2);
-  PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_int_2);
-  __pyx_t_1 = 0;
-  __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_GIVEREF(__pyx_t_5);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_5);
-  __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_int32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_dtype, __pyx_t_3) < 0) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_1, __pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 476, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+  __pyx_v_occupymap = __pyx_t_4;
+  __pyx_t_4 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":541
+ *     occupymap = -1*np.ones(img.shape,dtype=np.int)
+ * 
+ *     if verbosity >= 1:             # <<<<<<<<<<<<<<
+ *         print("| Finding saturation islands...")
+ *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, roi, pse_metadata, occupymap, srcindexmap_initial, srcindexmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)     #return curr_sind to use in mapRemainingSources
+ */
+  __pyx_t_4 = PyObject_RichCompare(__pyx_v_verbosity, __pyx_int_1, Py_GE); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 541, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 541, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_v_sourcesepcircle = __pyx_t_3;
-  __pyx_t_3 = 0;
+  if (__pyx_t_2) {
 
-  /* "fastrometry/cython_code/PSE.pyx":477
- *     sourcesepsize = getCircleSize(sourcesep)
- *     sourcesepcircle = np.zeros((sourcesepsize,2),dtype=np.int32)
- *     makePixelCircle(sourcesep,sourcesepcircle)             # <<<<<<<<<<<<<<
+    /* "fastrometry/cython_code/PSE.pyx":542
  * 
- *     img_median = np.median(img)
+ *     if verbosity >= 1:
+ *         print("| Finding saturation islands...")             # <<<<<<<<<<<<<<
+ *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, roi, pse_metadata, occupymap, srcindexmap_initial, srcindexmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)     #return curr_sind to use in mapRemainingSources
+ *     if curr_sind < nrefinepts:
  */
-  __pyx_t_19 = __Pyx_PyInt_As_int(__pyx_v_sourcesep); if (unlikely((__pyx_t_19 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 477, __pyx_L1_error)
-  __pyx_t_16 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_sourcesepcircle, PyBUF_WRITABLE); if (unlikely(!__pyx_t_16.memview)) __PYX_ERR(0, 477, __pyx_L1_error)
-  __pyx_t_3 = __pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(__pyx_t_19, __pyx_t_16); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 477, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __PYX_XDEC_MEMVIEW(&__pyx_t_16, 1);
-  __pyx_t_16.memview = NULL;
-  __pyx_t_16.data = NULL;
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (__Pyx_PrintOne(0, __pyx_kp_s_Finding_saturation_islands) < 0) __PYX_ERR(0, 542, __pyx_L1_error)
 
-  /* "fastrometry/cython_code/PSE.pyx":479
- *     makePixelCircle(sourcesep,sourcesepcircle)
+    /* "fastrometry/cython_code/PSE.pyx":541
+ *     occupymap = -1*np.ones(img.shape,dtype=np.int)
  * 
- *     img_median = np.median(img)             # <<<<<<<<<<<<<<
- *     img_max = np.max(img)
- * 
+ *     if verbosity >= 1:             # <<<<<<<<<<<<<<
+ *         print("| Finding saturation islands...")
+ *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, roi, pse_metadata, occupymap, srcindexmap_initial, srcindexmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)     #return curr_sind to use in mapRemainingSources
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 479, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_median); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 479, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
-    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_1);
-    if (likely(__pyx_t_5)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-      __Pyx_INCREF(__pyx_t_5);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_1, function);
-    }
   }
-  __pyx_t_3 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_5, __pyx_v_img) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_img);
-  __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 479, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_v_img_median = __pyx_t_3;
-  __pyx_t_3 = 0;
 
-  /* "fastrometry/cython_code/PSE.pyx":480
- * 
- *     img_median = np.median(img)
- *     img_max = np.max(img)             # <<<<<<<<<<<<<<
- * 
- *     num_psesources = mapRemainingSources(img, img_xmax, img_ymax, img_max, img_median, smetadata, bgmap, sindmap_initial, sindmap_refine, occupymap, kernelrad, kernelcircle, kernelsize, sourcesep, sourcesepcircle, sourcesepsize, npts, nrefinepts, curr_sind, verbose, debug)
+  /* "fastrometry/cython_code/PSE.pyx":543
+ *     if verbosity >= 1:
+ *         print("| Finding saturation islands...")
+ *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, roi, pse_metadata, occupymap, srcindexmap_initial, srcindexmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)     #return curr_sind to use in mapRemainingSources             # <<<<<<<<<<<<<<
+ *     if curr_sind < nrefinepts:
+ *         if verbosity >= 1:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 480, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_max); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 480, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
-    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
-    if (likely(__pyx_t_1)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-      __Pyx_INCREF(__pyx_t_1);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_5, function);
-    }
-  }
-  __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_1, __pyx_v_img) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_img);
-  __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 480, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_v_img_max = __pyx_t_3;
-  __pyx_t_3 = 0;
-
-  /* "fastrometry/cython_code/PSE.pyx":482
- *     img_max = np.max(img)
- * 
- *     num_psesources = mapRemainingSources(img, img_xmax, img_ymax, img_max, img_median, smetadata, bgmap, sindmap_initial, sindmap_refine, occupymap, kernelrad, kernelcircle, kernelsize, sourcesep, sourcesepcircle, sourcesepsize, npts, nrefinepts, curr_sind, verbose, debug)             # <<<<<<<<<<<<<<
- * 
- *     if debug >= 1:
- */
-  __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(__pyx_v_img, PyBUF_WRITABLE); if (unlikely(!__pyx_t_8.memview)) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_19 = __Pyx_PyInt_As_int(__pyx_v_img_xmax); if (unlikely((__pyx_t_19 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_18 = __Pyx_PyInt_As_int(__pyx_v_img_ymax); if (unlikely((__pyx_t_18 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_17 = __pyx_PyFloat_AsDouble(__pyx_v_img_max); if (unlikely((__pyx_t_17 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_20 = __pyx_PyFloat_AsDouble(__pyx_v_img_median); if (unlikely((__pyx_t_20 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 482, __pyx_L1_error)
-  if (!(likely(((__pyx_v_smetadata) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_smetadata, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(__pyx_v_bgmap, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_16 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_sindmap_initial, PyBUF_WRITABLE); if (unlikely(!__pyx_t_16.memview)) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_15 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_sindmap_refine, PyBUF_WRITABLE); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_14 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_occupymap, PyBUF_WRITABLE); if (unlikely(!__pyx_t_14.memview)) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_9 = __Pyx_PyInt_As_int(__pyx_v_kernelrad); if (unlikely((__pyx_t_9 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_21 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_kernelcircle, PyBUF_WRITABLE); if (unlikely(!__pyx_t_21.memview)) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_sourcesep); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_22 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_sourcesepcircle, PyBUF_WRITABLE); if (unlikely(!__pyx_t_22.memview)) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_11 = __Pyx_PyInt_As_int(__pyx_v_npts); if (unlikely((__pyx_t_11 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_12 = __Pyx_PyInt_As_int(__pyx_v_nrefinepts); if (unlikely((__pyx_t_12 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_13 = __Pyx_PyInt_As_int(__pyx_v_verbose); if (unlikely((__pyx_t_13 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_23 = __Pyx_PyInt_As_int(__pyx_v_debug); if (unlikely((__pyx_t_23 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 482, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__pyx_t_8, __pyx_t_19, __pyx_t_18, __pyx_t_17, __pyx_t_20, ((PyArrayObject *)__pyx_v_smetadata), __pyx_t_7, __pyx_t_16, __pyx_t_15, __pyx_t_14, __pyx_t_9, __pyx_t_21, __pyx_v_kernelsize, __pyx_t_10, __pyx_t_22, __pyx_v_sourcesepsize, __pyx_t_11, __pyx_t_12, __pyx_v_curr_sind, __pyx_t_13, __pyx_t_23)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 482, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __PYX_XDEC_MEMVIEW(&__pyx_t_8, 1);
-  __pyx_t_8.memview = NULL;
-  __pyx_t_8.data = NULL;
+  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(__pyx_v_img, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyInt_As_int(__pyx_v_img_xmax); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_PyInt_As_int(__pyx_v_img_ymax); if (unlikely((__pyx_t_9 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_roi, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 543, __pyx_L1_error)
+  if (!(likely(((__pyx_v_pse_metadata) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_pse_metadata, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_t_15 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_occupymap, PyBUF_WRITABLE); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_t_16 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_srcindexmap_initial, PyBUF_WRITABLE); if (unlikely(!__pyx_t_16.memview)) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_t_17 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_srcindexmap_refine, PyBUF_WRITABLE); if (unlikely(!__pyx_t_17.memview)) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_sourcesep); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_t_18 = __pyx_PyFloat_AsDouble(__pyx_v_pixsat); if (unlikely((__pyx_t_18 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_t_19 = __Pyx_PyInt_As_int(__pyx_v_npts); if (unlikely((__pyx_t_19 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_t_20 = __Pyx_PyInt_As_int(__pyx_v_nrefinepts); if (unlikely((__pyx_t_20 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
+  if (!(likely(PyString_CheckExact(__pyx_v_user_dir))||((__pyx_v_user_dir) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "str", Py_TYPE(__pyx_v_user_dir)->tp_name), 0))) __PYX_ERR(0, 543, __pyx_L1_error)
+  if (!(likely(PyString_CheckExact(__pyx_v_debug_report))||((__pyx_v_debug_report) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "str", Py_TYPE(__pyx_v_debug_report)->tp_name), 0))) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_t_21 = __Pyx_PyInt_As_int(__pyx_v_verbosity); if (unlikely((__pyx_t_21 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_t_22 = __Pyx_PyInt_As_int(__pyx_v_debug); if (unlikely((__pyx_t_22 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 543, __pyx_L1_error)
+  __pyx_v_curr_sind = __pyx_f_11fastrometry_11cython_code_3PSE_mapSaturationIslands(__pyx_t_12, __pyx_t_8, __pyx_t_9, __pyx_t_7, ((PyArrayObject *)__pyx_v_pse_metadata), __pyx_t_15, __pyx_t_16, __pyx_t_17, __pyx_t_10, __pyx_t_18, __pyx_t_19, __pyx_t_20, __pyx_v_curr_sind, ((PyObject*)__pyx_v_user_dir), ((PyObject*)__pyx_v_debug_report), __pyx_t_21, __pyx_t_22);
+  __PYX_XDEC_MEMVIEW(&__pyx_t_12, 1);
+  __pyx_t_12.memview = NULL;
+  __pyx_t_12.data = NULL;
   __PYX_XDEC_MEMVIEW(&__pyx_t_7, 1);
   __pyx_t_7.memview = NULL;
   __pyx_t_7.data = NULL;
-  __PYX_XDEC_MEMVIEW(&__pyx_t_16, 1);
-  __pyx_t_16.memview = NULL;
-  __pyx_t_16.data = NULL;
   __PYX_XDEC_MEMVIEW(&__pyx_t_15, 1);
   __pyx_t_15.memview = NULL;
   __pyx_t_15.data = NULL;
-  __PYX_XDEC_MEMVIEW(&__pyx_t_14, 1);
-  __pyx_t_14.memview = NULL;
-  __pyx_t_14.data = NULL;
-  __PYX_XDEC_MEMVIEW(&__pyx_t_21, 1);
-  __pyx_t_21.memview = NULL;
-  __pyx_t_21.data = NULL;
-  __PYX_XDEC_MEMVIEW(&__pyx_t_22, 1);
-  __pyx_t_22.memview = NULL;
-  __pyx_t_22.data = NULL;
-  __pyx_v_num_psesources = __pyx_t_3;
-  __pyx_t_3 = 0;
+  __PYX_XDEC_MEMVIEW(&__pyx_t_16, 1);
+  __pyx_t_16.memview = NULL;
+  __pyx_t_16.data = NULL;
+  __PYX_XDEC_MEMVIEW(&__pyx_t_17, 1);
+  __pyx_t_17.memview = NULL;
+  __pyx_t_17.data = NULL;
 
-  /* "fastrometry/cython_code/PSE.pyx":484
- *     num_psesources = mapRemainingSources(img, img_xmax, img_ymax, img_max, img_median, smetadata, bgmap, sindmap_initial, sindmap_refine, occupymap, kernelrad, kernelcircle, kernelsize, sourcesep, sourcesepcircle, sourcesepsize, npts, nrefinepts, curr_sind, verbose, debug)
- * 
- *     if debug >= 1:             # <<<<<<<<<<<<<<
- *         plt.imshow(occupymap)
- *         plt.colorbar()
+  /* "fastrometry/cython_code/PSE.pyx":544
+ *         print("| Finding saturation islands...")
+ *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, roi, pse_metadata, occupymap, srcindexmap_initial, srcindexmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)     #return curr_sind to use in mapRemainingSources
+ *     if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
+ *         if verbosity >= 1:
+ *             print("| | Found {} saturation islands.".format(curr_sind))
  */
-  __pyx_t_3 = PyObject_RichCompare(__pyx_v_debug, __pyx_int_1, Py_GE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 484, __pyx_L1_error)
-  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 484, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_t_4 = __Pyx_PyInt_From_long(__pyx_v_curr_sind); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 544, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_t_14 = PyObject_RichCompare(__pyx_t_4, __pyx_v_nrefinepts, Py_LT); __Pyx_XGOTREF(__pyx_t_14); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 544, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_14); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 544, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
   if (__pyx_t_2) {
 
-    /* "fastrometry/cython_code/PSE.pyx":485
+    /* "fastrometry/cython_code/PSE.pyx":545
+ *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, roi, pse_metadata, occupymap, srcindexmap_initial, srcindexmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)     #return curr_sind to use in mapRemainingSources
+ *     if curr_sind < nrefinepts:
+ *         if verbosity >= 1:             # <<<<<<<<<<<<<<
+ *             print("| | Found {} saturation islands.".format(curr_sind))
+ *             print("| done")
+ */
+    __pyx_t_14 = PyObject_RichCompare(__pyx_v_verbosity, __pyx_int_1, Py_GE); __Pyx_XGOTREF(__pyx_t_14); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 545, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_14); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 545, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    if (__pyx_t_2) {
+
+      /* "fastrometry/cython_code/PSE.pyx":546
+ *     if curr_sind < nrefinepts:
+ *         if verbosity >= 1:
+ *             print("| | Found {} saturation islands.".format(curr_sind))             # <<<<<<<<<<<<<<
+ *             print("| done")
+ *     elif curr_sind >= nrefinepts:
+ */
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Found_saturation_islands, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 546, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_curr_sind); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 546, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_1 = NULL;
+      if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+        __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_4);
+        if (likely(__pyx_t_1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+          __Pyx_INCREF(__pyx_t_1);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_4, function);
+        }
+      }
+      __pyx_t_14 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_1, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3);
+      __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 546, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_14);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      if (__Pyx_PrintOne(0, __pyx_t_14) < 0) __PYX_ERR(0, 546, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":547
+ *         if verbosity >= 1:
+ *             print("| | Found {} saturation islands.".format(curr_sind))
+ *             print("| done")             # <<<<<<<<<<<<<<
+ *     elif curr_sind >= nrefinepts:
+ *         if verbosity >= 1:
+ */
+      if (__Pyx_PrintOne(0, __pyx_kp_s_done_2) < 0) __PYX_ERR(0, 547, __pyx_L1_error)
+
+      /* "fastrometry/cython_code/PSE.pyx":545
+ *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, roi, pse_metadata, occupymap, srcindexmap_initial, srcindexmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)     #return curr_sind to use in mapRemainingSources
+ *     if curr_sind < nrefinepts:
+ *         if verbosity >= 1:             # <<<<<<<<<<<<<<
+ *             print("| | Found {} saturation islands.".format(curr_sind))
+ *             print("| done")
+ */
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":544
+ *         print("| Finding saturation islands...")
+ *     curr_sind = mapSaturationIslands(img, img_xmax, img_ymax, roi, pse_metadata, occupymap, srcindexmap_initial, srcindexmap_refine, sourcesep, pixsat, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)     #return curr_sind to use in mapRemainingSources
+ *     if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
+ *         if verbosity >= 1:
+ *             print("| | Found {} saturation islands.".format(curr_sind))
+ */
+    goto __pyx_L10;
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":548
+ *             print("| | Found {} saturation islands.".format(curr_sind))
+ *             print("| done")
+ *     elif curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
+ *         if verbosity >= 1:
+ *             print("| | Found {} saturation islands. Trimmed to the {} brightest.".format(curr_sind,nrefinepts))
+ */
+  __pyx_t_14 = __Pyx_PyInt_From_long(__pyx_v_curr_sind); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 548, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_14);
+  __pyx_t_4 = PyObject_RichCompare(__pyx_t_14, __pyx_v_nrefinepts, Py_GE); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 548, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 548, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  if (__pyx_t_2) {
+
+    /* "fastrometry/cython_code/PSE.pyx":549
+ *             print("| done")
+ *     elif curr_sind >= nrefinepts:
+ *         if verbosity >= 1:             # <<<<<<<<<<<<<<
+ *             print("| | Found {} saturation islands. Trimmed to the {} brightest.".format(curr_sind,nrefinepts))
+ *             if debug:
+ */
+    __pyx_t_4 = PyObject_RichCompare(__pyx_v_verbosity, __pyx_int_1, Py_GE); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 549, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 549, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    if (__pyx_t_2) {
+
+      /* "fastrometry/cython_code/PSE.pyx":550
+ *     elif curr_sind >= nrefinepts:
+ *         if verbosity >= 1:
+ *             print("| | Found {} saturation islands. Trimmed to the {} brightest.".format(curr_sind,nrefinepts))             # <<<<<<<<<<<<<<
+ *             if debug:
+ *                 description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ */
+      __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Found_saturation_islands_Trimme, __pyx_n_s_format); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 550, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_14);
+      __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_curr_sind); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 550, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_1 = NULL;
+      __pyx_t_22 = 0;
+      if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_14))) {
+        __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_14);
+        if (likely(__pyx_t_1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_14);
+          __Pyx_INCREF(__pyx_t_1);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_14, function);
+          __pyx_t_22 = 1;
+        }
+      }
+      #if CYTHON_FAST_PYCALL
+      if (PyFunction_Check(__pyx_t_14)) {
+        PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_t_3, __pyx_v_nrefinepts};
+        __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_14, __pyx_temp+1-__pyx_t_22, 2+__pyx_t_22); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 550, __pyx_L1_error)
+        __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      } else
+      #endif
+      #if CYTHON_FAST_PYCCALL
+      if (__Pyx_PyFastCFunction_Check(__pyx_t_14)) {
+        PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_t_3, __pyx_v_nrefinepts};
+        __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_14, __pyx_temp+1-__pyx_t_22, 2+__pyx_t_22); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 550, __pyx_L1_error)
+        __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      } else
+      #endif
+      {
+        __pyx_t_5 = PyTuple_New(2+__pyx_t_22); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 550, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        if (__pyx_t_1) {
+          __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1); __pyx_t_1 = NULL;
+        }
+        __Pyx_GIVEREF(__pyx_t_3);
+        PyTuple_SET_ITEM(__pyx_t_5, 0+__pyx_t_22, __pyx_t_3);
+        __Pyx_INCREF(__pyx_v_nrefinepts);
+        __Pyx_GIVEREF(__pyx_v_nrefinepts);
+        PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_22, __pyx_v_nrefinepts);
+        __pyx_t_3 = 0;
+        __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_t_5, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 550, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      }
+      __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+      if (__Pyx_PrintOne(0, __pyx_t_4) < 0) __PYX_ERR(0, 550, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":551
+ *         if verbosity >= 1:
+ *             print("| | Found {} saturation islands. Trimmed to the {} brightest.".format(curr_sind,nrefinepts))
+ *             if debug:             # <<<<<<<<<<<<<<
+ *                 description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ *                 debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ */
+      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_debug); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 551, __pyx_L1_error)
+      if (__pyx_t_2) {
+
+        /* "fastrometry/cython_code/PSE.pyx":552
+ *             print("| | Found {} saturation islands. Trimmed to the {} brightest.".format(curr_sind,nrefinepts))
+ *             if debug:
+ *                 description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)             # <<<<<<<<<<<<<<
+ *                 debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ *                 description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the WCS solution.".format(nrefinepts)
+ */
+        __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_The_occupied_source_kernels_for, __pyx_n_s_format); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 552, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_14);
+        __pyx_t_5 = NULL;
+        if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_14))) {
+          __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_14);
+          if (likely(__pyx_t_5)) {
+            PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_14);
+            __Pyx_INCREF(__pyx_t_5);
+            __Pyx_INCREF(function);
+            __Pyx_DECREF_SET(__pyx_t_14, function);
+          }
+        }
+        __pyx_t_4 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_14, __pyx_t_5, __pyx_v_npts) : __Pyx_PyObject_CallOneArg(__pyx_t_14, __pyx_v_npts);
+        __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+        if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 552, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+        __Pyx_XDECREF_SET(__pyx_v_description, __pyx_t_4);
+        __pyx_t_4 = 0;
+
+        /* "fastrometry/cython_code/PSE.pyx":553
+ *             if debug:
+ *                 description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ *                 debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])             # <<<<<<<<<<<<<<
+ *                 description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the WCS solution.".format(nrefinepts)
+ *                 debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])
+ */
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_debuggerPlot); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 553, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __pyx_t_14 = PyTuple_New(4); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 553, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_14);
+        __Pyx_INCREF(__pyx_v_srcindexmap_initial);
+        __Pyx_GIVEREF(__pyx_v_srcindexmap_initial);
+        PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_v_srcindexmap_initial);
+        __Pyx_INCREF(__pyx_v_user_dir);
+        __Pyx_GIVEREF(__pyx_v_user_dir);
+        PyTuple_SET_ITEM(__pyx_t_14, 1, __pyx_v_user_dir);
+        __Pyx_INCREF(__pyx_v_debug_report);
+        __Pyx_GIVEREF(__pyx_v_debug_report);
+        PyTuple_SET_ITEM(__pyx_t_14, 2, __pyx_v_debug_report);
+        __Pyx_INCREF(__pyx_kp_s_srcindexmap_initial_png);
+        __Pyx_GIVEREF(__pyx_kp_s_srcindexmap_initial_png);
+        PyTuple_SET_ITEM(__pyx_t_14, 3, __pyx_kp_s_srcindexmap_initial_png);
+        __pyx_t_5 = __Pyx_PyDict_NewPresized(7); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 553, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_bottom, __pyx_float_0_2) < 0) __PYX_ERR(0, 553, __pyx_L1_error)
+        if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_title, __pyx_n_s_srcindexmap_initial) < 0) __PYX_ERR(0, 553, __pyx_L1_error)
+        if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_dscrp, __pyx_v_description) < 0) __PYX_ERR(0, 553, __pyx_L1_error)
+        if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_bmargin, __pyx_float_0_07) < 0) __PYX_ERR(0, 553, __pyx_L1_error)
+        if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_disable_console, Py_True) < 0) __PYX_ERR(0, 553, __pyx_L1_error)
+        __pyx_t_3 = PyList_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 553, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_3);
+        __Pyx_INCREF(__pyx_n_s_blue);
+        __Pyx_GIVEREF(__pyx_n_s_blue);
+        PyList_SET_ITEM(__pyx_t_3, 0, __pyx_n_s_blue);
+        __Pyx_INCREF(__pyx_n_s_yellow);
+        __Pyx_GIVEREF(__pyx_n_s_yellow);
+        PyList_SET_ITEM(__pyx_t_3, 1, __pyx_n_s_yellow);
+        if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_collist, __pyx_t_3) < 0) __PYX_ERR(0, 553, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+        __pyx_t_3 = PyList_New(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 553, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_3);
+        __Pyx_INCREF(__pyx_int_neg_1);
+        __Pyx_GIVEREF(__pyx_int_neg_1);
+        PyList_SET_ITEM(__pyx_t_3, 0, __pyx_int_neg_1);
+        __Pyx_INCREF(__pyx_int_0);
+        __Pyx_GIVEREF(__pyx_int_0);
+        PyList_SET_ITEM(__pyx_t_3, 1, __pyx_int_0);
+        __Pyx_INCREF(__pyx_v_npts);
+        __Pyx_GIVEREF(__pyx_v_npts);
+        PyList_SET_ITEM(__pyx_t_3, 2, __pyx_v_npts);
+        if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_boundslist, __pyx_t_3) < 0) __PYX_ERR(0, 553, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+        __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_14, __pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 553, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_3);
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+        /* "fastrometry/cython_code/PSE.pyx":554
+ *                 description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ *                 debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ *                 description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the WCS solution.".format(nrefinepts)             # <<<<<<<<<<<<<<
+ *                 debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])
+ *             print("| done")
+ */
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_The_occupied_source_kernels_for_2, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 554, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __pyx_t_14 = NULL;
+        if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
+          __pyx_t_14 = PyMethod_GET_SELF(__pyx_t_5);
+          if (likely(__pyx_t_14)) {
+            PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+            __Pyx_INCREF(__pyx_t_14);
+            __Pyx_INCREF(function);
+            __Pyx_DECREF_SET(__pyx_t_5, function);
+          }
+        }
+        __pyx_t_3 = (__pyx_t_14) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_14, __pyx_v_nrefinepts) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_nrefinepts);
+        __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
+        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 554, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_3);
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+        __Pyx_DECREF_SET(__pyx_v_description, __pyx_t_3);
+        __pyx_t_3 = 0;
+
+        /* "fastrometry/cython_code/PSE.pyx":555
+ *                 debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ *                 description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the WCS solution.".format(nrefinepts)
+ *                 debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])             # <<<<<<<<<<<<<<
+ *             print("| done")
+ *         num_psesources = nrefinepts
+ */
+        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_debuggerPlot); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 555, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_3);
+        __pyx_t_5 = PyTuple_New(4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 555, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_5);
+        __Pyx_INCREF(__pyx_v_srcindexmap_refine);
+        __Pyx_GIVEREF(__pyx_v_srcindexmap_refine);
+        PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_v_srcindexmap_refine);
+        __Pyx_INCREF(__pyx_v_user_dir);
+        __Pyx_GIVEREF(__pyx_v_user_dir);
+        PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_v_user_dir);
+        __Pyx_INCREF(__pyx_v_debug_report);
+        __Pyx_GIVEREF(__pyx_v_debug_report);
+        PyTuple_SET_ITEM(__pyx_t_5, 2, __pyx_v_debug_report);
+        __Pyx_INCREF(__pyx_kp_s_srcindexmap_refine_png);
+        __Pyx_GIVEREF(__pyx_kp_s_srcindexmap_refine_png);
+        PyTuple_SET_ITEM(__pyx_t_5, 3, __pyx_kp_s_srcindexmap_refine_png);
+        __pyx_t_14 = __Pyx_PyDict_NewPresized(7); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 555, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_14);
+        if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_bottom, __pyx_float_0_2) < 0) __PYX_ERR(0, 555, __pyx_L1_error)
+        if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_title, __pyx_n_s_srcindexmap_refine) < 0) __PYX_ERR(0, 555, __pyx_L1_error)
+        if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_dscrp, __pyx_v_description) < 0) __PYX_ERR(0, 555, __pyx_L1_error)
+        if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_bmargin, __pyx_float_0_07) < 0) __PYX_ERR(0, 555, __pyx_L1_error)
+        if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_disable_console, Py_True) < 0) __PYX_ERR(0, 555, __pyx_L1_error)
+        __pyx_t_4 = PyList_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 555, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_INCREF(__pyx_n_s_blue);
+        __Pyx_GIVEREF(__pyx_n_s_blue);
+        PyList_SET_ITEM(__pyx_t_4, 0, __pyx_n_s_blue);
+        __Pyx_INCREF(__pyx_n_s_yellow);
+        __Pyx_GIVEREF(__pyx_n_s_yellow);
+        PyList_SET_ITEM(__pyx_t_4, 1, __pyx_n_s_yellow);
+        if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_collist, __pyx_t_4) < 0) __PYX_ERR(0, 555, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __pyx_t_4 = PyList_New(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 555, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_INCREF(__pyx_int_neg_1);
+        __Pyx_GIVEREF(__pyx_int_neg_1);
+        PyList_SET_ITEM(__pyx_t_4, 0, __pyx_int_neg_1);
+        __Pyx_INCREF(__pyx_int_0);
+        __Pyx_GIVEREF(__pyx_int_0);
+        PyList_SET_ITEM(__pyx_t_4, 1, __pyx_int_0);
+        __Pyx_INCREF(__pyx_v_nrefinepts);
+        __Pyx_GIVEREF(__pyx_v_nrefinepts);
+        PyList_SET_ITEM(__pyx_t_4, 2, __pyx_v_nrefinepts);
+        if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_boundslist, __pyx_t_4) < 0) __PYX_ERR(0, 555, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, __pyx_t_14); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 555, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+        __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+        __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+        /* "fastrometry/cython_code/PSE.pyx":551
+ *         if verbosity >= 1:
+ *             print("| | Found {} saturation islands. Trimmed to the {} brightest.".format(curr_sind,nrefinepts))
+ *             if debug:             # <<<<<<<<<<<<<<
+ *                 description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ *                 debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ */
+      }
+
+      /* "fastrometry/cython_code/PSE.pyx":556
+ *                 description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the WCS solution.".format(nrefinepts)
+ *                 debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])
+ *             print("| done")             # <<<<<<<<<<<<<<
+ *         num_psesources = nrefinepts
+ *         skipRemainingSources = True
+ */
+      if (__Pyx_PrintOne(0, __pyx_kp_s_done_2) < 0) __PYX_ERR(0, 556, __pyx_L1_error)
+
+      /* "fastrometry/cython_code/PSE.pyx":549
+ *             print("| done")
+ *     elif curr_sind >= nrefinepts:
+ *         if verbosity >= 1:             # <<<<<<<<<<<<<<
+ *             print("| | Found {} saturation islands. Trimmed to the {} brightest.".format(curr_sind,nrefinepts))
+ *             if debug:
+ */
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":557
+ *                 debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])
+ *             print("| done")
+ *         num_psesources = nrefinepts             # <<<<<<<<<<<<<<
+ *         skipRemainingSources = True
  * 
- *     if debug >= 1:
- *         plt.imshow(occupymap)             # <<<<<<<<<<<<<<
- *         plt.colorbar()
- *         plt.show()
  */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 485, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_imshow); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 485, __pyx_L1_error)
+    __Pyx_INCREF(__pyx_v_nrefinepts);
+    __Pyx_DECREF_SET(__pyx_v_num_psesources, __pyx_v_nrefinepts);
+
+    /* "fastrometry/cython_code/PSE.pyx":558
+ *             print("| done")
+ *         num_psesources = nrefinepts
+ *         skipRemainingSources = True             # <<<<<<<<<<<<<<
+ * 
+ *     if skipRemainingSources is False:
+ */
+    __pyx_v_skipRemainingSources = 1;
+
+    /* "fastrometry/cython_code/PSE.pyx":548
+ *             print("| | Found {} saturation islands.".format(curr_sind))
+ *             print("| done")
+ *     elif curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
+ *         if verbosity >= 1:
+ *             print("| | Found {} saturation islands. Trimmed to the {} brightest.".format(curr_sind,nrefinepts))
+ */
+  }
+  __pyx_L10:;
+
+  /* "fastrometry/cython_code/PSE.pyx":560
+ *         skipRemainingSources = True
+ * 
+ *     if skipRemainingSources is False:             # <<<<<<<<<<<<<<
+ *         kernelsize = getCircleSize(kernelrad)
+ *         kernelcircle = np.zeros((kernelsize,2),dtype=np.int32)
+ */
+  __pyx_t_2 = ((__pyx_v_skipRemainingSources == 0) != 0);
+  if (__pyx_t_2) {
+
+    /* "fastrometry/cython_code/PSE.pyx":561
+ * 
+ *     if skipRemainingSources is False:
+ *         kernelsize = getCircleSize(kernelrad)             # <<<<<<<<<<<<<<
+ *         kernelcircle = np.zeros((kernelsize,2),dtype=np.int32)
+ *         makePixelCircle(kernelrad,kernelcircle)
+ */
+    __pyx_t_22 = __Pyx_PyInt_As_int(__pyx_v_kernelrad); if (unlikely((__pyx_t_22 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 561, __pyx_L1_error)
+    __pyx_v_kernelsize = __pyx_f_11fastrometry_11cython_code_3PSE_getCircleSize(__pyx_t_22);
+
+    /* "fastrometry/cython_code/PSE.pyx":562
+ *     if skipRemainingSources is False:
+ *         kernelsize = getCircleSize(kernelrad)
+ *         kernelcircle = np.zeros((kernelsize,2),dtype=np.int32)             # <<<<<<<<<<<<<<
+ *         makePixelCircle(kernelrad,kernelcircle)
+ * 
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 562, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_zeros); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 562, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_kernelsize); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 562, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 562, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_1 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_1);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-      }
-    }
-    __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_1, __pyx_v_occupymap) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_occupymap);
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 485, __pyx_L1_error)
+    __Pyx_GIVEREF(__pyx_t_4);
+    PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4);
+    __Pyx_INCREF(__pyx_int_2);
+    __Pyx_GIVEREF(__pyx_int_2);
+    PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_int_2);
+    __pyx_t_4 = 0;
+    __pyx_t_4 = PyTuple_New(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 562, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_GIVEREF(__pyx_t_5);
+    PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_5);
+    __pyx_t_5 = 0;
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 562, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 562, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_int32); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 562, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_dtype, __pyx_t_1) < 0) __PYX_ERR(0, 562, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 562, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_v_kernelcircle = __pyx_t_1;
+    __pyx_t_1 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":563
+ *         kernelsize = getCircleSize(kernelrad)
+ *         kernelcircle = np.zeros((kernelsize,2),dtype=np.int32)
+ *         makePixelCircle(kernelrad,kernelcircle)             # <<<<<<<<<<<<<<
+ * 
+ *         sourcesepsize = getCircleSize(sourcesep)
+ */
+    __pyx_t_22 = __Pyx_PyInt_As_int(__pyx_v_kernelrad); if (unlikely((__pyx_t_22 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 563, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_kernelcircle, PyBUF_WRITABLE); if (unlikely(!__pyx_t_17.memview)) __PYX_ERR(0, 563, __pyx_L1_error)
+    __pyx_t_1 = __pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(__pyx_t_22, __pyx_t_17); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 563, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __PYX_XDEC_MEMVIEW(&__pyx_t_17, 1);
+    __pyx_t_17.memview = NULL;
+    __pyx_t_17.data = NULL;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":565
+ *         makePixelCircle(kernelrad,kernelcircle)
+ * 
+ *         sourcesepsize = getCircleSize(sourcesep)             # <<<<<<<<<<<<<<
+ *         sourcesepcircle = np.zeros((sourcesepsize,2),dtype=np.int32)
+ *         makePixelCircle(sourcesep,sourcesepcircle)
+ */
+    __pyx_t_22 = __Pyx_PyInt_As_int(__pyx_v_sourcesep); if (unlikely((__pyx_t_22 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 565, __pyx_L1_error)
+    __pyx_v_sourcesepsize = __pyx_f_11fastrometry_11cython_code_3PSE_getCircleSize(__pyx_t_22);
+
+    /* "fastrometry/cython_code/PSE.pyx":566
+ * 
+ *         sourcesepsize = getCircleSize(sourcesep)
+ *         sourcesepcircle = np.zeros((sourcesepsize,2),dtype=np.int32)             # <<<<<<<<<<<<<<
+ *         makePixelCircle(sourcesep,sourcesepcircle)
+ * 
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 566, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_zeros); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 566, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_sourcesepsize); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 566, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 566, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_GIVEREF(__pyx_t_1);
+    PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_1);
+    __Pyx_INCREF(__pyx_int_2);
+    __Pyx_GIVEREF(__pyx_int_2);
+    PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_int_2);
+    __pyx_t_1 = 0;
+    __pyx_t_1 = PyTuple_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 566, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_GIVEREF(__pyx_t_4);
+    PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_4);
+    __pyx_t_4 = 0;
+    __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 566, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 566, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_n_s_int32); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 566, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_dtype, __pyx_t_3) < 0) __PYX_ERR(0, 566, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_1, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 566, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_v_sourcesepcircle = __pyx_t_3;
+    __pyx_t_3 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":567
+ *         sourcesepsize = getCircleSize(sourcesep)
+ *         sourcesepcircle = np.zeros((sourcesepsize,2),dtype=np.int32)
+ *         makePixelCircle(sourcesep,sourcesepcircle)             # <<<<<<<<<<<<<<
+ * 
+ *         img_median = np.median(img)
+ */
+    __pyx_t_22 = __Pyx_PyInt_As_int(__pyx_v_sourcesep); if (unlikely((__pyx_t_22 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 567, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_sourcesepcircle, PyBUF_WRITABLE); if (unlikely(!__pyx_t_17.memview)) __PYX_ERR(0, 567, __pyx_L1_error)
+    __pyx_t_3 = __pyx_f_11fastrometry_11cython_code_3PSE_makePixelCircle(__pyx_t_22, __pyx_t_17); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 567, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __PYX_XDEC_MEMVIEW(&__pyx_t_17, 1);
+    __pyx_t_17.memview = NULL;
+    __pyx_t_17.data = NULL;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "fastrometry/cython_code/PSE.pyx":486
- *     if debug >= 1:
- *         plt.imshow(occupymap)
- *         plt.colorbar()             # <<<<<<<<<<<<<<
- *         plt.show()
- *         plt.imshow(sindmap_initial)
+    /* "fastrometry/cython_code/PSE.pyx":569
+ *         makePixelCircle(sourcesep,sourcesepcircle)
+ * 
+ *         img_median = np.median(img)             # <<<<<<<<<<<<<<
+ *         img_max = np.max(img)
+ * 
  */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 486, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_colorbar); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 486, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_1 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_1);
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 569, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_median); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 569, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_t_4 = NULL;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_1);
+      if (likely(__pyx_t_4)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+        __Pyx_INCREF(__pyx_t_4);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
+        __Pyx_DECREF_SET(__pyx_t_1, function);
       }
     }
-    __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_1) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 486, __pyx_L1_error)
+    __pyx_t_3 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_4, __pyx_v_img) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_img);
+    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 569, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_v_img_median = __pyx_t_3;
+    __pyx_t_3 = 0;
 
-    /* "fastrometry/cython_code/PSE.pyx":487
- *         plt.imshow(occupymap)
- *         plt.colorbar()
- *         plt.show()             # <<<<<<<<<<<<<<
- *         plt.imshow(sindmap_initial)
- *         plt.colorbar()
+    /* "fastrometry/cython_code/PSE.pyx":570
+ * 
+ *         img_median = np.median(img)
+ *         img_max = np.max(img)             # <<<<<<<<<<<<<<
+ * 
+ *         if verbosity == 2:
  */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 487, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_show); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 487, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 570, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_max); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 570, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_1 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
+      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_4);
       if (likely(__pyx_t_1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
         __Pyx_INCREF(__pyx_t_1);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
+        __Pyx_DECREF_SET(__pyx_t_4, function);
       }
     }
-    __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_1) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
+    __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_1, __pyx_v_img) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_v_img);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 487, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 570, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_v_img_max = __pyx_t_3;
+    __pyx_t_3 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":572
+ *         img_max = np.max(img)
+ * 
+ *         if verbosity == 2:             # <<<<<<<<<<<<<<
+ *             print("| Median amplitude: {}".format(img_median))
+ *             print("| Max amplitude: {}".format(img_max))
+ */
+    __pyx_t_3 = __Pyx_PyInt_EqObjC(__pyx_v_verbosity, __pyx_int_2, 2, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 572, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 572, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (__pyx_t_2) {
+
+      /* "fastrometry/cython_code/PSE.pyx":573
+ * 
+ *         if verbosity == 2:
+ *             print("| Median amplitude: {}".format(img_median))             # <<<<<<<<<<<<<<
+ *             print("| Max amplitude: {}".format(img_max))
+ * 
+ */
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Median_amplitude, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 573, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_1 = NULL;
+      if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+        __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_4);
+        if (likely(__pyx_t_1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+          __Pyx_INCREF(__pyx_t_1);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_4, function);
+        }
+      }
+      __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_1, __pyx_v_img_median) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_v_img_median);
+      __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 573, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 573, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":574
+ *         if verbosity == 2:
+ *             print("| Median amplitude: {}".format(img_median))
+ *             print("| Max amplitude: {}".format(img_max))             # <<<<<<<<<<<<<<
+ * 
+ *         if verbosity >= 1:
+ */
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Max_amplitude, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 574, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_1 = NULL;
+      if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+        __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_4);
+        if (likely(__pyx_t_1)) {
+          PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+          __Pyx_INCREF(__pyx_t_1);
+          __Pyx_INCREF(function);
+          __Pyx_DECREF_SET(__pyx_t_4, function);
+        }
+      }
+      __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_1, __pyx_v_img_max) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_v_img_max);
+      __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 574, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 574, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":572
+ *         img_max = np.max(img)
+ * 
+ *         if verbosity == 2:             # <<<<<<<<<<<<<<
+ *             print("| Median amplitude: {}".format(img_median))
+ *             print("| Max amplitude: {}".format(img_max))
+ */
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":576
+ *             print("| Max amplitude: {}".format(img_max))
+ * 
+ *         if verbosity >= 1:             # <<<<<<<<<<<<<<
+ *             print("| Finding remaining sources...")
+ *         curr_sind = mapRemainingSources(img, img_xmax, img_ymax, img_max, img_median, roi, pse_metadata, bgmap, srcindexmap_initial, srcindexmap_refine, occupymap, kernelrad, kernelcircle, kernelsize, sourcesep, sourcesepcircle, sourcesepsize, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)
+ */
+    __pyx_t_3 = PyObject_RichCompare(__pyx_v_verbosity, __pyx_int_1, Py_GE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 576, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 576, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (__pyx_t_2) {
+
+      /* "fastrometry/cython_code/PSE.pyx":577
+ * 
+ *         if verbosity >= 1:
+ *             print("| Finding remaining sources...")             # <<<<<<<<<<<<<<
+ *         curr_sind = mapRemainingSources(img, img_xmax, img_ymax, img_max, img_median, roi, pse_metadata, bgmap, srcindexmap_initial, srcindexmap_refine, occupymap, kernelrad, kernelcircle, kernelsize, sourcesep, sourcesepcircle, sourcesepsize, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)
+ *         if curr_sind < nrefinepts:
+ */
+      if (__Pyx_PrintOne(0, __pyx_kp_s_Finding_remaining_sources) < 0) __PYX_ERR(0, 577, __pyx_L1_error)
+
+      /* "fastrometry/cython_code/PSE.pyx":576
+ *             print("| Max amplitude: {}".format(img_max))
+ * 
+ *         if verbosity >= 1:             # <<<<<<<<<<<<<<
+ *             print("| Finding remaining sources...")
+ *         curr_sind = mapRemainingSources(img, img_xmax, img_ymax, img_max, img_median, roi, pse_metadata, bgmap, srcindexmap_initial, srcindexmap_refine, occupymap, kernelrad, kernelcircle, kernelsize, sourcesep, sourcesepcircle, sourcesepsize, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)
+ */
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":578
+ *         if verbosity >= 1:
+ *             print("| Finding remaining sources...")
+ *         curr_sind = mapRemainingSources(img, img_xmax, img_ymax, img_max, img_median, roi, pse_metadata, bgmap, srcindexmap_initial, srcindexmap_refine, occupymap, kernelrad, kernelcircle, kernelsize, sourcesep, sourcesepcircle, sourcesepsize, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)             # <<<<<<<<<<<<<<
+ *         if curr_sind < nrefinepts:
+ *             if verbosity >= 1:
+ */
+    __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(__pyx_v_img, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_22 = __Pyx_PyInt_As_int(__pyx_v_img_xmax); if (unlikely((__pyx_t_22 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_21 = __Pyx_PyInt_As_int(__pyx_v_img_ymax); if (unlikely((__pyx_t_21 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_18 = __pyx_PyFloat_AsDouble(__pyx_v_img_max); if (unlikely((__pyx_t_18 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_23 = __pyx_PyFloat_AsDouble(__pyx_v_img_median); if (unlikely((__pyx_t_23 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_roi, PyBUF_WRITABLE); if (unlikely(!__pyx_t_17.memview)) __PYX_ERR(0, 578, __pyx_L1_error)
+    if (!(likely(((__pyx_v_pse_metadata) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_pse_metadata, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_to_MemoryviewSlice_dsds_double(__pyx_v_bgmap, PyBUF_WRITABLE); if (unlikely(!__pyx_t_11.memview)) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_16 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_srcindexmap_initial, PyBUF_WRITABLE); if (unlikely(!__pyx_t_16.memview)) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_15 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_srcindexmap_refine, PyBUF_WRITABLE); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_occupymap, PyBUF_WRITABLE); if (unlikely(!__pyx_t_7.memview)) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_20 = __Pyx_PyInt_As_int(__pyx_v_kernelrad); if (unlikely((__pyx_t_20 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_24 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_kernelcircle, PyBUF_WRITABLE); if (unlikely(!__pyx_t_24.memview)) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_19 = __Pyx_PyInt_As_int(__pyx_v_sourcesep); if (unlikely((__pyx_t_19 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_25 = __Pyx_PyObject_to_MemoryviewSlice_dsds_int(__pyx_v_sourcesepcircle, PyBUF_WRITABLE); if (unlikely(!__pyx_t_25.memview)) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_npts); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyInt_As_int(__pyx_v_nrefinepts); if (unlikely((__pyx_t_9 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 578, __pyx_L1_error)
+    if (!(likely(PyString_CheckExact(__pyx_v_user_dir))||((__pyx_v_user_dir) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "str", Py_TYPE(__pyx_v_user_dir)->tp_name), 0))) __PYX_ERR(0, 578, __pyx_L1_error)
+    if (!(likely(PyString_CheckExact(__pyx_v_debug_report))||((__pyx_v_debug_report) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "str", Py_TYPE(__pyx_v_debug_report)->tp_name), 0))) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyInt_As_int(__pyx_v_verbosity); if (unlikely((__pyx_t_8 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_t_26 = __Pyx_PyInt_As_int(__pyx_v_debug); if (unlikely((__pyx_t_26 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 578, __pyx_L1_error)
+    __pyx_v_curr_sind = __pyx_f_11fastrometry_11cython_code_3PSE_mapRemainingSources(__pyx_t_12, __pyx_t_22, __pyx_t_21, __pyx_t_18, __pyx_t_23, __pyx_t_17, ((PyArrayObject *)__pyx_v_pse_metadata), __pyx_t_11, __pyx_t_16, __pyx_t_15, __pyx_t_7, __pyx_t_20, __pyx_t_24, __pyx_v_kernelsize, __pyx_t_19, __pyx_t_25, __pyx_v_sourcesepsize, __pyx_t_10, __pyx_t_9, __pyx_v_curr_sind, ((PyObject*)__pyx_v_user_dir), ((PyObject*)__pyx_v_debug_report), __pyx_t_8, __pyx_t_26);
+    __PYX_XDEC_MEMVIEW(&__pyx_t_12, 1);
+    __pyx_t_12.memview = NULL;
+    __pyx_t_12.data = NULL;
+    __PYX_XDEC_MEMVIEW(&__pyx_t_17, 1);
+    __pyx_t_17.memview = NULL;
+    __pyx_t_17.data = NULL;
+    __PYX_XDEC_MEMVIEW(&__pyx_t_11, 1);
+    __pyx_t_11.memview = NULL;
+    __pyx_t_11.data = NULL;
+    __PYX_XDEC_MEMVIEW(&__pyx_t_16, 1);
+    __pyx_t_16.memview = NULL;
+    __pyx_t_16.data = NULL;
+    __PYX_XDEC_MEMVIEW(&__pyx_t_15, 1);
+    __pyx_t_15.memview = NULL;
+    __pyx_t_15.data = NULL;
+    __PYX_XDEC_MEMVIEW(&__pyx_t_7, 1);
+    __pyx_t_7.memview = NULL;
+    __pyx_t_7.data = NULL;
+    __PYX_XDEC_MEMVIEW(&__pyx_t_24, 1);
+    __pyx_t_24.memview = NULL;
+    __pyx_t_24.data = NULL;
+    __PYX_XDEC_MEMVIEW(&__pyx_t_25, 1);
+    __pyx_t_25.memview = NULL;
+    __pyx_t_25.data = NULL;
+
+    /* "fastrometry/cython_code/PSE.pyx":579
+ *             print("| Finding remaining sources...")
+ *         curr_sind = mapRemainingSources(img, img_xmax, img_ymax, img_max, img_median, roi, pse_metadata, bgmap, srcindexmap_initial, srcindexmap_refine, occupymap, kernelrad, kernelcircle, kernelsize, sourcesep, sourcesepcircle, sourcesepsize, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)
+ *         if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
+ *             if verbosity >= 1:
+ *                 print("| | Unsuccessful at finding {} sources. Found {} sources.".format(nrefinepts, curr_sind))
+ */
+    __pyx_t_3 = __Pyx_PyInt_From_long(__pyx_v_curr_sind); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 579, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_4 = PyObject_RichCompare(__pyx_t_3, __pyx_v_nrefinepts, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 579, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 579, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    if (__pyx_t_2) {
+
+      /* "fastrometry/cython_code/PSE.pyx":580
+ *         curr_sind = mapRemainingSources(img, img_xmax, img_ymax, img_max, img_median, roi, pse_metadata, bgmap, srcindexmap_initial, srcindexmap_refine, occupymap, kernelrad, kernelcircle, kernelsize, sourcesep, sourcesepcircle, sourcesepsize, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)
+ *         if curr_sind < nrefinepts:
+ *             if verbosity >= 1:             # <<<<<<<<<<<<<<
+ *                 print("| | Unsuccessful at finding {} sources. Found {} sources.".format(nrefinepts, curr_sind))
+ *                 if debug:
+ */
+      __pyx_t_4 = PyObject_RichCompare(__pyx_v_verbosity, __pyx_int_1, Py_GE); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 580, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 580, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      if (__pyx_t_2) {
+
+        /* "fastrometry/cython_code/PSE.pyx":581
+ *         if curr_sind < nrefinepts:
+ *             if verbosity >= 1:
+ *                 print("| | Unsuccessful at finding {} sources. Found {} sources.".format(nrefinepts, curr_sind))             # <<<<<<<<<<<<<<
+ *                 if debug:
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ */
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Unsuccessful_at_finding_sources, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 581, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_3);
+        __pyx_t_1 = __Pyx_PyInt_From_long(__pyx_v_curr_sind); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 581, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_1);
+        __pyx_t_5 = NULL;
+        __pyx_t_26 = 0;
+        if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+          __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_3);
+          if (likely(__pyx_t_5)) {
+            PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+            __Pyx_INCREF(__pyx_t_5);
+            __Pyx_INCREF(function);
+            __Pyx_DECREF_SET(__pyx_t_3, function);
+            __pyx_t_26 = 1;
+          }
+        }
+        #if CYTHON_FAST_PYCALL
+        if (PyFunction_Check(__pyx_t_3)) {
+          PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_nrefinepts, __pyx_t_1};
+          __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_26, 2+__pyx_t_26); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 581, __pyx_L1_error)
+          __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+          __Pyx_GOTREF(__pyx_t_4);
+          __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+        } else
+        #endif
+        #if CYTHON_FAST_PYCCALL
+        if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
+          PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_nrefinepts, __pyx_t_1};
+          __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_26, 2+__pyx_t_26); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 581, __pyx_L1_error)
+          __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+          __Pyx_GOTREF(__pyx_t_4);
+          __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+        } else
+        #endif
+        {
+          __pyx_t_14 = PyTuple_New(2+__pyx_t_26); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 581, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_14);
+          if (__pyx_t_5) {
+            __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_t_5); __pyx_t_5 = NULL;
+          }
+          __Pyx_INCREF(__pyx_v_nrefinepts);
+          __Pyx_GIVEREF(__pyx_v_nrefinepts);
+          PyTuple_SET_ITEM(__pyx_t_14, 0+__pyx_t_26, __pyx_v_nrefinepts);
+          __Pyx_GIVEREF(__pyx_t_1);
+          PyTuple_SET_ITEM(__pyx_t_14, 1+__pyx_t_26, __pyx_t_1);
+          __pyx_t_1 = 0;
+          __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_14, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 581, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_4);
+          __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+        }
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+        if (__Pyx_PrintOne(0, __pyx_t_4) < 0) __PYX_ERR(0, 581, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+        /* "fastrometry/cython_code/PSE.pyx":582
+ *             if verbosity >= 1:
+ *                 print("| | Unsuccessful at finding {} sources. Found {} sources.".format(nrefinepts, curr_sind))
+ *                 if debug:             # <<<<<<<<<<<<<<
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ *                     debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ */
+        __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_debug); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 582, __pyx_L1_error)
+        if (__pyx_t_2) {
+
+          /* "fastrometry/cython_code/PSE.pyx":583
+ *                 print("| | Unsuccessful at finding {} sources. Found {} sources.".format(nrefinepts, curr_sind))
+ *                 if debug:
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)             # <<<<<<<<<<<<<<
+ *                     debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the WCS solution.".format(nrefinepts)
+ */
+          __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_The_occupied_source_kernels_for, __pyx_n_s_format); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 583, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_3);
+          __pyx_t_14 = NULL;
+          if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+            __pyx_t_14 = PyMethod_GET_SELF(__pyx_t_3);
+            if (likely(__pyx_t_14)) {
+              PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+              __Pyx_INCREF(__pyx_t_14);
+              __Pyx_INCREF(function);
+              __Pyx_DECREF_SET(__pyx_t_3, function);
+            }
+          }
+          __pyx_t_4 = (__pyx_t_14) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_14, __pyx_v_npts) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_npts);
+          __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 583, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_4);
+          __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+          __Pyx_XDECREF_SET(__pyx_v_description, __pyx_t_4);
+          __pyx_t_4 = 0;
+
+          /* "fastrometry/cython_code/PSE.pyx":584
+ *                 if debug:
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ *                     debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])             # <<<<<<<<<<<<<<
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the WCS solution.".format(nrefinepts)
+ *                     debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])
+ */
+          __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_debuggerPlot); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 584, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_4);
+          __pyx_t_3 = PyTuple_New(4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 584, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_3);
+          __Pyx_INCREF(__pyx_v_srcindexmap_initial);
+          __Pyx_GIVEREF(__pyx_v_srcindexmap_initial);
+          PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_v_srcindexmap_initial);
+          __Pyx_INCREF(__pyx_v_user_dir);
+          __Pyx_GIVEREF(__pyx_v_user_dir);
+          PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_v_user_dir);
+          __Pyx_INCREF(__pyx_v_debug_report);
+          __Pyx_GIVEREF(__pyx_v_debug_report);
+          PyTuple_SET_ITEM(__pyx_t_3, 2, __pyx_v_debug_report);
+          __Pyx_INCREF(__pyx_kp_s_srcindexmap_initial_png);
+          __Pyx_GIVEREF(__pyx_kp_s_srcindexmap_initial_png);
+          PyTuple_SET_ITEM(__pyx_t_3, 3, __pyx_kp_s_srcindexmap_initial_png);
+          __pyx_t_14 = __Pyx_PyDict_NewPresized(7); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 584, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_14);
+          if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_bottom, __pyx_float_0_2) < 0) __PYX_ERR(0, 584, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_title, __pyx_n_s_srcindexmap_initial) < 0) __PYX_ERR(0, 584, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_dscrp, __pyx_v_description) < 0) __PYX_ERR(0, 584, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_bmargin, __pyx_float_0_07) < 0) __PYX_ERR(0, 584, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_disable_console, Py_True) < 0) __PYX_ERR(0, 584, __pyx_L1_error)
+          __pyx_t_1 = PyList_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 584, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_1);
+          __Pyx_INCREF(__pyx_n_s_blue);
+          __Pyx_GIVEREF(__pyx_n_s_blue);
+          PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_blue);
+          __Pyx_INCREF(__pyx_n_s_yellow);
+          __Pyx_GIVEREF(__pyx_n_s_yellow);
+          PyList_SET_ITEM(__pyx_t_1, 1, __pyx_n_s_yellow);
+          if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_collist, __pyx_t_1) < 0) __PYX_ERR(0, 584, __pyx_L1_error)
+          __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+          __pyx_t_1 = PyList_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 584, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_1);
+          __Pyx_INCREF(__pyx_int_neg_1);
+          __Pyx_GIVEREF(__pyx_int_neg_1);
+          PyList_SET_ITEM(__pyx_t_1, 0, __pyx_int_neg_1);
+          __Pyx_INCREF(__pyx_int_0);
+          __Pyx_GIVEREF(__pyx_int_0);
+          PyList_SET_ITEM(__pyx_t_1, 1, __pyx_int_0);
+          __Pyx_INCREF(__pyx_v_npts);
+          __Pyx_GIVEREF(__pyx_v_npts);
+          PyList_SET_ITEM(__pyx_t_1, 2, __pyx_v_npts);
+          if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_boundslist, __pyx_t_1) < 0) __PYX_ERR(0, 584, __pyx_L1_error)
+          __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+          __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_14); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 584, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_1);
+          __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+          __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+          __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+          __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+          /* "fastrometry/cython_code/PSE.pyx":585
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ *                     debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the WCS solution.".format(nrefinepts)             # <<<<<<<<<<<<<<
+ *                     debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])
+ *                 print("| done")
+ */
+          __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_The_occupied_source_kernels_for_2, __pyx_n_s_format); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 585, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_14);
+          __pyx_t_3 = NULL;
+          if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_14))) {
+            __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_14);
+            if (likely(__pyx_t_3)) {
+              PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_14);
+              __Pyx_INCREF(__pyx_t_3);
+              __Pyx_INCREF(function);
+              __Pyx_DECREF_SET(__pyx_t_14, function);
+            }
+          }
+          __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_14, __pyx_t_3, __pyx_v_nrefinepts) : __Pyx_PyObject_CallOneArg(__pyx_t_14, __pyx_v_nrefinepts);
+          __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+          if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 585, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_1);
+          __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+          __Pyx_DECREF_SET(__pyx_v_description, __pyx_t_1);
+          __pyx_t_1 = 0;
+
+          /* "fastrometry/cython_code/PSE.pyx":586
+ *                     debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the WCS solution.".format(nrefinepts)
+ *                     debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])             # <<<<<<<<<<<<<<
+ *                 print("| done")
+ *             num_psesources = curr_sind
+ */
+          __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_debuggerPlot); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 586, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_1);
+          __pyx_t_14 = PyTuple_New(4); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 586, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_14);
+          __Pyx_INCREF(__pyx_v_srcindexmap_refine);
+          __Pyx_GIVEREF(__pyx_v_srcindexmap_refine);
+          PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_v_srcindexmap_refine);
+          __Pyx_INCREF(__pyx_v_user_dir);
+          __Pyx_GIVEREF(__pyx_v_user_dir);
+          PyTuple_SET_ITEM(__pyx_t_14, 1, __pyx_v_user_dir);
+          __Pyx_INCREF(__pyx_v_debug_report);
+          __Pyx_GIVEREF(__pyx_v_debug_report);
+          PyTuple_SET_ITEM(__pyx_t_14, 2, __pyx_v_debug_report);
+          __Pyx_INCREF(__pyx_kp_s_srcindexmap_refine_png);
+          __Pyx_GIVEREF(__pyx_kp_s_srcindexmap_refine_png);
+          PyTuple_SET_ITEM(__pyx_t_14, 3, __pyx_kp_s_srcindexmap_refine_png);
+          __pyx_t_3 = __Pyx_PyDict_NewPresized(7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 586, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_3);
+          if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_bottom, __pyx_float_0_2) < 0) __PYX_ERR(0, 586, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_title, __pyx_n_s_srcindexmap_refine) < 0) __PYX_ERR(0, 586, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_dscrp, __pyx_v_description) < 0) __PYX_ERR(0, 586, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_bmargin, __pyx_float_0_07) < 0) __PYX_ERR(0, 586, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_disable_console, Py_True) < 0) __PYX_ERR(0, 586, __pyx_L1_error)
+          __pyx_t_4 = PyList_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 586, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_4);
+          __Pyx_INCREF(__pyx_n_s_blue);
+          __Pyx_GIVEREF(__pyx_n_s_blue);
+          PyList_SET_ITEM(__pyx_t_4, 0, __pyx_n_s_blue);
+          __Pyx_INCREF(__pyx_n_s_yellow);
+          __Pyx_GIVEREF(__pyx_n_s_yellow);
+          PyList_SET_ITEM(__pyx_t_4, 1, __pyx_n_s_yellow);
+          if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_collist, __pyx_t_4) < 0) __PYX_ERR(0, 586, __pyx_L1_error)
+          __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+          __pyx_t_4 = PyList_New(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 586, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_4);
+          __Pyx_INCREF(__pyx_int_neg_1);
+          __Pyx_GIVEREF(__pyx_int_neg_1);
+          PyList_SET_ITEM(__pyx_t_4, 0, __pyx_int_neg_1);
+          __Pyx_INCREF(__pyx_int_0);
+          __Pyx_GIVEREF(__pyx_int_0);
+          PyList_SET_ITEM(__pyx_t_4, 1, __pyx_int_0);
+          __Pyx_INCREF(__pyx_v_nrefinepts);
+          __Pyx_GIVEREF(__pyx_v_nrefinepts);
+          PyList_SET_ITEM(__pyx_t_4, 2, __pyx_v_nrefinepts);
+          if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_boundslist, __pyx_t_4) < 0) __PYX_ERR(0, 586, __pyx_L1_error)
+          __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+          __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_14, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 586, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_4);
+          __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+          __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+          __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+          __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+          /* "fastrometry/cython_code/PSE.pyx":582
+ *             if verbosity >= 1:
+ *                 print("| | Unsuccessful at finding {} sources. Found {} sources.".format(nrefinepts, curr_sind))
+ *                 if debug:             # <<<<<<<<<<<<<<
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ *                     debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ */
+        }
+
+        /* "fastrometry/cython_code/PSE.pyx":587
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the WCS solution.".format(nrefinepts)
+ *                     debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])
+ *                 print("| done")             # <<<<<<<<<<<<<<
+ *             num_psesources = curr_sind
+ *         elif curr_sind >= nrefinepts:
+ */
+        if (__Pyx_PrintOne(0, __pyx_kp_s_done_2) < 0) __PYX_ERR(0, 587, __pyx_L1_error)
+
+        /* "fastrometry/cython_code/PSE.pyx":580
+ *         curr_sind = mapRemainingSources(img, img_xmax, img_ymax, img_max, img_median, roi, pse_metadata, bgmap, srcindexmap_initial, srcindexmap_refine, occupymap, kernelrad, kernelcircle, kernelsize, sourcesep, sourcesepcircle, sourcesepsize, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)
+ *         if curr_sind < nrefinepts:
+ *             if verbosity >= 1:             # <<<<<<<<<<<<<<
+ *                 print("| | Unsuccessful at finding {} sources. Found {} sources.".format(nrefinepts, curr_sind))
+ *                 if debug:
+ */
+      }
+
+      /* "fastrometry/cython_code/PSE.pyx":588
+ *                     debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])
+ *                 print("| done")
+ *             num_psesources = curr_sind             # <<<<<<<<<<<<<<
+ *         elif curr_sind >= nrefinepts:
+ *             if verbosity >= 1:
+ */
+      __pyx_t_4 = __Pyx_PyInt_From_long(__pyx_v_curr_sind); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 588, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_DECREF_SET(__pyx_v_num_psesources, __pyx_t_4);
+      __pyx_t_4 = 0;
+
+      /* "fastrometry/cython_code/PSE.pyx":579
+ *             print("| Finding remaining sources...")
+ *         curr_sind = mapRemainingSources(img, img_xmax, img_ymax, img_max, img_median, roi, pse_metadata, bgmap, srcindexmap_initial, srcindexmap_refine, occupymap, kernelrad, kernelcircle, kernelsize, sourcesep, sourcesepcircle, sourcesepsize, npts, nrefinepts, curr_sind, user_dir, debug_report, verbosity, debug)
+ *         if curr_sind < nrefinepts:             # <<<<<<<<<<<<<<
+ *             if verbosity >= 1:
+ *                 print("| | Unsuccessful at finding {} sources. Found {} sources.".format(nrefinepts, curr_sind))
+ */
+      goto __pyx_L17;
+    }
+
+    /* "fastrometry/cython_code/PSE.pyx":589
+ *                 print("| done")
+ *             num_psesources = curr_sind
+ *         elif curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
+ *             if verbosity >= 1:
+ *                 print("| | Found {} sources total. Trimmed to the {} brightest.".format(curr_sind, nrefinepts))
+ */
+    __pyx_t_4 = __Pyx_PyInt_From_long(__pyx_v_curr_sind); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 589, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_3 = PyObject_RichCompare(__pyx_t_4, __pyx_v_nrefinepts, Py_GE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 589, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 589, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (__pyx_t_2) {
+
+      /* "fastrometry/cython_code/PSE.pyx":590
+ *             num_psesources = curr_sind
+ *         elif curr_sind >= nrefinepts:
+ *             if verbosity >= 1:             # <<<<<<<<<<<<<<
+ *                 print("| | Found {} sources total. Trimmed to the {} brightest.".format(curr_sind, nrefinepts))
+ *                 if debug:
+ */
+      __pyx_t_3 = PyObject_RichCompare(__pyx_v_verbosity, __pyx_int_1, Py_GE); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 590, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 590, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      if (__pyx_t_2) {
+
+        /* "fastrometry/cython_code/PSE.pyx":591
+ *         elif curr_sind >= nrefinepts:
+ *             if verbosity >= 1:
+ *                 print("| | Found {} sources total. Trimmed to the {} brightest.".format(curr_sind, nrefinepts))             # <<<<<<<<<<<<<<
+ *                 if debug:
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ */
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_Found_sources_total_Trimmed_to, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 591, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __pyx_t_14 = __Pyx_PyInt_From_long(__pyx_v_curr_sind); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 591, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_14);
+        __pyx_t_1 = NULL;
+        __pyx_t_26 = 0;
+        if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+          __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_4);
+          if (likely(__pyx_t_1)) {
+            PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+            __Pyx_INCREF(__pyx_t_1);
+            __Pyx_INCREF(function);
+            __Pyx_DECREF_SET(__pyx_t_4, function);
+            __pyx_t_26 = 1;
+          }
+        }
+        #if CYTHON_FAST_PYCALL
+        if (PyFunction_Check(__pyx_t_4)) {
+          PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_t_14, __pyx_v_nrefinepts};
+          __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_26, 2+__pyx_t_26); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 591, __pyx_L1_error)
+          __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+          __Pyx_GOTREF(__pyx_t_3);
+          __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+        } else
+        #endif
+        #if CYTHON_FAST_PYCCALL
+        if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
+          PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_t_14, __pyx_v_nrefinepts};
+          __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_26, 2+__pyx_t_26); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 591, __pyx_L1_error)
+          __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+          __Pyx_GOTREF(__pyx_t_3);
+          __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+        } else
+        #endif
+        {
+          __pyx_t_5 = PyTuple_New(2+__pyx_t_26); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 591, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_5);
+          if (__pyx_t_1) {
+            __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_1); __pyx_t_1 = NULL;
+          }
+          __Pyx_GIVEREF(__pyx_t_14);
+          PyTuple_SET_ITEM(__pyx_t_5, 0+__pyx_t_26, __pyx_t_14);
+          __Pyx_INCREF(__pyx_v_nrefinepts);
+          __Pyx_GIVEREF(__pyx_v_nrefinepts);
+          PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_26, __pyx_v_nrefinepts);
+          __pyx_t_14 = 0;
+          __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_5, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 591, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_3);
+          __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+        }
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 591, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+        /* "fastrometry/cython_code/PSE.pyx":592
+ *             if verbosity >= 1:
+ *                 print("| | Found {} sources total. Trimmed to the {} brightest.".format(curr_sind, nrefinepts))
+ *                 if debug:             # <<<<<<<<<<<<<<
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ *                     debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ */
+        __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_debug); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 592, __pyx_L1_error)
+        if (__pyx_t_2) {
+
+          /* "fastrometry/cython_code/PSE.pyx":593
+ *                 print("| | Found {} sources total. Trimmed to the {} brightest.".format(curr_sind, nrefinepts))
+ *                 if debug:
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)             # <<<<<<<<<<<<<<
+ *                     debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the initial WCS solution.".format(nrefinepts)
+ */
+          __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_The_occupied_source_kernels_for, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 593, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_4);
+          __pyx_t_5 = NULL;
+          if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+            __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_4);
+            if (likely(__pyx_t_5)) {
+              PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
+              __Pyx_INCREF(__pyx_t_5);
+              __Pyx_INCREF(function);
+              __Pyx_DECREF_SET(__pyx_t_4, function);
+            }
+          }
+          __pyx_t_3 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_v_npts) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_v_npts);
+          __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+          if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 593, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_3);
+          __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+          __Pyx_XDECREF_SET(__pyx_v_description, __pyx_t_3);
+          __pyx_t_3 = 0;
+
+          /* "fastrometry/cython_code/PSE.pyx":594
+ *                 if debug:
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ *                     debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])             # <<<<<<<<<<<<<<
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the initial WCS solution.".format(nrefinepts)
+ *                     debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])
+ */
+          __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_debuggerPlot); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 594, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_3);
+          __pyx_t_4 = PyTuple_New(4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 594, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_4);
+          __Pyx_INCREF(__pyx_v_srcindexmap_initial);
+          __Pyx_GIVEREF(__pyx_v_srcindexmap_initial);
+          PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_v_srcindexmap_initial);
+          __Pyx_INCREF(__pyx_v_user_dir);
+          __Pyx_GIVEREF(__pyx_v_user_dir);
+          PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_v_user_dir);
+          __Pyx_INCREF(__pyx_v_debug_report);
+          __Pyx_GIVEREF(__pyx_v_debug_report);
+          PyTuple_SET_ITEM(__pyx_t_4, 2, __pyx_v_debug_report);
+          __Pyx_INCREF(__pyx_kp_s_srcindexmap_initial_png);
+          __Pyx_GIVEREF(__pyx_kp_s_srcindexmap_initial_png);
+          PyTuple_SET_ITEM(__pyx_t_4, 3, __pyx_kp_s_srcindexmap_initial_png);
+          __pyx_t_5 = __Pyx_PyDict_NewPresized(7); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 594, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_5);
+          if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_bottom, __pyx_float_0_2) < 0) __PYX_ERR(0, 594, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_title, __pyx_n_s_srcindexmap_initial) < 0) __PYX_ERR(0, 594, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_dscrp, __pyx_v_description) < 0) __PYX_ERR(0, 594, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_bmargin, __pyx_float_0_07) < 0) __PYX_ERR(0, 594, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_disable_console, Py_True) < 0) __PYX_ERR(0, 594, __pyx_L1_error)
+          __pyx_t_14 = PyList_New(2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 594, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_14);
+          __Pyx_INCREF(__pyx_n_s_blue);
+          __Pyx_GIVEREF(__pyx_n_s_blue);
+          PyList_SET_ITEM(__pyx_t_14, 0, __pyx_n_s_blue);
+          __Pyx_INCREF(__pyx_n_s_yellow);
+          __Pyx_GIVEREF(__pyx_n_s_yellow);
+          PyList_SET_ITEM(__pyx_t_14, 1, __pyx_n_s_yellow);
+          if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_collist, __pyx_t_14) < 0) __PYX_ERR(0, 594, __pyx_L1_error)
+          __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+          __pyx_t_14 = PyList_New(3); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 594, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_14);
+          __Pyx_INCREF(__pyx_int_neg_1);
+          __Pyx_GIVEREF(__pyx_int_neg_1);
+          PyList_SET_ITEM(__pyx_t_14, 0, __pyx_int_neg_1);
+          __Pyx_INCREF(__pyx_int_0);
+          __Pyx_GIVEREF(__pyx_int_0);
+          PyList_SET_ITEM(__pyx_t_14, 1, __pyx_int_0);
+          __Pyx_INCREF(__pyx_v_npts);
+          __Pyx_GIVEREF(__pyx_v_npts);
+          PyList_SET_ITEM(__pyx_t_14, 2, __pyx_v_npts);
+          if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_boundslist, __pyx_t_14) < 0) __PYX_ERR(0, 594, __pyx_L1_error)
+          __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+          __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_4, __pyx_t_5); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 594, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_14);
+          __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+          __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+          __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+          __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+
+          /* "fastrometry/cython_code/PSE.pyx":595
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ *                     debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the initial WCS solution.".format(nrefinepts)             # <<<<<<<<<<<<<<
+ *                     debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])
+ *                 print("| done")
+ */
+          __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s_The_occupied_source_kernels_for_3, __pyx_n_s_format); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 595, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_5);
+          __pyx_t_4 = NULL;
+          if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
+            __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_5);
+            if (likely(__pyx_t_4)) {
+              PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+              __Pyx_INCREF(__pyx_t_4);
+              __Pyx_INCREF(function);
+              __Pyx_DECREF_SET(__pyx_t_5, function);
+            }
+          }
+          __pyx_t_14 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_4, __pyx_v_nrefinepts) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_nrefinepts);
+          __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+          if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 595, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_14);
+          __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+          __Pyx_DECREF_SET(__pyx_v_description, __pyx_t_14);
+          __pyx_t_14 = 0;
+
+          /* "fastrometry/cython_code/PSE.pyx":596
+ *                     debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the initial WCS solution.".format(nrefinepts)
+ *                     debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])             # <<<<<<<<<<<<<<
+ *                 print("| done")
+ *             num_psesources = nrefinepts
+ */
+          __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_n_s_debuggerPlot); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 596, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_14);
+          __pyx_t_5 = PyTuple_New(4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 596, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_5);
+          __Pyx_INCREF(__pyx_v_srcindexmap_refine);
+          __Pyx_GIVEREF(__pyx_v_srcindexmap_refine);
+          PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_v_srcindexmap_refine);
+          __Pyx_INCREF(__pyx_v_user_dir);
+          __Pyx_GIVEREF(__pyx_v_user_dir);
+          PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_v_user_dir);
+          __Pyx_INCREF(__pyx_v_debug_report);
+          __Pyx_GIVEREF(__pyx_v_debug_report);
+          PyTuple_SET_ITEM(__pyx_t_5, 2, __pyx_v_debug_report);
+          __Pyx_INCREF(__pyx_kp_s_srcindexmap_refine_png);
+          __Pyx_GIVEREF(__pyx_kp_s_srcindexmap_refine_png);
+          PyTuple_SET_ITEM(__pyx_t_5, 3, __pyx_kp_s_srcindexmap_refine_png);
+          __pyx_t_4 = __Pyx_PyDict_NewPresized(7); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 596, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_4);
+          if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_bottom, __pyx_float_0_2) < 0) __PYX_ERR(0, 596, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_title, __pyx_n_s_srcindexmap_refine) < 0) __PYX_ERR(0, 596, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_dscrp, __pyx_v_description) < 0) __PYX_ERR(0, 596, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_bmargin, __pyx_float_0_07) < 0) __PYX_ERR(0, 596, __pyx_L1_error)
+          if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_disable_console, Py_True) < 0) __PYX_ERR(0, 596, __pyx_L1_error)
+          __pyx_t_3 = PyList_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 596, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_3);
+          __Pyx_INCREF(__pyx_n_s_blue);
+          __Pyx_GIVEREF(__pyx_n_s_blue);
+          PyList_SET_ITEM(__pyx_t_3, 0, __pyx_n_s_blue);
+          __Pyx_INCREF(__pyx_n_s_yellow);
+          __Pyx_GIVEREF(__pyx_n_s_yellow);
+          PyList_SET_ITEM(__pyx_t_3, 1, __pyx_n_s_yellow);
+          if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_collist, __pyx_t_3) < 0) __PYX_ERR(0, 596, __pyx_L1_error)
+          __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+          __pyx_t_3 = PyList_New(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 596, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_3);
+          __Pyx_INCREF(__pyx_int_neg_1);
+          __Pyx_GIVEREF(__pyx_int_neg_1);
+          PyList_SET_ITEM(__pyx_t_3, 0, __pyx_int_neg_1);
+          __Pyx_INCREF(__pyx_int_0);
+          __Pyx_GIVEREF(__pyx_int_0);
+          PyList_SET_ITEM(__pyx_t_3, 1, __pyx_int_0);
+          __Pyx_INCREF(__pyx_v_nrefinepts);
+          __Pyx_GIVEREF(__pyx_v_nrefinepts);
+          PyList_SET_ITEM(__pyx_t_3, 2, __pyx_v_nrefinepts);
+          if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_boundslist, __pyx_t_3) < 0) __PYX_ERR(0, 596, __pyx_L1_error)
+          __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+          __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_14, __pyx_t_5, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 596, __pyx_L1_error)
+          __Pyx_GOTREF(__pyx_t_3);
+          __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+          __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+          __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+          __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+          /* "fastrometry/cython_code/PSE.pyx":592
+ *             if verbosity >= 1:
+ *                 print("| | Found {} sources total. Trimmed to the {} brightest.".format(curr_sind, nrefinepts))
+ *                 if debug:             # <<<<<<<<<<<<<<
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to find an initial WCS solution.".format(npts)
+ *                     debuggerPlot(srcindexmap_initial, user_dir, debug_report, "srcindexmap_initial.png", bottom=0.2, title="srcindexmap_initial", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,npts])
+ */
+        }
+
+        /* "fastrometry/cython_code/PSE.pyx":597
+ *                     description = "The occupied source kernels for the top {} brightest sources \nin the image. Used to refine the initial WCS solution.".format(nrefinepts)
+ *                     debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])
+ *                 print("| done")             # <<<<<<<<<<<<<<
+ *             num_psesources = nrefinepts
+ * 
+ */
+        if (__Pyx_PrintOne(0, __pyx_kp_s_done_2) < 0) __PYX_ERR(0, 597, __pyx_L1_error)
+
+        /* "fastrometry/cython_code/PSE.pyx":590
+ *             num_psesources = curr_sind
+ *         elif curr_sind >= nrefinepts:
+ *             if verbosity >= 1:             # <<<<<<<<<<<<<<
+ *                 print("| | Found {} sources total. Trimmed to the {} brightest.".format(curr_sind, nrefinepts))
+ *                 if debug:
+ */
+      }
+
+      /* "fastrometry/cython_code/PSE.pyx":598
+ *                     debuggerPlot(srcindexmap_refine, user_dir, debug_report, "srcindexmap_refine.png", bottom=0.2, title="srcindexmap_refine", dscrp=description, bmargin=0.07, disable_console=True, collist=["blue","yellow"], boundslist=[-1,0,nrefinepts])
+ *                 print("| done")
+ *             num_psesources = nrefinepts             # <<<<<<<<<<<<<<
+ * 
+ *     if debug:
+ */
+      __Pyx_INCREF(__pyx_v_nrefinepts);
+      __Pyx_DECREF_SET(__pyx_v_num_psesources, __pyx_v_nrefinepts);
+
+      /* "fastrometry/cython_code/PSE.pyx":589
+ *                 print("| done")
+ *             num_psesources = curr_sind
+ *         elif curr_sind >= nrefinepts:             # <<<<<<<<<<<<<<
+ *             if verbosity >= 1:
+ *                 print("| | Found {} sources total. Trimmed to the {} brightest.".format(curr_sind, nrefinepts))
+ */
+    }
+    __pyx_L17:;
+
+    /* "fastrometry/cython_code/PSE.pyx":560
+ *         skipRemainingSources = True
+ * 
+ *     if skipRemainingSources is False:             # <<<<<<<<<<<<<<
+ *         kernelsize = getCircleSize(kernelrad)
+ *         kernelcircle = np.zeros((kernelsize,2),dtype=np.int32)
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":600
+ *             num_psesources = nrefinepts
+ * 
+ *     if debug:             # <<<<<<<<<<<<<<
+ *         np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata.csv",pse_metadata,delimiter=",")
+ * 
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_debug); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 600, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fastrometry/cython_code/PSE.pyx":601
+ * 
+ *     if debug:
+ *         np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata.csv",pse_metadata,delimiter=",")             # <<<<<<<<<<<<<<
+ * 
+ *     if debug:
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 601, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_savetxt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 601, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_3 = PyNumber_Add(__pyx_v_user_dir, __pyx_kp_s_debug); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 601, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_5 = PyNumber_Add(__pyx_t_3, __pyx_v_debug_report); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 601, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_3 = PyNumber_Add(__pyx_t_5, __pyx_kp_s_pse_metadata_csv); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 601, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 601, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_3);
+    __Pyx_INCREF(__pyx_v_pse_metadata);
+    __Pyx_GIVEREF(__pyx_v_pse_metadata);
+    PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_v_pse_metadata);
+    __pyx_t_3 = 0;
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 601, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_delimiter, __pyx_kp_s__9) < 0) __PYX_ERR(0, 601, __pyx_L1_error)
+    __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_5, __pyx_t_3); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 601, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":600
+ *             num_psesources = nrefinepts
+ * 
+ *     if debug:             # <<<<<<<<<<<<<<
+ *         np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata.csv",pse_metadata,delimiter=",")
+ * 
+ */
+  }
+
+  /* "fastrometry/cython_code/PSE.pyx":603
+ *         np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata.csv",pse_metadata,delimiter=",")
+ * 
+ *     if debug:             # <<<<<<<<<<<<<<
+ *         import matplotlib.pyplot as plt
+ *         from matplotlib.colors import LogNorm
+ */
+  __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_v_debug); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(0, 603, __pyx_L1_error)
+  if (__pyx_t_2) {
+
+    /* "fastrometry/cython_code/PSE.pyx":604
+ * 
+ *     if debug:
+ *         import matplotlib.pyplot as plt             # <<<<<<<<<<<<<<
+ *         from matplotlib.colors import LogNorm
+ *         from astropy.io import fits
+ */
+    __pyx_t_14 = PyList_New(1); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 604, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __Pyx_INCREF(__pyx_n_s__2);
+    __Pyx_GIVEREF(__pyx_n_s__2);
+    PyList_SET_ITEM(__pyx_t_14, 0, __pyx_n_s__2);
+    __pyx_t_3 = __Pyx_Import(__pyx_n_s_matplotlib_pyplot, __pyx_t_14, -1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 604, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    __pyx_v_plt = __pyx_t_3;
+    __pyx_t_3 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":605
+ *     if debug:
+ *         import matplotlib.pyplot as plt
+ *         from matplotlib.colors import LogNorm             # <<<<<<<<<<<<<<
+ *         from astropy.io import fits
+ *         plt.figure(figsize=(10,8))
+ */
+    __pyx_t_3 = PyList_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 605, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_INCREF(__pyx_n_s_LogNorm);
+    __Pyx_GIVEREF(__pyx_n_s_LogNorm);
+    PyList_SET_ITEM(__pyx_t_3, 0, __pyx_n_s_LogNorm);
+    __pyx_t_14 = __Pyx_Import(__pyx_n_s_matplotlib_colors, __pyx_t_3, -1); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 605, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_3 = __Pyx_ImportFrom(__pyx_t_14, __pyx_n_s_LogNorm); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 605, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_INCREF(__pyx_t_3);
+    __pyx_v_LogNorm = __pyx_t_3;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":606
+ *         import matplotlib.pyplot as plt
+ *         from matplotlib.colors import LogNorm
+ *         from astropy.io import fits             # <<<<<<<<<<<<<<
+ *         plt.figure(figsize=(10,8))
+ *         image_data = fits.getdata('{}\\{}'.format(user_dir,filename))
+ */
+    __pyx_t_14 = PyList_New(1); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 606, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __Pyx_INCREF(__pyx_n_s_fits);
+    __Pyx_GIVEREF(__pyx_n_s_fits);
+    PyList_SET_ITEM(__pyx_t_14, 0, __pyx_n_s_fits);
+    __pyx_t_3 = __Pyx_Import(__pyx_n_s_astropy_io, __pyx_t_14, -1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 606, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    __pyx_t_14 = __Pyx_ImportFrom(__pyx_t_3, __pyx_n_s_fits); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 606, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __Pyx_INCREF(__pyx_t_14);
+    __pyx_v_fits = __pyx_t_14;
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "fastrometry/cython_code/PSE.pyx":488
- *         plt.colorbar()
- *         plt.show()
- *         plt.imshow(sindmap_initial)             # <<<<<<<<<<<<<<
- *         plt.colorbar()
- *         plt.show()
+    /* "fastrometry/cython_code/PSE.pyx":607
+ *         from matplotlib.colors import LogNorm
+ *         from astropy.io import fits
+ *         plt.figure(figsize=(10,8))             # <<<<<<<<<<<<<<
+ *         image_data = fits.getdata('{}\\{}'.format(user_dir,filename))
+ *         plt.subplots_adjust(bottom=0.15)
  */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 488, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_imshow); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 488, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_figure); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 607, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_14 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 607, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_figsize, __pyx_tuple__10) < 0) __PYX_ERR(0, 607, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_14); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 607, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":608
+ *         from astropy.io import fits
+ *         plt.figure(figsize=(10,8))
+ *         image_data = fits.getdata('{}\\{}'.format(user_dir,filename))             # <<<<<<<<<<<<<<
+ *         plt.subplots_adjust(bottom=0.15)
+ *         plt.imshow(image_data, cmap="gray", norm=LogNorm())
+ */
+    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_v_fits, __pyx_n_s_getdata); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 608, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_kp_s__11, __pyx_n_s_format); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 608, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_1 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
+    __pyx_t_26 = 0;
+    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
+      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_4);
       if (likely(__pyx_t_1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_4);
         __Pyx_INCREF(__pyx_t_1);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
+        __Pyx_DECREF_SET(__pyx_t_4, function);
+        __pyx_t_26 = 1;
       }
     }
-    __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_1, __pyx_v_sindmap_initial) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_sindmap_initial);
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 488, __pyx_L1_error)
+    #if CYTHON_FAST_PYCALL
+    if (PyFunction_Check(__pyx_t_4)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_v_user_dir, __pyx_v_filename};
+      __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_26, 2+__pyx_t_26); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 608, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else
+    #endif
+    #if CYTHON_FAST_PYCCALL
+    if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_1, __pyx_v_user_dir, __pyx_v_filename};
+      __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_26, 2+__pyx_t_26); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 608, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+    } else
+    #endif
+    {
+      __pyx_t_6 = PyTuple_New(2+__pyx_t_26); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 608, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      if (__pyx_t_1) {
+        __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_1); __pyx_t_1 = NULL;
+      }
+      __Pyx_INCREF(__pyx_v_user_dir);
+      __Pyx_GIVEREF(__pyx_v_user_dir);
+      PyTuple_SET_ITEM(__pyx_t_6, 0+__pyx_t_26, __pyx_v_user_dir);
+      __Pyx_INCREF(__pyx_v_filename);
+      __Pyx_GIVEREF(__pyx_v_filename);
+      PyTuple_SET_ITEM(__pyx_t_6, 1+__pyx_t_26, __pyx_v_filename);
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_6, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 608, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_t_4 = NULL;
+    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_14))) {
+      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_14);
+      if (likely(__pyx_t_4)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_14);
+        __Pyx_INCREF(__pyx_t_4);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_14, function);
+      }
+    }
+    __pyx_t_5 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_14, __pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_14, __pyx_t_3);
+    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 608, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    __pyx_v_image_data = __pyx_t_5;
+    __pyx_t_5 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":609
+ *         plt.figure(figsize=(10,8))
+ *         image_data = fits.getdata('{}\\{}'.format(user_dir,filename))
+ *         plt.subplots_adjust(bottom=0.15)             # <<<<<<<<<<<<<<
+ *         plt.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         plt.scatter(pse_metadata[:,0],pse_metadata[:,1],color='red',marker='.')
+ */
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_subplots_adjust); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 609, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_14 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 609, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_bottom, __pyx_float_0_15) < 0) __PYX_ERR(0, 609, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_empty_tuple, __pyx_t_14); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 609, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "fastrometry/cython_code/PSE.pyx":489
- *         plt.show()
- *         plt.imshow(sindmap_initial)
- *         plt.colorbar()             # <<<<<<<<<<<<<<
- *         plt.show()
- *         plt.imshow(sindmap_refine)
+    /* "fastrometry/cython_code/PSE.pyx":610
+ *         image_data = fits.getdata('{}\\{}'.format(user_dir,filename))
+ *         plt.subplots_adjust(bottom=0.15)
+ *         plt.imshow(image_data, cmap="gray", norm=LogNorm())             # <<<<<<<<<<<<<<
+ *         plt.scatter(pse_metadata[:,0],pse_metadata[:,1],color='red',marker='.')
+ *         plt.title("pse_metadata centroids")
  */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 489, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_colorbar); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 489, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_imshow); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 610, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_14 = PyTuple_New(1); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 610, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __Pyx_INCREF(__pyx_v_image_data);
+    __Pyx_GIVEREF(__pyx_v_image_data);
+    PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_v_image_data);
+    __pyx_t_5 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 610, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_1 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_cmap, __pyx_n_s_gray) < 0) __PYX_ERR(0, 610, __pyx_L1_error)
+    __Pyx_INCREF(__pyx_v_LogNorm);
+    __pyx_t_6 = __pyx_v_LogNorm; __pyx_t_1 = NULL;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_6))) {
+      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_6);
       if (likely(__pyx_t_1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
         __Pyx_INCREF(__pyx_t_1);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
+        __Pyx_DECREF_SET(__pyx_t_6, function);
       }
     }
-    __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_1) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
+    __pyx_t_4 = (__pyx_t_1) ? __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_1) : __Pyx_PyObject_CallNoArg(__pyx_t_6);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 489, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 610, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_norm, __pyx_t_4) < 0) __PYX_ERR(0, 610, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_14, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 610, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "fastrometry/cython_code/PSE.pyx":490
- *         plt.imshow(sindmap_initial)
- *         plt.colorbar()
- *         plt.show()             # <<<<<<<<<<<<<<
- *         plt.imshow(sindmap_refine)
- *         plt.colorbar()
+    /* "fastrometry/cython_code/PSE.pyx":611
+ *         plt.subplots_adjust(bottom=0.15)
+ *         plt.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         plt.scatter(pse_metadata[:,0],pse_metadata[:,1],color='red',marker='.')             # <<<<<<<<<<<<<<
+ *         plt.title("pse_metadata centroids")
+ *         dscrp="Centroids from the pse_metadata, plotted overtop the image."
  */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 490, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_show); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 490, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_scatter); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 611, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_pse_metadata, __pyx_tuple__12); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 611, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_1 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_1);
+    __pyx_t_14 = __Pyx_PyObject_GetItem(__pyx_v_pse_metadata, __pyx_tuple__13); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 611, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 611, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_GIVEREF(__pyx_t_5);
+    PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_5);
+    __Pyx_GIVEREF(__pyx_t_14);
+    PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_14);
+    __pyx_t_5 = 0;
+    __pyx_t_14 = 0;
+    __pyx_t_14 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 611, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_color, __pyx_n_s_red) < 0) __PYX_ERR(0, 611, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_marker, __pyx_kp_s__14) < 0) __PYX_ERR(0, 611, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_3, __pyx_t_14); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 611, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+    /* "fastrometry/cython_code/PSE.pyx":612
+ *         plt.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         plt.scatter(pse_metadata[:,0],pse_metadata[:,1],color='red',marker='.')
+ *         plt.title("pse_metadata centroids")             # <<<<<<<<<<<<<<
+ *         dscrp="Centroids from the pse_metadata, plotted overtop the image."
+ *         plt.figtext(0.5, 0.05, dscrp, ha="center", fontsize=9)
+ */
+    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_title); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 612, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __pyx_t_3 = NULL;
+    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_14))) {
+      __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_14);
+      if (likely(__pyx_t_3)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_14);
+        __Pyx_INCREF(__pyx_t_3);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
+        __Pyx_DECREF_SET(__pyx_t_14, function);
       }
     }
-    __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_1) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 490, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_5 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_14, __pyx_t_3, __pyx_kp_s_pse_metadata_centroids) : __Pyx_PyObject_CallOneArg(__pyx_t_14, __pyx_kp_s_pse_metadata_centroids);
+    __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 612, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "fastrometry/cython_code/PSE.pyx":491
- *         plt.colorbar()
- *         plt.show()
- *         plt.imshow(sindmap_refine)             # <<<<<<<<<<<<<<
- *         plt.colorbar()
+    /* "fastrometry/cython_code/PSE.pyx":613
+ *         plt.scatter(pse_metadata[:,0],pse_metadata[:,1],color='red',marker='.')
+ *         plt.title("pse_metadata centroids")
+ *         dscrp="Centroids from the pse_metadata, plotted overtop the image."             # <<<<<<<<<<<<<<
+ *         plt.figtext(0.5, 0.05, dscrp, ha="center", fontsize=9)
+ *         plt.savefig(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_centroids.png")
+ */
+    __Pyx_INCREF(__pyx_kp_s_Centroids_from_the_pse_metadata);
+    __pyx_v_dscrp = __pyx_kp_s_Centroids_from_the_pse_metadata;
+
+    /* "fastrometry/cython_code/PSE.pyx":614
+ *         plt.title("pse_metadata centroids")
+ *         dscrp="Centroids from the pse_metadata, plotted overtop the image."
+ *         plt.figtext(0.5, 0.05, dscrp, ha="center", fontsize=9)             # <<<<<<<<<<<<<<
+ *         plt.savefig(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_centroids.png")
  *         plt.show()
  */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 491, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_imshow); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 491, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_figtext); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 614, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_1 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_1);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
-      }
-    }
-    __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_1, __pyx_v_sindmap_refine) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_sindmap_refine);
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 491, __pyx_L1_error)
+    __pyx_t_14 = PyTuple_New(3); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 614, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __Pyx_INCREF(__pyx_float_0_5);
+    __Pyx_GIVEREF(__pyx_float_0_5);
+    PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_float_0_5);
+    __Pyx_INCREF(__pyx_float_0_05);
+    __Pyx_GIVEREF(__pyx_float_0_05);
+    PyTuple_SET_ITEM(__pyx_t_14, 1, __pyx_float_0_05);
+    __Pyx_INCREF(__pyx_v_dscrp);
+    __Pyx_GIVEREF(__pyx_v_dscrp);
+    PyTuple_SET_ITEM(__pyx_t_14, 2, __pyx_v_dscrp);
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 614, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_ha, __pyx_n_s_center) < 0) __PYX_ERR(0, 614, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_fontsize, __pyx_int_9) < 0) __PYX_ERR(0, 614, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_14, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 614, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "fastrometry/cython_code/PSE.pyx":492
- *         plt.show()
- *         plt.imshow(sindmap_refine)
- *         plt.colorbar()             # <<<<<<<<<<<<<<
+    /* "fastrometry/cython_code/PSE.pyx":615
+ *         dscrp="Centroids from the pse_metadata, plotted overtop the image."
+ *         plt.figtext(0.5, 0.05, dscrp, ha="center", fontsize=9)
+ *         plt.savefig(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_centroids.png")             # <<<<<<<<<<<<<<
  *         plt.show()
  * 
  */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 492, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_colorbar); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 492, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_savefig); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 615, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_14 = PyNumber_Add(__pyx_v_user_dir, __pyx_kp_s_debug); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 615, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __pyx_t_5 = PyNumber_Add(__pyx_t_14, __pyx_v_debug_report); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 615, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_1 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    __pyx_t_14 = PyNumber_Add(__pyx_t_5, __pyx_kp_s_pse_metadata_centroids_png); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 615, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_14);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_t_5 = NULL;
+    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_3);
+      if (likely(__pyx_t_5)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+        __Pyx_INCREF(__pyx_t_5);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
+        __Pyx_DECREF_SET(__pyx_t_3, function);
       }
     }
-    __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_1) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 492, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_t_4 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_t_14) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_14);
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 615, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "fastrometry/cython_code/PSE.pyx":493
- *         plt.imshow(sindmap_refine)
- *         plt.colorbar()
+    /* "fastrometry/cython_code/PSE.pyx":616
+ *         plt.figtext(0.5, 0.05, dscrp, ha="center", fontsize=9)
+ *         plt.savefig(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_centroids.png")
  *         plt.show()             # <<<<<<<<<<<<<<
  * 
  *     return num_psesources
  */
-    if (unlikely(!__pyx_v_plt)) { __Pyx_RaiseUnboundLocalError("plt"); __PYX_ERR(0, 493, __pyx_L1_error) }
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_show); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 493, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_1 = NULL;
-    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-      __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
-      if (likely(__pyx_t_1)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
-        __Pyx_INCREF(__pyx_t_1);
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_show); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 616, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_14 = NULL;
+    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+      __pyx_t_14 = PyMethod_GET_SELF(__pyx_t_3);
+      if (likely(__pyx_t_14)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+        __Pyx_INCREF(__pyx_t_14);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_5, function);
+        __Pyx_DECREF_SET(__pyx_t_3, function);
       }
     }
-    __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_1) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
-    __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 493, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_t_4 = (__pyx_t_14) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_14) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
+    __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
+    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 616, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "fastrometry/cython_code/PSE.pyx":484
- *     num_psesources = mapRemainingSources(img, img_xmax, img_ymax, img_max, img_median, smetadata, bgmap, sindmap_initial, sindmap_refine, occupymap, kernelrad, kernelcircle, kernelsize, sourcesep, sourcesepcircle, sourcesepsize, npts, nrefinepts, curr_sind, verbose, debug)
+    /* "fastrometry/cython_code/PSE.pyx":603
+ *         np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata.csv",pse_metadata,delimiter=",")
  * 
- *     if debug >= 1:             # <<<<<<<<<<<<<<
- *         plt.imshow(occupymap)
- *         plt.colorbar()
+ *     if debug:             # <<<<<<<<<<<<<<
+ *         import matplotlib.pyplot as plt
+ *         from matplotlib.colors import LogNorm
  */
   }
 
-  /* "fastrometry/cython_code/PSE.pyx":495
+  /* "fastrometry/cython_code/PSE.pyx":618
  *         plt.show()
  * 
  *     return num_psesources             # <<<<<<<<<<<<<<
@@ -8756,12 +11971,12 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_PSE(CYTHON_UNUSED PyO
   __pyx_r = __pyx_v_num_psesources;
   goto __pyx_L0;
 
-  /* "fastrometry/cython_code/PSE.pyx":441
- *     return num_psesources
+  /* "fastrometry/cython_code/PSE.pyx":513
+ *     return curr_sind
  * 
- * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, sindmap_initial, sindmap_refine, smetadata, verbose, debug):             # <<<<<<<<<<<<<<
+ * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, pixelradius, shape, srcindexmap_initial, srcindexmap_refine, pse_metadata, user_dir, debug_report, filename, verbosity, debug):             # <<<<<<<<<<<<<<
  * 
- *     if debug >= 1:
+ *     num_psesources = 0
  */
 
   /* function exit code */
@@ -8772,29 +11987,38 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_PSE(CYTHON_UNUSED PyO
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __PYX_XDEC_MEMVIEW(&__pyx_t_7, 1);
-  __PYX_XDEC_MEMVIEW(&__pyx_t_8, 1);
-  __PYX_XDEC_MEMVIEW(&__pyx_t_14, 1);
+  __PYX_XDEC_MEMVIEW(&__pyx_t_11, 1);
+  __PYX_XDEC_MEMVIEW(&__pyx_t_12, 1);
+  __Pyx_XDECREF(__pyx_t_13);
+  __Pyx_XDECREF(__pyx_t_14);
   __PYX_XDEC_MEMVIEW(&__pyx_t_15, 1);
   __PYX_XDEC_MEMVIEW(&__pyx_t_16, 1);
-  __PYX_XDEC_MEMVIEW(&__pyx_t_21, 1);
-  __PYX_XDEC_MEMVIEW(&__pyx_t_22, 1);
+  __PYX_XDEC_MEMVIEW(&__pyx_t_17, 1);
+  __PYX_XDEC_MEMVIEW(&__pyx_t_24, 1);
+  __PYX_XDEC_MEMVIEW(&__pyx_t_25, 1);
   __Pyx_AddTraceback("fastrometry.cython_code.PSE.PSE", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
-  __Pyx_XDECREF(__pyx_v_plt);
+  __Pyx_XDECREF(__pyx_v_num_psesources);
+  __Pyx_XDECREF(__pyx_v_roi);
+  __Pyx_XDECREF(__pyx_v_description);
   __Pyx_XDECREF(__pyx_v_bgmap);
   __Pyx_XDECREF(__pyx_v_occupymap);
-  __Pyx_XDECREF(__pyx_v_num_psesources);
   __Pyx_XDECREF(__pyx_v_kernelcircle);
   __Pyx_XDECREF(__pyx_v_sourcesepcircle);
   __Pyx_XDECREF(__pyx_v_img_median);
   __Pyx_XDECREF(__pyx_v_img_max);
+  __Pyx_XDECREF(__pyx_v_plt);
+  __Pyx_XDECREF(__pyx_v_LogNorm);
+  __Pyx_XDECREF(__pyx_v_fits);
+  __Pyx_XDECREF(__pyx_v_image_data);
+  __Pyx_XDECREF(__pyx_v_dscrp);
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":735
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":735
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -8811,7 +12035,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":736
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":736
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -8825,7 +12049,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":735
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":735
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -8844,7 +12068,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":738
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":738
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -8861,7 +12085,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":739
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":739
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -8875,7 +12099,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":738
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":738
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -8894,7 +12118,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":741
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":741
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -8911,7 +12135,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":742
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":742
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -8925,7 +12149,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":741
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":741
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -8944,7 +12168,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":744
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":744
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -8961,7 +12185,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":745
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":745
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -8975,7 +12199,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":744
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":744
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -8994,7 +12218,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":747
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":747
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -9011,7 +12235,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":748
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":748
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -9025,7 +12249,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":747
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":747
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -9044,7 +12268,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":750
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":750
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -9058,7 +12282,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":751
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":751
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -9068,7 +12292,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":752
+    /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":752
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -9080,7 +12304,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":751
+    /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":751
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -9089,7 +12313,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":754
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":754
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -9103,7 +12327,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":750
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":750
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -9118,7 +12342,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":929
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":929
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -9130,7 +12354,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":930
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":930
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -9139,7 +12363,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":931
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":931
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -9148,7 +12372,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":929
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":929
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -9160,7 +12384,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":933
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":933
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -9175,7 +12399,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":934
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":934
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -9184,7 +12408,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":935
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":935
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -9194,7 +12418,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":936
+    /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":936
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -9205,7 +12429,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":935
+    /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":935
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -9214,7 +12438,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":937
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":937
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -9226,7 +12450,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":933
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":933
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -9241,7 +12465,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":941
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":941
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -9265,7 +12489,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":942
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":942
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -9281,7 +12505,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":943
+      /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":943
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
@@ -9290,7 +12514,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 943, __pyx_L3_error)
 
-      /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":942
+      /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":942
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -9304,7 +12528,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":944
+    /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":944
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -9319,14 +12543,14 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":945
+      /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":945
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 945, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 945, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -9335,7 +12559,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":942
+    /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":942
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -9350,7 +12574,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":941
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":941
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -9373,7 +12597,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":947
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":947
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -9397,7 +12621,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":948
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":948
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -9413,7 +12637,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":949
+      /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":949
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -9422,7 +12646,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 949, __pyx_L3_error)
 
-      /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":948
+      /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":948
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -9436,7 +12660,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":950
+    /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":950
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -9451,14 +12675,14 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":951
+      /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":951
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 951, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__16, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 951, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -9467,7 +12691,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":948
+    /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":948
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -9482,7 +12706,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":947
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":947
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -9505,7 +12729,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":953
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":953
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -9529,7 +12753,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":954
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":954
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -9545,7 +12769,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":955
+      /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":955
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -9554,7 +12778,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 955, __pyx_L3_error)
 
-      /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":954
+      /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":954
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -9568,7 +12792,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":956
+    /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":956
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -9583,14 +12807,14 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":957
+      /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":957
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef extern from *:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 957, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__16, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 957, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -9599,7 +12823,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":954
+    /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":954
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -9614,7 +12838,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":953
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":953
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -9637,7 +12861,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":967
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":967
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -9650,7 +12874,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_timedelta64_object", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":979
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":979
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -9660,7 +12884,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":967
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":967
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -9674,7 +12898,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":982
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":982
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -9687,7 +12911,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_datetime64_object", 0);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":994
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":994
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -9697,7 +12921,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":982
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":982
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -9711,7 +12935,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":997
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":997
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -9722,7 +12946,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":1004
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":1004
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -9732,7 +12956,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":997
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":997
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -9745,7 +12969,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":1007
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":1007
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -9756,7 +12980,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":1011
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":1011
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -9766,7 +12990,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":1007
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":1007
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -9779,7 +13003,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":1014
+/* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":1014
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -9790,7 +13014,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":1018
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":1018
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -9798,7 +13022,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":1014
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":1014
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -10014,7 +13238,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  *         if itemsize <= 0:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 133, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__17, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 133, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -10046,7 +13270,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  *         if not isinstance(format, bytes):
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 136, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__18, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 136, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -10173,7 +13397,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  * 
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 148, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__19, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 148, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -10447,7 +13671,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  *             if self.dtype_is_object:
  */
-      __pyx_t_10 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(2, 176, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__20, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(2, 176, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_Raise(__pyx_t_10, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
@@ -10691,7 +13915,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array_2__getbuffer__(stru
  *         info.buf = self.data
  *         info.len = self.len
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 192, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__21, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 192, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -11425,7 +14649,7 @@ static PyObject *__pyx_pf___pyx_array___reduce_cython__(CYTHON_UNUSED struct __p
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__22, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -11481,7 +14705,7 @@ static PyObject *__pyx_pf___pyx_array_2__setstate_cython__(CYTHON_UNUSED struct 
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__23, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -13191,7 +16415,7 @@ static int __pyx_memoryview___pyx_pf_15View_dot_MemoryView_10memoryview_6__setit
  * 
  *         have_slices, index = _unellipsify(index, self.view.ndim)
  */
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__16, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 418, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__24, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 418, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -14239,7 +17463,7 @@ static PyObject *__pyx_memoryview_convert_item_to_object(struct __pyx_memoryview
  *         else:
  *             if len(self.view.format) == 1:
  */
-      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__17, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(2, 495, __pyx_L5_except_error)
+      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__25, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(2, 495, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_Raise(__pyx_t_6, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -14601,7 +17825,7 @@ static int __pyx_memoryview___pyx_pf_15View_dot_MemoryView_10memoryview_8__getbu
  * 
  *         if flags & PyBUF_ND:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__18, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 520, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__26, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 520, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -15150,7 +18374,7 @@ static PyObject *__pyx_pf_15View_dot_MemoryView_10memoryview_7strides___get__(st
  * 
  *         return tuple([stride for stride in self.view.strides[:self.view.ndim]])
  */
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__19, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 570, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__27, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 570, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -15267,7 +18491,7 @@ static PyObject *__pyx_pf_15View_dot_MemoryView_10memoryview_10suboffsets___get_
     __Pyx_XDECREF(__pyx_r);
     __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->view.ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 577, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = PyNumber_Multiply(__pyx_tuple__20, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 577, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Multiply(__pyx_tuple__28, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 577, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_r = __pyx_t_3;
@@ -16305,7 +19529,7 @@ static PyObject *__pyx_pf___pyx_memoryview___reduce_cython__(CYTHON_UNUSED struc
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__21, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__29, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -16361,7 +19585,7 @@ static PyObject *__pyx_pf___pyx_memoryview_2__setstate_cython__(CYTHON_UNUSED st
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__22, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__30, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -16718,9 +19942,9 @@ static PyObject *_unellipsify(PyObject *__pyx_v_index, int __pyx_v_ndim) {
         __Pyx_GOTREF(__pyx_t_7);
         { Py_ssize_t __pyx_temp;
           for (__pyx_temp=0; __pyx_temp < ((__pyx_v_ndim - __pyx_t_8) + 1); __pyx_temp++) {
-            __Pyx_INCREF(__pyx_slice__3);
-            __Pyx_GIVEREF(__pyx_slice__3);
-            PyList_SET_ITEM(__pyx_t_7, __pyx_temp, __pyx_slice__3);
+            __Pyx_INCREF(__pyx_slice__6);
+            __Pyx_GIVEREF(__pyx_slice__6);
+            PyList_SET_ITEM(__pyx_t_7, __pyx_temp, __pyx_slice__6);
           }
         }
         __pyx_t_9 = __Pyx_PyList_Extend(__pyx_v_result, __pyx_t_7); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(2, 682, __pyx_L1_error)
@@ -16753,7 +19977,7 @@ static PyObject *_unellipsify(PyObject *__pyx_v_index, int __pyx_v_ndim) {
  *         else:
  */
       /*else*/ {
-        __pyx_t_9 = __Pyx_PyList_Append(__pyx_v_result, __pyx_slice__3); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(2, 685, __pyx_L1_error)
+        __pyx_t_9 = __Pyx_PyList_Append(__pyx_v_result, __pyx_slice__6); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(2, 685, __pyx_L1_error)
       }
       __pyx_L7:;
 
@@ -16893,9 +20117,9 @@ static PyObject *_unellipsify(PyObject *__pyx_v_index, int __pyx_v_ndim) {
     __Pyx_GOTREF(__pyx_t_3);
     { Py_ssize_t __pyx_temp;
       for (__pyx_temp=0; __pyx_temp < __pyx_v_nslices; __pyx_temp++) {
-        __Pyx_INCREF(__pyx_slice__3);
-        __Pyx_GIVEREF(__pyx_slice__3);
-        PyList_SET_ITEM(__pyx_t_3, __pyx_temp, __pyx_slice__3);
+        __Pyx_INCREF(__pyx_slice__6);
+        __Pyx_GIVEREF(__pyx_slice__6);
+        PyList_SET_ITEM(__pyx_t_3, __pyx_temp, __pyx_slice__6);
       }
     }
     __pyx_t_9 = __Pyx_PyList_Extend(__pyx_v_result, __pyx_t_3); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(2, 696, __pyx_L1_error)
@@ -17022,7 +20246,7 @@ static PyObject *assert_direct_dimensions(Py_ssize_t *__pyx_v_suboffsets, int __
  * 
  * 
  */
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__23, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(2, 703, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__31, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(2, 703, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_Raise(__pyx_t_5, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -19206,7 +22430,7 @@ static PyObject *__pyx_pf___pyx_memoryviewslice___reduce_cython__(CYTHON_UNUSED 
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__24, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__32, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -19262,7 +22486,7 @@ static PyObject *__pyx_pf___pyx_memoryviewslice_2__setstate_cython__(CYTHON_UNUS
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__25, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__33, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -22539,7 +25763,7 @@ static PyObject *__pyx_pf_15View_dot_MemoryView___pyx_unpickle_Enum(CYTHON_UNUSE
  */
   __pyx_t_1 = __Pyx_PyInt_From_long(__pyx_v___pyx_checksum); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_t_1, __pyx_tuple__26, Py_NE)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_t_1, __pyx_tuple__34, Py_NE)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_3 = (__pyx_t_2 != 0);
   if (__pyx_t_3) {
@@ -23607,23 +26831,34 @@ static struct PyModuleDef __pyx_moduledef = {
 
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_ASCII, __pyx_k_ASCII, sizeof(__pyx_k_ASCII), 0, 0, 1, 1},
+  {&__pyx_kp_s_Background_map, __pyx_k_Background_map, sizeof(__pyx_k_Background_map), 0, 0, 1, 0},
+  {&__pyx_n_s_BoundaryNorm, __pyx_k_BoundaryNorm, sizeof(__pyx_k_BoundaryNorm), 0, 0, 1, 1},
   {&__pyx_kp_s_Buffer_view_does_not_expose_stri, __pyx_k_Buffer_view_does_not_expose_stri, sizeof(__pyx_k_Buffer_view_does_not_expose_stri), 0, 0, 1, 0},
   {&__pyx_kp_s_Can_only_create_a_buffer_that_is, __pyx_k_Can_only_create_a_buffer_that_is, sizeof(__pyx_k_Can_only_create_a_buffer_that_is), 0, 0, 1, 0},
   {&__pyx_kp_s_Cannot_assign_to_read_only_memor, __pyx_k_Cannot_assign_to_read_only_memor, sizeof(__pyx_k_Cannot_assign_to_read_only_memor), 0, 0, 1, 0},
   {&__pyx_kp_s_Cannot_create_writable_memory_vi, __pyx_k_Cannot_create_writable_memory_vi, sizeof(__pyx_k_Cannot_create_writable_memory_vi), 0, 0, 1, 0},
   {&__pyx_kp_s_Cannot_index_with_type_s, __pyx_k_Cannot_index_with_type_s, sizeof(__pyx_k_Cannot_index_with_type_s), 0, 0, 1, 0},
+  {&__pyx_kp_s_Centroids_from_the_pse_metadata, __pyx_k_Centroids_from_the_pse_metadata, sizeof(__pyx_k_Centroids_from_the_pse_metadata), 0, 0, 1, 0},
+  {&__pyx_kp_s_Creating_ROI_map, __pyx_k_Creating_ROI_map, sizeof(__pyx_k_Creating_ROI_map), 0, 0, 1, 0},
+  {&__pyx_kp_s_Creating_background_map, __pyx_k_Creating_background_map, sizeof(__pyx_k_Creating_background_map), 0, 0, 1, 0},
   {&__pyx_n_s_Ellipsis, __pyx_k_Ellipsis, sizeof(__pyx_k_Ellipsis), 0, 0, 1, 1},
   {&__pyx_kp_s_Empty_shape_tuple_for_cython_arr, __pyx_k_Empty_shape_tuple_for_cython_arr, sizeof(__pyx_k_Empty_shape_tuple_for_cython_arr), 0, 0, 1, 0},
+  {&__pyx_kp_s_Finding_remaining_sources, __pyx_k_Finding_remaining_sources, sizeof(__pyx_k_Finding_remaining_sources), 0, 0, 1, 0},
+  {&__pyx_kp_s_Finding_saturation_islands, __pyx_k_Finding_saturation_islands, sizeof(__pyx_k_Finding_saturation_islands), 0, 0, 1, 0},
   {&__pyx_kp_s_Found_saturation_islands, __pyx_k_Found_saturation_islands, sizeof(__pyx_k_Found_saturation_islands), 0, 0, 1, 0},
-  {&__pyx_kp_s_Found_saturation_islands_Will_ma, __pyx_k_Found_saturation_islands_Will_ma, sizeof(__pyx_k_Found_saturation_islands_Will_ma), 0, 0, 1, 0},
-  {&__pyx_kp_s_Found_saturation_islands_which_i, __pyx_k_Found_saturation_islands_which_i, sizeof(__pyx_k_Found_saturation_islands_which_i), 0, 0, 1, 0},
-  {&__pyx_kp_s_Found_sources_which_is_greater_t, __pyx_k_Found_sources_which_is_greater_t, sizeof(__pyx_k_Found_sources_which_is_greater_t), 0, 0, 1, 0},
+  {&__pyx_kp_s_Found_saturation_islands_Trimme, __pyx_k_Found_saturation_islands_Trimme, sizeof(__pyx_k_Found_saturation_islands_Trimme), 0, 0, 1, 0},
+  {&__pyx_kp_s_Found_sources_total_Trimmed_to, __pyx_k_Found_sources_total_Trimmed_to, sizeof(__pyx_k_Found_sources_total_Trimmed_to), 0, 0, 1, 0},
   {&__pyx_n_s_ImportError, __pyx_k_ImportError, sizeof(__pyx_k_ImportError), 0, 0, 1, 1},
   {&__pyx_kp_s_Incompatible_checksums_0x_x_vs_0, __pyx_k_Incompatible_checksums_0x_x_vs_0, sizeof(__pyx_k_Incompatible_checksums_0x_x_vs_0), 0, 0, 1, 0},
   {&__pyx_n_s_IndexError, __pyx_k_IndexError, sizeof(__pyx_k_IndexError), 0, 0, 1, 1},
   {&__pyx_kp_s_Indirect_dimensions_not_supporte, __pyx_k_Indirect_dimensions_not_supporte, sizeof(__pyx_k_Indirect_dimensions_not_supporte), 0, 0, 1, 0},
   {&__pyx_kp_s_Invalid_mode_expected_c_or_fortr, __pyx_k_Invalid_mode_expected_c_or_fortr, sizeof(__pyx_k_Invalid_mode_expected_c_or_fortr), 0, 0, 1, 0},
   {&__pyx_kp_s_Invalid_shape_in_axis_d_d, __pyx_k_Invalid_shape_in_axis_d_d, sizeof(__pyx_k_Invalid_shape_in_axis_d_d), 0, 0, 1, 0},
+  {&__pyx_kp_s_Iteration, __pyx_k_Iteration, sizeof(__pyx_k_Iteration), 0, 0, 1, 0},
+  {&__pyx_n_s_ListedColormap, __pyx_k_ListedColormap, sizeof(__pyx_k_ListedColormap), 0, 0, 1, 1},
+  {&__pyx_n_s_LogNorm, __pyx_k_LogNorm, sizeof(__pyx_k_LogNorm), 0, 0, 1, 1},
+  {&__pyx_kp_s_Max_amplitude, __pyx_k_Max_amplitude, sizeof(__pyx_k_Max_amplitude), 0, 0, 1, 0},
+  {&__pyx_kp_s_Median_amplitude, __pyx_k_Median_amplitude, sizeof(__pyx_k_Median_amplitude), 0, 0, 1, 0},
   {&__pyx_n_s_MemoryError, __pyx_k_MemoryError, sizeof(__pyx_k_MemoryError), 0, 0, 1, 1},
   {&__pyx_kp_s_MemoryView_of_r_at_0x_x, __pyx_k_MemoryView_of_r_at_0x_x, sizeof(__pyx_k_MemoryView_of_r_at_0x_x), 0, 0, 1, 0},
   {&__pyx_kp_s_MemoryView_of_r_object, __pyx_k_MemoryView_of_r_object, sizeof(__pyx_k_MemoryView_of_r_object), 0, 0, 1, 0},
@@ -23631,45 +26866,94 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_Out_of_bounds_on_buffer_access_a, __pyx_k_Out_of_bounds_on_buffer_access_a, sizeof(__pyx_k_Out_of_bounds_on_buffer_access_a), 0, 0, 1, 0},
   {&__pyx_n_s_PSE, __pyx_k_PSE, sizeof(__pyx_k_PSE), 0, 0, 1, 1},
   {&__pyx_n_s_PickleError, __pyx_k_PickleError, sizeof(__pyx_k_PickleError), 0, 0, 1, 1},
+  {&__pyx_kp_s_Pixel_threshold, __pyx_k_Pixel_threshold, sizeof(__pyx_k_Pixel_threshold), 0, 0, 1, 0},
+  {&__pyx_n_s_ROI, __pyx_k_ROI, sizeof(__pyx_k_ROI), 0, 0, 1, 1},
+  {&__pyx_kp_s_ROI_png, __pyx_k_ROI_png, sizeof(__pyx_k_ROI_png), 0, 0, 1, 0},
+  {&__pyx_kp_s_Region_to_be_scanned_by_PSE_Spec, __pyx_k_Region_to_be_scanned_by_PSE_Spec, sizeof(__pyx_k_Region_to_be_scanned_by_PSE_Spec), 0, 0, 1, 0},
+  {&__pyx_kp_s_Sources_found, __pyx_k_Sources_found, sizeof(__pyx_k_Sources_found), 0, 0, 1, 0},
+  {&__pyx_kp_s_The_occupied_source_kernels_for, __pyx_k_The_occupied_source_kernels_for, sizeof(__pyx_k_The_occupied_source_kernels_for), 0, 0, 1, 0},
+  {&__pyx_kp_s_The_occupied_source_kernels_for_2, __pyx_k_The_occupied_source_kernels_for_2, sizeof(__pyx_k_The_occupied_source_kernels_for_2), 0, 0, 1, 0},
+  {&__pyx_kp_s_The_occupied_source_kernels_for_3, __pyx_k_The_occupied_source_kernels_for_3, sizeof(__pyx_k_The_occupied_source_kernels_for_3), 0, 0, 1, 0},
+  {&__pyx_kp_s_Trying_various_pixel_thresholds, __pyx_k_Trying_various_pixel_thresholds, sizeof(__pyx_k_Trying_various_pixel_thresholds), 0, 0, 1, 0},
   {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
   {&__pyx_kp_s_Unable_to_convert_item_to_object, __pyx_k_Unable_to_convert_item_to_object, sizeof(__pyx_k_Unable_to_convert_item_to_object), 0, 0, 1, 0},
   {&__pyx_kp_s_Unsuccessful_at_finding_sources, __pyx_k_Unsuccessful_at_finding_sources, sizeof(__pyx_k_Unsuccessful_at_finding_sources), 0, 0, 1, 0},
+  {&__pyx_kp_s_Used_for_determining_the_amplitu, __pyx_k_Used_for_determining_the_amplitu, sizeof(__pyx_k_Used_for_determining_the_amplitu), 0, 0, 1, 0},
   {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
   {&__pyx_n_s_View_MemoryView, __pyx_k_View_MemoryView, sizeof(__pyx_k_View_MemoryView), 0, 0, 1, 1},
-  {&__pyx_n_s__6, __pyx_k__6, sizeof(__pyx_k__6), 0, 0, 1, 1},
+  {&__pyx_kp_s__11, __pyx_k__11, sizeof(__pyx_k__11), 0, 0, 1, 0},
+  {&__pyx_kp_s__14, __pyx_k__14, sizeof(__pyx_k__14), 0, 0, 1, 0},
+  {&__pyx_n_s__2, __pyx_k__2, sizeof(__pyx_k__2), 0, 0, 1, 1},
+  {&__pyx_kp_s__3, __pyx_k__3, sizeof(__pyx_k__3), 0, 0, 1, 0},
+  {&__pyx_kp_s__9, __pyx_k__9, sizeof(__pyx_k__9), 0, 0, 1, 0},
   {&__pyx_n_s_allocate_buffer, __pyx_k_allocate_buffer, sizeof(__pyx_k_allocate_buffer), 0, 0, 1, 1},
   {&__pyx_n_s_argsort, __pyx_k_argsort, sizeof(__pyx_k_argsort), 0, 0, 1, 1},
   {&__pyx_n_s_array, __pyx_k_array, sizeof(__pyx_k_array), 0, 0, 1, 1},
   {&__pyx_n_s_astropy_io, __pyx_k_astropy_io, sizeof(__pyx_k_astropy_io), 0, 0, 1, 1},
   {&__pyx_n_s_base, __pyx_k_base, sizeof(__pyx_k_base), 0, 0, 1, 1},
   {&__pyx_n_s_bgmap, __pyx_k_bgmap, sizeof(__pyx_k_bgmap), 0, 0, 1, 1},
+  {&__pyx_kp_s_bgmap_png, __pyx_k_bgmap_png, sizeof(__pyx_k_bgmap_png), 0, 0, 1, 0},
+  {&__pyx_n_s_blue, __pyx_k_blue, sizeof(__pyx_k_blue), 0, 0, 1, 1},
+  {&__pyx_n_s_bmargin, __pyx_k_bmargin, sizeof(__pyx_k_bmargin), 0, 0, 1, 1},
+  {&__pyx_n_s_both, __pyx_k_both, sizeof(__pyx_k_both), 0, 0, 1, 1},
+  {&__pyx_n_s_bottom, __pyx_k_bottom, sizeof(__pyx_k_bottom), 0, 0, 1, 1},
+  {&__pyx_n_s_boundslist, __pyx_k_boundslist, sizeof(__pyx_k_boundslist), 0, 0, 1, 1},
   {&__pyx_n_s_c, __pyx_k_c, sizeof(__pyx_k_c), 0, 0, 1, 1},
   {&__pyx_n_u_c, __pyx_k_c, sizeof(__pyx_k_c), 0, 1, 0, 1},
+  {&__pyx_n_s_center, __pyx_k_center, sizeof(__pyx_k_center), 0, 0, 1, 1},
+  {&__pyx_n_s_circle, __pyx_k_circle, sizeof(__pyx_k_circle), 0, 0, 1, 1},
   {&__pyx_n_s_class, __pyx_k_class, sizeof(__pyx_k_class), 0, 0, 1, 1},
   {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
+  {&__pyx_n_s_cm, __pyx_k_cm, sizeof(__pyx_k_cm), 0, 0, 1, 1},
+  {&__pyx_n_s_cmap, __pyx_k_cmap, sizeof(__pyx_k_cmap), 0, 0, 1, 1},
+  {&__pyx_n_s_colbar, __pyx_k_colbar, sizeof(__pyx_k_colbar), 0, 0, 1, 1},
+  {&__pyx_n_s_colbar_extend, __pyx_k_colbar_extend, sizeof(__pyx_k_colbar_extend), 0, 0, 1, 1},
+  {&__pyx_n_s_collist, __pyx_k_collist, sizeof(__pyx_k_collist), 0, 0, 1, 1},
+  {&__pyx_n_s_color, __pyx_k_color, sizeof(__pyx_k_color), 0, 0, 1, 1},
   {&__pyx_n_s_colorbar, __pyx_k_colorbar, sizeof(__pyx_k_colorbar), 0, 0, 1, 1},
+  {&__pyx_n_s_console, __pyx_k_console, sizeof(__pyx_k_console), 0, 0, 1, 1},
   {&__pyx_kp_s_contiguous_and_direct, __pyx_k_contiguous_and_direct, sizeof(__pyx_k_contiguous_and_direct), 0, 0, 1, 0},
   {&__pyx_kp_s_contiguous_and_indirect, __pyx_k_contiguous_and_indirect, sizeof(__pyx_k_contiguous_and_indirect), 0, 0, 1, 0},
   {&__pyx_n_s_curr_sind, __pyx_k_curr_sind, sizeof(__pyx_k_curr_sind), 0, 0, 1, 1},
-  {&__pyx_n_s_debug, __pyx_k_debug, sizeof(__pyx_k_debug), 0, 0, 1, 1},
+  {&__pyx_kp_s_debug, __pyx_k_debug, sizeof(__pyx_k_debug), 0, 0, 1, 0},
+  {&__pyx_n_s_debug_2, __pyx_k_debug_2, sizeof(__pyx_k_debug_2), 0, 0, 1, 1},
+  {&__pyx_n_s_debug_report, __pyx_k_debug_report, sizeof(__pyx_k_debug_report), 0, 0, 1, 1},
+  {&__pyx_n_s_debuggerPlot, __pyx_k_debuggerPlot, sizeof(__pyx_k_debuggerPlot), 0, 0, 1, 1},
+  {&__pyx_n_s_delimiter, __pyx_k_delimiter, sizeof(__pyx_k_delimiter), 0, 0, 1, 1},
+  {&__pyx_n_s_description, __pyx_k_description, sizeof(__pyx_k_description), 0, 0, 1, 1},
+  {&__pyx_n_s_devnull, __pyx_k_devnull, sizeof(__pyx_k_devnull), 0, 0, 1, 1},
   {&__pyx_n_s_dict, __pyx_k_dict, sizeof(__pyx_k_dict), 0, 0, 1, 1},
+  {&__pyx_n_s_disable_console, __pyx_k_disable_console, sizeof(__pyx_k_disable_console), 0, 0, 1, 1},
+  {&__pyx_kp_s_done, __pyx_k_done, sizeof(__pyx_k_done), 0, 0, 1, 0},
+  {&__pyx_kp_s_done_2, __pyx_k_done_2, sizeof(__pyx_k_done_2), 0, 0, 1, 0},
   {&__pyx_n_s_double, __pyx_k_double, sizeof(__pyx_k_double), 0, 0, 1, 1},
+  {&__pyx_n_s_dscrp, __pyx_k_dscrp, sizeof(__pyx_k_dscrp), 0, 0, 1, 1},
   {&__pyx_n_s_dtype, __pyx_k_dtype, sizeof(__pyx_k_dtype), 0, 0, 1, 1},
   {&__pyx_n_s_dtype_is_object, __pyx_k_dtype_is_object, sizeof(__pyx_k_dtype_is_object), 0, 0, 1, 1},
   {&__pyx_n_s_encode, __pyx_k_encode, sizeof(__pyx_k_encode), 0, 0, 1, 1},
   {&__pyx_n_s_end, __pyx_k_end, sizeof(__pyx_k_end), 0, 0, 1, 1},
   {&__pyx_n_s_enumerate, __pyx_k_enumerate, sizeof(__pyx_k_enumerate), 0, 0, 1, 1},
   {&__pyx_n_s_error, __pyx_k_error, sizeof(__pyx_k_error), 0, 0, 1, 1},
+  {&__pyx_n_s_extend, __pyx_k_extend, sizeof(__pyx_k_extend), 0, 0, 1, 1},
   {&__pyx_n_s_fastrometry_cython_code_PSE, __pyx_k_fastrometry_cython_code_PSE, sizeof(__pyx_k_fastrometry_cython_code_PSE), 0, 0, 1, 1},
+  {&__pyx_n_s_figsize, __pyx_k_figsize, sizeof(__pyx_k_figsize), 0, 0, 1, 1},
+  {&__pyx_n_s_figtext, __pyx_k_figtext, sizeof(__pyx_k_figtext), 0, 0, 1, 1},
+  {&__pyx_n_s_figure, __pyx_k_figure, sizeof(__pyx_k_figure), 0, 0, 1, 1},
   {&__pyx_n_s_file, __pyx_k_file, sizeof(__pyx_k_file), 0, 0, 1, 1},
+  {&__pyx_n_s_filename, __pyx_k_filename, sizeof(__pyx_k_filename), 0, 0, 1, 1},
   {&__pyx_n_s_fits, __pyx_k_fits, sizeof(__pyx_k_fits), 0, 0, 1, 1},
   {&__pyx_n_s_flags, __pyx_k_flags, sizeof(__pyx_k_flags), 0, 0, 1, 1},
+  {&__pyx_n_s_fontsize, __pyx_k_fontsize, sizeof(__pyx_k_fontsize), 0, 0, 1, 1},
   {&__pyx_n_s_format, __pyx_k_format, sizeof(__pyx_k_format), 0, 0, 1, 1},
   {&__pyx_n_s_fortran, __pyx_k_fortran, sizeof(__pyx_k_fortran), 0, 0, 1, 1},
   {&__pyx_n_u_fortran, __pyx_k_fortran, sizeof(__pyx_k_fortran), 0, 1, 0, 1},
+  {&__pyx_n_s_getdata, __pyx_k_getdata, sizeof(__pyx_k_getdata), 0, 0, 1, 1},
   {&__pyx_n_s_getstate, __pyx_k_getstate, sizeof(__pyx_k_getstate), 0, 0, 1, 1},
   {&__pyx_kp_s_got_differing_extents_in_dimensi, __pyx_k_got_differing_extents_in_dimensi, sizeof(__pyx_k_got_differing_extents_in_dimensi), 0, 0, 1, 0},
+  {&__pyx_n_s_gray, __pyx_k_gray, sizeof(__pyx_k_gray), 0, 0, 1, 1},
+  {&__pyx_n_s_ha, __pyx_k_ha, sizeof(__pyx_k_ha), 0, 0, 1, 1},
   {&__pyx_n_s_id, __pyx_k_id, sizeof(__pyx_k_id), 0, 0, 1, 1},
+  {&__pyx_n_s_image_data, __pyx_k_image_data, sizeof(__pyx_k_image_data), 0, 0, 1, 1},
   {&__pyx_n_s_img, __pyx_k_img, sizeof(__pyx_k_img), 0, 0, 1, 1},
   {&__pyx_n_s_img_max, __pyx_k_img_max, sizeof(__pyx_k_img_max), 0, 0, 1, 1},
   {&__pyx_n_s_img_median, __pyx_k_img_median, sizeof(__pyx_k_img_median), 0, 0, 1, 1},
@@ -23677,14 +26961,17 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_img_ymax, __pyx_k_img_ymax, sizeof(__pyx_k_img_ymax), 0, 0, 1, 1},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_n_s_imshow, __pyx_k_imshow, sizeof(__pyx_k_imshow), 0, 0, 1, 1},
+  {&__pyx_n_s_inf, __pyx_k_inf, sizeof(__pyx_k_inf), 0, 0, 1, 1},
+  {&__pyx_n_s_int, __pyx_k_int, sizeof(__pyx_k_int), 0, 0, 1, 1},
   {&__pyx_n_s_int32, __pyx_k_int32, sizeof(__pyx_k_int32), 0, 0, 1, 1},
   {&__pyx_n_s_itemsize, __pyx_k_itemsize, sizeof(__pyx_k_itemsize), 0, 0, 1, 1},
   {&__pyx_kp_s_itemsize_0_for_cython_array, __pyx_k_itemsize_0_for_cython_array, sizeof(__pyx_k_itemsize_0_for_cython_array), 0, 0, 1, 0},
-  {&__pyx_kp_s_iteration, __pyx_k_iteration, sizeof(__pyx_k_iteration), 0, 0, 1, 0},
   {&__pyx_n_s_kernelcircle, __pyx_k_kernelcircle, sizeof(__pyx_k_kernelcircle), 0, 0, 1, 1},
   {&__pyx_n_s_kernelrad, __pyx_k_kernelrad, sizeof(__pyx_k_kernelrad), 0, 0, 1, 1},
   {&__pyx_n_s_kernelsize, __pyx_k_kernelsize, sizeof(__pyx_k_kernelsize), 0, 0, 1, 1},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
+  {&__pyx_n_s_marker, __pyx_k_marker, sizeof(__pyx_k_marker), 0, 0, 1, 1},
+  {&__pyx_n_s_matplotlib_colors, __pyx_k_matplotlib_colors, sizeof(__pyx_k_matplotlib_colors), 0, 0, 1, 1},
   {&__pyx_n_s_matplotlib_pyplot, __pyx_k_matplotlib_pyplot, sizeof(__pyx_k_matplotlib_pyplot), 0, 0, 1, 1},
   {&__pyx_n_s_max, __pyx_k_max, sizeof(__pyx_k_max), 0, 0, 1, 1},
   {&__pyx_n_s_median, __pyx_k_median, sizeof(__pyx_k_median), 0, 0, 1, 1},
@@ -23692,9 +26979,13 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_mode, __pyx_k_mode, sizeof(__pyx_k_mode), 0, 0, 1, 1},
   {&__pyx_n_s_name, __pyx_k_name, sizeof(__pyx_k_name), 0, 0, 1, 1},
   {&__pyx_n_s_name_2, __pyx_k_name_2, sizeof(__pyx_k_name_2), 0, 0, 1, 1},
+  {&__pyx_n_s_ncolors, __pyx_k_ncolors, sizeof(__pyx_k_ncolors), 0, 0, 1, 1},
   {&__pyx_n_s_ndim, __pyx_k_ndim, sizeof(__pyx_k_ndim), 0, 0, 1, 1},
+  {&__pyx_n_s_neither, __pyx_k_neither, sizeof(__pyx_k_neither), 0, 0, 1, 1},
   {&__pyx_n_s_new, __pyx_k_new, sizeof(__pyx_k_new), 0, 0, 1, 1},
+  {&__pyx_n_s_nm, __pyx_k_nm, sizeof(__pyx_k_nm), 0, 0, 1, 1},
   {&__pyx_kp_s_no_default___reduce___due_to_non, __pyx_k_no_default___reduce___due_to_non, sizeof(__pyx_k_no_default___reduce___due_to_non), 0, 0, 1, 0},
+  {&__pyx_n_s_norm, __pyx_k_norm, sizeof(__pyx_k_norm), 0, 0, 1, 1},
   {&__pyx_n_s_np, __pyx_k_np, sizeof(__pyx_k_np), 0, 0, 1, 1},
   {&__pyx_n_s_npts, __pyx_k_npts, sizeof(__pyx_k_npts), 0, 0, 1, 1},
   {&__pyx_n_s_nrefinepts, __pyx_k_nrefinepts, sizeof(__pyx_k_nrefinepts), 0, 0, 1, 1},
@@ -23705,12 +26996,24 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_obj, __pyx_k_obj, sizeof(__pyx_k_obj), 0, 0, 1, 1},
   {&__pyx_n_s_occupymap, __pyx_k_occupymap, sizeof(__pyx_k_occupymap), 0, 0, 1, 1},
   {&__pyx_n_s_ones, __pyx_k_ones, sizeof(__pyx_k_ones), 0, 0, 1, 1},
+  {&__pyx_n_s_open, __pyx_k_open, sizeof(__pyx_k_open), 0, 0, 1, 1},
+  {&__pyx_n_s_os, __pyx_k_os, sizeof(__pyx_k_os), 0, 0, 1, 1},
   {&__pyx_n_s_pack, __pyx_k_pack, sizeof(__pyx_k_pack), 0, 0, 1, 1},
+  {&__pyx_n_s_percentile, __pyx_k_percentile, sizeof(__pyx_k_percentile), 0, 0, 1, 1},
   {&__pyx_n_s_pickle, __pyx_k_pickle, sizeof(__pyx_k_pickle), 0, 0, 1, 1},
-  {&__pyx_kp_s_pixel_thresh, __pyx_k_pixel_thresh, sizeof(__pyx_k_pixel_thresh), 0, 0, 1, 0},
+  {&__pyx_n_s_pixelradius, __pyx_k_pixelradius, sizeof(__pyx_k_pixelradius), 0, 0, 1, 1},
   {&__pyx_n_s_pixsat, __pyx_k_pixsat, sizeof(__pyx_k_pixsat), 0, 0, 1, 1},
   {&__pyx_n_s_plt, __pyx_k_plt, sizeof(__pyx_k_plt), 0, 0, 1, 1},
   {&__pyx_n_s_print, __pyx_k_print, sizeof(__pyx_k_print), 0, 0, 1, 1},
+  {&__pyx_n_s_pse_metadata, __pyx_k_pse_metadata, sizeof(__pyx_k_pse_metadata), 0, 0, 1, 1},
+  {&__pyx_kp_s_pse_metadata_allsources_csv, __pyx_k_pse_metadata_allsources_csv, sizeof(__pyx_k_pse_metadata_allsources_csv), 0, 0, 1, 0},
+  {&__pyx_kp_s_pse_metadata_allsources_sorted, __pyx_k_pse_metadata_allsources_sorted, sizeof(__pyx_k_pse_metadata_allsources_sorted), 0, 0, 1, 0},
+  {&__pyx_kp_s_pse_metadata_allsources_sorted_2, __pyx_k_pse_metadata_allsources_sorted_2, sizeof(__pyx_k_pse_metadata_allsources_sorted_2), 0, 0, 1, 0},
+  {&__pyx_kp_s_pse_metadata_centroids, __pyx_k_pse_metadata_centroids, sizeof(__pyx_k_pse_metadata_centroids), 0, 0, 1, 0},
+  {&__pyx_kp_s_pse_metadata_centroids_png, __pyx_k_pse_metadata_centroids_png, sizeof(__pyx_k_pse_metadata_centroids_png), 0, 0, 1, 0},
+  {&__pyx_kp_s_pse_metadata_csv, __pyx_k_pse_metadata_csv, sizeof(__pyx_k_pse_metadata_csv), 0, 0, 1, 0},
+  {&__pyx_kp_s_pse_metadata_islandsonly_csv, __pyx_k_pse_metadata_islandsonly_csv, sizeof(__pyx_k_pse_metadata_islandsonly_csv), 0, 0, 1, 0},
+  {&__pyx_kp_s_pse_metadata_islandsonly_sorted, __pyx_k_pse_metadata_islandsonly_sorted, sizeof(__pyx_k_pse_metadata_islandsonly_sorted), 0, 0, 1, 0},
   {&__pyx_n_s_pyx_PickleError, __pyx_k_pyx_PickleError, sizeof(__pyx_k_pyx_PickleError), 0, 0, 1, 1},
   {&__pyx_n_s_pyx_checksum, __pyx_k_pyx_checksum, sizeof(__pyx_k_pyx_checksum), 0, 0, 1, 1},
   {&__pyx_n_s_pyx_getbuffer, __pyx_k_pyx_getbuffer, sizeof(__pyx_k_pyx_getbuffer), 0, 0, 1, 1},
@@ -23720,22 +27023,31 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_pyx_unpickle_Enum, __pyx_k_pyx_unpickle_Enum, sizeof(__pyx_k_pyx_unpickle_Enum), 0, 0, 1, 1},
   {&__pyx_n_s_pyx_vtable, __pyx_k_pyx_vtable, sizeof(__pyx_k_pyx_vtable), 0, 0, 1, 1},
   {&__pyx_n_s_range, __pyx_k_range, sizeof(__pyx_k_range), 0, 0, 1, 1},
+  {&__pyx_n_s_red, __pyx_k_red, sizeof(__pyx_k_red), 0, 0, 1, 1},
   {&__pyx_n_s_reduce, __pyx_k_reduce, sizeof(__pyx_k_reduce), 0, 0, 1, 1},
   {&__pyx_n_s_reduce_cython, __pyx_k_reduce_cython, sizeof(__pyx_k_reduce_cython), 0, 0, 1, 1},
   {&__pyx_n_s_reduce_ex, __pyx_k_reduce_ex, sizeof(__pyx_k_reduce_ex), 0, 0, 1, 1},
+  {&__pyx_n_s_roi, __pyx_k_roi, sizeof(__pyx_k_roi), 0, 0, 1, 1},
+  {&__pyx_n_s_savefig, __pyx_k_savefig, sizeof(__pyx_k_savefig), 0, 0, 1, 1},
+  {&__pyx_n_s_savename, __pyx_k_savename, sizeof(__pyx_k_savename), 0, 0, 1, 1},
+  {&__pyx_n_s_savetxt, __pyx_k_savetxt, sizeof(__pyx_k_savetxt), 0, 0, 1, 1},
+  {&__pyx_n_s_scatter, __pyx_k_scatter, sizeof(__pyx_k_scatter), 0, 0, 1, 1},
   {&__pyx_n_s_setstate, __pyx_k_setstate, sizeof(__pyx_k_setstate), 0, 0, 1, 1},
   {&__pyx_n_s_setstate_cython, __pyx_k_setstate_cython, sizeof(__pyx_k_setstate_cython), 0, 0, 1, 1},
   {&__pyx_n_s_shape, __pyx_k_shape, sizeof(__pyx_k_shape), 0, 0, 1, 1},
   {&__pyx_n_s_show, __pyx_k_show, sizeof(__pyx_k_show), 0, 0, 1, 1},
-  {&__pyx_n_s_sindmap_initial, __pyx_k_sindmap_initial, sizeof(__pyx_k_sindmap_initial), 0, 0, 1, 1},
-  {&__pyx_n_s_sindmap_refine, __pyx_k_sindmap_refine, sizeof(__pyx_k_sindmap_refine), 0, 0, 1, 1},
   {&__pyx_n_s_size, __pyx_k_size, sizeof(__pyx_k_size), 0, 0, 1, 1},
-  {&__pyx_n_s_smetadata, __pyx_k_smetadata, sizeof(__pyx_k_smetadata), 0, 0, 1, 1},
+  {&__pyx_n_s_skipRemainingSources, __pyx_k_skipRemainingSources, sizeof(__pyx_k_skipRemainingSources), 0, 0, 1, 1},
   {&__pyx_n_s_sourcesep, __pyx_k_sourcesep, sizeof(__pyx_k_sourcesep), 0, 0, 1, 1},
   {&__pyx_n_s_sourcesepcircle, __pyx_k_sourcesepcircle, sizeof(__pyx_k_sourcesepcircle), 0, 0, 1, 1},
   {&__pyx_n_s_sourcesepsize, __pyx_k_sourcesepsize, sizeof(__pyx_k_sourcesepsize), 0, 0, 1, 1},
   {&__pyx_kp_s_src_fastrometry_cython_code_PSE, __pyx_k_src_fastrometry_cython_code_PSE, sizeof(__pyx_k_src_fastrometry_cython_code_PSE), 0, 0, 1, 0},
+  {&__pyx_n_s_srcindexmap_initial, __pyx_k_srcindexmap_initial, sizeof(__pyx_k_srcindexmap_initial), 0, 0, 1, 1},
+  {&__pyx_kp_s_srcindexmap_initial_png, __pyx_k_srcindexmap_initial_png, sizeof(__pyx_k_srcindexmap_initial_png), 0, 0, 1, 0},
+  {&__pyx_n_s_srcindexmap_refine, __pyx_k_srcindexmap_refine, sizeof(__pyx_k_srcindexmap_refine), 0, 0, 1, 1},
+  {&__pyx_kp_s_srcindexmap_refine_png, __pyx_k_srcindexmap_refine_png, sizeof(__pyx_k_srcindexmap_refine_png), 0, 0, 1, 0},
   {&__pyx_n_s_start, __pyx_k_start, sizeof(__pyx_k_start), 0, 0, 1, 1},
+  {&__pyx_n_s_stderr, __pyx_k_stderr, sizeof(__pyx_k_stderr), 0, 0, 1, 1},
   {&__pyx_n_s_step, __pyx_k_step, sizeof(__pyx_k_step), 0, 0, 1, 1},
   {&__pyx_n_s_stop, __pyx_k_stop, sizeof(__pyx_k_stop), 0, 0, 1, 1},
   {&__pyx_kp_s_strided_and_direct, __pyx_k_strided_and_direct, sizeof(__pyx_k_strided_and_direct), 0, 0, 1, 0},
@@ -23743,17 +27055,26 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_strided_and_indirect, __pyx_k_strided_and_indirect, sizeof(__pyx_k_strided_and_indirect), 0, 0, 1, 0},
   {&__pyx_kp_s_stringsource, __pyx_k_stringsource, sizeof(__pyx_k_stringsource), 0, 0, 1, 0},
   {&__pyx_n_s_struct, __pyx_k_struct, sizeof(__pyx_k_struct), 0, 0, 1, 1},
+  {&__pyx_n_s_subplots_adjust, __pyx_k_subplots_adjust, sizeof(__pyx_k_subplots_adjust), 0, 0, 1, 1},
+  {&__pyx_n_s_sys, __pyx_k_sys, sizeof(__pyx_k_sys), 0, 0, 1, 1},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
+  {&__pyx_n_s_title, __pyx_k_title, sizeof(__pyx_k_title), 0, 0, 1, 1},
   {&__pyx_kp_s_unable_to_allocate_array_data, __pyx_k_unable_to_allocate_array_data, sizeof(__pyx_k_unable_to_allocate_array_data), 0, 0, 1, 0},
   {&__pyx_kp_s_unable_to_allocate_shape_and_str, __pyx_k_unable_to_allocate_shape_and_str, sizeof(__pyx_k_unable_to_allocate_shape_and_str), 0, 0, 1, 0},
   {&__pyx_n_s_unpack, __pyx_k_unpack, sizeof(__pyx_k_unpack), 0, 0, 1, 1},
   {&__pyx_n_s_update, __pyx_k_update, sizeof(__pyx_k_update), 0, 0, 1, 1},
-  {&__pyx_n_s_verbose, __pyx_k_verbose, sizeof(__pyx_k_verbose), 0, 0, 1, 1},
+  {&__pyx_n_s_user_dir, __pyx_k_user_dir, sizeof(__pyx_k_user_dir), 0, 0, 1, 1},
+  {&__pyx_n_s_verbosity, __pyx_k_verbosity, sizeof(__pyx_k_verbosity), 0, 0, 1, 1},
+  {&__pyx_n_s_vmax, __pyx_k_vmax, sizeof(__pyx_k_vmax), 0, 0, 1, 1},
+  {&__pyx_n_s_vmin, __pyx_k_vmin, sizeof(__pyx_k_vmin), 0, 0, 1, 1},
+  {&__pyx_n_s_w, __pyx_k_w, sizeof(__pyx_k_w), 0, 0, 1, 1},
+  {&__pyx_n_s_yellow, __pyx_k_yellow, sizeof(__pyx_k_yellow), 0, 0, 1, 1},
   {&__pyx_n_s_zeros, __pyx_k_zeros, sizeof(__pyx_k_zeros), 0, 0, 1, 1},
   {0, 0, 0, 0, 0, 0, 0}
 };
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 28, __pyx_L1_error)
+  __pyx_builtin_open = __Pyx_GetBuiltinName(__pyx_n_s_open); if (!__pyx_builtin_open) __PYX_ERR(0, 18, __pyx_L1_error)
+  __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(0, 52, __pyx_L1_error)
   __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(1, 945, __pyx_L1_error)
   __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(2, 133, __pyx_L1_error)
   __pyx_builtin_MemoryError = __Pyx_GetBuiltinName(__pyx_n_s_MemoryError); if (!__pyx_builtin_MemoryError) __PYX_ERR(2, 148, __pyx_L1_error)
@@ -23771,66 +27092,102 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "fastrometry/cython_code/PSE.pyx":200
+  /* "fastrometry/cython_code/PSE.pyx":7
+ * import cython
+ * 
+ * def debuggerPlot(array, user_dir, debug_report, savename, figsize=(7,7), bottom=0.25, vmin=None, vmax=None, colbar=False, colbar_extend=False, title=None, dscrp=None, bmargin=0.1, disable_console=False, collist=None, boundslist=None):             # <<<<<<<<<<<<<<
+ *     import matplotlib.pyplot as plt
+ *     from matplotlib.colors import BoundaryNorm
+ */
+  __pyx_tuple_ = PyTuple_Pack(2, __pyx_int_7, __pyx_int_7); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 7, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple_);
+  __Pyx_GIVEREF(__pyx_tuple_);
+
+  /* "fastrometry/cython_code/PSE.pyx":251
  *         int bottommost_safe_y = img_ymax - sourcesep
- *         double[:,:] smetadata_view = smetadata
+ *         double[:,:] pse_metadata_view = pse_metadata
  *         int[:] islandbnds_view = np.zeros(4,dtype=int)             # <<<<<<<<<<<<<<
  *         double[:] cntdresults_view = np.zeros(3,dtype=np.double)
  *         int[:,:] newoccupymap_view = -1*np.ones((img_ymax,img_xmax),dtype=np.int32)
  */
-  __pyx_tuple_ = PyTuple_Pack(1, __pyx_int_4); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 200, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple_);
-  __Pyx_GIVEREF(__pyx_tuple_);
+  __pyx_tuple__4 = PyTuple_Pack(1, __pyx_int_4); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 251, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__4);
+  __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "fastrometry/cython_code/PSE.pyx":201
- *         double[:,:] smetadata_view = smetadata
+  /* "fastrometry/cython_code/PSE.pyx":252
+ *         double[:,:] pse_metadata_view = pse_metadata
  *         int[:] islandbnds_view = np.zeros(4,dtype=int)
  *         double[:] cntdresults_view = np.zeros(3,dtype=np.double)             # <<<<<<<<<<<<<<
  *         int[:,:] newoccupymap_view = -1*np.ones((img_ymax,img_xmax),dtype=np.int32)
  * 
  */
-  __pyx_tuple__2 = PyTuple_Pack(1, __pyx_int_3); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 201, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__2);
-  __Pyx_GIVEREF(__pyx_tuple__2);
+  __pyx_tuple__5 = PyTuple_Pack(1, __pyx_int_3); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 252, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__5);
+  __Pyx_GIVEREF(__pyx_tuple__5);
 
-  /* "fastrometry/cython_code/PSE.pyx":230
- *                     curr_sind += 1
+  /* "fastrometry/cython_code/PSE.pyx":282
+ *                         curr_sind += 1
  * 
- *         smetadata_sorted = smetadata[smetadata[:,2].argsort()][::-1]             # <<<<<<<<<<<<<<
- *         smetadata[:] = smetadata_sorted
- * 
+ *         pse_metadata_sorted = pse_metadata[pse_metadata[:,2].argsort()][::-1]             # <<<<<<<<<<<<<<
+ *         if debug:
+ *             np.savetxt(user_dir+"\\debug\\"+debug_report+"\\pse_metadata_islandsonly.csv",pse_metadata,delimiter=",")
  */
-  __pyx_slice__3 = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_slice__3)) __PYX_ERR(0, 230, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_slice__3);
-  __Pyx_GIVEREF(__pyx_slice__3);
-  __pyx_tuple__4 = PyTuple_Pack(2, __pyx_slice__3, __pyx_int_2); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 230, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__4);
-  __Pyx_GIVEREF(__pyx_tuple__4);
-  __pyx_slice__5 = PySlice_New(Py_None, Py_None, __pyx_int_neg_1); if (unlikely(!__pyx_slice__5)) __PYX_ERR(0, 230, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_slice__5);
-  __Pyx_GIVEREF(__pyx_slice__5);
+  __pyx_slice__6 = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_slice__6)) __PYX_ERR(0, 282, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_slice__6);
+  __Pyx_GIVEREF(__pyx_slice__6);
+  __pyx_tuple__7 = PyTuple_Pack(2, __pyx_slice__6, __pyx_int_2); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 282, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__7);
+  __Pyx_GIVEREF(__pyx_tuple__7);
+  __pyx_slice__8 = PySlice_New(Py_None, Py_None, __pyx_int_neg_1); if (unlikely(!__pyx_slice__8)) __PYX_ERR(0, 282, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_slice__8);
+  __Pyx_GIVEREF(__pyx_slice__8);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":945
+  /* "fastrometry/cython_code/PSE.pyx":607
+ *         from matplotlib.colors import LogNorm
+ *         from astropy.io import fits
+ *         plt.figure(figsize=(10,8))             # <<<<<<<<<<<<<<
+ *         image_data = fits.getdata('{}\\{}'.format(user_dir,filename))
+ *         plt.subplots_adjust(bottom=0.15)
+ */
+  __pyx_tuple__10 = PyTuple_Pack(2, __pyx_int_10, __pyx_int_8); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(0, 607, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__10);
+  __Pyx_GIVEREF(__pyx_tuple__10);
+
+  /* "fastrometry/cython_code/PSE.pyx":611
+ *         plt.subplots_adjust(bottom=0.15)
+ *         plt.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         plt.scatter(pse_metadata[:,0],pse_metadata[:,1],color='red',marker='.')             # <<<<<<<<<<<<<<
+ *         plt.title("pse_metadata centroids")
+ *         dscrp="Centroids from the pse_metadata, plotted overtop the image."
+ */
+  __pyx_tuple__12 = PyTuple_Pack(2, __pyx_slice__6, __pyx_int_0); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(0, 611, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__12);
+  __Pyx_GIVEREF(__pyx_tuple__12);
+  __pyx_tuple__13 = PyTuple_Pack(2, __pyx_slice__6, __pyx_int_1); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(0, 611, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__13);
+  __Pyx_GIVEREF(__pyx_tuple__13);
+
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":945
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(1, 945, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__7);
-  __Pyx_GIVEREF(__pyx_tuple__7);
+  __pyx_tuple__15 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(1, 945, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__15);
+  __Pyx_GIVEREF(__pyx_tuple__15);
 
-  /* "../../../AppData/Local/Temp/build-env-f6u_acxx/lib/site-packages/numpy/__init__.pxd":951
+  /* "../../AppData/Local/Programs/Python/Python310/lib/site-packages/numpy/__init__.pxd":951
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__8 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(1, 951, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__8);
-  __Pyx_GIVEREF(__pyx_tuple__8);
+  __pyx_tuple__16 = PyTuple_Pack(1, __pyx_kp_s_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(1, 951, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__16);
+  __Pyx_GIVEREF(__pyx_tuple__16);
 
   /* "View.MemoryView":133
  * 
@@ -23839,9 +27196,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if itemsize <= 0:
  */
-  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_s_Empty_shape_tuple_for_cython_arr); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(2, 133, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__9);
-  __Pyx_GIVEREF(__pyx_tuple__9);
+  __pyx_tuple__17 = PyTuple_Pack(1, __pyx_kp_s_Empty_shape_tuple_for_cython_arr); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(2, 133, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__17);
+  __Pyx_GIVEREF(__pyx_tuple__17);
 
   /* "View.MemoryView":136
  * 
@@ -23850,9 +27207,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if not isinstance(format, bytes):
  */
-  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_s_itemsize_0_for_cython_array); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(2, 136, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__10);
-  __Pyx_GIVEREF(__pyx_tuple__10);
+  __pyx_tuple__18 = PyTuple_Pack(1, __pyx_kp_s_itemsize_0_for_cython_array); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(2, 136, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__18);
+  __Pyx_GIVEREF(__pyx_tuple__18);
 
   /* "View.MemoryView":148
  * 
@@ -23861,9 +27218,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__11 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_shape_and_str); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(2, 148, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__11);
-  __Pyx_GIVEREF(__pyx_tuple__11);
+  __pyx_tuple__19 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_shape_and_str); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(2, 148, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__19);
+  __Pyx_GIVEREF(__pyx_tuple__19);
 
   /* "View.MemoryView":176
  *             self.data = <char *>malloc(self.len)
@@ -23872,9 +27229,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *             if self.dtype_is_object:
  */
-  __pyx_tuple__12 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_array_data); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(2, 176, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__12);
-  __Pyx_GIVEREF(__pyx_tuple__12);
+  __pyx_tuple__20 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_array_data); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(2, 176, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__20);
+  __Pyx_GIVEREF(__pyx_tuple__20);
 
   /* "View.MemoryView":192
  *             bufmode = PyBUF_F_CONTIGUOUS | PyBUF_ANY_CONTIGUOUS
@@ -23883,9 +27240,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         info.buf = self.data
  *         info.len = self.len
  */
-  __pyx_tuple__13 = PyTuple_Pack(1, __pyx_kp_s_Can_only_create_a_buffer_that_is); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(2, 192, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__13);
-  __Pyx_GIVEREF(__pyx_tuple__13);
+  __pyx_tuple__21 = PyTuple_Pack(1, __pyx_kp_s_Can_only_create_a_buffer_that_is); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(2, 192, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__21);
+  __Pyx_GIVEREF(__pyx_tuple__21);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -23893,18 +27250,18 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__14 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(2, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__14);
-  __Pyx_GIVEREF(__pyx_tuple__14);
+  __pyx_tuple__22 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(2, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__22);
+  __Pyx_GIVEREF(__pyx_tuple__22);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__15 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(2, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__15);
-  __Pyx_GIVEREF(__pyx_tuple__15);
+  __pyx_tuple__23 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__23);
+  __Pyx_GIVEREF(__pyx_tuple__23);
 
   /* "View.MemoryView":418
  *     def __setitem__(memoryview self, object index, object value):
@@ -23913,9 +27270,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         have_slices, index = _unellipsify(index, self.view.ndim)
  */
-  __pyx_tuple__16 = PyTuple_Pack(1, __pyx_kp_s_Cannot_assign_to_read_only_memor); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(2, 418, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__16);
-  __Pyx_GIVEREF(__pyx_tuple__16);
+  __pyx_tuple__24 = PyTuple_Pack(1, __pyx_kp_s_Cannot_assign_to_read_only_memor); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(2, 418, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__24);
+  __Pyx_GIVEREF(__pyx_tuple__24);
 
   /* "View.MemoryView":495
  *             result = struct.unpack(self.view.format, bytesitem)
@@ -23924,9 +27281,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         else:
  *             if len(self.view.format) == 1:
  */
-  __pyx_tuple__17 = PyTuple_Pack(1, __pyx_kp_s_Unable_to_convert_item_to_object); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(2, 495, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__17);
-  __Pyx_GIVEREF(__pyx_tuple__17);
+  __pyx_tuple__25 = PyTuple_Pack(1, __pyx_kp_s_Unable_to_convert_item_to_object); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(2, 495, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__25);
+  __Pyx_GIVEREF(__pyx_tuple__25);
 
   /* "View.MemoryView":520
  *     def __getbuffer__(self, Py_buffer *info, int flags):
@@ -23935,9 +27292,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if flags & PyBUF_ND:
  */
-  __pyx_tuple__18 = PyTuple_Pack(1, __pyx_kp_s_Cannot_create_writable_memory_vi); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(2, 520, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__18);
-  __Pyx_GIVEREF(__pyx_tuple__18);
+  __pyx_tuple__26 = PyTuple_Pack(1, __pyx_kp_s_Cannot_create_writable_memory_vi); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(2, 520, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__26);
+  __Pyx_GIVEREF(__pyx_tuple__26);
 
   /* "View.MemoryView":570
  *         if self.view.strides == NULL:
@@ -23946,9 +27303,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         return tuple([stride for stride in self.view.strides[:self.view.ndim]])
  */
-  __pyx_tuple__19 = PyTuple_Pack(1, __pyx_kp_s_Buffer_view_does_not_expose_stri); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(2, 570, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__19);
-  __Pyx_GIVEREF(__pyx_tuple__19);
+  __pyx_tuple__27 = PyTuple_Pack(1, __pyx_kp_s_Buffer_view_does_not_expose_stri); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(2, 570, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__27);
+  __Pyx_GIVEREF(__pyx_tuple__27);
 
   /* "View.MemoryView":577
  *     def suboffsets(self):
@@ -23957,12 +27314,12 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         return tuple([suboffset for suboffset in self.view.suboffsets[:self.view.ndim]])
  */
-  __pyx_tuple__20 = PyTuple_New(1); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(2, 577, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__20);
+  __pyx_tuple__28 = PyTuple_New(1); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(2, 577, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__28);
   __Pyx_INCREF(__pyx_int_neg_1);
   __Pyx_GIVEREF(__pyx_int_neg_1);
-  PyTuple_SET_ITEM(__pyx_tuple__20, 0, __pyx_int_neg_1);
-  __Pyx_GIVEREF(__pyx_tuple__20);
+  PyTuple_SET_ITEM(__pyx_tuple__28, 0, __pyx_int_neg_1);
+  __Pyx_GIVEREF(__pyx_tuple__28);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -23970,18 +27327,18 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__21 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(2, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__21);
-  __Pyx_GIVEREF(__pyx_tuple__21);
+  __pyx_tuple__29 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(2, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__29);
+  __Pyx_GIVEREF(__pyx_tuple__29);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__22 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(2, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__22);
-  __Pyx_GIVEREF(__pyx_tuple__22);
+  __pyx_tuple__30 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__30);
+  __Pyx_GIVEREF(__pyx_tuple__30);
 
   /* "View.MemoryView":703
  *     for suboffset in suboffsets[:ndim]:
@@ -23990,9 +27347,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__23 = PyTuple_Pack(1, __pyx_kp_s_Indirect_dimensions_not_supporte); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(2, 703, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__23);
-  __Pyx_GIVEREF(__pyx_tuple__23);
+  __pyx_tuple__31 = PyTuple_Pack(1, __pyx_kp_s_Indirect_dimensions_not_supporte); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(2, 703, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__31);
+  __Pyx_GIVEREF(__pyx_tuple__31);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -24000,33 +27357,45 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__24 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(2, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__24);
-  __Pyx_GIVEREF(__pyx_tuple__24);
+  __pyx_tuple__32 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(2, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__32);
+  __Pyx_GIVEREF(__pyx_tuple__32);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__25 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(2, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__25);
-  __Pyx_GIVEREF(__pyx_tuple__25);
-  __pyx_tuple__26 = PyTuple_Pack(3, __pyx_int_184977713, __pyx_int_136983863, __pyx_int_112105877); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(2, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__26);
-  __Pyx_GIVEREF(__pyx_tuple__26);
+  __pyx_tuple__33 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__33);
+  __Pyx_GIVEREF(__pyx_tuple__33);
+  __pyx_tuple__34 = PyTuple_Pack(3, __pyx_int_184977713, __pyx_int_136983863, __pyx_int_112105877); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__34);
+  __Pyx_GIVEREF(__pyx_tuple__34);
 
-  /* "fastrometry/cython_code/PSE.pyx":441
- *     return num_psesources
+  /* "fastrometry/cython_code/PSE.pyx":7
+ * import cython
  * 
- * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, sindmap_initial, sindmap_refine, smetadata, verbose, debug):             # <<<<<<<<<<<<<<
- * 
- *     if debug >= 1:
+ * def debuggerPlot(array, user_dir, debug_report, savename, figsize=(7,7), bottom=0.25, vmin=None, vmax=None, colbar=False, colbar_extend=False, title=None, dscrp=None, bmargin=0.1, disable_console=False, collist=None, boundslist=None):             # <<<<<<<<<<<<<<
+ *     import matplotlib.pyplot as plt
+ *     from matplotlib.colors import BoundaryNorm
  */
-  __pyx_tuple__27 = PyTuple_Pack(24, __pyx_n_s_img, __pyx_n_s_img_xmax, __pyx_n_s_img_ymax, __pyx_n_s_kernelrad, __pyx_n_s_sourcesep, __pyx_n_s_pixsat, __pyx_n_s_npts, __pyx_n_s_nrefinepts, __pyx_n_s_sindmap_initial, __pyx_n_s_sindmap_refine, __pyx_n_s_smetadata, __pyx_n_s_verbose, __pyx_n_s_debug, __pyx_n_s_plt, __pyx_n_s_bgmap, __pyx_n_s_curr_sind, __pyx_n_s_occupymap, __pyx_n_s_num_psesources, __pyx_n_s_kernelsize, __pyx_n_s_kernelcircle, __pyx_n_s_sourcesepsize, __pyx_n_s_sourcesepcircle, __pyx_n_s_img_median, __pyx_n_s_img_max); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(0, 441, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__27);
-  __Pyx_GIVEREF(__pyx_tuple__27);
-  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(13, 0, 24, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__27, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_fastrometry_cython_code_PSE, __pyx_n_s_PSE, 441, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 441, __pyx_L1_error)
+  __pyx_tuple__35 = PyTuple_Pack(25, __pyx_n_s_array, __pyx_n_s_user_dir, __pyx_n_s_debug_report, __pyx_n_s_savename, __pyx_n_s_figsize, __pyx_n_s_bottom, __pyx_n_s_vmin, __pyx_n_s_vmax, __pyx_n_s_colbar, __pyx_n_s_colbar_extend, __pyx_n_s_title, __pyx_n_s_dscrp, __pyx_n_s_bmargin, __pyx_n_s_disable_console, __pyx_n_s_collist, __pyx_n_s_boundslist, __pyx_n_s_plt, __pyx_n_s_BoundaryNorm, __pyx_n_s_ListedColormap, __pyx_n_s_extend, __pyx_n_s_sys, __pyx_n_s_os, __pyx_n_s_console, __pyx_n_s_cm, __pyx_n_s_nm); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(0, 7, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__35);
+  __Pyx_GIVEREF(__pyx_tuple__35);
+  __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(16, 0, 25, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_fastrometry_cython_code_PSE, __pyx_n_s_debuggerPlot, 7, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) __PYX_ERR(0, 7, __pyx_L1_error)
+
+  /* "fastrometry/cython_code/PSE.pyx":513
+ *     return curr_sind
+ * 
+ * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, pixelradius, shape, srcindexmap_initial, srcindexmap_refine, pse_metadata, user_dir, debug_report, filename, verbosity, debug):             # <<<<<<<<<<<<<<
+ * 
+ *     num_psesources = 0
+ */
+  __pyx_tuple__37 = PyTuple_Pack(36, __pyx_n_s_img, __pyx_n_s_img_xmax, __pyx_n_s_img_ymax, __pyx_n_s_kernelrad, __pyx_n_s_sourcesep, __pyx_n_s_pixsat, __pyx_n_s_npts, __pyx_n_s_nrefinepts, __pyx_n_s_pixelradius, __pyx_n_s_shape, __pyx_n_s_srcindexmap_initial, __pyx_n_s_srcindexmap_refine, __pyx_n_s_pse_metadata, __pyx_n_s_user_dir, __pyx_n_s_debug_report, __pyx_n_s_filename, __pyx_n_s_verbosity, __pyx_n_s_debug_2, __pyx_n_s_num_psesources, __pyx_n_s_skipRemainingSources, __pyx_n_s_roi, __pyx_n_s_description, __pyx_n_s_bgmap, __pyx_n_s_curr_sind, __pyx_n_s_occupymap, __pyx_n_s_kernelsize, __pyx_n_s_kernelcircle, __pyx_n_s_sourcesepsize, __pyx_n_s_sourcesepcircle, __pyx_n_s_img_median, __pyx_n_s_img_max, __pyx_n_s_plt, __pyx_n_s_LogNorm, __pyx_n_s_fits, __pyx_n_s_image_data, __pyx_n_s_dscrp); if (unlikely(!__pyx_tuple__37)) __PYX_ERR(0, 513, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__37);
+  __Pyx_GIVEREF(__pyx_tuple__37);
+  __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(18, 0, 36, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__37, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_fastrometry_cython_code_PSE, __pyx_n_s_PSE, 513, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) __PYX_ERR(0, 513, __pyx_L1_error)
 
   /* "View.MemoryView":286
  *         return self.name
@@ -24035,9 +27404,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef strided = Enum("<strided and direct>") # default
  * cdef indirect = Enum("<strided and indirect>")
  */
-  __pyx_tuple__29 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct_or_indirect); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(2, 286, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__29);
-  __Pyx_GIVEREF(__pyx_tuple__29);
+  __pyx_tuple__39 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct_or_indirect); if (unlikely(!__pyx_tuple__39)) __PYX_ERR(2, 286, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__39);
+  __Pyx_GIVEREF(__pyx_tuple__39);
 
   /* "View.MemoryView":287
  * 
@@ -24046,9 +27415,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef indirect = Enum("<strided and indirect>")
  * 
  */
-  __pyx_tuple__30 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(2, 287, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__30);
-  __Pyx_GIVEREF(__pyx_tuple__30);
+  __pyx_tuple__40 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(2, 287, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__40);
+  __Pyx_GIVEREF(__pyx_tuple__40);
 
   /* "View.MemoryView":288
  * cdef generic = Enum("<strided and direct or indirect>")
@@ -24057,9 +27426,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__31 = PyTuple_Pack(1, __pyx_kp_s_strided_and_indirect); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(2, 288, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__31);
-  __Pyx_GIVEREF(__pyx_tuple__31);
+  __pyx_tuple__41 = PyTuple_Pack(1, __pyx_kp_s_strided_and_indirect); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(2, 288, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__41);
+  __Pyx_GIVEREF(__pyx_tuple__41);
 
   /* "View.MemoryView":291
  * 
@@ -24068,9 +27437,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef indirect_contiguous = Enum("<contiguous and indirect>")
  * 
  */
-  __pyx_tuple__32 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_direct); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(2, 291, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__32);
-  __Pyx_GIVEREF(__pyx_tuple__32);
+  __pyx_tuple__42 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_direct); if (unlikely(!__pyx_tuple__42)) __PYX_ERR(2, 291, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__42);
+  __Pyx_GIVEREF(__pyx_tuple__42);
 
   /* "View.MemoryView":292
  * 
@@ -24079,19 +27448,19 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__33 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_indirect); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(2, 292, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__33);
-  __Pyx_GIVEREF(__pyx_tuple__33);
+  __pyx_tuple__43 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_indirect); if (unlikely(!__pyx_tuple__43)) __PYX_ERR(2, 292, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__43);
+  __Pyx_GIVEREF(__pyx_tuple__43);
 
   /* "(tree fragment)":1
  * def __pyx_unpickle_Enum(__pyx_type, long __pyx_checksum, __pyx_state):             # <<<<<<<<<<<<<<
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
  */
-  __pyx_tuple__34 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(2, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__34);
-  __Pyx_GIVEREF(__pyx_tuple__34);
-  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(2, 1, __pyx_L1_error)
+  __pyx_tuple__44 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(2, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__44);
+  __Pyx_GIVEREF(__pyx_tuple__44);
+  __pyx_codeobj__45 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__44, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__45)) __PYX_ERR(2, 1, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -24101,16 +27470,28 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
 static CYTHON_SMALL_CODE int __Pyx_InitGlobals(void) {
   if (__Pyx_InitStrings(__pyx_string_tab) < 0) __PYX_ERR(0, 1, __pyx_L1_error);
+  __pyx_float_0_1 = PyFloat_FromDouble(0.1); if (unlikely(!__pyx_float_0_1)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_float_0_2 = PyFloat_FromDouble(0.2); if (unlikely(!__pyx_float_0_2)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_float_0_5 = PyFloat_FromDouble(0.5); if (unlikely(!__pyx_float_0_5)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_float_0_05 = PyFloat_FromDouble(0.05); if (unlikely(!__pyx_float_0_05)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_float_0_07 = PyFloat_FromDouble(0.07); if (unlikely(!__pyx_float_0_07)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_float_0_15 = PyFloat_FromDouble(0.15); if (unlikely(!__pyx_float_0_15)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_float_0_25 = PyFloat_FromDouble(0.25); if (unlikely(!__pyx_float_0_25)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_0 = PyInt_FromLong(0); if (unlikely(!__pyx_int_0)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_1 = PyInt_FromLong(1); if (unlikely(!__pyx_int_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_2 = PyInt_FromLong(2); if (unlikely(!__pyx_int_2)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_3 = PyInt_FromLong(3); if (unlikely(!__pyx_int_3)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_4 = PyInt_FromLong(4); if (unlikely(!__pyx_int_4)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_5 = PyInt_FromLong(5); if (unlikely(!__pyx_int_5)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_7 = PyInt_FromLong(7); if (unlikely(!__pyx_int_7)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_8 = PyInt_FromLong(8); if (unlikely(!__pyx_int_8)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_9 = PyInt_FromLong(9); if (unlikely(!__pyx_int_9)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_10 = PyInt_FromLong(10); if (unlikely(!__pyx_int_10)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_13 = PyInt_FromLong(13); if (unlikely(!__pyx_int_13)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_29 = PyInt_FromLong(29); if (unlikely(!__pyx_int_29)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_49 = PyInt_FromLong(49); if (unlikely(!__pyx_int_49)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_81 = PyInt_FromLong(81); if (unlikely(!__pyx_int_81)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_99 = PyInt_FromLong(99); if (unlikely(!__pyx_int_99)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_113 = PyInt_FromLong(113); if (unlikely(!__pyx_int_113)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_149 = PyInt_FromLong(149); if (unlikely(!__pyx_int_149)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_197 = PyInt_FromLong(197); if (unlikely(!__pyx_int_197)) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -24570,16 +27951,28 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_2) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "fastrometry/cython_code/PSE.pyx":441
- *     return num_psesources
+  /* "fastrometry/cython_code/PSE.pyx":7
+ * import cython
  * 
- * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, sindmap_initial, sindmap_refine, smetadata, verbose, debug):             # <<<<<<<<<<<<<<
- * 
- *     if debug >= 1:
+ * def debuggerPlot(array, user_dir, debug_report, savename, figsize=(7,7), bottom=0.25, vmin=None, vmax=None, colbar=False, colbar_extend=False, title=None, dscrp=None, bmargin=0.1, disable_console=False, collist=None, boundslist=None):             # <<<<<<<<<<<<<<
+ *     import matplotlib.pyplot as plt
+ *     from matplotlib.colors import BoundaryNorm
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_11fastrometry_11cython_code_3PSE_1PSE, NULL, __pyx_n_s_fastrometry_cython_code_PSE); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 441, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_11fastrometry_11cython_code_3PSE_1debuggerPlot, NULL, __pyx_n_s_fastrometry_cython_code_PSE); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 7, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_PSE, __pyx_t_2) < 0) __PYX_ERR(0, 441, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_debuggerPlot, __pyx_t_2) < 0) __PYX_ERR(0, 7, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "fastrometry/cython_code/PSE.pyx":513
+ *     return curr_sind
+ * 
+ * def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, pixelradius, shape, srcindexmap_initial, srcindexmap_refine, pse_metadata, user_dir, debug_report, filename, verbosity, debug):             # <<<<<<<<<<<<<<
+ * 
+ *     num_psesources = 0
+ */
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_11fastrometry_11cython_code_3PSE_3PSE, NULL, __pyx_n_s_fastrometry_cython_code_PSE); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 513, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_PSE, __pyx_t_2) < 0) __PYX_ERR(0, 513, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
   /* "fastrometry/cython_code/PSE.pyx":1
@@ -24612,7 +28005,7 @@ if (!__Pyx_RefNanny) {
  * cdef strided = Enum("<strided and direct>") # default
  * cdef indirect = Enum("<strided and indirect>")
  */
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__29, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 286, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__39, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 286, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_XGOTREF(generic);
   __Pyx_DECREF_SET(generic, __pyx_t_2);
@@ -24626,7 +28019,7 @@ if (!__Pyx_RefNanny) {
  * cdef indirect = Enum("<strided and indirect>")
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__30, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 287, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__40, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 287, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_XGOTREF(strided);
   __Pyx_DECREF_SET(strided, __pyx_t_2);
@@ -24640,7 +28033,7 @@ if (!__Pyx_RefNanny) {
  * 
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__31, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 288, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__41, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_XGOTREF(indirect);
   __Pyx_DECREF_SET(indirect, __pyx_t_2);
@@ -24654,7 +28047,7 @@ if (!__Pyx_RefNanny) {
  * cdef indirect_contiguous = Enum("<contiguous and indirect>")
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__32, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 291, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__42, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 291, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_XGOTREF(contiguous);
   __Pyx_DECREF_SET(contiguous, __pyx_t_2);
@@ -24668,7 +28061,7 @@ if (!__Pyx_RefNanny) {
  * 
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__33, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 292, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__43, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(2, 292, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_XGOTREF(indirect_contiguous);
   __Pyx_DECREF_SET(indirect_contiguous, __pyx_t_2);
@@ -24816,66 +28209,260 @@ static PyObject *__Pyx_GetBuiltinName(PyObject *name) {
     return result;
 }
 
-/* PyDictVersioning */
-#if CYTHON_USE_DICT_VERSIONS && CYTHON_USE_TYPE_SLOTS
-static CYTHON_INLINE PY_UINT64_T __Pyx_get_tp_dict_version(PyObject *obj) {
-    PyObject *dict = Py_TYPE(obj)->tp_dict;
-    return likely(dict) ? __PYX_GET_DICT_VERSION(dict) : 0;
-}
-static CYTHON_INLINE PY_UINT64_T __Pyx_get_object_dict_version(PyObject *obj) {
-    PyObject **dictptr = NULL;
-    Py_ssize_t offset = Py_TYPE(obj)->tp_dictoffset;
-    if (offset) {
-#if CYTHON_COMPILING_IN_CPYTHON
-        dictptr = (likely(offset > 0)) ? (PyObject **) ((char *)obj + offset) : _PyObject_GetDictPtr(obj);
-#else
-        dictptr = _PyObject_GetDictPtr(obj);
-#endif
+/* RaiseArgTupleInvalid */
+static void __Pyx_RaiseArgtupleInvalid(
+    const char* func_name,
+    int exact,
+    Py_ssize_t num_min,
+    Py_ssize_t num_max,
+    Py_ssize_t num_found)
+{
+    Py_ssize_t num_expected;
+    const char *more_or_less;
+    if (num_found < num_min) {
+        num_expected = num_min;
+        more_or_less = "at least";
+    } else {
+        num_expected = num_max;
+        more_or_less = "at most";
     }
-    return (dictptr && *dictptr) ? __PYX_GET_DICT_VERSION(*dictptr) : 0;
+    if (exact) {
+        more_or_less = "exactly";
+    }
+    PyErr_Format(PyExc_TypeError,
+                 "%.200s() takes %.8s %" CYTHON_FORMAT_SSIZE_T "d positional argument%.1s (%" CYTHON_FORMAT_SSIZE_T "d given)",
+                 func_name, more_or_less, num_expected,
+                 (num_expected == 1) ? "" : "s", num_found);
 }
-static CYTHON_INLINE int __Pyx_object_dict_version_matches(PyObject* obj, PY_UINT64_T tp_dict_version, PY_UINT64_T obj_dict_version) {
-    PyObject *dict = Py_TYPE(obj)->tp_dict;
-    if (unlikely(!dict) || unlikely(tp_dict_version != __PYX_GET_DICT_VERSION(dict)))
-        return 0;
-    return obj_dict_version == __Pyx_get_object_dict_version(obj);
+
+/* RaiseDoubleKeywords */
+static void __Pyx_RaiseDoubleKeywordsError(
+    const char* func_name,
+    PyObject* kw_name)
+{
+    PyErr_Format(PyExc_TypeError,
+        #if PY_MAJOR_VERSION >= 3
+        "%s() got multiple values for keyword argument '%U'", func_name, kw_name);
+        #else
+        "%s() got multiple values for keyword argument '%s'", func_name,
+        PyString_AsString(kw_name));
+        #endif
+}
+
+/* ParseKeywords */
+static int __Pyx_ParseOptionalKeywords(
+    PyObject *kwds,
+    PyObject **argnames[],
+    PyObject *kwds2,
+    PyObject *values[],
+    Py_ssize_t num_pos_args,
+    const char* function_name)
+{
+    PyObject *key = 0, *value = 0;
+    Py_ssize_t pos = 0;
+    PyObject*** name;
+    PyObject*** first_kw_arg = argnames + num_pos_args;
+    while (PyDict_Next(kwds, &pos, &key, &value)) {
+        name = first_kw_arg;
+        while (*name && (**name != key)) name++;
+        if (*name) {
+            values[name-argnames] = value;
+            continue;
+        }
+        name = first_kw_arg;
+        #if PY_MAJOR_VERSION < 3
+        if (likely(PyString_Check(key))) {
+            while (*name) {
+                if ((CYTHON_COMPILING_IN_PYPY || PyString_GET_SIZE(**name) == PyString_GET_SIZE(key))
+                        && _PyString_Eq(**name, key)) {
+                    values[name-argnames] = value;
+                    break;
+                }
+                name++;
+            }
+            if (*name) continue;
+            else {
+                PyObject*** argname = argnames;
+                while (argname != first_kw_arg) {
+                    if ((**argname == key) || (
+                            (CYTHON_COMPILING_IN_PYPY || PyString_GET_SIZE(**argname) == PyString_GET_SIZE(key))
+                             && _PyString_Eq(**argname, key))) {
+                        goto arg_passed_twice;
+                    }
+                    argname++;
+                }
+            }
+        } else
+        #endif
+        if (likely(PyUnicode_Check(key))) {
+            while (*name) {
+                int cmp = (**name == key) ? 0 :
+                #if !CYTHON_COMPILING_IN_PYPY && PY_MAJOR_VERSION >= 3
+                    (__Pyx_PyUnicode_GET_LENGTH(**name) != __Pyx_PyUnicode_GET_LENGTH(key)) ? 1 :
+                #endif
+                    PyUnicode_Compare(**name, key);
+                if (cmp < 0 && unlikely(PyErr_Occurred())) goto bad;
+                if (cmp == 0) {
+                    values[name-argnames] = value;
+                    break;
+                }
+                name++;
+            }
+            if (*name) continue;
+            else {
+                PyObject*** argname = argnames;
+                while (argname != first_kw_arg) {
+                    int cmp = (**argname == key) ? 0 :
+                    #if !CYTHON_COMPILING_IN_PYPY && PY_MAJOR_VERSION >= 3
+                        (__Pyx_PyUnicode_GET_LENGTH(**argname) != __Pyx_PyUnicode_GET_LENGTH(key)) ? 1 :
+                    #endif
+                        PyUnicode_Compare(**argname, key);
+                    if (cmp < 0 && unlikely(PyErr_Occurred())) goto bad;
+                    if (cmp == 0) goto arg_passed_twice;
+                    argname++;
+                }
+            }
+        } else
+            goto invalid_keyword_type;
+        if (kwds2) {
+            if (unlikely(PyDict_SetItem(kwds2, key, value))) goto bad;
+        } else {
+            goto invalid_keyword;
+        }
+    }
+    return 0;
+arg_passed_twice:
+    __Pyx_RaiseDoubleKeywordsError(function_name, key);
+    goto bad;
+invalid_keyword_type:
+    PyErr_Format(PyExc_TypeError,
+        "%.200s() keywords must be strings", function_name);
+    goto bad;
+invalid_keyword:
+    PyErr_Format(PyExc_TypeError,
+    #if PY_MAJOR_VERSION < 3
+        "%.200s() got an unexpected keyword argument '%.200s'",
+        function_name, PyString_AsString(key));
+    #else
+        "%s() got an unexpected keyword argument '%U'",
+        function_name, key);
+    #endif
+bad:
+    return -1;
+}
+
+/* Import */
+static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level) {
+    PyObject *empty_list = 0;
+    PyObject *module = 0;
+    PyObject *global_dict = 0;
+    PyObject *empty_dict = 0;
+    PyObject *list;
+    #if PY_MAJOR_VERSION < 3
+    PyObject *py_import;
+    py_import = __Pyx_PyObject_GetAttrStr(__pyx_b, __pyx_n_s_import);
+    if (!py_import)
+        goto bad;
+    #endif
+    if (from_list)
+        list = from_list;
+    else {
+        empty_list = PyList_New(0);
+        if (!empty_list)
+            goto bad;
+        list = empty_list;
+    }
+    global_dict = PyModule_GetDict(__pyx_m);
+    if (!global_dict)
+        goto bad;
+    empty_dict = PyDict_New();
+    if (!empty_dict)
+        goto bad;
+    {
+        #if PY_MAJOR_VERSION >= 3
+        if (level == -1) {
+            if ((1) && (strchr(__Pyx_MODULE_NAME, '.'))) {
+                module = PyImport_ImportModuleLevelObject(
+                    name, global_dict, empty_dict, list, 1);
+                if (!module) {
+                    if (!PyErr_ExceptionMatches(PyExc_ImportError))
+                        goto bad;
+                    PyErr_Clear();
+                }
+            }
+            level = 0;
+        }
+        #endif
+        if (!module) {
+            #if PY_MAJOR_VERSION < 3
+            PyObject *py_level = PyInt_FromLong(level);
+            if (!py_level)
+                goto bad;
+            module = PyObject_CallFunctionObjArgs(py_import,
+                name, global_dict, empty_dict, list, py_level, (PyObject *)NULL);
+            Py_DECREF(py_level);
+            #else
+            module = PyImport_ImportModuleLevelObject(
+                name, global_dict, empty_dict, list, level);
+            #endif
+        }
+    }
+bad:
+    #if PY_MAJOR_VERSION < 3
+    Py_XDECREF(py_import);
+    #endif
+    Py_XDECREF(empty_list);
+    Py_XDECREF(empty_dict);
+    return module;
+}
+
+/* ImportFrom */
+static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name) {
+    PyObject* value = __Pyx_PyObject_GetAttrStr(module, name);
+    if (unlikely(!value) && PyErr_ExceptionMatches(PyExc_AttributeError)) {
+        PyErr_Format(PyExc_ImportError,
+        #if PY_MAJOR_VERSION < 3
+            "cannot import name %.230s", PyString_AS_STRING(name));
+        #else
+            "cannot import name %S", name);
+        #endif
+    }
+    return value;
+}
+
+/* PyObjectCall */
+#if CYTHON_COMPILING_IN_CPYTHON
+static CYTHON_INLINE PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg, PyObject *kw) {
+    PyObject *result;
+    ternaryfunc call = Py_TYPE(func)->tp_call;
+    if (unlikely(!call))
+        return PyObject_Call(func, arg, kw);
+    if (unlikely(Py_EnterRecursiveCall((char*)" while calling a Python object")))
+        return NULL;
+    result = (*call)(func, arg, kw);
+    Py_LeaveRecursiveCall();
+    if (unlikely(!result) && unlikely(!PyErr_Occurred())) {
+        PyErr_SetString(
+            PyExc_SystemError,
+            "NULL result without error in PyObject_Call");
+    }
+    return result;
 }
 #endif
 
-/* GetModuleGlobalName */
-#if CYTHON_USE_DICT_VERSIONS
-static PyObject *__Pyx__GetModuleGlobalName(PyObject *name, PY_UINT64_T *dict_version, PyObject **dict_cached_value)
-#else
-static CYTHON_INLINE PyObject *__Pyx__GetModuleGlobalName(PyObject *name)
+/* PyObjectSetAttrStr */
+#if CYTHON_USE_TYPE_SLOTS
+static CYTHON_INLINE int __Pyx_PyObject_SetAttrStr(PyObject* obj, PyObject* attr_name, PyObject* value) {
+    PyTypeObject* tp = Py_TYPE(obj);
+    if (likely(tp->tp_setattro))
+        return tp->tp_setattro(obj, attr_name, value);
+#if PY_MAJOR_VERSION < 3
+    if (likely(tp->tp_setattr))
+        return tp->tp_setattr(obj, PyString_AS_STRING(attr_name), value);
 #endif
-{
-    PyObject *result;
-#if !CYTHON_AVOID_BORROWED_REFS
-#if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030500A1
-    result = _PyDict_GetItem_KnownHash(__pyx_d, name, ((PyASCIIObject *) name)->hash);
-    __PYX_UPDATE_DICT_CACHE(__pyx_d, result, *dict_cached_value, *dict_version)
-    if (likely(result)) {
-        return __Pyx_NewRef(result);
-    } else if (unlikely(PyErr_Occurred())) {
-        return NULL;
-    }
-#else
-    result = PyDict_GetItem(__pyx_d, name);
-    __PYX_UPDATE_DICT_CACHE(__pyx_d, result, *dict_cached_value, *dict_version)
-    if (likely(result)) {
-        return __Pyx_NewRef(result);
-    }
-#endif
-#else
-    result = PyObject_GetItem(__pyx_d, name);
-    __PYX_UPDATE_DICT_CACHE(__pyx_d, result, *dict_cached_value, *dict_version)
-    if (likely(result)) {
-        return __Pyx_NewRef(result);
-    }
-    PyErr_Clear();
-#endif
-    return __Pyx_GetBuiltinName(name);
+    return PyObject_SetAttr(obj, attr_name, value);
 }
+#endif
 
 /* PyCFunctionFastCall */
 #if CYTHON_FAST_PYCCALL
@@ -25019,26 +28606,6 @@ done:
 #endif
 #endif
 
-/* PyObjectCall */
-#if CYTHON_COMPILING_IN_CPYTHON
-static CYTHON_INLINE PyObject* __Pyx_PyObject_Call(PyObject *func, PyObject *arg, PyObject *kw) {
-    PyObject *result;
-    ternaryfunc call = Py_TYPE(func)->tp_call;
-    if (unlikely(!call))
-        return PyObject_Call(func, arg, kw);
-    if (unlikely(Py_EnterRecursiveCall((char*)" while calling a Python object")))
-        return NULL;
-    result = (*call)(func, arg, kw);
-    Py_LeaveRecursiveCall();
-    if (unlikely(!result) && unlikely(!PyErr_Occurred())) {
-        PyErr_SetString(
-            PyExc_SystemError,
-            "NULL result without error in PyObject_Call");
-    }
-    return result;
-}
-#endif
-
 /* PyObjectCall2Args */
 static CYTHON_UNUSED PyObject* __Pyx_PyObject_Call2Args(PyObject* function, PyObject* arg1, PyObject* arg2) {
     PyObject *args, *result = NULL;
@@ -25127,6 +28694,317 @@ static CYTHON_INLINE PyObject* __Pyx_PyObject_CallOneArg(PyObject *func, PyObjec
     return result;
 }
 #endif
+
+/* PyObjectCallNoArg */
+#if CYTHON_COMPILING_IN_CPYTHON
+static CYTHON_INLINE PyObject* __Pyx_PyObject_CallNoArg(PyObject *func) {
+#if CYTHON_FAST_PYCALL
+    if (PyFunction_Check(func)) {
+        return __Pyx_PyFunction_FastCall(func, NULL, 0);
+    }
+#endif
+#ifdef __Pyx_CyFunction_USED
+    if (likely(PyCFunction_Check(func) || __Pyx_CyFunction_Check(func)))
+#else
+    if (likely(PyCFunction_Check(func)))
+#endif
+    {
+        if (likely(PyCFunction_GET_FLAGS(func) & METH_NOARGS)) {
+            return __Pyx_PyObject_CallMethO(func, NULL);
+        }
+    }
+    return __Pyx_PyObject_Call(func, __pyx_empty_tuple, NULL);
+}
+#endif
+
+/* None */
+static CYTHON_INLINE void __Pyx_RaiseUnboundLocalError(const char *varname) {
+    PyErr_Format(PyExc_UnboundLocalError, "local variable '%s' referenced before assignment", varname);
+}
+
+/* DivInt[long] */
+static CYTHON_INLINE long __Pyx_div_long(long a, long b) {
+    long q = a / b;
+    long r = a - q*b;
+    q -= ((r != 0) & ((r ^ b) < 0));
+    return q;
+}
+
+/* BytesEquals */
+static CYTHON_INLINE int __Pyx_PyBytes_Equals(PyObject* s1, PyObject* s2, int equals) {
+#if CYTHON_COMPILING_IN_PYPY
+    return PyObject_RichCompareBool(s1, s2, equals);
+#else
+    if (s1 == s2) {
+        return (equals == Py_EQ);
+    } else if (PyBytes_CheckExact(s1) & PyBytes_CheckExact(s2)) {
+        const char *ps1, *ps2;
+        Py_ssize_t length = PyBytes_GET_SIZE(s1);
+        if (length != PyBytes_GET_SIZE(s2))
+            return (equals == Py_NE);
+        ps1 = PyBytes_AS_STRING(s1);
+        ps2 = PyBytes_AS_STRING(s2);
+        if (ps1[0] != ps2[0]) {
+            return (equals == Py_NE);
+        } else if (length == 1) {
+            return (equals == Py_EQ);
+        } else {
+            int result;
+#if CYTHON_USE_UNICODE_INTERNALS && (PY_VERSION_HEX < 0x030B0000)
+            Py_hash_t hash1, hash2;
+            hash1 = ((PyBytesObject*)s1)->ob_shash;
+            hash2 = ((PyBytesObject*)s2)->ob_shash;
+            if (hash1 != hash2 && hash1 != -1 && hash2 != -1) {
+                return (equals == Py_NE);
+            }
+#endif
+            result = memcmp(ps1, ps2, (size_t)length);
+            return (equals == Py_EQ) ? (result == 0) : (result != 0);
+        }
+    } else if ((s1 == Py_None) & PyBytes_CheckExact(s2)) {
+        return (equals == Py_NE);
+    } else if ((s2 == Py_None) & PyBytes_CheckExact(s1)) {
+        return (equals == Py_NE);
+    } else {
+        int result;
+        PyObject* py_result = PyObject_RichCompare(s1, s2, equals);
+        if (!py_result)
+            return -1;
+        result = __Pyx_PyObject_IsTrue(py_result);
+        Py_DECREF(py_result);
+        return result;
+    }
+#endif
+}
+
+/* UnicodeEquals */
+static CYTHON_INLINE int __Pyx_PyUnicode_Equals(PyObject* s1, PyObject* s2, int equals) {
+#if CYTHON_COMPILING_IN_PYPY
+    return PyObject_RichCompareBool(s1, s2, equals);
+#else
+#if PY_MAJOR_VERSION < 3
+    PyObject* owned_ref = NULL;
+#endif
+    int s1_is_unicode, s2_is_unicode;
+    if (s1 == s2) {
+        goto return_eq;
+    }
+    s1_is_unicode = PyUnicode_CheckExact(s1);
+    s2_is_unicode = PyUnicode_CheckExact(s2);
+#if PY_MAJOR_VERSION < 3
+    if ((s1_is_unicode & (!s2_is_unicode)) && PyString_CheckExact(s2)) {
+        owned_ref = PyUnicode_FromObject(s2);
+        if (unlikely(!owned_ref))
+            return -1;
+        s2 = owned_ref;
+        s2_is_unicode = 1;
+    } else if ((s2_is_unicode & (!s1_is_unicode)) && PyString_CheckExact(s1)) {
+        owned_ref = PyUnicode_FromObject(s1);
+        if (unlikely(!owned_ref))
+            return -1;
+        s1 = owned_ref;
+        s1_is_unicode = 1;
+    } else if (((!s2_is_unicode) & (!s1_is_unicode))) {
+        return __Pyx_PyBytes_Equals(s1, s2, equals);
+    }
+#endif
+    if (s1_is_unicode & s2_is_unicode) {
+        Py_ssize_t length;
+        int kind;
+        void *data1, *data2;
+        if (unlikely(__Pyx_PyUnicode_READY(s1) < 0) || unlikely(__Pyx_PyUnicode_READY(s2) < 0))
+            return -1;
+        length = __Pyx_PyUnicode_GET_LENGTH(s1);
+        if (length != __Pyx_PyUnicode_GET_LENGTH(s2)) {
+            goto return_ne;
+        }
+#if CYTHON_USE_UNICODE_INTERNALS
+        {
+            Py_hash_t hash1, hash2;
+        #if CYTHON_PEP393_ENABLED
+            hash1 = ((PyASCIIObject*)s1)->hash;
+            hash2 = ((PyASCIIObject*)s2)->hash;
+        #else
+            hash1 = ((PyUnicodeObject*)s1)->hash;
+            hash2 = ((PyUnicodeObject*)s2)->hash;
+        #endif
+            if (hash1 != hash2 && hash1 != -1 && hash2 != -1) {
+                goto return_ne;
+            }
+        }
+#endif
+        kind = __Pyx_PyUnicode_KIND(s1);
+        if (kind != __Pyx_PyUnicode_KIND(s2)) {
+            goto return_ne;
+        }
+        data1 = __Pyx_PyUnicode_DATA(s1);
+        data2 = __Pyx_PyUnicode_DATA(s2);
+        if (__Pyx_PyUnicode_READ(kind, data1, 0) != __Pyx_PyUnicode_READ(kind, data2, 0)) {
+            goto return_ne;
+        } else if (length == 1) {
+            goto return_eq;
+        } else {
+            int result = memcmp(data1, data2, (size_t)(length * kind));
+            #if PY_MAJOR_VERSION < 3
+            Py_XDECREF(owned_ref);
+            #endif
+            return (equals == Py_EQ) ? (result == 0) : (result != 0);
+        }
+    } else if ((s1 == Py_None) & s2_is_unicode) {
+        goto return_ne;
+    } else if ((s2 == Py_None) & s1_is_unicode) {
+        goto return_ne;
+    } else {
+        int result;
+        PyObject* py_result = PyObject_RichCompare(s1, s2, equals);
+        #if PY_MAJOR_VERSION < 3
+        Py_XDECREF(owned_ref);
+        #endif
+        if (!py_result)
+            return -1;
+        result = __Pyx_PyObject_IsTrue(py_result);
+        Py_DECREF(py_result);
+        return result;
+    }
+return_eq:
+    #if PY_MAJOR_VERSION < 3
+    Py_XDECREF(owned_ref);
+    #endif
+    return (equals == Py_EQ);
+return_ne:
+    #if PY_MAJOR_VERSION < 3
+    Py_XDECREF(owned_ref);
+    #endif
+    return (equals == Py_NE);
+#endif
+}
+
+/* PyErrFetchRestore */
+#if CYTHON_FAST_THREAD_STATE
+static CYTHON_INLINE void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb) {
+    PyObject *tmp_type, *tmp_value, *tmp_tb;
+    tmp_type = tstate->curexc_type;
+    tmp_value = tstate->curexc_value;
+    tmp_tb = tstate->curexc_traceback;
+    tstate->curexc_type = type;
+    tstate->curexc_value = value;
+    tstate->curexc_traceback = tb;
+    Py_XDECREF(tmp_type);
+    Py_XDECREF(tmp_value);
+    Py_XDECREF(tmp_tb);
+}
+static CYTHON_INLINE void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb) {
+    *type = tstate->curexc_type;
+    *value = tstate->curexc_value;
+    *tb = tstate->curexc_traceback;
+    tstate->curexc_type = 0;
+    tstate->curexc_value = 0;
+    tstate->curexc_traceback = 0;
+}
+#endif
+
+/* WriteUnraisableException */
+static void __Pyx_WriteUnraisable(const char *name, CYTHON_UNUSED int clineno,
+                                  CYTHON_UNUSED int lineno, CYTHON_UNUSED const char *filename,
+                                  int full_traceback, CYTHON_UNUSED int nogil) {
+    PyObject *old_exc, *old_val, *old_tb;
+    PyObject *ctx;
+    __Pyx_PyThreadState_declare
+#ifdef WITH_THREAD
+    PyGILState_STATE state;
+    if (nogil)
+        state = PyGILState_Ensure();
+#ifdef _MSC_VER
+    else state = (PyGILState_STATE)-1;
+#endif
+#endif
+    __Pyx_PyThreadState_assign
+    __Pyx_ErrFetch(&old_exc, &old_val, &old_tb);
+    if (full_traceback) {
+        Py_XINCREF(old_exc);
+        Py_XINCREF(old_val);
+        Py_XINCREF(old_tb);
+        __Pyx_ErrRestore(old_exc, old_val, old_tb);
+        PyErr_PrintEx(1);
+    }
+    #if PY_MAJOR_VERSION < 3
+    ctx = PyString_FromString(name);
+    #else
+    ctx = PyUnicode_FromString(name);
+    #endif
+    __Pyx_ErrRestore(old_exc, old_val, old_tb);
+    if (!ctx) {
+        PyErr_WriteUnraisable(Py_None);
+    } else {
+        PyErr_WriteUnraisable(ctx);
+        Py_DECREF(ctx);
+    }
+#ifdef WITH_THREAD
+    if (nogil)
+        PyGILState_Release(state);
+#endif
+}
+
+/* PyDictVersioning */
+#if CYTHON_USE_DICT_VERSIONS && CYTHON_USE_TYPE_SLOTS
+static CYTHON_INLINE PY_UINT64_T __Pyx_get_tp_dict_version(PyObject *obj) {
+    PyObject *dict = Py_TYPE(obj)->tp_dict;
+    return likely(dict) ? __PYX_GET_DICT_VERSION(dict) : 0;
+}
+static CYTHON_INLINE PY_UINT64_T __Pyx_get_object_dict_version(PyObject *obj) {
+    PyObject **dictptr = NULL;
+    Py_ssize_t offset = Py_TYPE(obj)->tp_dictoffset;
+    if (offset) {
+#if CYTHON_COMPILING_IN_CPYTHON
+        dictptr = (likely(offset > 0)) ? (PyObject **) ((char *)obj + offset) : _PyObject_GetDictPtr(obj);
+#else
+        dictptr = _PyObject_GetDictPtr(obj);
+#endif
+    }
+    return (dictptr && *dictptr) ? __PYX_GET_DICT_VERSION(*dictptr) : 0;
+}
+static CYTHON_INLINE int __Pyx_object_dict_version_matches(PyObject* obj, PY_UINT64_T tp_dict_version, PY_UINT64_T obj_dict_version) {
+    PyObject *dict = Py_TYPE(obj)->tp_dict;
+    if (unlikely(!dict) || unlikely(tp_dict_version != __PYX_GET_DICT_VERSION(dict)))
+        return 0;
+    return obj_dict_version == __Pyx_get_object_dict_version(obj);
+}
+#endif
+
+/* GetModuleGlobalName */
+#if CYTHON_USE_DICT_VERSIONS
+static PyObject *__Pyx__GetModuleGlobalName(PyObject *name, PY_UINT64_T *dict_version, PyObject **dict_cached_value)
+#else
+static CYTHON_INLINE PyObject *__Pyx__GetModuleGlobalName(PyObject *name)
+#endif
+{
+    PyObject *result;
+#if !CYTHON_AVOID_BORROWED_REFS
+#if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030500A1
+    result = _PyDict_GetItem_KnownHash(__pyx_d, name, ((PyASCIIObject *) name)->hash);
+    __PYX_UPDATE_DICT_CACHE(__pyx_d, result, *dict_cached_value, *dict_version)
+    if (likely(result)) {
+        return __Pyx_NewRef(result);
+    } else if (unlikely(PyErr_Occurred())) {
+        return NULL;
+    }
+#else
+    result = PyDict_GetItem(__pyx_d, name);
+    __PYX_UPDATE_DICT_CACHE(__pyx_d, result, *dict_cached_value, *dict_version)
+    if (likely(result)) {
+        return __Pyx_NewRef(result);
+    }
+#endif
+#else
+    result = PyObject_GetItem(__pyx_d, name);
+    __PYX_UPDATE_DICT_CACHE(__pyx_d, result, *dict_cached_value, *dict_version)
+    if (likely(result)) {
+        return __Pyx_NewRef(result);
+    }
+    PyErr_Clear();
+#endif
+    return __Pyx_GetBuiltinName(name);
+}
 
 /* ExtTypeTest */
 static CYTHON_INLINE int __Pyx_TypeTest(PyObject *obj, PyTypeObject *type) {
@@ -25701,72 +29579,6 @@ fail:;
   return -1;
 }
 
-/* PyErrFetchRestore */
-  #if CYTHON_FAST_THREAD_STATE
-static CYTHON_INLINE void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb) {
-    PyObject *tmp_type, *tmp_value, *tmp_tb;
-    tmp_type = tstate->curexc_type;
-    tmp_value = tstate->curexc_value;
-    tmp_tb = tstate->curexc_traceback;
-    tstate->curexc_type = type;
-    tstate->curexc_value = value;
-    tstate->curexc_traceback = tb;
-    Py_XDECREF(tmp_type);
-    Py_XDECREF(tmp_value);
-    Py_XDECREF(tmp_tb);
-}
-static CYTHON_INLINE void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb) {
-    *type = tstate->curexc_type;
-    *value = tstate->curexc_value;
-    *tb = tstate->curexc_traceback;
-    tstate->curexc_type = 0;
-    tstate->curexc_value = 0;
-    tstate->curexc_traceback = 0;
-}
-#endif
-
-/* WriteUnraisableException */
-  static void __Pyx_WriteUnraisable(const char *name, CYTHON_UNUSED int clineno,
-                                  CYTHON_UNUSED int lineno, CYTHON_UNUSED const char *filename,
-                                  int full_traceback, CYTHON_UNUSED int nogil) {
-    PyObject *old_exc, *old_val, *old_tb;
-    PyObject *ctx;
-    __Pyx_PyThreadState_declare
-#ifdef WITH_THREAD
-    PyGILState_STATE state;
-    if (nogil)
-        state = PyGILState_Ensure();
-#ifdef _MSC_VER
-    else state = (PyGILState_STATE)-1;
-#endif
-#endif
-    __Pyx_PyThreadState_assign
-    __Pyx_ErrFetch(&old_exc, &old_val, &old_tb);
-    if (full_traceback) {
-        Py_XINCREF(old_exc);
-        Py_XINCREF(old_val);
-        Py_XINCREF(old_tb);
-        __Pyx_ErrRestore(old_exc, old_val, old_tb);
-        PyErr_PrintEx(1);
-    }
-    #if PY_MAJOR_VERSION < 3
-    ctx = PyString_FromString(name);
-    #else
-    ctx = PyUnicode_FromString(name);
-    #endif
-    __Pyx_ErrRestore(old_exc, old_val, old_tb);
-    if (!ctx) {
-        PyErr_WriteUnraisable(Py_None);
-    } else {
-        PyErr_WriteUnraisable(ctx);
-        Py_DECREF(ctx);
-    }
-#ifdef WITH_THREAD
-    if (nogil)
-        PyGILState_Release(state);
-#endif
-}
-
 /* PyIntBinop */
   #if !CYTHON_COMPILING_IN_PYPY
 static PyObject* __Pyx_PyInt_SubtractObjC(PyObject *op1, PyObject *op2, CYTHON_UNUSED long intval, int inplace, int zerodivision_check) {
@@ -26007,28 +29819,6 @@ static PyObject *__Pyx_PyObject_GetItem(PyObject *obj, PyObject* key) {
 }
 #endif
 
-/* PyObjectCallNoArg */
-  #if CYTHON_COMPILING_IN_CPYTHON
-static CYTHON_INLINE PyObject* __Pyx_PyObject_CallNoArg(PyObject *func) {
-#if CYTHON_FAST_PYCALL
-    if (PyFunction_Check(func)) {
-        return __Pyx_PyFunction_FastCall(func, NULL, 0);
-    }
-#endif
-#ifdef __Pyx_CyFunction_USED
-    if (likely(PyCFunction_Check(func) || __Pyx_CyFunction_Check(func)))
-#else
-    if (likely(PyCFunction_Check(func)))
-#endif
-    {
-        if (likely(PyCFunction_GET_FLAGS(func) & METH_NOARGS)) {
-            return __Pyx_PyObject_CallMethO(func, NULL);
-        }
-    }
-    return __Pyx_PyObject_Call(func, __pyx_empty_tuple, NULL);
-}
-#endif
-
 /* MemviewSliceInit */
   static int
 __Pyx_init_memviewslice(struct __pyx_memoryview_obj *memview,
@@ -26161,216 +29951,71 @@ static CYTHON_INLINE void __Pyx_XDEC_MEMVIEW(__Pyx_memviewslice *memslice,
     }
 }
 
-/* RaiseArgTupleInvalid */
-  static void __Pyx_RaiseArgtupleInvalid(
-    const char* func_name,
-    int exact,
-    Py_ssize_t num_min,
-    Py_ssize_t num_max,
-    Py_ssize_t num_found)
-{
-    Py_ssize_t num_expected;
-    const char *more_or_less;
-    if (num_found < num_min) {
-        num_expected = num_min;
-        more_or_less = "at least";
-    } else {
-        num_expected = num_max;
-        more_or_less = "at most";
+/* PyIntCompare */
+  static CYTHON_INLINE PyObject* __Pyx_PyInt_EqObjC(PyObject *op1, PyObject *op2, CYTHON_UNUSED long intval, CYTHON_UNUSED long inplace) {
+    if (op1 == op2) {
+        Py_RETURN_TRUE;
     }
-    if (exact) {
-        more_or_less = "exactly";
+    #if PY_MAJOR_VERSION < 3
+    if (likely(PyInt_CheckExact(op1))) {
+        const long b = intval;
+        long a = PyInt_AS_LONG(op1);
+        if (a == b) Py_RETURN_TRUE; else Py_RETURN_FALSE;
     }
-    PyErr_Format(PyExc_TypeError,
-                 "%.200s() takes %.8s %" CYTHON_FORMAT_SSIZE_T "d positional argument%.1s (%" CYTHON_FORMAT_SSIZE_T "d given)",
-                 func_name, more_or_less, num_expected,
-                 (num_expected == 1) ? "" : "s", num_found);
-}
-
-/* RaiseDoubleKeywords */
-  static void __Pyx_RaiseDoubleKeywordsError(
-    const char* func_name,
-    PyObject* kw_name)
-{
-    PyErr_Format(PyExc_TypeError,
-        #if PY_MAJOR_VERSION >= 3
-        "%s() got multiple values for keyword argument '%U'", func_name, kw_name);
-        #else
-        "%s() got multiple values for keyword argument '%s'", func_name,
-        PyString_AsString(kw_name));
-        #endif
-}
-
-/* ParseKeywords */
-  static int __Pyx_ParseOptionalKeywords(
-    PyObject *kwds,
-    PyObject **argnames[],
-    PyObject *kwds2,
-    PyObject *values[],
-    Py_ssize_t num_pos_args,
-    const char* function_name)
-{
-    PyObject *key = 0, *value = 0;
-    Py_ssize_t pos = 0;
-    PyObject*** name;
-    PyObject*** first_kw_arg = argnames + num_pos_args;
-    while (PyDict_Next(kwds, &pos, &key, &value)) {
-        name = first_kw_arg;
-        while (*name && (**name != key)) name++;
-        if (*name) {
-            values[name-argnames] = value;
-            continue;
-        }
-        name = first_kw_arg;
-        #if PY_MAJOR_VERSION < 3
-        if (likely(PyString_Check(key))) {
-            while (*name) {
-                if ((CYTHON_COMPILING_IN_PYPY || PyString_GET_SIZE(**name) == PyString_GET_SIZE(key))
-                        && _PyString_Eq(**name, key)) {
-                    values[name-argnames] = value;
-                    break;
-                }
-                name++;
-            }
-            if (*name) continue;
-            else {
-                PyObject*** argname = argnames;
-                while (argname != first_kw_arg) {
-                    if ((**argname == key) || (
-                            (CYTHON_COMPILING_IN_PYPY || PyString_GET_SIZE(**argname) == PyString_GET_SIZE(key))
-                             && _PyString_Eq(**argname, key))) {
-                        goto arg_passed_twice;
-                    }
-                    argname++;
-                }
-            }
-        } else
-        #endif
-        if (likely(PyUnicode_Check(key))) {
-            while (*name) {
-                int cmp = (**name == key) ? 0 :
-                #if !CYTHON_COMPILING_IN_PYPY && PY_MAJOR_VERSION >= 3
-                    (__Pyx_PyUnicode_GET_LENGTH(**name) != __Pyx_PyUnicode_GET_LENGTH(key)) ? 1 :
-                #endif
-                    PyUnicode_Compare(**name, key);
-                if (cmp < 0 && unlikely(PyErr_Occurred())) goto bad;
-                if (cmp == 0) {
-                    values[name-argnames] = value;
-                    break;
-                }
-                name++;
-            }
-            if (*name) continue;
-            else {
-                PyObject*** argname = argnames;
-                while (argname != first_kw_arg) {
-                    int cmp = (**argname == key) ? 0 :
-                    #if !CYTHON_COMPILING_IN_PYPY && PY_MAJOR_VERSION >= 3
-                        (__Pyx_PyUnicode_GET_LENGTH(**argname) != __Pyx_PyUnicode_GET_LENGTH(key)) ? 1 :
-                    #endif
-                        PyUnicode_Compare(**argname, key);
-                    if (cmp < 0 && unlikely(PyErr_Occurred())) goto bad;
-                    if (cmp == 0) goto arg_passed_twice;
-                    argname++;
-                }
-            }
-        } else
-            goto invalid_keyword_type;
-        if (kwds2) {
-            if (unlikely(PyDict_SetItem(kwds2, key, value))) goto bad;
+    #endif
+    #if CYTHON_USE_PYLONG_INTERNALS
+    if (likely(PyLong_CheckExact(op1))) {
+        int unequal;
+        unsigned long uintval;
+        Py_ssize_t size = Py_SIZE(op1);
+        const digit* digits = ((PyLongObject*)op1)->ob_digit;
+        if (intval == 0) {
+            if (size == 0) Py_RETURN_TRUE; else Py_RETURN_FALSE;
+        } else if (intval < 0) {
+            if (size >= 0)
+                Py_RETURN_FALSE;
+            intval = -intval;
+            size = -size;
         } else {
-            goto invalid_keyword;
+            if (size <= 0)
+                Py_RETURN_FALSE;
         }
+        uintval = (unsigned long) intval;
+#if PyLong_SHIFT * 4 < SIZEOF_LONG*8
+        if (uintval >> (PyLong_SHIFT * 4)) {
+            unequal = (size != 5) || (digits[0] != (uintval & (unsigned long) PyLong_MASK))
+                 | (digits[1] != ((uintval >> (1 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK)) | (digits[2] != ((uintval >> (2 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK)) | (digits[3] != ((uintval >> (3 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK)) | (digits[4] != ((uintval >> (4 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK));
+        } else
+#endif
+#if PyLong_SHIFT * 3 < SIZEOF_LONG*8
+        if (uintval >> (PyLong_SHIFT * 3)) {
+            unequal = (size != 4) || (digits[0] != (uintval & (unsigned long) PyLong_MASK))
+                 | (digits[1] != ((uintval >> (1 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK)) | (digits[2] != ((uintval >> (2 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK)) | (digits[3] != ((uintval >> (3 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK));
+        } else
+#endif
+#if PyLong_SHIFT * 2 < SIZEOF_LONG*8
+        if (uintval >> (PyLong_SHIFT * 2)) {
+            unequal = (size != 3) || (digits[0] != (uintval & (unsigned long) PyLong_MASK))
+                 | (digits[1] != ((uintval >> (1 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK)) | (digits[2] != ((uintval >> (2 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK));
+        } else
+#endif
+#if PyLong_SHIFT * 1 < SIZEOF_LONG*8
+        if (uintval >> (PyLong_SHIFT * 1)) {
+            unequal = (size != 2) || (digits[0] != (uintval & (unsigned long) PyLong_MASK))
+                 | (digits[1] != ((uintval >> (1 * PyLong_SHIFT)) & (unsigned long) PyLong_MASK));
+        } else
+#endif
+            unequal = (size != 1) || (((unsigned long) digits[0]) != (uintval & (unsigned long) PyLong_MASK));
+        if (unequal == 0) Py_RETURN_TRUE; else Py_RETURN_FALSE;
     }
-    return 0;
-arg_passed_twice:
-    __Pyx_RaiseDoubleKeywordsError(function_name, key);
-    goto bad;
-invalid_keyword_type:
-    PyErr_Format(PyExc_TypeError,
-        "%.200s() keywords must be strings", function_name);
-    goto bad;
-invalid_keyword:
-    PyErr_Format(PyExc_TypeError,
-    #if PY_MAJOR_VERSION < 3
-        "%.200s() got an unexpected keyword argument '%.200s'",
-        function_name, PyString_AsString(key));
-    #else
-        "%s() got an unexpected keyword argument '%U'",
-        function_name, key);
     #endif
-bad:
-    return -1;
-}
-
-/* Import */
-  static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level) {
-    PyObject *empty_list = 0;
-    PyObject *module = 0;
-    PyObject *global_dict = 0;
-    PyObject *empty_dict = 0;
-    PyObject *list;
-    #if PY_MAJOR_VERSION < 3
-    PyObject *py_import;
-    py_import = __Pyx_PyObject_GetAttrStr(__pyx_b, __pyx_n_s_import);
-    if (!py_import)
-        goto bad;
-    #endif
-    if (from_list)
-        list = from_list;
-    else {
-        empty_list = PyList_New(0);
-        if (!empty_list)
-            goto bad;
-        list = empty_list;
+    if (PyFloat_CheckExact(op1)) {
+        const long b = intval;
+        double a = PyFloat_AS_DOUBLE(op1);
+        if ((double)a == (double)b) Py_RETURN_TRUE; else Py_RETURN_FALSE;
     }
-    global_dict = PyModule_GetDict(__pyx_m);
-    if (!global_dict)
-        goto bad;
-    empty_dict = PyDict_New();
-    if (!empty_dict)
-        goto bad;
-    {
-        #if PY_MAJOR_VERSION >= 3
-        if (level == -1) {
-            if ((1) && (strchr(__Pyx_MODULE_NAME, '.'))) {
-                module = PyImport_ImportModuleLevelObject(
-                    name, global_dict, empty_dict, list, 1);
-                if (!module) {
-                    if (!PyErr_ExceptionMatches(PyExc_ImportError))
-                        goto bad;
-                    PyErr_Clear();
-                }
-            }
-            level = 0;
-        }
-        #endif
-        if (!module) {
-            #if PY_MAJOR_VERSION < 3
-            PyObject *py_level = PyInt_FromLong(level);
-            if (!py_level)
-                goto bad;
-            module = PyObject_CallFunctionObjArgs(py_import,
-                name, global_dict, empty_dict, list, py_level, (PyObject *)NULL);
-            Py_DECREF(py_level);
-            #else
-            module = PyImport_ImportModuleLevelObject(
-                name, global_dict, empty_dict, list, level);
-            #endif
-        }
-    }
-bad:
-    #if PY_MAJOR_VERSION < 3
-    Py_XDECREF(py_import);
-    #endif
-    Py_XDECREF(empty_list);
-    Py_XDECREF(empty_dict);
-    return module;
-}
-
-/* None */
-  static CYTHON_INLINE void __Pyx_RaiseUnboundLocalError(const char *varname) {
-    PyErr_Format(PyExc_UnboundLocalError, "local variable '%s' referenced before assignment", varname);
+    return (
+        PyObject_RichCompare(op1, op2, Py_EQ));
 }
 
 /* GetTopmostException */
@@ -26706,155 +30351,6 @@ bad:
         "Argument '%.200s' has incorrect type (expected %.200s, got %.200s)",
         name, type->tp_name, Py_TYPE(obj)->tp_name);
     return 0;
-}
-
-/* BytesEquals */
-  static CYTHON_INLINE int __Pyx_PyBytes_Equals(PyObject* s1, PyObject* s2, int equals) {
-#if CYTHON_COMPILING_IN_PYPY
-    return PyObject_RichCompareBool(s1, s2, equals);
-#else
-    if (s1 == s2) {
-        return (equals == Py_EQ);
-    } else if (PyBytes_CheckExact(s1) & PyBytes_CheckExact(s2)) {
-        const char *ps1, *ps2;
-        Py_ssize_t length = PyBytes_GET_SIZE(s1);
-        if (length != PyBytes_GET_SIZE(s2))
-            return (equals == Py_NE);
-        ps1 = PyBytes_AS_STRING(s1);
-        ps2 = PyBytes_AS_STRING(s2);
-        if (ps1[0] != ps2[0]) {
-            return (equals == Py_NE);
-        } else if (length == 1) {
-            return (equals == Py_EQ);
-        } else {
-            int result;
-#if CYTHON_USE_UNICODE_INTERNALS && (PY_VERSION_HEX < 0x030B0000)
-            Py_hash_t hash1, hash2;
-            hash1 = ((PyBytesObject*)s1)->ob_shash;
-            hash2 = ((PyBytesObject*)s2)->ob_shash;
-            if (hash1 != hash2 && hash1 != -1 && hash2 != -1) {
-                return (equals == Py_NE);
-            }
-#endif
-            result = memcmp(ps1, ps2, (size_t)length);
-            return (equals == Py_EQ) ? (result == 0) : (result != 0);
-        }
-    } else if ((s1 == Py_None) & PyBytes_CheckExact(s2)) {
-        return (equals == Py_NE);
-    } else if ((s2 == Py_None) & PyBytes_CheckExact(s1)) {
-        return (equals == Py_NE);
-    } else {
-        int result;
-        PyObject* py_result = PyObject_RichCompare(s1, s2, equals);
-        if (!py_result)
-            return -1;
-        result = __Pyx_PyObject_IsTrue(py_result);
-        Py_DECREF(py_result);
-        return result;
-    }
-#endif
-}
-
-/* UnicodeEquals */
-  static CYTHON_INLINE int __Pyx_PyUnicode_Equals(PyObject* s1, PyObject* s2, int equals) {
-#if CYTHON_COMPILING_IN_PYPY
-    return PyObject_RichCompareBool(s1, s2, equals);
-#else
-#if PY_MAJOR_VERSION < 3
-    PyObject* owned_ref = NULL;
-#endif
-    int s1_is_unicode, s2_is_unicode;
-    if (s1 == s2) {
-        goto return_eq;
-    }
-    s1_is_unicode = PyUnicode_CheckExact(s1);
-    s2_is_unicode = PyUnicode_CheckExact(s2);
-#if PY_MAJOR_VERSION < 3
-    if ((s1_is_unicode & (!s2_is_unicode)) && PyString_CheckExact(s2)) {
-        owned_ref = PyUnicode_FromObject(s2);
-        if (unlikely(!owned_ref))
-            return -1;
-        s2 = owned_ref;
-        s2_is_unicode = 1;
-    } else if ((s2_is_unicode & (!s1_is_unicode)) && PyString_CheckExact(s1)) {
-        owned_ref = PyUnicode_FromObject(s1);
-        if (unlikely(!owned_ref))
-            return -1;
-        s1 = owned_ref;
-        s1_is_unicode = 1;
-    } else if (((!s2_is_unicode) & (!s1_is_unicode))) {
-        return __Pyx_PyBytes_Equals(s1, s2, equals);
-    }
-#endif
-    if (s1_is_unicode & s2_is_unicode) {
-        Py_ssize_t length;
-        int kind;
-        void *data1, *data2;
-        if (unlikely(__Pyx_PyUnicode_READY(s1) < 0) || unlikely(__Pyx_PyUnicode_READY(s2) < 0))
-            return -1;
-        length = __Pyx_PyUnicode_GET_LENGTH(s1);
-        if (length != __Pyx_PyUnicode_GET_LENGTH(s2)) {
-            goto return_ne;
-        }
-#if CYTHON_USE_UNICODE_INTERNALS
-        {
-            Py_hash_t hash1, hash2;
-        #if CYTHON_PEP393_ENABLED
-            hash1 = ((PyASCIIObject*)s1)->hash;
-            hash2 = ((PyASCIIObject*)s2)->hash;
-        #else
-            hash1 = ((PyUnicodeObject*)s1)->hash;
-            hash2 = ((PyUnicodeObject*)s2)->hash;
-        #endif
-            if (hash1 != hash2 && hash1 != -1 && hash2 != -1) {
-                goto return_ne;
-            }
-        }
-#endif
-        kind = __Pyx_PyUnicode_KIND(s1);
-        if (kind != __Pyx_PyUnicode_KIND(s2)) {
-            goto return_ne;
-        }
-        data1 = __Pyx_PyUnicode_DATA(s1);
-        data2 = __Pyx_PyUnicode_DATA(s2);
-        if (__Pyx_PyUnicode_READ(kind, data1, 0) != __Pyx_PyUnicode_READ(kind, data2, 0)) {
-            goto return_ne;
-        } else if (length == 1) {
-            goto return_eq;
-        } else {
-            int result = memcmp(data1, data2, (size_t)(length * kind));
-            #if PY_MAJOR_VERSION < 3
-            Py_XDECREF(owned_ref);
-            #endif
-            return (equals == Py_EQ) ? (result == 0) : (result != 0);
-        }
-    } else if ((s1 == Py_None) & s2_is_unicode) {
-        goto return_ne;
-    } else if ((s2 == Py_None) & s1_is_unicode) {
-        goto return_ne;
-    } else {
-        int result;
-        PyObject* py_result = PyObject_RichCompare(s1, s2, equals);
-        #if PY_MAJOR_VERSION < 3
-        Py_XDECREF(owned_ref);
-        #endif
-        if (!py_result)
-            return -1;
-        result = __Pyx_PyObject_IsTrue(py_result);
-        Py_DECREF(py_result);
-        return result;
-    }
-return_eq:
-    #if PY_MAJOR_VERSION < 3
-    Py_XDECREF(owned_ref);
-    #endif
-    return (equals == Py_EQ);
-return_ne:
-    #if PY_MAJOR_VERSION < 3
-    Py_XDECREF(owned_ref);
-    #endif
-    return (equals == Py_NE);
-#endif
 }
 
 /* DivInt[Py_ssize_t] */
@@ -27202,28 +30698,6 @@ static PyObject* __Pyx_PyInt_AddObjC(PyObject *op1, PyObject *op2, CYTHON_UNUSED
     return (inplace ? PyNumber_InPlaceAdd : PyNumber_Add)(op1, op2);
 }
 #endif
-
-/* DivInt[long] */
-  static CYTHON_INLINE long __Pyx_div_long(long a, long b) {
-    long q = a / b;
-    long r = a - q*b;
-    q -= ((r != 0) & ((r ^ b) < 0));
-    return q;
-}
-
-/* ImportFrom */
-  static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name) {
-    PyObject* value = __Pyx_PyObject_GetAttrStr(module, name);
-    if (unlikely(!value) && PyErr_ExceptionMatches(PyExc_AttributeError)) {
-        PyErr_Format(PyExc_ImportError,
-        #if PY_MAJOR_VERSION < 3
-            "cannot import name %.230s", PyString_AS_STRING(name));
-        #else
-            "cannot import name %S", name);
-        #endif
-    }
-    return value;
-}
 
 /* HasAttr */
   static CYTHON_INLINE int __Pyx_HasAttr(PyObject *o, PyObject *n) {
@@ -28638,44 +32112,6 @@ no_fail:
 }
 
 /* CIntToPy */
-  static CYTHON_INLINE PyObject* __Pyx_PyInt_From_int(int value) {
-#ifdef __Pyx_HAS_GCC_DIAGNOSTIC
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wconversion"
-#endif
-    const int neg_one = (int) -1, const_zero = (int) 0;
-#ifdef __Pyx_HAS_GCC_DIAGNOSTIC
-#pragma GCC diagnostic pop
-#endif
-    const int is_unsigned = neg_one > const_zero;
-    if (is_unsigned) {
-        if (sizeof(int) < sizeof(long)) {
-            return PyInt_FromLong((long) value);
-        } else if (sizeof(int) <= sizeof(unsigned long)) {
-            return PyLong_FromUnsignedLong((unsigned long) value);
-#ifdef HAVE_LONG_LONG
-        } else if (sizeof(int) <= sizeof(unsigned PY_LONG_LONG)) {
-            return PyLong_FromUnsignedLongLong((unsigned PY_LONG_LONG) value);
-#endif
-        }
-    } else {
-        if (sizeof(int) <= sizeof(long)) {
-            return PyInt_FromLong((long) value);
-#ifdef HAVE_LONG_LONG
-        } else if (sizeof(int) <= sizeof(PY_LONG_LONG)) {
-            return PyLong_FromLongLong((PY_LONG_LONG) value);
-#endif
-        }
-    }
-    {
-        int one = 1; int little = (int)*(unsigned char *)&one;
-        unsigned char *bytes = (unsigned char *)&value;
-        return _PyLong_FromByteArray(bytes, sizeof(int),
-                                     little, !is_unsigned);
-    }
-}
-
-/* CIntToPy */
   static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value) {
 #ifdef __Pyx_HAS_GCC_DIAGNOSTIC
 #pragma GCC diagnostic push
@@ -28709,6 +32145,44 @@ no_fail:
         int one = 1; int little = (int)*(unsigned char *)&one;
         unsigned char *bytes = (unsigned char *)&value;
         return _PyLong_FromByteArray(bytes, sizeof(long),
+                                     little, !is_unsigned);
+    }
+}
+
+/* CIntToPy */
+  static CYTHON_INLINE PyObject* __Pyx_PyInt_From_int(int value) {
+#ifdef __Pyx_HAS_GCC_DIAGNOSTIC
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wconversion"
+#endif
+    const int neg_one = (int) -1, const_zero = (int) 0;
+#ifdef __Pyx_HAS_GCC_DIAGNOSTIC
+#pragma GCC diagnostic pop
+#endif
+    const int is_unsigned = neg_one > const_zero;
+    if (is_unsigned) {
+        if (sizeof(int) < sizeof(long)) {
+            return PyInt_FromLong((long) value);
+        } else if (sizeof(int) <= sizeof(unsigned long)) {
+            return PyLong_FromUnsignedLong((unsigned long) value);
+#ifdef HAVE_LONG_LONG
+        } else if (sizeof(int) <= sizeof(unsigned PY_LONG_LONG)) {
+            return PyLong_FromUnsignedLongLong((unsigned PY_LONG_LONG) value);
+#endif
+        }
+    } else {
+        if (sizeof(int) <= sizeof(long)) {
+            return PyInt_FromLong((long) value);
+#ifdef HAVE_LONG_LONG
+        } else if (sizeof(int) <= sizeof(PY_LONG_LONG)) {
+            return PyLong_FromLongLong((PY_LONG_LONG) value);
+#endif
+        }
+    }
+    {
+        int one = 1; int little = (int)*(unsigned char *)&one;
+        unsigned char *bytes = (unsigned char *)&value;
+        return _PyLong_FromByteArray(bytes, sizeof(int),
                                      little, !is_unsigned);
     }
 }
