@@ -9,3 +9,5 @@ To use fastrometry, simply call fastrometry at the command line:
     fastrometry -option1 -option2 ...
 
 For more info, please visit the wiki: https://github.com/user29A/fastrometry/wiki
+
+This project was undertaken with the financial support of the Canadian Space Agency.

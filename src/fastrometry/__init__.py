@@ -1,1 +1,1 @@
-from fastrometry.fastrometry import find_WCS
+from fastrometry.fastrometry import findWCS
