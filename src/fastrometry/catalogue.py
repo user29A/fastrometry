@@ -65,14 +65,14 @@ def gnomonicProject(catalogue_points, a0, d0, num_catsources, allintrmpoints):
 
 
 @printEvent
-def getIntermediateCoords(ra, dec, scale, img_xmax, img_ymax, shape, filter, catalogue, pmepoch, nrefinepts, allintrmpoints, catalogue_points, mean_catcoords, gaiaqueries, debug_report, verbosity, debug):
+def getIntermediateCoords(ra, dec, scale, img_xmax, img_ymax, shape, buffer, filter, catalogue, pmepoch, nrefinepts, allintrmpoints, catalogue_points, mean_catcoords, gaiaqueries, debug_report, verbosity, debug):
 
     if verbosity == 0:
         silent = True
     else:
         silent = False
 
-    resultsfile = astracarta(ra=ra, dec=dec, scale=scale*3600*180/pi, maglimit=30, pixwidth=img_xmax, pixheight=img_ymax, shape=shape, filter=filter, catalogue=catalogue, pmepoch=pmepoch, nquery=nrefinepts, outdir=gaiaqueries, silent=silent, printconsole=("=======AstraCarta=======","========================",verbosity,1))
+    resultsfile = astracarta(ra=ra, dec=dec, scale=scale*3600*180/pi, maglimit=30, pixwidth=img_xmax, pixheight=img_ymax, buffer=buffer*60, shape=shape, filter=filter, catalogue=catalogue, pmepoch=pmepoch, nquery=nrefinepts, outdir=gaiaqueries, silent=silent, printconsole=("=======AstraCarta=======","========================",verbosity,1))
     if resultsfile == '':
         sys.exit("ERROR: Catalogue query failed to complete.")
 

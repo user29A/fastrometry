@@ -44,8 +44,8 @@ def getCMDargs():
     indent_formatter = lambda prog: argparse.RawTextHelpFormatter(prog,max_help_position=40)
     parser = argparse.ArgumentParser(description='Astrometry package written in Python.\n\nRequired parameters are:\n\n> filename\n> -scale\n> -ra\n> -dec',usage=formatting("fastrometry filename -ra -dec -scale [-scalebnds] [-rotation] [-rotationbnds] [-buffer] [-fieldshape] [-catalogue] [-filter] [-pmepoch] [-npts] [-nrefinepts] [-pixsat] [-kernelrad] [-sourcesep] [-vertexol] [-nmatchpoints] [-nmatchpercent] [-wcsdiagnostics] [--save] [--load] [--version] [--verbosity] [--debug] [--help]",100,10),add_help=False,formatter_class=indent_formatter)
     parser.add_argument('filename', type=Path, help=formatting('The FITS image file to solve the world coordinate solution for.',80,4))
-    parser.add_argument('-ra', required=True, help=formatting('The approximate right-ascension of the field center of the image. This can be supplied in either right-ascension sexagesimal (HH:MM:SS.S) format, degree.decimal format, or as the keyword in the FITS file which contains the relevant value in either right-ascension sexagesimal or degree.decimal format.',80,4))
-    parser.add_argument('-dec', required=True, help=formatting('The approximate declination of the field center of the image. This can be supplied in either declination sexagesimal format (DD:MM:SS.S), degree.decimal format, or as the keyword in the FITS file which contains the relevant value in either declination sexagesimal or degree.decimal format.',80,4))
+    parser.add_argument('-ra', required=True, help=formatting('The approximate right-ascension of the field center of the image. This can be supplied in either right-ascension sexagesimal (HH:MM:SS.S) format, degree.decimal format, or as the keyword in the FITS file which contains the relevant value in either right-ascension sexagesimal or degree.decimal format. If in sexigesimal format, -ra must be passed as a string (surrounded with quotes).',80,4))
+    parser.add_argument('-dec', required=True, help=formatting('The approximate declination of the field center of the image. This can be supplied in either declination sexagesimal format (DD:AM:AS.AS), degree.decimal format, or as the keyword in the FITS file which contains the relevant value in either declination sexagesimal or degree.decimal format. If in sexigesimal format, -dec must be passed as a string (surrounded with quotes). WARNING: If supplied in sexigesimal format, negative declinations must be preceded with a space (or else the argument parser assumes a new option).',80,4))
     parser.add_argument('-scale', required=True, help=formatting('This is the approximate field scale, in arcseconds per pixel.',80,4))
     parser.add_argument('-scalebnds', help=formatting('This is the "plus or minus" range of the field scale, in the same units as the field scale of arcseconds per pixel. If no scalebnds are supplied then a +-5%% range bound is assumed. Zero is a valid option if the scale is known precisely, and overrides the +-5%% assumption default, and will increase solve speed.',80,4))
     parser.add_argument('-rotation', help=formatting('Use this to provide an initial estimate of the image field rotation relative to sky coordinates, between +- 180 degrees. Units in degrees. Zero degrees corresponds to the CAST convention, as does positive angle measure, and negative angle is opposite rotation to that. If not supplied then the solver automatically estimates the rotation and also its upper and lower estimate bounds; the auto-estimator mitigates the need for the user to provide a rotation estimate, but the user may still do so.',80,4))
@@ -160,12 +160,12 @@ def validateOptions(header, load, options):
         if not 0 <= ra <= 360:  
             sys.exit("ERROR: -ra must be between 0 and 360 (assuming -ra was given in degree.decimal format).")
     except: ## else: ...
-        parts = len(ra.split(':'))
-        if parts == 1:
+        parts = ra.split(':')
+        if len(parts) == 1:
             if ra not in header:
                 sys.exit("ERROR: could not find the specified keyword in the FITS header (assuming -ra was supplied as a keyword).")
             ra = float(header[ra])
-        elif parts == 3:
+        elif len(parts) == 3:
             hrs = parts[0]
             mins = parts[1]
             secs = parts[2]
@@ -187,41 +187,46 @@ def validateOptions(header, load, options):
                 sys.exit("ERROR: minutes must be between 0 and 60 (assuming -ra was given in sexigesimal format HH:MM:SS.S).")
             if not 0 <= secs <= 60: 
                 sys.exit("ERROR: seconds must be between 0 and 60 (assuming -ra was given in sexigesimal format HH:MM:SS.S).")
+            ra = float(hrs)*15+float(mins)*15/60+secs*15/3600
     options[0] = ra
 
     dec = options[1]
     try:
         dec = float(dec)
-        if not 0 <= dec <= 360:  
+        if not -90 <= dec <= 90:  
             sys.exit("ERROR: -dec must be between 0 and 360 (assuming -dec was given in degree.decimal format).")
     except:
-        parts = len(dec.split(':'))
-        if parts == 1:
+        parts = dec.split(':')
+        if len(parts) == 1:
             if dec not in header:
                 sys.exit("ERROR: could not find the specified keyword in the FITS header (assuming -dec was supplied as a keyword).")
             dec = float(header[dec])
-        elif parts == 3:
-            hrs = parts[0]
-            mins = parts[1]
-            secs = parts[2]
+        elif len(parts) == 3:
+            deg = parts[0]
+            amins = parts[1]
+            asecs = parts[2]
             try:
-                hrs = int(hrs)
+                deg = int(deg)
             except:
-                sys.exit("ERROR: hours must be an integer (assuming -dec was given in sexigesimal format HH:MM:SS.S).")
+                sys.exit("ERROR: degrees must be an integer (assuming -dec was given in sexigesimal format DD:AM:AS.AS).")
             try:
-                mins = int(mins)
+                amins = int(amins)
             except:
-                sys.exit("ERROR: minutes must be an integer (assuming -dec was given in sexigesimal format HH:MM:SS.S).")
+                sys.exit("ERROR: arcminutes must be an integer (assuming -dec was given in sexigesimal format DD:AM:AS.AS).")
             try:
-                secs = float(secs)
+                asecs = float(asecs)
             except:
-                sys.exit("ERROR: seconds must be a number (assuming -dec was given in sexigesimal format HH:MM:SS.S).")
-            if not 0 <= hrs <= 24:
-                sys.exit("ERROR: hours must be between 0 and 24 (assuming -dec was given in sexigesimal format HH:MM:SS.S).")
-            if not 0 <= mins <= 60:
-                sys.exit("ERROR: minutes must be between 0 and 60 (assuming -dec was given in sexigesimal format HH:MM:SS.S).")
-            if not 0 <= secs <= 60: 
-                sys.exit("ERROR: seconds must be between 0 and 60 (assuming -dec was given in sexigesimal format HH:MM:SS.S).")
+                sys.exit("ERROR: arcseconds must be a number (assuming -dec was given in sexigesimal format DD:AM:AS.AS).")
+            if not -90 <= deg <= 90:
+                sys.exit("ERROR: degrees must be between -90 and 90 (assuming -dec was given in sexigesimal format DD:AM:AS.AS).")
+            if not 0 <= amins <= 60:
+                sys.exit("ERROR: arcminutes must be between 0 and 60 (assuming -dec was given in sexigesimal format DD:AM:AS.AS).")
+            if not 0 <= asecs <= 60: 
+                sys.exit("ERROR: arcseconds must be between 0 and 60 (assuming -dec was given in sexigesimal format DD:AM:AS.AS).")
+            if deg >= 0:
+                dec = float(deg)+float(amins)/60+asecs/3600
+            else:
+                dec = float(deg)-float(amins)/60-asecs/3600 
     options[1] = dec
 
     pmepoch = options[10]
@@ -662,14 +667,13 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
     #Initialize some variables
     img_xmax = int(img.shape[1])
     img_ymax = int(img.shape[0])
-    radius = scale*img_xmax/2 + buffer #degrees
-    pixelradius = radius/scale  #pixels
+    radius = scale*180/pi*img_xmax/2 + buffer #degrees
+    pixelradius = radius/scale/180*pi  #pixels
 
     srcindexmap_initial = -1*np.ones(img.shape,dtype=int)
     srcindexmap_refine = -1*np.ones(img.shape,dtype=int)
     pse_metadata = np.zeros((nrefinepts,3),dtype=np.double)
     pse_metadata_inv = np.zeros((nrefinepts,3),dtype=np.double)
-
 
     num_psesources = PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, pixelradius, shape, srcindexmap_initial, srcindexmap_refine, pse_metadata, debug_report, filepath, verbosity, debug, printconsole=("Extracting sources from image...","done",verbosity,1))
 
@@ -681,7 +685,8 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
     catalogue_points = np.zeros((nrefinepts,3))
     mean_catcoords = np.zeros(2)
 
-    num_catsources = getIntermediateCoords(ra, dec, scale, img_xmax, img_ymax, shape, filter, catalogue, pmepoch, nrefinepts, allintrmpoints, catalogue_points, mean_catcoords, gaiaqueries, debug_report, verbosity, debug, printconsole=("Getting intermediate coordinates...","done",verbosity,1))
+    print("ra {} dec {}".format(ra,dec))
+    num_catsources = getIntermediateCoords(ra, dec, scale, img_xmax, img_ymax, shape, buffer, filter, catalogue, pmepoch, nrefinepts, allintrmpoints, catalogue_points, mean_catcoords, gaiaqueries, debug_report, verbosity, debug, printconsole=("Getting intermediate coordinates...","done",verbosity,1))
 
     #Section 4
     print("\n")
@@ -744,7 +749,7 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
     if wcsdiagnostics is True:
         matches = num_matches[0]
         hdr = "PSE_XPIX, PSE_YPIX, CAT_RA, CAT_DEC, WCS_RADELTA, WCS_DECDELTA"
-        savetxt(diagnosticpath, np.column_stack((matchdata[:matches,0], matchdata[:matches,1], matchdata[:matches,6]*180/pi, matchdata[:matches,7]*180/pi, matchdata[:matches,8], matchdata[:matches,9])), delimiter=',', header=hdr, comments='', printconsole=("Creating {}...".format(numbered_diagnostic),"done",verbosity,1))
+        savetxt(diagnosticpath, np.column_stack((matchdata[:matches,3], matchdata[:matches,4], matchdata[:matches,6]*180/pi, matchdata[:matches,7]*180/pi, matchdata[:matches,8], matchdata[:matches,9])), delimiter=',', header=hdr, comments='', printconsole=("Creating {}...".format(numbered_diagnostic),"done",verbosity,1))
 
     #The End
     print("\n")

@@ -58,9 +58,9 @@ cdef createROI(int[:,:] roi_view, int img_xmax, int img_ymax, int pixelradius, s
     cdef:
         Py_ssize_t x
         Py_ssize_t y
-        double img_xcenter = img_xmax/2
-        double img_ycenter = img_ymax/2
-        double pixelradius2 = pixelradius*pixelradius
+        int img_xcenter = img_xmax/2
+        int img_ycenter = img_ymax/2
+        int pixelradius2 = pixelradius*pixelradius
 
     if shape == "circle":
         for x in range(1,img_xmax+1):

@@ -132,8 +132,8 @@ cdef calculateWCSdiagnostics(int img_xmax, int img_ymax, double[:] refined_solut
         matchdata_view[j,7] = catalogue_points_view[int(matchdata_view[j,2]),1]
         residuals_ra[j] = (skypoints_matches_view[j,0] - matchdata_view[j,6])*180/pi*3600
         residuals_dec[j] = (skypoints_matches_view[j,1] - matchdata_view[j,7])*180/pi*3600
-        matchdata_view[:,8] = residuals_ra[j]
-        matchdata_view[:,9] = residuals_dec[j]
+        matchdata_view[j,8] = residuals_ra[j]
+        matchdata_view[j,9] = residuals_dec[j]
 
     CVAL1RM = np.mean(residuals_ra)
     CVAL2RM = np.mean(residuals_dec)
@@ -293,9 +293,9 @@ cdef int refineSolution(double[:,:] allintrmpoints_view, int num_catsources, dou
 
         axes = fig.add_subplot(111)
         axes.imshow(image_data, cmap="gray", norm=LogNorm())
-        axes.scatter(invtransf_match_xs, invtransf_match_ys, marker="o", color='white')
-        axes.scatter(matchdata_view[:,3], matchdata_view[:,4], marker=".", color='blue')
-        axes.scatter(invtransf_xs, invtransf_ys, marker='.', color='fuchsia')
+        #axes.scatter(img_xmax-np.asarray(invtransf_match_xs), img_ymax-np.asarray(invtransf_match_ys), marker="o", color='white')
+        axes.scatter(np.asarray(psepoints_view[:,0]), np.asarray(psepoints_view[:,1]), marker="+", color='yellow')
+        axes.scatter(img_xmax-np.asarray(invtransf_xs), img_ymax-np.asarray(invtransf_ys), marker='.', color='fuchsia')
         
         dscrp = "Plot of the inverse-transformed points (fuchsia) of all {} intermediate points. The inverse \ntransform used here is made up of the parameters that were found in the initial solution. The \ninverse-transformed points that yield a match (i.e., those that land on an occupied kernel \nin the source index map) are highlighted with a white circle. The PSE points are in blue.".format(nrefinepts_intrm)
         plt.title("Inverse transform - {} points - initial solution".format(nrefinepts_intrm))
@@ -389,8 +389,8 @@ cdef int refineSolution(double[:,:] allintrmpoints_view, int num_catsources, dou
 
         axes = fig.add_subplot(111)
         axes.imshow(image_data, cmap="gray", norm=LogNorm())
-        axes.scatter(invtransf_match_xs, invtransf_match_ys, marker="o", color='white')
-        axes.scatter(matchdata_view[:,3], matchdata_view[:,4], marker=".", color='blue')
+        #axes.scatter(invtransf_match_xs, invtransf_match_ys, marker="o", color='white')
+        axes.scatter(np.asarray(psepoints_view[:,0]), np.asarray(psepoints_view[:,1]), marker="+", color='yellow')
         axes.scatter(invtransf_xs, invtransf_ys, c='fuchsia', marker='.')
 
         dscrp = "Plot of the inverse-transformed points (fuchsia) of all {} intermediate points. The inverse \ntransform used here is made up of the CD matrix elements that were found when refining \n(optimizing) the previous solution. The inverse-transformed points that yield a match (i.e., \nthose that land on an occupied kernel in the source index map) are highlighted with a white \ncircle. The PSE points are in blue.".format(nrefinepts_intrm)
@@ -633,6 +633,7 @@ cdef int findInitialSolution(double[:,:] allintrmpoints_view, int num_catsources
         double[:,:] invtransf_intrmtriangle_view = np.empty((3,2),dtype=np.double)
         double[:] invtransf_intrmpoint_view = np.empty(2,dtype=np.double)
         int resultcode = 0
+        int prcnt = 0
 
     if debug:
         np.savetxt(debug_report/"psepoints.csv",np.asarray(psepoints_view), delimiter=",")
@@ -734,7 +735,9 @@ cdef int findInitialSolution(double[:,:] allintrmpoints_view, int num_catsources
 
     for i in range(nchoose3_pse):
         if verbosity == 2:
-            print("| | i {}".format(i))
+            if i*100/nchoose3_pse > prcnt:
+                print("| | i {}, {}%".format(i, prcnt))
+                prcnt = i*100/nchoose3_pse
         psesrcindex_A = srcindexmap_initial_view[img_ymax-int(psetriangles_view[i,1])-1,img_xmax-int(psetriangles_view[i,0])-1]
         psesrcindex_B = srcindexmap_initial_view[img_ymax-int(psetriangles_view[i,3])-1,img_xmax-int(psetriangles_view[i,2])-1]
         psesrcindex_C = srcindexmap_initial_view[img_ymax-int(psetriangles_view[i,5])-1,img_xmax-int(psetriangles_view[i,4])-1]
@@ -808,10 +811,9 @@ cdef int findInitialSolution(double[:,:] allintrmpoints_view, int num_catsources
 
                                                         axes = fig.add_subplot(111)
                                                         axes.imshow(image_data, cmap="gray", norm=LogNorm())
-                                                        axes.scatter(invtransf_match_xs,invtransf_match_ys,marker='o',color='white')
-                                                        axes.scatter(psepoints_view[:,0],psepoints_view[:,1],marker=".",color='blue')
-                                                        axes.scatter(invtransf_xs,invtransf_ys,marker='.',color='fuchsia')
-
+                                                        #axes.scatter(img_xmax-np.asarray(invtransf_match_xs), img_ymax-np.asarray(invtransf_match_ys), marker='o', color='white')
+                                                        axes.scatter(psepoints_view[:,0], psepoints_view[:,1], marker="+", color='yellow')
+                                                        axes.scatter(np.asarray(invtransf_xs), np.asarray(invtransf_ys), marker='.', color='fuchsia')
                                                         dscrp = "Plot of the inverse-transformed points (fuchsia) of {} intermediate points. The inverse \ntransform used here is made up of the parameters found in the initial solution. The \ninverse-transformed points that yield a match (i.e., those that land on an occupied kernel \nin the source index map) are highlighted with a white circle. The PSE points are in blue.".format(npts_intrm)
                                                         plt.title("Inverse transform - {} points - initial solution".format(npts_intrm))
                                                         plt.figtext(0.5, 0.05, dscrp, ha="center", fontsize=9)
