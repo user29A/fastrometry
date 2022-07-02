@@ -511,7 +511,7 @@ cdef int mapRemainingSources(double[:,:] img_view, int img_xmax, int img_ymax, d
             else:
                 for u in range(kernelsize):
                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
-            findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
+            findCentroids(prevx, prevy, kernelrad, img_view, bgmap_view[prevy-1,prevx-1], cntdresults_view)
             pse_metadata_view[t,0] = cntdresults_view[0]   #x centroid
             pse_metadata_view[t,1] = cntdresults_view[1]   #y centroid
 

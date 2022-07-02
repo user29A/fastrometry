@@ -64,6 +64,7 @@ def getCMDargs():
     parser.add_argument('-nmatchpoints', help=formatting('This specifies the number of points which must match between the point source list and catalogue list to be considered a solution. Default is 6 points. Minimum is 3 but this is very likely to produce false-positive solutions. 4 or 5 can be used where there are simply very few points in the source image. 6 or higher should guarantee no false positives.',80,4))
     parser.add_argument('-nmatchpercent', help=formatting('Same as above but as a percentage of point sources available. Default is 25%%. If both nmatchpoints and nmatchpercent are supplied, the smaller threshold will be used, found by comparing nmatchpoints to nmatchpercent*npts.',80,4))
     parser.add_argument('-wcsdiagnostics', action='store_true', help=formatting('If this option is provided, fastrometry will write an additional csv file beside the FITS image file which provides diagnostic information about the WCS solution. The PSE centroids, their sky coordinate values via the WCS solution, the corresponding sky coordinates from the catalogue, and then the differentials, are written to the csv diagnostic file.',80,4))
+    parser.add_argument('-overwrite', action='store_true', help=formatting('When set, will overwrite the file, instead of producing a new one.',80,4))
     parser.add_argument('--save', help=formatting('Save the options settings as a file to disk to recall later. User supplies an ID, for example: "--save UVIT". Useful if frequently processing different telescopic fields, allowing quick input of WCS solver settings. Saves all settings EXCEPT for filename, ra, dec, pmepoch, so that different images but taken from the same telescope can be processed at their unique individual characteristics.',80,4))
     parser.add_argument('--load', help=formatting('Load an options settings configuration. User supplies an ID that matches that of a previously-saved file. Useful when frequently processing the same telescopic field.',80,4))
     parser.add_argument('--version', '-V', action='version', version='fastrometry {}'.format(VERSION), help=formatting('Shows the current version of fastrometry.',80,4))
@@ -563,7 +564,7 @@ def setupFolders(debug, user_dir, filename_body, verbosity):
     return debug_report, gaiaqueries
 
 
-def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=None, rotationbnds=None, buffer=None, shape=None, catalogue=None, pmepoch=None, filter=None, npts=None, nrefinepts=None, pixsat=None, kernelrad=None, sourcesep=None, vertextol=None, nmatchpoints=None, nmatchpercent=None, wcsdiagnostics=None, save=None, load=None, verbosity=None, debug=None):
+def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=None, rotationbnds=None, buffer=None, shape=None, catalogue=None, pmepoch=None, filter=None, npts=None, nrefinepts=None, pixsat=None, kernelrad=None, sourcesep=None, vertextol=None, nmatchpoints=None, nmatchpercent=None, wcsdiagnostics=None, overwrite=None, save=None, load=None, verbosity=None, debug=None):
 
     #Section 1
     print("\n")
@@ -577,7 +578,7 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
     
     img, header = openFITS(filepath, printconsole=("Opening FITS image...","done",verbosity,1))
 
-    options = [ra, dec, scale, scalebnds, rotation, rotationbnds, buffer, shape, catalogue, filter, pmepoch, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent, wcsdiagnostics]   #save and load have no form restrictions and thus do not need to be validated
+    options = [ra, dec, scale, scalebnds, rotation, rotationbnds, buffer, shape, catalogue, filter, pmepoch, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent, wcsdiagnostics, overwrite]   #save and load have no form restrictions and thus do not need to be validated
     printItem("Inputted options:", options, verbosity, 2)
 
     validateOptions(header, load, options, printconsole=("Validating options...","done",verbosity,1))
@@ -625,6 +626,7 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
     nmatchpoints = options[17]
     nmatchpercent = options[18]
     wcsdiagnostics = options[19]
+    overwrite = options[20]
 
     #Setup the debug folder tree if debug is True. The debug report is a subfolder specific to the
     #active session, and the debug folder contains all the debug_reports.
@@ -739,12 +741,15 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
     header['CVALRM'] = (headervals[24], 'Mean of WCS residuals (arcsec)')
     header['CVALRS'] = (headervals[25], 'Standard dev of WCS residuals (arcsec)')
 
-    outfilename = filename_body+' WCS'+filename_ext
-    diagnostic = filename_body+' WCS diagnostic.csv'
-    numbered_outfilename, numbered_diagnostic = insertCopyNumber(outfilename, diagnostic, filename_body, filename_ext)
-    outfilepath = user_dir/numbered_outfilename
-    diagnosticpath = user_dir/numbered_diagnostic
-    writeto(outfilepath, img, header, overwrite=True, output_verify='silentfix', printconsole=("Writing to {}...".format(numbered_outfilename),"done",verbosity,1))
+    if overwrite is True:
+        outfilename = filename_body+filename_ext
+    else:
+        outfilename = filename_body+' WCS'+filename_ext
+        diagnostic = filename_body+' WCS diagnostic.csv'
+        numbered_outfilename, numbered_diagnostic = insertCopyNumber(outfilename, diagnostic, filename_body, filename_ext)
+        outfilepath = user_dir/numbered_outfilename
+        diagnosticpath = user_dir/numbered_diagnostic
+        writeto(outfilepath, img, header, overwrite=True, output_verify='silentfix', printconsole=("Writing to {}...".format(numbered_outfilename),"done",verbosity,1))
 
     if wcsdiagnostics is True:
         matches = num_matches[0]
@@ -758,6 +763,6 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
 
 def callFromCommandLine():
     args = getCMDargs()
-    solution = findWCS(args.filename, ra=args.ra, dec=args.dec, scale=args.scale, scalebnds=args.scalebnds, rotation=args.rotation, rotationbnds=args.rotationbnds, buffer=args.buffer, shape=args.fieldshape, catalogue=args.catalogue, filter=args.filter, pmepoch=args.pmepoch, npts=args.npts, nrefinepts=args.nrefinepts, pixsat=args.pixsat, kernelrad=args.kernelrad, sourcesep=args.sourcesep, vertextol=args.vertextol, nmatchpoints=args.nmatchpoints, nmatchpercent=args.nmatchpercent, wcsdiagnostics=args.wcsdiagnostics, save=args.save, load=args.load, verbosity=args.verbosity, debug=args.debug)
+    solution = findWCS(args.filename, ra=args.ra, dec=args.dec, scale=args.scale, scalebnds=args.scalebnds, rotation=args.rotation, rotationbnds=args.rotationbnds, buffer=args.buffer, shape=args.fieldshape, catalogue=args.catalogue, filter=args.filter, pmepoch=args.pmepoch, npts=args.npts, nrefinepts=args.nrefinepts, pixsat=args.pixsat, kernelrad=args.kernelrad, sourcesep=args.sourcesep, vertextol=args.vertextol, nmatchpoints=args.nmatchpoints, nmatchpercent=args.nmatchpercent, wcsdiagnostics=args.wcsdiagnostics, overwrite=args.overwrite, save=args.save, load=args.load, verbosity=args.verbosity, debug=args.debug)
     #as of right now, solution is None -- you will be fine just calling findWCS in-place
     

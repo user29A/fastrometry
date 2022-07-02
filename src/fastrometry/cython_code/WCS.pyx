@@ -75,7 +75,7 @@ cdef getSkyCoordsFromPix(double[:,:] pixelpoints_view, int num_pixpoints, double
         skypoints_view[i,0] = a0 + atan2(X*sin(c),p*cos(d0)*cos(c)-Y*sin(d0)*sin(c))
         skypoints_view[i,1] = asin(cos(c)*sin(d0)+Y*sin(c)*cos(d0)/p)
 
-cdef calculateWCSdiagnostics(int img_xmax, int img_ymax, double[:] refined_solution_view, double[:,:] matchdata_view, int matches, int num_catsources, double[:,:] catalogue_points_view, double[:] mean_catcoords_view, double[:] wcs_diagnostics_view):
+cdef calculateWCSdiagnostics(int img_xmax, int img_ymax, double[:] refined_solution_view, double[:,:] matchdata_view, int matches, int num_catsources, double[:,:] catalogue_points_view, double[:] mean_catcoords_view, double[:] wcs_diagnostics_view, debug_report, debug):
 
     cdef:
         double centx = int(img_xmax/2)
@@ -112,11 +112,13 @@ cdef calculateWCSdiagnostics(int img_xmax, int img_ymax, double[:] refined_solut
     dminutes1 = (dhours1 - hours1)*60
     minutes1 = int(dminutes1)
     dseconds1 = (dminutes1 - minutes1)*60
-    dhours2 = CCVALD2/15*180/pi/15
+    dhours2 = abs(CCVALD2)/15*180/pi/15
     hours2 = int(dhours2)
     dminutes2 = (dhours2 - hours2)*60
     minutes2 = int(dminutes2)
     dseconds2 = (dminutes2 - minutes2)*60
+    if CCVALD2 < 0:
+        hours2 *= -1
 
     CCVALS1_h = hours1 
     CCVALS1_m = minutes1
@@ -127,6 +129,9 @@ cdef calculateWCSdiagnostics(int img_xmax, int img_ymax, double[:] refined_solut
 
     getSkyCoordsFromPix(matchdata_view[:,3:5], matches, refined_solution_view, mean_catcoords_view, skypoints_matches_view)
 
+    if debug:
+        np.savetxt(debug_report/"skypoints_matches_view.csv", np.asarray(skypoints_matches_view), delimiter=",")
+
     for j in range(matches):
         matchdata_view[j,6] = catalogue_points_view[int(matchdata_view[j,2]),0]
         matchdata_view[j,7] = catalogue_points_view[int(matchdata_view[j,2]),1]
@@ -134,6 +139,9 @@ cdef calculateWCSdiagnostics(int img_xmax, int img_ymax, double[:] refined_solut
         residuals_dec[j] = (skypoints_matches_view[j,1] - matchdata_view[j,7])*180/pi*3600
         matchdata_view[j,8] = residuals_ra[j]
         matchdata_view[j,9] = residuals_dec[j]
+
+    if debug:
+        np.savetxt(debug_report/"matchdata_wcsdiagnostic.csv", np.asarray(matchdata_view), delimiter=",")
 
     CVAL1RM = np.mean(residuals_ra)
     CVAL2RM = np.mean(residuals_dec)
@@ -317,8 +325,8 @@ cdef int refineSolution(double[:,:] allintrmpoints_view, int num_catsources, dou
         print("| | CD2_2_guess = {}".format(CD22_guess))
         print("| | CRPIXx_guess = {}".format(CRPIXx_guess))
         print("| | CRPIXy_guess = {}".format(CRPIXy_guess))
-
-    optimizedparams = optimization.least_squares(fun=fitNrefineptsToGetCD, x0=guess, args=(np.asarray(matchdata_view), matches))
+    
+    optimizedparams = optimization.least_squares(fun=fitNrefineptsToGetCD, x0=guess, x_scale=[1e-6, 1e-6, 1e-6, 1e-6, CRPIXx_guess, CRPIXy_guess], args=(np.asarray(matchdata_view), matches))
     CD11 = optimizedparams.x[0]
     CD12 = optimizedparams.x[1]
     CD21 = optimizedparams.x[2]
@@ -875,7 +883,7 @@ def WCS(scale, scalebnds, rotation, rotationbnds, npts, nrefinepts, vertextol, a
 
     if verbosity >= 1:
         print("| Calculating WCS diagnostics...")
-    calculateWCSdiagnostics(img_xmax, img_ymax, refined_solution, matchdata, matches, num_catsources, catalogue_points, mean_catcoords, wcs_diagnostics)
+    calculateWCSdiagnostics(img_xmax, img_ymax, refined_solution, matchdata, matches, num_catsources, catalogue_points, mean_catcoords, wcs_diagnostics, debug_report, debug)
     if verbosity >= 1:
         print("| done")
 

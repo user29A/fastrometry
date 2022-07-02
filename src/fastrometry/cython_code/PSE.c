@@ -10755,7 +10755,7 @@ __pyx_t_7.strides[0] = __pyx_v_pse_metadata_view.strides[1];
  *             else:
  *                 for u in range(kernelsize):             # <<<<<<<<<<<<<<
  *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
- *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
+ *             findCentroids(prevx, prevy, kernelrad, img_view, bgmap_view[prevy-1,prevx-1], cntdresults_view)
  */
       /*else*/ {
         __pyx_t_20 = __pyx_v_kernelsize;
@@ -10767,7 +10767,7 @@ __pyx_t_7.strides[0] = __pyx_v_pse_metadata_view.strides[1];
  *             else:
  *                 for u in range(kernelsize):
  *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t             # <<<<<<<<<<<<<<
- *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
+ *             findCentroids(prevx, prevy, kernelrad, img_view, bgmap_view[prevy-1,prevx-1], cntdresults_view)
  *             pse_metadata_view[t,0] = cntdresults_view[0]   #x centroid
  */
           __pyx_t_29 = __pyx_v_u;
@@ -10823,7 +10823,7 @@ __pyx_t_7.strides[0] = __pyx_v_pse_metadata_view.strides[1];
       /* "fastrometry/cython_code/PSE.pyx":514
  *                 for u in range(kernelsize):
  *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
- *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)             # <<<<<<<<<<<<<<
+ *             findCentroids(prevx, prevy, kernelrad, img_view, bgmap_view[prevy-1,prevx-1], cntdresults_view)             # <<<<<<<<<<<<<<
  *             pse_metadata_view[t,0] = cntdresults_view[0]   #x centroid
  *             pse_metadata_view[t,1] = cntdresults_view[1]   #y centroid
  */
@@ -10848,7 +10848,7 @@ __pyx_t_7.strides[0] = __pyx_v_pse_metadata_view.strides[1];
 
       /* "fastrometry/cython_code/PSE.pyx":515
  *                     srcindexmap_refine_view[(prevy+kernelcircle_view[u,1])-1,(prevx+kernelcircle_view[u,0])-1] = t
- *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
+ *             findCentroids(prevx, prevy, kernelrad, img_view, bgmap_view[prevy-1,prevx-1], cntdresults_view)
  *             pse_metadata_view[t,0] = cntdresults_view[0]   #x centroid             # <<<<<<<<<<<<<<
  *             pse_metadata_view[t,1] = cntdresults_view[1]   #y centroid
  * 
@@ -10881,7 +10881,7 @@ __pyx_t_7.strides[0] = __pyx_v_pse_metadata_view.strides[1];
       *((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_pse_metadata_view.data + __pyx_t_25 * __pyx_v_pse_metadata_view.strides[0]) ) + __pyx_t_28 * __pyx_v_pse_metadata_view.strides[1]) )) = (*((double *) ( /* dim=0 */ (__pyx_v_cntdresults_view.data + __pyx_t_24 * __pyx_v_cntdresults_view.strides[0]) )));
 
       /* "fastrometry/cython_code/PSE.pyx":516
- *             findCentroids(prevx,prevy,kernelrad,img_view,bgmap_view[prevy-1,prevx-1],cntdresults_view)
+ *             findCentroids(prevx, prevy, kernelrad, img_view, bgmap_view[prevy-1,prevx-1], cntdresults_view)
  *             pse_metadata_view[t,0] = cntdresults_view[0]   #x centroid
  *             pse_metadata_view[t,1] = cntdresults_view[1]   #y centroid             # <<<<<<<<<<<<<<
  * 
