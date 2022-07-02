@@ -1,0 +1,16 @@
+To develop fastrometry:
+
+Prequisites:
+- C compiler (for Windows, you may need to install one and add it to your PATH environment variable)
+- Cython 0.29.30. Use pip to install it: "pip install cython=0.29.30"
+
+1. On Github, fork the fastrometry repository, and then clone your project onto your computer.
+2. Navigate to the fastrometry folder
+3. Do your development work
+4. When you want to test your work, type: "python setup.py sdist bdist_wheel". This will produce a wheel file in the dist/ subfolder.
+5. Navigate to the dist folder and uninstall fastrometry: "pip uninstall fastrometry"
+6. Reinstall fastrometry using the newly-generated wheel file: "pip install fastrometry-1.0.5-cp310-cp310-win_amd64.whl" (as an example of a wheel file name)
+7. Navigate back up one folder ("cd .."). You can now run your edited version of fastrometry. Repeat steps 3-7 if necessary.
+8. When satisfied, upload the code to your Github repository.
+9. Open a pull request using the "Contribute" dropdown button. We will review your pull request.
+10. Thank you for contributing to fastrometry.
