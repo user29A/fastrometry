@@ -1,5 +1,5 @@
 .vscode
-src/fastrometry_test.egg-info
+src/fastrometry_test.egg-info/
 build
 dist
 wheelhouse
