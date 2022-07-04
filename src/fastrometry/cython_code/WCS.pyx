@@ -1,37 +1,30 @@
 import scipy.optimize as optimization
 import numpy as np
 import sys
-from pathlib import Path
 
 cimport numpy as np
 from libc.math cimport sin, cos, pi, asin, acos, atan, atan2, sqrt, abs
 
-def printEvent(f):
+def printEvent(startmessage, endmessage, levelneeded):
     """
-    A decorator function that causes messages to be printed to the print both before and after
-    a process (for a total of two lines) if the verbosity is at the required level.
-    The purpose of a decorator is to return a wrapper, which itself supplements the original
-    function with additional commands.
+    This is a decorator factory, which returns a decorator.
+    The decorator's purpose is to return a wrapper, which
+    provides the original function (f) with extra utilities,
+    which in this case is a pair of verbosity-dependent
+    console messages, whose wording and needed verbosity
+    level are specified in the decorator factory arguments.
     """
-    def wrapper(*args, printconsole=None, **kwargs):
-        startmessage = printconsole[0]
-        endmessage = printconsole[1]
-        verbosity = printconsole[2]
-        levelneeded = printconsole[3]
-        if verbosity >= levelneeded:
-            print(startmessage)
-        fout = f(*args,**kwargs)
-        if verbosity >= levelneeded:
-            print(endmessage)
-        return fout
-    return wrapper
-
-def insertCopyNumber(outfilename, filename_body):
-    copynum = 1
-    while Path(outfilename).is_file():
-        outfilename = filename_body+' WCS ({}) diagnostic.csv'.format(copynum)
-        copynum += 1
-    return outfilename
+    def decorator(f):
+        def wrapper(*args, **kwargs):
+            verbosity = args[-1]
+            if verbosity >= levelneeded:
+                print(startmessage)
+            fout = f(*args,**kwargs)
+            if verbosity >= levelneeded:
+                print(endmessage)
+            return fout
+        return wrapper
+    return decorator
 
 cdef getSkyCoordsFromPix(double[:,:] pixelpoints_view, int num_pixpoints, double[:] refined_solution_view, double[:] mean_catcoords_view, double[:,:] skypoints_view):
     
@@ -834,8 +827,8 @@ cdef int findInitialSolution(double[:,:] allintrmpoints_view, int num_catsources
     resultcode = 2
     return resultcode
 
-@printEvent
-def WCS(scale, scalebnds, rotation, rotationbnds, npts, nrefinepts, vertextol, allintrmpoints, catalogue_points, mean_catcoords, pse_metadata, pse_metadata_inv, matchdata, num_matches, srcindexmap_initial, srcindexmap_refine, img_xmax, img_ymax, minmatches, kerneldiam, num_psesources, num_catsources, headervals, wcsdiagnostics, debug_report, filepath, user_dir, filename_body, verbosity, debug):
+@printEvent("Performing WCS...", "done", 1)
+def WCS(scale, scalebnds, rotation, rotationbnds, npts, nrefinepts, vertextol, allintrmpoints, catalogue_points, mean_catcoords, pse_metadata, pse_metadata_inv, matchdata, num_matches, srcindexmap_initial, srcindexmap_refine, img_xmax, img_ymax, minmatches, kerneldiam, num_psesources, num_catsources, headervals, wcsdiagnostics, debug_report, filepath, user_dir, filename_body, debug, verbosity):
     """
     """
 

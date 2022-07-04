@@ -4,25 +4,26 @@ from libc.math cimport sqrt
 cimport numpy as np
 import cython
 
-def printEvent(f):
+def printEvent(startmessage, endmessage, levelneeded):
     """
-    A decorator function that causes messages to be printed to the print both before and after
-    a process (for a total of two lines) if the verbosity is at the required level.
-    The purpose of a decorator is to return a wrapper, which itself supplements the original
-    function with additional commands.
+    This is a decorator factory, which returns a decorator.
+    The decorator's purpose is to return a wrapper, which
+    provides the original function (f) with extra utilities,
+    which in this case is a pair of verbosity-dependent
+    console messages, whose wording and needed verbosity
+    level are specified in the decorator factory arguments.
     """
-    def wrapper(*args, printconsole=None, **kwargs):
-        startmessage = printconsole[0]
-        endmessage = printconsole[1]
-        verbosity = printconsole[2]
-        levelneeded = printconsole[3]
-        if verbosity >= levelneeded:
-            print(startmessage)
-        fout = f(*args,**kwargs)
-        if verbosity >= levelneeded:
-            print(endmessage)
-        return fout
-    return wrapper
+    def decorator(f):
+        def wrapper(*args, **kwargs):
+            verbosity = args[-1]
+            if verbosity >= levelneeded:
+                print(startmessage)
+            fout = f(*args,**kwargs)
+            if verbosity >= levelneeded:
+                print(endmessage)
+            return fout
+        return wrapper
+    return decorator
 
 def debuggerPlot(array, debug_report, savename, figsize=(7,7), bottom=0.2, vmin=None, vmax=None, colbar=False, colbar_extend=False, title=None, dscrp=None, textpos=0.1, colors=None, boundaries=None):
     import matplotlib.pyplot as plt
@@ -517,8 +518,8 @@ cdef int mapRemainingSources(double[:,:] img_view, int img_xmax, int img_ymax, d
 
     return curr_src_ind
 
-@printEvent
-def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, pixelradius, shape, srcindexmap_initial, srcindexmap_refine, pse_metadata, debug_report, filepath, verbosity, debug):
+@printEvent("Extracting sources from image...", "done", 1)
+def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, pixelradius, shape, srcindexmap_initial, srcindexmap_refine, pse_metadata, debug_report, filepath, debug, verbosity):
 
     num_psesources = 0
 

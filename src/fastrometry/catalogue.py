@@ -4,38 +4,38 @@ from math import sin, cos, pi
 from AstraCarta import astracarta
 import sys
 
-def printEvent(f):
+def printEvent(startmessage, endmessage, levelneeded):
     """
-    A decorator function that causes messages to be printed to the print both before and after
-    a process (for a total of two lines) if the verbosity is at the required level.
-    The purpose of a decorator is to return a wrapper, which itself supplements the original
-    function with additional commands.
+    This is a decorator factory, which returns a decorator.
+    The decorator's purpose is to return a wrapper, which
+    provides the original function (f) with extra utilities,
+    which in this case is a pair of verbosity-dependent
+    console messages, whose wording and needed verbosity
+    level are specified in the decorator factory arguments.
     """
-    def wrapper(*args, printconsole=None, **kwargs):
-        startmessage = printconsole[0]
-        endmessage = printconsole[1]
-        verbosity = printconsole[2]
-        levelneeded = printconsole[3]
-        if verbosity >= levelneeded:
-            print(startmessage)
-        fout = f(*args,**kwargs)
-        if verbosity >= levelneeded:
-            print(endmessage)
-        return fout
-    return wrapper
+    def decorator(f):
+        def wrapper(*args, **kwargs):
+            verbosity = args[-1]
+            if verbosity >= levelneeded:
+                print(startmessage)
+            fout = f(*args,**kwargs)
+            if verbosity >= levelneeded:
+                print(endmessage)
+            return fout
+        return wrapper
+    return decorator
 
-astracarta = printEvent(astracarta)     #apply wrapper to imported function
+@printEvent("=======AstraCarta=======", "========================", 1)
+def astracartaWrapper(verbosity, **kwargs):
+    ret = astracarta(**kwargs)
+    return ret
 
-def printItem(message, item, verbosity, levelneeded):
-    if verbosity >= levelneeded:
-        print(message+item)
-
-def printMessage(message, verbosity, levelneeded):
+def vbprint(message, levelneeded, verbosity):
     if verbosity >= levelneeded:
         print(message)
 
-@printEvent
-def getColumnData(resultsfile, catalogue_points, filter):
+@printEvent("| Getting column data...", "| done", 1)
+def getColumnData(resultsfile, catalogue_points, filter, verbosity):
     if filter == "g":   
         filtername = "phot_g_mean_mag"
     elif filter == "bp":
@@ -53,8 +53,8 @@ def getColumnData(resultsfile, catalogue_points, filter):
             num_catsources += 1
     return num_catsources
 
-@printEvent
-def gnomonicProject(catalogue_points, a0, d0, num_catsources, allintrmpoints):
+@printEvent("| Gnomonically projecting sky coordinates...", "| done", 1)
+def gnomonicProject(catalogue_points, a0, d0, num_catsources, allintrmpoints, verbosity):
     for k in range(num_catsources):
         a = catalogue_points[k,0]
         d = catalogue_points[k,1]
@@ -63,21 +63,20 @@ def gnomonicProject(catalogue_points, a0, d0, num_catsources, allintrmpoints):
         allintrmpoints[k,0] = X
         allintrmpoints[k,1] = Y
 
-
-@printEvent
-def getIntermediateCoords(ra, dec, scale, img_xmax, img_ymax, shape, buffer, filter, catalogue, pmepoch, nrefinepts, allintrmpoints, catalogue_points, mean_catcoords, gaiaqueries, debug_report, verbosity, debug):
+@printEvent("Getting intermediate coordinates...", "done", 1)
+def getIntermediateCoords(ra, dec, scale, img_xmax, img_ymax, shape, buffer, filter, catalogue, pmepoch, nrefinepts, allintrmpoints, catalogue_points, mean_catcoords, gaiaqueries, debug_report, debug, verbosity):
 
     if verbosity == 0:
         silent = True
     else:
         silent = False
 
-    resultsfile = astracarta(ra=ra, dec=dec, scale=scale*3600*180/pi, maglimit=30, pixwidth=img_xmax, pixheight=img_ymax, buffer=buffer*60, shape=shape, filter=filter, catalogue=catalogue, pmepoch=pmepoch, nquery=nrefinepts, outdir=gaiaqueries, silent=silent, printconsole=("=======AstraCarta=======","========================",verbosity,1))
+    resultsfile = astracartaWrapper(verbosity, ra=ra, dec=dec, scale=scale*3600*180/pi, maglimit=30, pixwidth=img_xmax, pixheight=img_ymax, buffer=buffer*60, shape=shape, filter=filter, catalogue=catalogue, pmepoch=pmepoch, nquery=nrefinepts, outdir=gaiaqueries, silent=silent)
     if resultsfile == '':
         sys.exit("ERROR: Catalogue query failed to complete.")
 
-    num_catsources = getColumnData(resultsfile, catalogue_points, filter, printconsole=("| Getting column data...","| done",verbosity,1))
-    printMessage("| Got {} valid sky coordinates from the catalogue.".format(num_catsources), verbosity, 2)
+    num_catsources = getColumnData(resultsfile, catalogue_points, filter, verbosity)
+    vbprint("| Got {} valid sky coordinates from the catalogue.".format(num_catsources), 2, verbosity)
 
     a0 = np.mean(catalogue_points[:,0])
     d0 = np.mean(catalogue_points[:,1])
@@ -85,7 +84,7 @@ def getIntermediateCoords(ra, dec, scale, img_xmax, img_ymax, shape, buffer, fil
     mean_catcoords[0] = a0
     mean_catcoords[1] = d0
 
-    gnomonicProject(catalogue_points, a0, d0, num_catsources, allintrmpoints, printconsole=("| Gnomonically projecting sky coordinates...","| done",verbosity,1))
+    gnomonicProject(catalogue_points, a0, d0, num_catsources, allintrmpoints, verbosity)
 
     if debug:
         np.savetxt(debug_report/"catalogue_points.csv", catalogue_points, delimiter=",")
