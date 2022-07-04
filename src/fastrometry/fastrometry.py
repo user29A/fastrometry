@@ -19,7 +19,7 @@ from math import pi
 import sys
 
 ################
-VERSION="1.0.5"
+VERSION="1.0.6"
 ################
 
 verbosity = None
@@ -946,7 +946,7 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
     catalogue_points = np.zeros((nrefinepts,3))
     mean_catcoords = np.zeros(2)
 
-    num_catsources = getIntermediateCoords(ra, dec, scale, img_xmax, img_ymax, fieldshape, buffer, filter, catalogue, pmepoch, nrefinepts, allintrmpoints, catalogue_points, mean_catcoords, gaiaqueries, debug_report, debug, verbosity)
+    num_catsources = getIntermediateCoords(ra, dec, scale, img_xmax, img_ymax, fieldshape, buffer, filter, catalogue, pmepoch, nrefinepts, allintrmpoints, catalogue_points, mean_catcoords, gaiaqueries, debug_report, overwrite, debug, verbosity)
 
     #Section 4
     print("\n")
