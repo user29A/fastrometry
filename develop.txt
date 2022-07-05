@@ -17,4 +17,4 @@ Github:
 10. Thank you for contributing to fastrometry.
 
 PyPi:
-(for repository owners) Update the version number and type "twine upload dist/* "
+(for repository owners) After making changes, update the version number and type "twine upload dist/* "

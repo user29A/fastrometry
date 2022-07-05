@@ -248,7 +248,7 @@ def createFolder(folder, parent_folder, verbosity):
     @printEvent("| | Creating {} folder...".format(folder), "| | done", 1)
     def createThisFolder(parent_folder, verbosity):
         (parent_folder/folder).mkdir(parents=True)
-    createThisFolder()
+    createThisFolder(parent_folder, verbosity)
 
 @printEvent("| | Checking save ID...", "| | done", 1)
 def polishID(id, verbosity):

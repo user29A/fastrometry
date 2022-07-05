@@ -1,6 +1,6 @@
-.vscode
-src/fastrometry_test.egg-info/
-build
-dist
-wheelhouse
+.vscode/
+src/fastrometry.egg-info/
+build/
+dist/
+wheelhouse/
 **/__pycache__/
