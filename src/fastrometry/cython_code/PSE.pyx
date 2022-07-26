@@ -4,27 +4,6 @@ from libc.math cimport sqrt
 cimport numpy as np
 import cython
 
-def printEvent(startmessage, endmessage, levelneeded):
-    """
-    This is a decorator factory, which returns a decorator.
-    The decorator's purpose is to return a wrapper, which
-    provides the original function (f) with extra utilities,
-    which in this case is a pair of verbosity-dependent
-    console messages, whose wording and needed verbosity
-    level are specified in the decorator factory arguments.
-    """
-    def decorator(f):
-        def wrapper(*args, **kwargs):
-            verbosity = args[-1]
-            if verbosity >= levelneeded:
-                print(startmessage)
-            fout = f(*args,**kwargs)
-            if verbosity >= levelneeded:
-                print(endmessage)
-            return fout
-        return wrapper
-    return decorator
-
 def debuggerPlot(array, debug_report, savename, figsize=(7,7), bottom=0.2, vmin=None, vmax=None, colbar=False, colbar_extend=False, title=None, dscrp=None, textpos=0.1, colors=None, boundaries=None):
     import matplotlib.pyplot as plt
     from matplotlib.colors import Normalize
@@ -518,8 +497,10 @@ cdef int mapRemainingSources(double[:,:] img_view, int img_xmax, int img_ymax, d
 
     return curr_src_ind
 
-@printEvent("Extracting sources from image...", "done", 1)
 def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts, pixelradius, shape, srcindexmap_initial, srcindexmap_refine, pse_metadata, debug_report, filepath, debug, verbosity):
+
+    if verbosity >= 1:
+        print("Extracting sources from image...")
 
     num_psesources = 0
 
@@ -588,7 +569,7 @@ def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts,
     img_median = np.median(img)
     img_max = np.max(img)
     
-    if verbosity ==2:
+    if verbosity == 2:
         print("| Median amplitude: {}".format(img_median))
         print("| Max amplitude: {}".format(img_max))
 
@@ -643,6 +624,9 @@ def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts,
         plt.figtext(0.5, 0.05, dscrp, ha="center", fontsize=9)
         plt.savefig(debug_report/"pse_metadata_centroids.png")
         plt.show()
+
+    if verbosity >= 1:
+        print("done")
 
     return num_psesources
 

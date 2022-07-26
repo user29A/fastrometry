@@ -5,27 +5,6 @@ import sys
 cimport numpy as np
 from libc.math cimport sin, cos, pi, asin, acos, atan, atan2, sqrt, abs
 
-def printEvent(startmessage, endmessage, levelneeded):
-    """
-    This is a decorator factory, which returns a decorator.
-    The decorator's purpose is to return a wrapper, which
-    provides the original function (f) with extra utilities,
-    which in this case is a pair of verbosity-dependent
-    console messages, whose wording and needed verbosity
-    level are specified in the decorator factory arguments.
-    """
-    def decorator(f):
-        def wrapper(*args, **kwargs):
-            verbosity = args[-1]
-            if verbosity >= levelneeded:
-                print(startmessage)
-            fout = f(*args,**kwargs)
-            if verbosity >= levelneeded:
-                print(endmessage)
-            return fout
-        return wrapper
-    return decorator
-
 cdef getSkyCoordsFromPix(double[:,:] pixelpoints_view, int num_pixpoints, double[:] refined_solution_view, double[:] mean_catcoords_view, double[:,:] skypoints_view):
     
     """
@@ -295,7 +274,7 @@ cdef int refineSolution(double[:,:] allintrmpoints_view, int num_catsources, dou
         axes = fig.add_subplot(111)
         axes.imshow(image_data, cmap="gray", norm=LogNorm())
         #axes.scatter(img_xmax-np.asarray(invtransf_match_xs), img_ymax-np.asarray(invtransf_match_ys), marker="o", color='white')
-        axes.scatter(np.asarray(psepoints_view[:,0]), np.asarray(psepoints_view[:,1]), marker="+", color='yellow')
+        axes.scatter(np.asarray(psepoints_view[:,0]), np.asarray(psepoints_view[:,1]), marker="o", color='blue')
         axes.scatter(img_xmax-np.asarray(invtransf_xs), img_ymax-np.asarray(invtransf_ys), marker='.', color='fuchsia')
         
         dscrp = "Plot of the inverse-transformed points (fuchsia) of all {} intermediate points. The inverse \ntransform used here is made up of the parameters that were found in the initial solution. The \ninverse-transformed points that yield a match (i.e., those that land on an occupied kernel \nin the source index map) are highlighted with a white circle. The PSE points are in blue.".format(nrefinepts_intrm)
@@ -319,7 +298,7 @@ cdef int refineSolution(double[:,:] allintrmpoints_view, int num_catsources, dou
         print("| | CRPIXx_guess = {}".format(CRPIXx_guess))
         print("| | CRPIXy_guess = {}".format(CRPIXy_guess))
     
-    optimizedparams = optimization.least_squares(fun=fitNrefineptsToGetCD, x0=guess, x_scale=[1e-6, 1e-6, 1e-6, 1e-6, CRPIXx_guess, CRPIXy_guess], args=(np.asarray(matchdata_view), matches))
+    optimizedparams = optimization.least_squares(fun=fitNrefineptsToGetCD, x0=guess, args=(np.asarray(matchdata_view), matches))
     CD11 = optimizedparams.x[0]
     CD12 = optimizedparams.x[1]
     CD21 = optimizedparams.x[2]
@@ -391,7 +370,7 @@ cdef int refineSolution(double[:,:] allintrmpoints_view, int num_catsources, dou
         axes = fig.add_subplot(111)
         axes.imshow(image_data, cmap="gray", norm=LogNorm())
         #axes.scatter(invtransf_match_xs, invtransf_match_ys, marker="o", color='white')
-        axes.scatter(np.asarray(psepoints_view[:,0]), np.asarray(psepoints_view[:,1]), marker="+", color='yellow')
+        axes.scatter(np.asarray(psepoints_view[:,0]), np.asarray(psepoints_view[:,1]), marker="o", color='blue')
         axes.scatter(invtransf_xs, invtransf_ys, c='fuchsia', marker='.')
 
         dscrp = "Plot of the inverse-transformed points (fuchsia) of all {} intermediate points. The inverse \ntransform used here is made up of the CD matrix elements that were found when refining \n(optimizing) the previous solution. The inverse-transformed points that yield a match (i.e., \nthose that land on an occupied kernel in the source index map) are highlighted with a white \ncircle. The PSE points are in blue.".format(nrefinepts_intrm)
@@ -713,7 +692,7 @@ cdef int findInitialSolution(double[:,:] allintrmpoints_view, int num_catsources
         axes1.scatter(img_xmax-np.asarray(intrmpoints_view)[:10,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmpoints_view)[:10,1]/approx_scale-CRPIXy_guess, marker=".", c="red")
         
         axes2 = fig.add_subplot(122)
-        axes2.set_title('{} brightest PSE and {} intermediate points'.format(npts_pse,npts_intrm))
+        axes2.set_title('{} brightest PSE and {} brightest intermediate points'.format(npts_pse, npts_intrm))
         axes2.imshow(image_data, cmap="gray", norm=LogNorm())
         axes2.scatter(np.asarray(psepoints_view)[:,0], np.asarray(psepoints_view)[:,1], marker=".", c="blue")
         axes2.scatter(img_xmax-np.asarray(intrmpoints_view)[:,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmpoints_view)[:,1]/approx_scale-CRPIXy_guess, marker=".", c="red")
@@ -813,7 +792,7 @@ cdef int findInitialSolution(double[:,:] allintrmpoints_view, int num_catsources
                                                         axes = fig.add_subplot(111)
                                                         axes.imshow(image_data, cmap="gray", norm=LogNorm())
                                                         #axes.scatter(img_xmax-np.asarray(invtransf_match_xs), img_ymax-np.asarray(invtransf_match_ys), marker='o', color='white')
-                                                        axes.scatter(psepoints_view[:,0], psepoints_view[:,1], marker="+", color='yellow')
+                                                        axes.scatter(psepoints_view[:,0], psepoints_view[:,1], marker="o", color='blue')
                                                         axes.scatter(np.asarray(invtransf_xs), np.asarray(invtransf_ys), marker='.', color='fuchsia')
                                                         dscrp = "Plot of the inverse-transformed points (fuchsia) of {} intermediate points. The inverse \ntransform used here is made up of the parameters found in the initial solution. The \ninverse-transformed points that yield a match (i.e., those that land on an occupied kernel \nin the source index map) are highlighted with a white circle. The PSE points are in blue.".format(npts_intrm)
                                                         plt.title("Inverse transform - {} points - initial solution".format(npts_intrm))
@@ -827,10 +806,12 @@ cdef int findInitialSolution(double[:,:] allintrmpoints_view, int num_catsources
     resultcode = 2
     return resultcode
 
-@printEvent("Performing WCS...", "done", 1)
 def WCS(scale, scalebnds, rotation, rotationbnds, npts, nrefinepts, vertextol, allintrmpoints, catalogue_points, mean_catcoords, pse_metadata, pse_metadata_inv, matchdata, num_matches, srcindexmap_initial, srcindexmap_refine, img_xmax, img_ymax, minmatches, kerneldiam, num_psesources, num_catsources, headervals, wcsdiagnostics, debug_report, filepath, user_dir, filename_body, debug, verbosity):
     """
     """
+
+    if verbosity >= 1:
+        print("Performing WCS...")
 
     if debug >= 1:
         import matplotlib.pyplot as plt
@@ -959,3 +940,6 @@ def WCS(scale, scalebnds, rotation, rotationbnds, npts, nrefinepts, vertextol, a
 
     if verbosity >= 1:
         print("| done")
+
+    if verbosity >= 1:
+        print("done")

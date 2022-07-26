@@ -4,7 +4,6 @@
 
 from .cython_code import PSE
 from .cython_code import WCS
-#from .options import processOptions
 from .catalogue import getIntermediateCoords
 
 import argparse
@@ -19,10 +18,8 @@ from math import pi
 import sys
 
 ################
-VERSION="1.0.7"
+VERSION="1.0.9"
 ################
-
-verbosity = None
 
 def insertCopyNumber(outfilename, diagnostic, filename_body, filename_ext):
     copynum = 1
@@ -76,138 +73,74 @@ def getCMDargs():
 
     return input_args
 
-def printEvent(startmessage, endmessage, levelneeded):
-    """
-    This is a decorator factory, which returns a decorator.
-    The decorator's purpose is to return a wrapper, which
-    provides the original function (f) with extra utilities,
-    which in this case is a pair of verbosity-dependent
-    console messages, whose wording and needed verbosity
-    level are specified in the decorator factory arguments.
-    """
-    def decorator(f):
-        def wrapper(*args, **kwargs):
-            verbosity = args[-1]
-            if verbosity >= levelneeded:
-                print(startmessage)
-            fout = f(*args,**kwargs)
-            if verbosity >= levelneeded:
-                print(endmessage)
-            return fout
-        return wrapper
-    return decorator
-
-def vbprint(message, levelneeded, verbosity):
-    if verbosity >= levelneeded:
-        print(message)
-
-@printEvent("| Performing unit conversions...", "| done", 1)
-def convertParameters(parameters, verbosity):
-    scale = parameters[3]
-    scalebnds = parameters[4]
-    scale = scale/3600*pi/180   #from arcsec/pixel to radians/pixel
-    scalebnds = scalebnds*.01   #from % to a decimal
-    parameters[3] = scale
-    parameters[4] = scalebnds
-
-    rotation = parameters[5]
-    rotationbnds = parameters[6]
-    if rotation is not None:
-        rotation = rotation*pi/180  #from degrees to radians
-    if rotationbnds is not None:
-        rotationbnds = rotationbnds*pi/180  #from degrees to radians
-    parameters[5] = rotation
-    parameters[6] = rotationbnds
-
-    buffer = parameters[7]
-    buffer = buffer/60  #from arcminutes to degrees
-    parameters[7] = buffer
-    
-    vertextol = parameters[17]
-    vertextol = vertextol*pi/180    #from degrees to radians
-    parameters[17] = vertextol
-
-    nmatchpercent = parameters[19]
-    nmatchpercent = nmatchpercent*.01   #from % to a decimal
-    parameters[19] = nmatchpercent
-
-def drawOptionsTable(settings, parameters, verbosity):
+def drawOptionsTable(filename, ra, dec, scale, scalebnds, rotation, rotationbnds, buffer, fieldshape, catalogue, filter, pmepoch, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent, wcsdiagnostics, overwrite, save, load, verbosity, debug):
     if verbosity == 2:
-        wcsdiagnostics = settings[0]
         if wcsdiagnostics is True:
             wcsdiagnostics_str = "Yes"
         else:
             wcsdiagnostics_str = "No"
         
-        overwrite = settings[1]
         if overwrite is True:
             overwrite_str = "Yes"
         else:
             overwrite_str = "No"
-        
-        save = settings[2]
+
         if save is None:
             save_str = ""
         else:
             save_str = str(save)
-        
-        load = settings[3]
+
         if load is None:
             load_str = ""
         else:
             load_str = str(load)
 
-        verbosity_str = str(settings[4])
+        verbosity_str = str(verbosity)
 
-        debug = settings[5]
         if debug is True:
             debug_str = "Yes"
         else:
             debug_str = "No"
 
-        filename_str = str(parameters[0])
-        ra_str = str(parameters[1])+" degrees"
-        dec_str = str(parameters[2])+" degrees"
-        scale_str = str(parameters[3])+" arcseconds/pixel"
-        scalebnds_str = str(parameters[4])+"%"
+        filename_str = str(filename)
+        ra_str = str(ra)+" degrees"
+        dec_str = str(dec)+" degrees"
+        scale_str = str(scale)+" arcseconds/pixel"
+        scalebnds_str = str(scalebnds)+"%"
 
-        rotation = parameters[5]
         if rotation is None:
             rotation_str = "TBD"
         else:
             rotation_str = str(rotation)+" degrees"
         
-        rotationbnds = parameters[6]
         if rotationbnds is None:
             rotationbnds_str = ""
         else:
             rotationbnds_str = str(rotationbnds)+" degrees"
         
-        buffer_str = str(parameters[7])+" arcminutes"
-        fieldshape_str = str(parameters[8])
-        catalogue_str = str(parameters[9])
-        filter_str = str(parameters[10])
+        buffer_str = str(buffer)+" arcminutes"
+        fieldshape_str = str(fieldshape)
+        catalogue_str = str(catalogue)
+        filter_str = str(filter)
 
-        pmepoch = parameters[11]
         if pmepoch == 0:
             pmepoch_str = "0 (off)"
         else:
-            pmepoch_str = str(parameters[11])
+            pmepoch_str = str(pmepoch)
 
-        npts_str = str(parameters[12])+" points"
-        nrefinepts_str = str(parameters[13])+" points"
+        npts_str = str(npts)+" points"
+        nrefinepts_str = str(nrefinepts)+" points"
         
-        pixsat = parameters[14]
         if pixsat == 0:
             pixsat_str = "0 (off)"
         else:
             pixsat_str = str(pixsat)
 
-        kernelrad_str = str(parameters[15])+" pixels"
-        sourcesep_str = str(parameters[16])+" pixels"
-        vertextol_str = str(parameters[17])+" degrees"
-        nmatchpoints_str = str(parameters[18])+" points"
-        nmatchpercent_str = str(parameters[19])+"%"
+        kernelrad_str = str(kernelrad)+" pixels"
+        sourcesep_str = str(sourcesep)+" pixels"
+        vertextol_str = str(vertextol)+" degrees"
+        nmatchpoints_str = str(nmatchpoints)+" points"
+        nmatchpercent_str = str(nmatchpercent)+"%"
 
         print("| ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '")
         print("| '                              ==Options==                              '")
@@ -244,308 +177,191 @@ def drawOptionsTable(settings, parameters, verbosity):
         print("| '                                                                       '")
         print("| ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '")
 
-def createFolder(folder, parent_folder, verbosity):
-    @printEvent("| | Creating {} folder...".format(folder), "| | done", 1)
-    def createThisFolder(parent_folder, verbosity):
-        (parent_folder/folder).mkdir(parents=True)
-    createThisFolder(parent_folder, verbosity)
-
-@printEvent("| | Checking save ID...", "| | done", 1)
-def polishID(id, verbosity):
-    re.sub(r'[^\w\-_\. ]', '', id)
-    return id
-
-@printEvent("| Saving parameters to {}.json...".format(id), "| done", 1)
-def saveParameters(id, user_dir, parameters, verbosity):
+def saveRemainingOptions(save, user_dir, scale, scalebnds, rotation, rotationbnds, buffer, fieldshape, catalogue, filter, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent, verbosity):
+    if verbosity >= 1:
+        print("Saving options...")
     try:
-        id = polishID(id, verbosity)
-        
+        #save = re.sub(r'[^\w\-_\. ]', '', save)
         contents = {
-            'scale' : parameters[3],
-            'scalebnds' : parameters[4],
-            'rotation' : parameters[5],
-            'rotationbnds' : parameters[6],
-            'buffer' : parameters[7],
-            'fieldshape' : parameters[8],
-            'catalogue' : parameters[9],
-            'filter' : parameters[10],
-            'npts' : parameters[12],
-            'nrefinepts' : parameters[13],
-            'pixsat' : parameters[14],
-            'kernelrad' : parameters[15],
-            'sourcesep' : parameters[16],
-            'vertextol' : parameters[17],
-            'nmatchpoints' : parameters[18],
-            'nmatchpercent' : parameters[19],
+            'scale' : scale,
+            'scalebnds' : scalebnds,
+            'rotation' : rotation,
+            'rotationbnds' : rotationbnds,
+            'buffer' : buffer,
+            'fieldshape' : fieldshape,
+            'catalogue' : catalogue,
+            'filter' : filter,
+            'npts' : npts,
+            'nrefinepts' : nrefinepts,
+            'pixsat' : pixsat,
+            'kernelrad' : kernelrad,
+            'sourcesep' : sourcesep,
+            'vertextol' : vertextol,
+            'nmatchpoints' : nmatchpoints,
+            'nmatchpercent' : nmatchpercent,
         }
         jobject = json.dumps(contents)
-
-        if not (user_dir/'cmd_options').is_dir():
-            createFolder('cmd_options', user_dir, verbosity)
-
-        with open(user_dir/'cmd_args'/'options_{}.json'.format(id),'w') as fp:
+        if not (user_dir/'saved_options').is_dir():
+            (user_dir/'saved_options').mkdir()
+        with open(user_dir/'saved_options'/'{}.json'.format(save),'w') as fp:
             fp.write(jobject)
-
-        return id
-
     except Exception as e:
         print(e)
-        sys.exit("ERROR: Could not save options.")          
+        sys.exit("ERROR: Could not save options.")      
+    if verbosity >= 1:
+        print("done")
+    return save    
 
-@printEvent("| Loading parameters from saveoptions_{}.json...".format(id), "| done", 1)
-def loadParameters(id, user_dir, parameters, verbosity):
+def loadRemainingOptions(load, user_dir, verbosity):
+    if verbosity >= 1:
+        print("Loading options...")
     try:
-        with open(user_dir/'cmd_args'/'options_{}.json'.format(id),'r') as fp:
+        with open(user_dir/'saved_options'/'{}.json'.format(load),'r') as fp:
             jobject = json.load(fp)
-            parameters[3] = jobject['scale']
-            parameters[4] = jobject['scalebnds']
-            parameters[5] = jobject['rotation']
-            parameters[6] = jobject['rotationbnds']
-            parameters[7] = jobject['buffer']
-            parameters[8] = jobject['fieldshape']
-            parameters[9] = jobject['catalogue']
-            parameters[10] = jobject['filter']
-            parameters[12] = jobject['npts']
-            parameters[13] = jobject['nrefinepts']
-            parameters[14] = jobject['pixsat']
-            parameters[15] = jobject['kernelrad']
-            parameters[16] = jobject['sourcesep']
-            parameters[17] = jobject['vertextol']
-            parameters[18] = jobject['nmatchpoints']
-            parameters[19] = jobject['nmatchpercent']
+            scale = jobject['scale']
+            scalebnds = jobject['scalebnds']
+            rotation = jobject['rotation']
+            rotationbnds = jobject['rotationbnds']
+            buffer = jobject['buffer']
+            fieldshape = jobject['fieldshape']
+            catalogue = jobject['catalogue']
+            filter = jobject['filter']
+            npts = jobject['npts']
+            nrefinepts = jobject['nrefinepts']
+            pixsat = jobject['pixsat']
+            kernelrad = jobject['kernelrad']
+            sourcesep = jobject['sourcesep']
+            vertextol = jobject['vertextol']
+            nmatchpoints = jobject['nmatchpoints']
+            nmatchpercent = jobject['nmatchpercent']
     except Exception as e:
         print(e)
-        sys.exit("ERROR: Could not load parameters. Check that a json file exists with the specified id.")    
+        sys.exit("ERROR: Could not load options. Check that a json file exists with the specified id.")
+    if verbosity >= 1:
+        print("done")
+    return scale, scalebnds, rotation, rotationbnds, buffer, fieldshape, catalogue, filter, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent
 
-@printEvent("| | Validating -nmatchpoints and -nmatchpercent...", "| | done", 2)
-def validateNmatchpointsAndNmatchpercent(nmatchpoints, nmatchpercent, verbosity):
-    if nmatchpoints is None:
-        nmatchpoints = 6
-        vbprint("| | | -nmatchpoints not supplied. Defaulting to 6.", 2, verbosity)
+def validateOptions(filename, ra, dec, scale, scalebnds, rotation, rotationbnds, buffer, fieldshape, catalogue, filter, pmepoch, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent, wcsdiagnostics, overwrite, save, load, verbosity, debug):
+
+    if verbosity != 0 and verbosity != "0":
+        print("Validating options...")
+
+    if verbosity != 0 and verbosity != "0":
+        print("| Validating --verbosity...")
+    if verbosity is None:
+        verbosity = 1
     else:
         try:
-            nmatchpoints = int(nmatchpoints)
+            verbosity = int(verbosity)
         except:
-            sys.exit("ERROR: -nmatchpoints must be an integer.")
-        if not nmatchpoints > 2:
-            sys.exit("ERROR: -nmatchpoints must be greater than 2.")
-    if nmatchpercent is None:
-        nmatchpercent = 25
-        vbprint("| | | -nmatchpercent not supplied. Defaulting to 25.", 2, verbosity)
+            sys.exit("ERROR: --verbosity must be an integer.")
+        if not 0 <= verbosity <= 2:
+            sys.exit("ERROR: --verbosity must be between 0 and 2.")
+    if verbosity >= 1:
+        print("| done")
+
+    if verbosity >= 1:
+        print("| Validating -debug...")
+    if debug is None:
+        debug = False
+        if verbosity == 2:
+            print("| | --debug not supplied. Defaulting to False.")
     else:
         try:
-            nmatchpercent = float(nmatchpercent)
+            debug = bool(debug)
         except:
-            sys.exit("ERROR: -nmatchpercent must be a number.")
-        if not nmatchpercent > 10:
-            sys.exit("ERROR: -nmatchpercent must be greater than 10.")
-    return nmatchpoints, nmatchpercent
+            sys.exit("ERROR: --debug must be a boolean.")
+        if debug is True:
+            verbosity = 2
+    if verbosity >= 1:
+        print("| done")
 
-@printEvent("| | Validating -kernelrad and -sourcesep...", "| | done", 2)
-def validateKernelradAndSourcesep(kernelrad, sourcesep, verbosity):
-    if kernelrad is None:
-        kernelrad = 2
-        vbprint("| | | -kernelrad not supplied. Defaulting to 2.", 2, verbosity)
+    if verbosity >= 1:
+        print("| Validating --overwrite...")
+    if overwrite is None:
+        overwrite = False
+        if verbosity == 2:
+            print("| | --overwrite not supplied. Defaulting to False.")
     else:
         try:
-            kernelrad = int(kernelrad)
+            overwrite = bool(overwrite)
         except:
-            sys.exit("ERROR: -kernelrad must be an integer.")
-        if not kernelrad >= 2:
-            sys.exit("ERROR: -kernelrad must be greater than or equal to 2.")    
-    if sourcesep is None:
-        sourcesep = 25
-        vbprint("| | | -sourcesep not supplied. Defaulting to 25.", 2, verbosity)
+            sys.exit("ERROR: --overwrite must be a boolean.")
+    if verbosity >= 1:
+        print("| done")
+
+    if verbosity >= 1:
+        print("| Validating --wcsdiagnostics...")
+    if wcsdiagnostics is None:
+        wcsdiagnostics = False
+        if verbosity == 2:
+            print("| | --wcsdiagnostics not supplied. Defaulting to False.")
     else:
         try:
-            sourcesep = int(sourcesep)
+            wcsdiagnostics = bool(wcsdiagnostics)
         except:
-            sys.exit("ERROR: -sourcesep must be an integer.")
-        if not kernelrad <= sourcesep <= 45:
-            sys.exit("ERROR: -sourcesep must be greater than or equal to -kernelrad and less than or equal to 45.")  
-    return kernelrad, sourcesep
+            sys.exit("ERROR: --wcsdiagnostics must be a boolean.")
+    if verbosity >= 1:
+        print("| done")
 
-@printEvent("| | Validating -pixsat...", "| | done", 2)
-def validatePixsat(pixsat, verbosity):
-    if pixsat is None:
-        pixsat = 0.
-        vbprint("| | | -pixsat not supplied. Defaulting to 0 (off).", 2, verbosity)
-    else:
-        try:
-            pixsat = float(pixsat)
-        except:
-            sys.exit('ERROR: -pixsat must be a number.')
-        if not pixsat >= 0: 
-            sys.exit("ERROR: -pixsat must be greater than or equal to 0.")
-    return pixsat
+    if verbosity >= 1:
+        print("| Validating -filename...")
+    filename = Path(filename)
+    filepath = filename.resolve()
+    if not filepath.is_file():
+        sys.exit("ERROR: could not resolve the specified FITS file. Check that you are in the directory containing your FITS files.")
+    user_dir = filepath.parents[0]
+    filename_body = filename.stem
+    filename_ext = filename.suffix
+    with fits.open(filepath) as hdul:
+        img = hdul[0].data.astype(np.double)
+        header = hdul[0].header
+    if verbosity >= 1:
+        print("| done")
 
-@printEvent("| | Validating -npts and -nrefinepts...", "| | done", 2)
-def validateNptsAndNrefinepts(npts, nrefinepts, verbosity):
-    if npts is None:
-        npts = 75
-        vbprint("| | | -npts not supplied. Defaulting to 75.", 2, verbosity)
-    else:
-        try:
-            npts = int(npts)
-        except:
-            sys.exit('ERROR: -npts must be an integer.')
-        if not 10 <= npts <= 300:
-            sys.exit("ERROR: -npts must be between 10 and 300.")
-    if nrefinepts is None:
-        nrefinepts = 500
-        vbprint("| | | -nrefinepts not supplied. Defaulting to 500.", 2, verbosity)
-    else:
-        try:
-            nrefinepts = int(nrefinepts)
-        except:
-            sys.exit('ERROR: -nrefinepts must be an integer.')
-        if not npts <= nrefinepts <= 1000:
-            sys.exit("ERROR: -nrefinepts must be between npts and 1000.")     
-    return npts, nrefinepts
-
-@printEvent("| | Validating -catalogue and -filter...", "| | done", 2)
-def validateCatalogueAndFilter(catalogue, filter, verbosity):
-    if catalogue is None:
-        catalogue = 'GaiaDR3'
-        vbprint("| | | -catalogue not supplied. Defaulting to 'GaiaDR3'", 2, verbosity)
-    if catalogue == 'GaiaDR3':
-        if filter is None:
-            filter = 'g'
-            vbprint("| | | -filter not supplied. Defaulting to 'g'.", 2, verbosity)
-        else:
-            if filter not in ['bp','g','rp']:
-                sys.exit("ERROR: -filter for the GaiaDR3 catalogue must be from the following options: ['bp','g','rp'].")
-    elif catalogue not in ['GaiaDR3']:
-        sys.exit("ERROR: -catalogue must be from the following options: ['GaiaDR3'].")
-    return catalogue, filter
-
-@printEvent("| | Validating -fieldshape...", "| | done", 2)
-def validateFieldshape(fieldshape, header, verbosity):
-    if fieldshape is None:
-        fieldshape = 'rectangle'
-        vbprint("| | | -fieldshape not supplied. Defaulting to 'rectangle'.", 2, verbosity)
-    else:
-        if fieldshape not in ['rectangle','circle']:
-            sys.exit("ERROR: -fieldshape must be from the following options: ['rectangle','circle']")
-        if fieldshape == 'circle':
-            if not header['NAXIS1'] == header['NAXIS2']:
-                sys.exit("ERROR: circle query requires a square image, i.e., NAXIS1 = NAXIS2.")
-    return fieldshape
-
-@printEvent("| | Validating -buffer...", "| | done", 2)
-def validateBuffer(buffer, verbosity):
-    if buffer is None:
-        buffer = 0
-        vbprint("| | | -buffer not supplied. Defaulting to 0.", 2, verbosity)
-    else:
-        try:
-            buffer = float(buffer)
-        except:
-            sys.exit("ERROR: -buffer must be a number.")
-    return buffer
-
-@printEvent("| | Validating -rotation and -rotationbnds...", "| | done", 2)
-def validateRotationAndRotationbnds(rotation, rotationbnds, vertextol, verbosity):
-    if rotation is None and rotationbnds is None:
-        vbprint("| | | neither -rotation nor -rotationbnds supplied. Will be guessed in the WCS solver.", 2, verbosity)
-    elif rotation is None and rotationbnds is not None:
-        try:
-            rotationbnds = float(rotationbnds)           
-        except:
-            sys.exit('ERROR: -rotationbnds must be a number.')             
-        if not 0 <= rotationbnds <= 180:
-            sys.exit('ERROR: -rotationbnds must be between 0 and 180.')
-        rotation = 0     
-        vbprint("| | | -rotation not supplied. Defaulting to 0.", 2, verbosity)
-    elif rotation is not None and rotationbnds is None:
-        try:
-            rotation = float(rotation)             
-        except:
-            sys.exit('ERROR: -rotation must be a number.')
-        if not -180 <= rotation < 180:
-            sys.exit('ERROR: -rotation must be between -180 and 180.')
-        rotationbnds = 10+vertextol
-        vbprint("| | | -rotationbnds not supplied. Defaulting to 10 degrees plus -vertextol.", 2, verbosity)
-    elif rotation is not None and rotationbnds is not None:
-        try:
-            rotation = float(rotation)  
-        except:
-            sys.exit('ERROR: -rotation must be a number.')      
-        if not -180 <= rotation < 180:
-            sys.exit('ERROR: -rotation must be between -180 and 180.')             
-        try:
-            rotationbnds = float(rotationbnds)
-        except:
-            sys.exit('ERROR: -rotationbnds must be a number')
-        if not 0 <= rotationbnds <= 180:
-            sys.exit('ERROR: -rotationbnds must be between 0 and 180.')
-    return rotation, rotationbnds
-
-@printEvent("| | Validating -vertextol...", "| | done", 2)
-def validateVertextol(vertextol, verbosity):    
-    if vertextol is None:
-        vertextol = 0.25
-        vbprint("| | | -vertextol not supplied. Defaulting to 0.25.", 2, verbosity)
-    else:
-        try:
-            vertextol = float(vertextol)
-        except:
-            sys.exit("ERROR: -vertextol must be a number.")
-        if not 0 < vertextol < 2:
-            sys.exit("ERROR: -vertextol must be between 0 and 2.")
-    return vertextol
-
-@printEvent("| | Valdiating -scale and -scalebnds...", "| | done", 2)
-def validateScaleAndScalebnds(scale, scalebnds, verbosity):
-    if scale is None:
-        sys.exit('ERROR: -scale is required.')          
-    try:
-        scale = float(scale)        
-    except:
-        sys.exit('ERROR: -scale must be a number.')
-    if not scale > 0:
-        sys.exit('ERROR: -scale must be greater than 0.')
-    
-    if scalebnds is None:
-        scalebnds = 5
-        vbprint("| | | -scalebnds not supplied. Defaulting to 5.", 2, verbosity)
-    else:
-        try:
-            scalebnds = float(scalebnds)                 
-        except:
-            sys.exit('ERROR: -scalebnds must be a number.')
-        if not scalebnds >= 0:
-            sys.exit('ERROR: -scalebnds must be greater than 0.')
-    return scale, scalebnds    
-
-@printEvent("| | Validating -pmepoch...", "| | done", 2)
-def validatePmepoch(pmepoch, verbosity):
-    if pmepoch is None:
-        pmepoch = 0
-        vbprint("| | | -pmepoch not given, defaulting to 0.", 2, verbosity)
-    else:
-        try:
-            pmepoch = float(pmepoch)
-        except:
-            sys.exit("ERROR: -pmepoch must be a number.")
-        if not 1950 <= pmepoch:
-            sys.exit("ERROR: -pmepoch must be greater than or equal to 1950.")
-    return pmepoch
-
-@printEvent("| | Validating -ra and -dec...",  "| | done", 2)
-def validateRaAndDec(ra, dec, header, verbosity):
+    if verbosity >= 1:
+        print("| Validating -ra...")
     try:
         ra = float(ra)
         if not 0 <= ra <= 360:  
             sys.exit("ERROR: -ra must be between 0 and 360 (assuming -ra was given in degree.decimal format).")
-        vbprint("Interpreting -dec in degree.decimal format.", 2, verbosity)
+        if verbosity == 2:
+            print("| | Interpreting -ra in degree.decimal format.")
     except:
         parts = ra.split(':')
         if len(parts) == 1:
             if ra not in header:
                 sys.exit("ERROR: could not find the specified keyword in the FITS header (assuming -ra was supplied as a keyword).")
-            vbprint("| | | Found {} keyword in header.".format(ra), 2, verbosity)
-            ra = float(header[ra])
+            if verbosity == 2:
+                print("| | Found {} keyword in header.".format(ra))
+            try:
+                ra = float(header[ra])
+            except:
+                parts = header[ra].split(':')
+                hrs = parts[0]
+                mins = parts[1]
+                secs = parts[2]
+                try:
+                    hrs = int(hrs)
+                except:
+                    sys.exit("ERROR: hours must be an integer (assuming -ra was given in sexagesimal format HH:MM:SS.S).")
+                try:
+                    mins = int(mins)
+                except:
+                    sys.exit("ERROR: minutes must be an integer (assuming -ra was given in sexagesimal format HH:MM:SS.S).")
+                try:
+                    secs = float(secs)
+                except:
+                    sys.exit("ERROR: seconds must be a number (assuming -ra was given in sexagesimal format HH:MM:SS.S).")
+                if not 0 <= hrs <= 24:
+                    sys.exit("ERROR: hours must be between 0 and 24 (assuming -ra was given in sexagesimal format HH:MM:SS.S).")
+                if not 0 <= mins <= 60:
+                    sys.exit("ERROR: minutes must be between 0 and 60 (assuming -ra was given in sexagesimal format HH:MM:SS.S).")
+                if not 0 <= secs <= 60: 
+                    sys.exit("ERROR: seconds must be between 0 and 60 (assuming -ra was given in sexagesimal format HH:MM:SS.S).")
+                ra = float(hrs)*15+float(mins)*15/60+secs*15/3600
+                if verbosity == 2:
+                    print("| | Interpreting -ra in sexagesimal format.")
         elif len(parts) == 3:
             hrs = parts[0]
             mins = parts[1]
@@ -569,19 +385,57 @@ def validateRaAndDec(ra, dec, header, verbosity):
             if not 0 <= secs <= 60: 
                 sys.exit("ERROR: seconds must be between 0 and 60 (assuming -ra was given in sexagesimal format HH:MM:SS.S).")
             ra = float(hrs)*15+float(mins)*15/60+secs*15/3600
-            vbprint("Interpreting -ra in sexagesimal format.", 2, verbosity)
+            if verbosity == 2:
+                print("| | Interpreting -ra in sexagesimal format.")
+        if verbosity >= 1:
+            print("| done")
+
+    if verbosity >= 1:
+        print("| Validating -dec...")
     try:
         dec = float(dec)
         if not -90 <= dec <= 90:  
             sys.exit("ERROR: -dec must be between 0 and 360 (assuming -dec was given in degree.decimal format).")
-        vbprint("Interpreting -dec in degree.decimal format.", 2, verbosity)
+        if verbosity == 2:
+            print("| | Interpreting -dec in degree.decimal format.")
     except:
         parts = dec.split(':')
         if len(parts) == 1:
             if dec not in header:
                 sys.exit("ERROR: could not find the specified keyword in the FITS header (assuming -dec was supplied as a keyword).")
-            vbprint("| | | Found {} keyword in header.".format(dec), 2, verbosity)
-            dec = float(header[dec])
+            if verbosity == 2:
+                print("| | Found {} keyword in header.".format(dec))
+            try:
+                dec = float(header[dec])
+            except:
+                parts = header[dec].split(":")
+                deg = parts[0]
+                amins = parts[1]
+                asecs = parts[2]
+                try:
+                    deg = int(deg)
+                except:
+                    sys.exit("ERROR: degrees must be an integer (assuming -dec was given in sexagesimal format DD:AM:AS.AS).")
+                try:
+                    amins = int(amins)
+                except:
+                    sys.exit("ERROR: arcminutes must be an integer (assuming -dec was given in sexagesimal format DD:AM:AS.AS).")
+                try:
+                    asecs = float(asecs)
+                except:
+                    sys.exit("ERROR: arcseconds must be a number (assuming -dec was given in sexagesimal format DD:AM:AS.AS).")
+                if not -90 <= deg <= 90:
+                    sys.exit("ERROR: degrees must be between -90 and 90 (assuming -dec was given in sexagesimal format DD:AM:AS.AS).")
+                if not 0 <= amins <= 60:
+                    sys.exit("ERROR: arcminutes must be between 0 and 60 (assuming -dec was given in sexagesimal format DD:AM:AS.AS).")
+                if not 0 <= asecs <= 60: 
+                    sys.exit("ERROR: arcseconds must be between 0 and 60 (assuming -dec was given in sexagesimal format DD:AM:AS.AS).")
+                if deg >= 0:
+                    dec = float(deg)+float(amins)/60+asecs/3600
+                else:
+                    dec = float(deg)-float(amins)/60-asecs/3600
+                if verbosity == 2:
+                    print("| | Interpreting -dec in sexagesimal format.")
         elif len(parts) == 3:
             deg = parts[0]
             amins = parts[1]
@@ -608,323 +462,319 @@ def validateRaAndDec(ra, dec, header, verbosity):
                 dec = float(deg)+float(amins)/60+asecs/3600
             else:
                 dec = float(deg)-float(amins)/60-asecs/3600
-            vbprint("Interpreting -dec in sexagesimal format.", 2, verbosity)
-    return ra, dec
+            if verbosity == 2:
+                print("| | Interpreting -dec in sexagesimal format.")
+    if verbosity >= 1:
+            print("| done")
 
-@printEvent("| | Opening image and header...", "| | done", 2)
-def openFITS(filepath, verbosity):
-    with fits.open(filepath) as hdul:
-        img = hdul[0].data.astype(np.double)
-        header = hdul[0].header
-    return img, header
+    if verbosity >= 1:
+        print("| Validating -pmepoch...")
+    if pmepoch is None:
+        pmepoch = 0
+        if verbosity == 2:
+            print("| | -pmepoch not supplied. Defaulting to 0.")
+    else:
+        try:
+            pmepoch = float(pmepoch)
+        except:
+            sys.exit("ERROR: -pmepoch must be a number.")
+        if not 1950 <= pmepoch:
+            sys.exit("ERROR: -pmepoch must be greater than or equal to 1950.")
+    if verbosity >= 1:
+        print("| done")
 
-@printEvent("| | Validating -filename...", "| | done", 2)
-def validateFilename(filename, verbosity):
-    filename = Path(filename)
-    filepath = filename.resolve()
-    if not filepath.is_file():
-        sys.exit("ERROR: could not open the specified FITS file. Check that you are in the directory containing your FITS files.")
-    user_dir = filepath.parents[0]
-    filename_body = filename.stem
-    filename_ext = filename.suffix
-    return filename, filepath, user_dir, filename_body, filename_ext
-
-@printEvent("| Validating parameters...", "| done", 1)
-def validateParameters(parameters, load, verbosity):
-    filename = parameters[0]
-    filename, filepath, user_dir, filename_body, filename_ext = validateFilename(filename, verbosity)
-    parameters[0] = filename
-
-    img, header = openFITS(filepath, verbosity)
-
-    ra = parameters[1]
-    dec = parameters[2]
-    ra, dec = validateRaAndDec(ra, dec, header, verbosity)
-    parameters[1] = ra
-    parameters[2] = dec
-
-    pmepoch = parameters[11]
-    pmepoch = validatePmepoch(pmepoch, verbosity)
-    parameters[11] = pmepoch
-
-    #If we are loading options later, which will already be validated,
-    #there's no need to validate these options since they will just be
-    #overwritten by the loaded ones
-    
     if load is not None:
-        return img, header, filepath, user_dir, filename_body, filename_ext
-    
-    scale = parameters[3]
-    scalebnds = parameters[4]
-    scale, scalebnds = validateScaleAndScalebnds(scale, scalebnds, verbosity)
-    parameters[3] = scale
-    parameters[4] = scalebnds
-
-    vertextol = parameters[17]
-    vertextol = validateVertextol(vertextol, verbosity)
-    parameters[17] = vertextol
-
-    rotation = parameters[5]
-    rotationbnds = parameters[6]
-    rotation, rotationbnds = validateRotationAndRotationbnds(rotation, rotationbnds, vertextol, verbosity)
-    parameters[5] = rotation
-    parameters[6] = rotationbnds
-
-    buffer = parameters[7]
-    buffer = validateBuffer(buffer, verbosity)
-    parameters[7] = buffer
-
-    fieldshape = parameters[8]
-    fieldshape = validateFieldshape(fieldshape, header, verbosity)
-    parameters[8] = fieldshape
-
-    catalogue = parameters[9]
-    filter = parameters[10]
-    catalogue, filter = validateCatalogueAndFilter(catalogue, filter, verbosity)
-    parameters[9] = catalogue
-    parameters[10] = filter
-
-    npts = parameters[12]
-    nrefinepts = parameters[13]
-    npts, nrefinepts = validateNptsAndNrefinepts(npts, nrefinepts, verbosity)
-    parameters[12] = npts
-    parameters[13] = nrefinepts
-
-    pixsat = parameters[14]
-    pixsat = validatePixsat(pixsat, verbosity)
-    parameters[14] = pixsat
-
-    kernelrad = parameters[15]
-    sourcesep = parameters[16]
-    kernelrad, sourcesep = validateKernelradAndSourcesep(kernelrad, sourcesep, verbosity)
-    parameters[15] = kernelrad
-    parameters[16] = sourcesep
-
-    nmatchpoints = parameters[18]
-    nmatchpercent = parameters[19]
-    nmatchpoints, nmatchpercent = validateNmatchpointsAndNmatchpercent(nmatchpoints, nmatchpercent, verbosity)
-    parameters[18] = nmatchpoints
-    parameters[19] = nmatchpercent
-
-    return img, header, filepath, user_dir, filename_body, filename_ext
-
-@printEvent("| | Validating --overwrite...", "| | done", 2)
-def validateOverwrite(overwrite, verbosity):
-    if overwrite is None:
-        overwrite = False
-        vbprint("| | | --overwrite not supplied. Defaulting to False.", 2, verbosity)
+        scale, scalebnds, rotation, rotationbnds, buffer, fieldshape, catalogue, filter, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent = loadRemainingOptions(load, user_dir, verbosity)
     else:
+        if verbosity >= 1:
+            print("| Validating -scale...")
+        if scale is None:
+            sys.exit('ERROR: -scale is required.')          
         try:
-            overwrite = bool(overwrite)
+            scale = float(scale)        
         except:
-            sys.exit("ERROR: --overwrite must be a boolean.")
-    return overwrite
+            sys.exit('ERROR: -scale must be a number.')
+        if not scale > 0:
+            sys.exit('ERROR: -scale must be greater than 0.')
+        if verbosity >= 1:
+            print("| done")
 
-@printEvent("| | Validating --wcsdiagnostics...", "| | done", 2)
-def validateWcsdiagnostics(wcsdiagnostics, verbosity):
-    if wcsdiagnostics is None:
-        wcsdiagnostics = False
-        vbprint("| | | --wcsdiagnostics not supplied. Defaulting to False.", 2, verbosity)
-    else:
-        try:
-            wcsdiagnostics = bool(wcsdiagnostics)
-        except:
-            sys.exit("ERROR: --wcsdiagnostics must be a boolean.")
-    return wcsdiagnostics
+        if verbosity >= 1:
+            print("| Validating -scalebnds...")
+        if scalebnds is None:
+            scalebnds = 5
+            if verbosity == 2:
+                print("| | -scalebnds not supplied. Defaulting to 5.")
+        else:
+            try:
+                scalebnds = float(scalebnds)                 
+            except:
+                sys.exit('ERROR: -scalebnds must be a number.')
+            if not scalebnds >= 0:
+                sys.exit('ERROR: -scalebnds must be greater than 0.') 
+        if verbosity >= 1:
+            print("| done")
 
-@printEvent("| | Validating --verbosity and --debug...", "| | done", 2)
-def validateVerbosityAndDebug(verbosity, debug, temp_verbosity):
-    if verbosity is None:
-        verbosity = 1
-    else:
-        try:
-            verbosity = int(verbosity)
-        except:
-            sys.exit("ERROR: --verbosity must be an integer.")
-        if not 0 <= verbosity <= 2:
-            sys.exit("ERROR: --verbosity must be between 0 and 2.")
+        if verbosity >= 1:
+            print("| Validating -rotation and -rotationbnds...")
+        if rotation is None and rotationbnds is None:
+            if verbosity == 2:
+                print("| | neither -rotation nor -rotationbnds supplied. Will be guessed in the WCS solver.")
+        elif rotation is None and rotationbnds is not None:
+            try:
+                rotationbnds = float(rotationbnds)           
+            except:
+                sys.exit('ERROR: -rotationbnds must be a number.')             
+            if not 0 <= rotationbnds <= 180:
+                sys.exit('ERROR: -rotationbnds must be between 0 and 180.')
+            rotation = 0     
+            if verbosity == 2:
+                print("| | -rotation not supplied. Defaulting to 0.")
+        elif rotation is not None and rotationbnds is None:
+            try:
+                rotation = float(rotation)             
+            except:
+                sys.exit('ERROR: -rotation must be a number.')
+            if not -180 <= rotation < 180:
+                sys.exit('ERROR: -rotation must be between -180 and 180.')
+            rotationbnds = 10+vertextol
+        elif rotation is not None and rotationbnds is not None:
+            try:
+                rotation = float(rotation)  
+            except:
+                sys.exit('ERROR: -rotation must be a number.')      
+            if not -180 <= rotation < 180:
+                sys.exit('ERROR: -rotation must be between -180 and 180.')             
+            try:
+                rotationbnds = float(rotationbnds)
+            except:
+                sys.exit('ERROR: -rotationbnds must be a number')
+            if not 0 <= rotationbnds <= 180:
+                sys.exit('ERROR: -rotationbnds must be between 0 and 180.')
+        if verbosity >= 1:
+            print("| done")
 
-    if debug is None:
-        debug = False
-        vbprint("| | | --debug not supplied. Defaulting to False.", 2, verbosity)
-    else:
-        try:
-            debug = bool(debug)
-        except:
-            sys.exit("ERROR: --debug must be a boolean.")
-        if debug is True:
-            verbosity = 2
-    return verbosity, debug
+        if verbosity >= 1:
+            print("| Validating -buffer...")
+        if buffer is None:
+            buffer = 0
+            if verbosity == 2:
+                print("| | -buffer not supplied. Defaulting to 0.")
+        else:
+            try:
+                buffer = float(buffer)
+            except:
+                sys.exit("ERROR: -buffer must be a number.")
+        if verbosity >= 1:
+            print("| done...")
 
-@printEvent("| Validating settings...", "| done", 1)
-def validateSettings(settings, temp_verbosity):
+        if verbosity >= 1:
+            print("| Validating -fieldshape...")
+        if fieldshape is None:
+            fieldshape = 'rectangle'
+            if verbosity == 2:
+                print("| | -fieldshape not supplied. Defaulting to 'rectangle'.", 2, verbosity)
+        else:
+            if fieldshape not in ['rectangle','circle']:
+                sys.exit("ERROR: -fieldshape must be from the following options: ['rectangle','circle']")
+            if fieldshape == 'circle':
+                if not header['NAXIS1'] == header['NAXIS2']:
+                    sys.exit("ERROR: circle query requires a square image, i.e., NAXIS1 = NAXIS2.")
+        if verbosity >= 1:
+            print("| done")
+
+        if verbosity >= 1:
+            print("| Validating -catalogue and -filter...")
+        if catalogue is None:
+            catalogue = 'GaiaDR3'
+            if verbosity == 2:
+                print("| | -catalogue not supplied. Defaulting to 'GaiaDR3'")
+        if catalogue == 'GaiaDR3':
+            if filter is None:
+                filter = 'g'
+                if verbosity == 2:
+                    print("| | -filter not supplied. Defaulting to 'g'.")
+            else:
+                if filter not in ['bp','g','rp']:
+                    sys.exit("ERROR: -filter for the GaiaDR3 catalogue must be from the following options: ['bp','g','rp'].")
+        elif catalogue not in ['GaiaDR3']:
+            sys.exit("ERROR: -catalogue must be from the following options: ['GaiaDR3'].")
+        if verbosity >= 1:
+            print("| done")
+
+        if verbosity >= 1:
+            print("| Validating -npts...")
+        if npts is None:
+            npts = 75
+            if verbosity == 2:
+                print("| | -npts not supplied. Defaulting to 75.")
+        else:
+            try:
+                npts = int(npts)
+            except:
+                sys.exit('ERROR: -npts must be an integer.')
+            if not 10 <= npts <= 300:
+                sys.exit("ERROR: -npts must be between 10 and 300.")
+        if verbosity >= 1:
+            print("| done")
+
+        if verbosity >= 1:
+            print("| Validating -nrefinepts...")
+        if nrefinepts is None:
+            nrefinepts = 500
+            if verbosity == 2:
+                print("| | -nrefinepts not supplied. Defaulting to 500.")
+        else:
+            try:
+                nrefinepts = int(nrefinepts)
+            except:
+                sys.exit('ERROR: -nrefinepts must be an integer.')
+            if not npts <= nrefinepts <= 1000:
+                sys.exit("ERROR: -nrefinepts must be between npts and 1000.")
+        if verbosity >= 1:
+            print("| done")
+            
+        if verbosity >= 1:
+            print("| Validating -pixsat...")
+        if pixsat is None:
+            pixsat = 0.
+            if verbosity == 2:
+                print("| | -pixsat not supplied. Defaulting to 0 (off).")
+        else:
+            try:
+                pixsat = float(pixsat)
+            except:
+                sys.exit('ERROR: -pixsat must be a number.')
+            if not pixsat >= 0: 
+                sys.exit("ERROR: -pixsat must be greater than or equal to 0.")
+        if verbosity >= 1:
+            print("| done")
+
+        if verbosity >= 1:
+            print("| Validating -kernelrad...")
+        if kernelrad is None:
+            kernelrad = 2
+            if verbosity == 2:
+                print("| | -kernelrad not supplied. Defaulting to 2.")
+        else:
+            try:
+                kernelrad = int(kernelrad)
+            except:
+                sys.exit("ERROR: -kernelrad must be an integer.")
+            if not kernelrad >= 2:
+                sys.exit("ERROR: -kernelrad must be greater than or equal to 2.")
+        if verbosity >= 1:
+            print("| done")
+
+        if verbosity >= 1:
+            print("| Validating -sourcesep...")  
+        if sourcesep is None:
+            sourcesep = 25
+            if verbosity == 2:
+                print("| | -sourcesep not supplied. Defaulting to 25.")
+        else:
+            try:
+                sourcesep = int(sourcesep)
+            except:
+                sys.exit("ERROR: -sourcesep must be an integer.")
+            if not kernelrad <= sourcesep <= 45:
+                sys.exit("ERROR: -sourcesep must be greater than or equal to -kernelrad and less than or equal to 45.")
+        if verbosity >= 1:
+            print("| done") 
+        
+        if verbosity >= 1:
+            print("| Validating -vertextol...")
+        if vertextol is None:
+            vertextol = 0.25
+            if verbosity == 2:
+                print("| | -vertextol not supplied. Defaulting to 0.25.")
+        else:
+            try:
+                vertextol = float(vertextol)
+            except:
+                sys.exit("ERROR: -vertextol must be a number.")
+            if not 0 < vertextol < 2:
+                sys.exit("ERROR: -vertextol must be between 0 and 2.")  
+        if verbosity >= 1:
+            print("| done")
+
+        if verbosity >= 1:
+            print("| Validating -nmatchpoints...")
+        if nmatchpoints is None:
+            nmatchpoints = 6
+            if verbosity == 2:
+                print("| | -nmatchpoints not supplied. Defaulting to 6.")
+        else:
+            try:
+                nmatchpoints = int(nmatchpoints)
+            except:
+                sys.exit("ERROR: -nmatchpoints must be an integer.")
+            if not nmatchpoints > 2:
+                sys.exit("ERROR: -nmatchpoints must be greater than 2.")
+        if verbosity >= 1:
+            print("| done")
+
+        if verbosity >= 1:
+            print("| Validating nmatchpercent...")
+        if nmatchpercent is None:
+            nmatchpercent = 25
+            if verbosity == 2:
+                print("| | -nmatchpercent not supplied. Defaulting to 25.")
+        else:
+            try:
+                nmatchpercent = float(nmatchpercent)
+            except:
+                sys.exit("ERROR: -nmatchpercent must be a number.")
+            if not nmatchpercent > 10:
+                sys.exit("ERROR: -nmatchpercent must be greater than 10.")
+        if verbosity >= 1:
+            print("| done")
+
+    if save is not None:
+        save = saveRemainingOptions(save, user_dir, scale, scalebnds, rotation, rotationbnds, buffer, fieldshape, catalogue, filter, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent, verbosity)
+
+    if verbosity >= 1:
+        print("done")
     
-    verbosity = settings[4]
-    debug = settings[5]
-    verbosity, debug = validateVerbosityAndDebug(verbosity, debug, temp_verbosity)
-    settings[4] = verbosity
-    settings[5] = debug
+    return filepath, user_dir, filename_body, filename_ext, img, header, filename, ra, dec, scale, scalebnds, rotation, rotationbnds, buffer, fieldshape, catalogue, filter, pmepoch, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent, wcsdiagnostics, overwrite, save, load, verbosity, debug
 
-    wcsdiagnostics = settings[0]
-    validated_wcsdiagnostics = validateWcsdiagnostics(wcsdiagnostics, verbosity)
-    settings[0] = validated_wcsdiagnostics
-
-    overwrite = settings[1]
-    overwrite = validateOverwrite(overwrite, verbosity)
-    settings[1] = overwrite
-    
-    #Save and load have no restrictions and do not need to be validated.
-
-@printEvent("Processing options...", "done", 1)
-def processOptions(settings, parameters, temp_verbosity):
-
-    #Note on validating: since argparse outputs all arguments as strings,
-    #we have to test type by 'trying' type conversions. This can be seen
-    #in the individual validate functions.
-
-    validateSettings(settings, temp_verbosity)
-    #This is the official verbosity variable from here on out.
-
-    save = settings[2]
-    load = settings[3]
-    verbosity = settings[4]
-    
-    img, header, filepath, user_dir, filename_body, filename_ext = validateParameters(parameters, load, verbosity)
-
-    if save is None and load is None:
-        pass
-    elif save is None and load is not None:
-        id = load
-        loadParameters(id, user_dir, parameters, verbosity)
-    elif save is not None and load is None:
-        id = save
-        id = saveParameters(id, user_dir, parameters, verbosity)
-        settings[2] = id
-    elif save is not None and load is not None:
-        sys.exit("ERROR: cannot specify --save and --load at the same time.")
-    
-    drawOptionsTable(settings, parameters, verbosity)
-
-    #Converts options to correct units for internal operations (e.g., radians instead of degrees).
-    convertParameters(parameters, verbosity)
-
-    return img, header, filepath, user_dir, filename_body, filename_ext
-
-def peekAtVerbosity(verbosity):
-    if verbosity == 0 or verbosity == "0":
-        return 0
-    elif verbosity == 1 or verbosity == "1":
-        return 1
-    elif verbosity == 2 or verbosity == "2":
-        return 2
+def setUpFolders(debug, user_dir, filename_body, verbosity):
+    if verbosity >= 1:
+        print("Setting up folders...")
+    debug_folder = (user_dir/'debug')
+    if not debug_folder.is_dir():
+            debug_folder.mkdir()
+    if debug:
+        report_name = str(filename_body)+str(datetime.now().strftime("_%y-%m-%d_%H-%M-%S"))
+        debug_report = (user_dir/'debug'/report_name)
+        debug_report.mkdir()
     else:
-        #if the verbosity is invalid, return the default (the
-        #"error" should be caught in the validation step)
-        return 1
+        debug_report = None
+    gaiaqueries = (user_dir/'gaiaqueries')
+    if not gaiaqueries.is_dir():
+        gaiaqueries.mkdir()
+    if verbosity >= 1:
+        print("done")
+    return debug_folder, debug_report, gaiaqueries
 
-def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=None, rotationbnds=None, buffer=None, fieldshape=None, catalogue=None, pmepoch=None, filter=None, npts=None, nrefinepts=None, pixsat=None, kernelrad=None, sourcesep=None, vertextol=None, nmatchpoints=None, nmatchpercent=None, wcsdiagnostics=None, overwrite=None, save=None, load=None, verbosity=None, debug=None):
+def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=None, rotationbnds=None, buffer=None, fieldshape=None, catalogue=None, filter=None,  pmepoch=None, npts=None, nrefinepts=None, pixsat=None, kernelrad=None, sourcesep=None, vertextol=None, nmatchpoints=None, nmatchpercent=None, wcsdiagnostics=None, overwrite=None, save=None, load=None, verbosity=None, debug=None):
 
     #Section 1
     print("\n")
 
-    #Options are divided into two categories: parameters and settings (identified by single or
-    #double dashes in the help). Parameters affect the calculation of the WCS solution, whereas
-    #settings affect things such as console messages, whether certain files are written, etc.
+    filepath, user_dir, filename_body, filename_ext, img, header, filename, ra, dec, scale, scalebnds, rotation, rotationbnds, buffer, fieldshape, catalogue, filter, pmepoch, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent, wcsdiagnostics, overwrite, save, load, verbosity, debug = validateOptions(filename, ra, dec, scale, scalebnds, rotation, rotationbnds, buffer, fieldshape, catalogue, filter, pmepoch, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent, wcsdiagnostics, overwrite, save, load, verbosity, debug)
 
-    settings = [wcsdiagnostics, overwrite, save, load, verbosity, debug]
-    parameters = [filename, ra, dec, scale, scalebnds, rotation, rotationbnds, buffer, fieldshape, catalogue, filter, pmepoch, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent]
-
-    #Immediately we have a catch-22, because we need to know the verbosity before printing console
-    #messages, but the proper verbosity validation happens after passing through "processOptions"
-    #and its inner function "validateSettings", both of which will print console messages depending
-    #on the verbosity passed in as an integer argument (this is handled by the @printEntry decorator).
-    #The solution is to peek at the verbosity beforehand and set a new variable "temp_verbosity" to
-    #the appropriate integer, then supply this variable in place of the actual verbosity for a few
-    #functions. This is done instead of moving the whole verbosity validation to the very beginning;
-    #the advantage is that if the verbosity is invalid, the error message prints at the right time
-    #(after "Processing options...").
-
-    temp_verbosity = peekAtVerbosity(verbosity)
-
-    #The important thing is to keep the variable you want to be evaluated as the verbosity as the
-    #last argument (for functions that use the @printEvent decorator in their definition)
-
-    img, header, filepath, user_dir, filename_body, filename_ext = processOptions(settings, parameters, temp_verbosity)
-
-    wcsdiagnostics = settings[0]
-    overwrite = settings[1]
-    #save and load no longer needed
-    verbosity = settings[4]
-    debug = settings[5]
-
-    filename = parameters[0]
-    ra = parameters[1]
-    dec = parameters[2]
-    scale = parameters[3]
-    scalebnds = parameters[4]
-    rotation = parameters[5]
-    rotationbnds = parameters[6]
-    buffer = parameters[7]
-    fieldshape = parameters[8]
-    catalogue = parameters[9]
-    filter = parameters[10]
-    pmepoch = parameters[11]
-    npts = parameters[12]
-    nrefinepts = parameters[13]
-    pixsat = parameters[14]
-    kernelrad = parameters[15]
-    sourcesep = parameters[16]
-    vertextol = parameters[17]
-    nmatchpoints = parameters[18]
-    nmatchpercent = parameters[19]
-
-    ############################# GLOSSARY OF IMPORTANT VARIABLE NAMES #############################
-    ###
-    ###     img:                            A numpy array holding the FITS image supplied by the user.
-    ###
-    ###     srcindexmap (initial/refine):   The source index map. This has the same dimensions as the image. Every "pixel" (array element) is initially set to -1, corresponding to unoccupied. Pixels
-    ###                                     are assigned integer values if they correspond to a source in the image (with smaller integers describing brighter sources). Thus the source index map is 
-    ###                                     basically a vacancy map, with integer values assigned to each source kernel, and -1 everywhere else. There are two source index maps: the initial source
-    ###                                     index map, and the refine source index map. The difference is that the first holds the npts brightest source kernels, and the second holds all nrefinepts
-    ###                                     source kernels.
-    ###                                     By checking the value of the source index map at a pixel, we can tell whether a source is there or not, as well as which source it is.
-    ###
-    ###     pse_metadata:                       The source metadata array, which stores the coordinates, brightness, and background of every found source from the PSE (up to nrefinepts).           
-    ###     allintrmpoints_view:            An array holding the projected coordinates ("intermediate coordinates") of a set of sky coordinates downloaded from the catalogue. The success of the WCS is contingent on the geometric
-    ###                                     correspondence between the intermediate coordinates and the pse coordinates.
-    ###     psepoints_view:                 An array holding the pixel points of the npts brightest sources from the pse_metadata. The "view" suffix indicates that it is a "memory view", a type of high-efficency array
-    ###                                     pointer datatype in Cython.
-    ###     intrmpoints_view:               The equivalent of the above except for holding intermediate points.                 
-    ###     S                               The scale parameter found by the optimizer when finding the initial solution in the WCS.
-    ###     phi                             The rotation parameter found by the optimizer when finding the initial solution in the WCS.
-    ###     CRPIXx                          The reference pixel location's x coordinate, also found by the optimizer in the WCS. (Once for the initial solution, and then improved
-    ###                                     in the refinement stage). CRPIX is the point in the image distinguished by the property that vectors drawn from it to the psecoords only need
-    ###                                     to undergo a rotation and a scaling (no translation) in order to land on the corresponding intermediate coords.
-    ###     CRPIXy                          The reference pixel location's y coordinate.
-    ###     CD1_1                           CD matrix element that equals S*cos(phi). All elements are found when refining the initial solution in the WCS. The complete CD matrix, together with CRPIX, is the final solution.
-    ###     CD1_2                           CD matrix element that equals -S*sin(phi).
-    ###     CD2_1                           CD matrix element that equals S*sin(phi).
-    ###     CD2_2                           CD matrix element that equals S*cos(phi).
-    ###
-    ################################################################################################
+    drawOptionsTable(filename, ra, dec, scale, scalebnds, rotation, rotationbnds, buffer, fieldshape, catalogue, filter, pmepoch, npts, nrefinepts, pixsat, kernelrad, sourcesep, vertextol, nmatchpoints, nmatchpercent, wcsdiagnostics, overwrite, save, load, verbosity, debug)
+    
+    debug_folder, debug_report, gaiaqueries = setUpFolders(debug, user_dir, filename_body, verbosity)
 
     #Section 2
     print("\n")
 
-    #Prepare for PSE: set up debug folders and initialize some variables.
-    if debug:
-        if not (user_dir/'debug').is_dir():
-            createFolder('debug', user_dir, verbosity)
-        report_name = str(filename_body)+str(datetime.now().strftime("_%y-%m-%d_%H-%M-%S"))
-        createFolder(report_name, (user_dir/'debug'), verbosity)
-        debug_report = (user_dir/'debug'/report_name)
-    else:
-        debug_report = None
-
     img_xmax = int(img.shape[1])
     img_ymax = int(img.shape[0])
-    radius = scale*180/pi*img_xmax/2 + buffer #degrees
-    pixelradius = radius/scale/180*pi  #pixels
+    radius = scale/3600*img_xmax/2 + buffer/60  #degrees
+    pixelradius = radius/(scale/3600)           #pixels
 
     srcindexmap_initial = -1*np.ones(img.shape, dtype=int)
     srcindexmap_refine = -1*np.ones(img.shape, dtype=int)
@@ -936,12 +786,6 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
     #Section 3
     print("\n")
 
-    #Prepare for getIntermediateCoords: set up gaiaqueries folder
-    #and initialize some more variables.
-    if not (user_dir/'gaiaqueries').is_dir():
-        createFolder("gaiaqueries", user_dir, verbosity)
-    gaiaqueries = (user_dir/'gaiaqueries')
-
     allintrmpoints = np.zeros((nrefinepts,2))
     catalogue_points = np.zeros((nrefinepts,3))
     mean_catcoords = np.zeros(2)
@@ -951,7 +795,21 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
     #Section 4
     print("\n")
 
-    #Prepare for WCS: initialize some more variables.
+    scale = scale/3600*pi/180   #from arcsec/pixel to radians/pixel
+    scalebnds = scalebnds*.01   #from % to a decimal
+    if rotation is not None:
+        rotation = rotation*pi/180  #from degrees to radians
+    if rotationbnds is not None:
+        rotationbnds = rotationbnds*pi/180  #from degrees to radians
+    vertextol = vertextol*pi/180    #from degrees to radians
+    nmatchpercent = nmatchpercent*.01   #from % to a decimal
+
+    if nmatchpoints < nmatchpercent*npts:
+        minmatches = nmatchpoints
+    else:
+        minmatches = nmatchpercent*npts
+    kerneldiam = kernelrad*2+1
+
     pse_metadata_inv[:,0] = img_xmax - pse_metadata[:,0]
     pse_metadata_inv[:,1] = img_ymax - pse_metadata[:,1]
     pse_metadata_inv[:,2] = pse_metadata[:,2]
@@ -960,12 +818,6 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
 
     if debug:
         np.savetxt(debug_report/"pse_metadata_inv.csv", pse_metadata_inv, delimiter=",")
-
-    if nmatchpoints < nmatchpercent*npts:
-        minmatches = nmatchpoints
-    else:
-        minmatches = nmatchpercent*npts
-    kerneldiam = kernelrad*2+1
 
     headervals = np.zeros(26)
 
@@ -1008,16 +860,20 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
         numbered_outfilename, numbered_diagnostic = insertCopyNumber(outfilename, diagnostic, filename_body, filename_ext)
     outfilepath = user_dir/numbered_outfilename
     diagnosticpath = user_dir/numbered_diagnostic
-    vbprint("Writing to {}...".format(numbered_outfilename), 1, verbosity)
+    if verbosity >= 1:
+        print("Writing to {}...".format(numbered_outfilename))
     fits.writeto(outfilepath, img, header, overwrite=True, output_verify='silentfix')
-    vbprint("done", 1, verbosity)
+    if verbosity >= 1:
+        print("done")
 
     if wcsdiagnostics:
         matches = num_matches[0]
         hdr = "PSE_XPIX, PSE_YPIX, CAT_RA, CAT_DEC, WCS_RADELTA, WCS_DECDELTA"
-        vbprint("Writing to {}...".format(numbered_diagnostic), 1, verbosity)
+        if verbosity >= 1:
+            print("Writing to {}...".format(numbered_diagnostic))
         np.savetxt(diagnosticpath, np.column_stack((matchdata[:matches,3], matchdata[:matches,4], matchdata[:matches,6]*180/pi, matchdata[:matches,7]*180/pi, matchdata[:matches,8], matchdata[:matches,9])), delimiter=',', header=hdr, comments='')
-        vbprint("done", 1, verbosity)
+        if verbosity >= 1:
+            print("done")
 
     #The End
     print("\n")
