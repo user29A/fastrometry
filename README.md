@@ -8,6 +8,10 @@ To use fastrometry, simply call fastrometry at the command line:
 
     fastrometry filename -option1 -option2 ...
 
+For a fastrometry video demo, please watch this:
+
+https://youtu.be/mFXDM3aa6lU
+
 For more info, please visit the wiki: https://github.com/user29A/fastrometry/wiki
 
 This project was undertaken with the financial support of the Canadian Space Agency.
