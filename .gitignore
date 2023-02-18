@@ -2,9 +2,9 @@
 src/fastrometry.egg-info/
 src/gaiaqueries/
 src/debug/
-*.pyd
-*.so
-*.fits
+**.pyd
+**.so
+**.fits
 build/
 dist/
 wheelhouse/
