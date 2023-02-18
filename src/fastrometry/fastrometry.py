@@ -774,10 +774,10 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
     img_xmax = int(img.shape[1])
     img_ymax = int(img.shape[0])
     radius = scale/3600*img_xmax/2 + buffer/60  #degrees
-    pixelradius = radius/(scale/3600)           #pixels
+    pixelradius = int(radius/(scale/3600))           #pixels
 
-    srcindexmap_initial = -1*np.ones(img.shape, dtype=int)
-    srcindexmap_refine = -1*np.ones(img.shape, dtype=int)
+    srcindexmap_initial = -1*np.ones(img.shape, dtype=np.intc)
+    srcindexmap_refine = -1*np.ones(img.shape, dtype=np.intc)
     pse_metadata = np.zeros((nrefinepts,3), dtype=np.double)
     pse_metadata_inv = np.zeros((nrefinepts,3), dtype=np.double)
 
@@ -814,7 +814,7 @@ def findWCS(filename, ra=None, dec=None, scale=None, scalebnds=None, rotation=No
     pse_metadata_inv[:,1] = img_ymax - pse_metadata[:,1]
     pse_metadata_inv[:,2] = pse_metadata[:,2]
     matchdata = np.zeros((num_catsources,10))
-    num_matches = np.zeros(1,dtype=int)
+    num_matches = np.zeros(1,dtype=np.intc)
 
     if debug:
         np.savetxt(debug_report/"pse_metadata_inv.csv", pse_metadata_inv, delimiter=",")

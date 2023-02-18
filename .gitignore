@@ -1,5 +1,8 @@
 .vscode/
 src/fastrometry.egg-info/
+src/gaiaqueries/
+src/debug/
+*.fits
 build/
 dist/
 wheelhouse/

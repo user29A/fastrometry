@@ -210,7 +210,7 @@ cdef int mapSaturationIslands(double[:,:] img_view, int img_xmax, int img_ymax, 
         Py_ssize_t g
 
         double[:,:] pse_metadata_view = pse_metadata
-        int[:] islandbnds_view = np.zeros(4,dtype=int)
+        int[:] islandbnds_view = np.zeros(4,dtype=np.intc)
         double[:] cntdresults_view = np.zeros(3,dtype=np.double)
 
     if pixsat == 0:         #no saturation in image
@@ -271,8 +271,7 @@ cdef int getCircleSize(int rad):
         int remainpts
         ### The integers in the following array each represent the number of pixels encased by a circle whose radius is equal to the index plus one.
         ### (see https://en.wikipedia.org/wiki/Gauss_circle_problem)
-        np.ndarray[dtype=int,ndim=1] encasedpixelnos = np.array([5,13,29,49,81,113,149,197,253,317,377,441,529,613,709,797,901,1009,1129,1257,1373,1517,1653,1793,1961,2121,2289,2453,2629,2821,3001,3209,3409,3625,3853,4053,4293,4513,4777,5025,5261,5525,5789,6077,6361])
-
+        np.ndarray[dtype=int,ndim=1] encasedpixelnos = np.array([5,13,29,49,81,113,149,197,253,317,377,441,529,613,709,797,901,1009,1129,1257,1373,1517,1653,1793,1961,2121,2289,2453,2629,2821,3001,3209,3409,3625,3853,4053,4293,4513,4777,5025,5261,5525,5789,6077,6361],dtype=np.intc)
     return encasedpixelnos[rad-1]
 
 cdef makePixelCircle(int rad, int[:,:] pixcircle):
@@ -508,7 +507,7 @@ def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts,
     rightmostsafe_x = img_xmax - sourcesep
     topmostsafe_y = 1 + sourcesep
     bottommostsafe_y = img_ymax - sourcesep
-    roi = np.ones((img_ymax,img_xmax),dtype=int)
+    roi = np.ones((img_ymax,img_xmax),dtype=np.intc)
 
     if verbosity == 2:
         print("| Creating ROI map...")
@@ -533,7 +532,7 @@ def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts,
         debuggerPlot(bgmap, debug_report, "bgmap.png", figsize=(8,7), vmin=np.percentile(bgmap,1), vmax=np.percentile(bgmap,99), colbar=True, colbar_extend=True, title="Background map", dscrp="Used for determining the amplitude-above-background for each pixel. \nThe PSE does not scan pixels in a thin ({}-pixel-wide) strip around the \nborder, so the background is not calculated there.".format(sourcesep), textpos=0.07)
 
     curr_src_ind = 0
-    occupymap = -1*np.ones(img.shape, dtype=int)
+    occupymap = -1*np.ones(img.shape, dtype=np.intc)
 
     if verbosity >= 1:
         print("| Finding saturation islands...")
@@ -559,11 +558,11 @@ def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts,
         return num_psesources
 
     kernelsize = getCircleSize(kernelrad)
-    kernelcircle = np.zeros((kernelsize,2),dtype=int)
+    kernelcircle = np.zeros((kernelsize,2),dtype=np.intc)
     makePixelCircle(kernelrad,kernelcircle)
 
     sourcesepsize = getCircleSize(sourcesep)
-    sourcesepcircle = np.zeros((sourcesepsize,2),dtype=int)
+    sourcesepcircle = np.zeros((sourcesepsize,2),dtype=np.intc)
     makePixelCircle(sourcesep,sourcesepcircle)
 
     img_median = np.median(img)
