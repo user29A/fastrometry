@@ -2467,6 +2467,7 @@ static const char __pyx_k_dscrp[] = "dscrp";
 static const char __pyx_k_dtype[] = "dtype";
 static const char __pyx_k_error[] = "error";
 static const char __pyx_k_flags[] = "flags";
+static const char __pyx_k_lower[] = "lower";
 static const char __pyx_k_numpy[] = "numpy";
 static const char __pyx_k_print[] = "print";
 static const char __pyx_k_range[] = "range";
@@ -2491,6 +2492,7 @@ static const char __pyx_k_imshow[] = "imshow";
 static const char __pyx_k_marker[] = "marker";
 static const char __pyx_k_median[] = "median";
 static const char __pyx_k_name_2[] = "__name__";
+static const char __pyx_k_origin[] = "origin";
 static const char __pyx_k_pickle[] = "pickle";
 static const char __pyx_k_pixsat[] = "pixsat";
 static const char __pyx_k_reduce[] = "__reduce__";
@@ -2782,6 +2784,7 @@ static PyObject *__pyx_n_s_kernelcircle;
 static PyObject *__pyx_n_s_kernelrad;
 static PyObject *__pyx_n_s_kernelsize;
 static PyObject *__pyx_n_s_leftmostsafe_x;
+static PyObject *__pyx_n_s_lower;
 static PyObject *__pyx_n_s_main;
 static PyObject *__pyx_n_s_marker;
 static PyObject *__pyx_n_s_matplotlib_colors;
@@ -2809,6 +2812,7 @@ static PyObject *__pyx_kp_s_numpy_core_umath_failed_to_impor;
 static PyObject *__pyx_n_s_obj;
 static PyObject *__pyx_n_s_occupymap;
 static PyObject *__pyx_n_s_ones;
+static PyObject *__pyx_n_s_origin;
 static PyObject *__pyx_n_s_pack;
 static PyObject *__pyx_n_s_percentile;
 static PyObject *__pyx_n_s_pickle;
@@ -3515,7 +3519,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_debuggerPlot(CYTHON_U
  * 
  *     plt.figure(figsize=figsize)             # <<<<<<<<<<<<<<
  *     plt.subplots_adjust(bottom=bottom)
- *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)
+ *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax, origin='lower')
  */
   __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_figure); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 27, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
@@ -3532,7 +3536,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_debuggerPlot(CYTHON_U
  * 
  *     plt.figure(figsize=figsize)
  *     plt.subplots_adjust(bottom=bottom)             # <<<<<<<<<<<<<<
- *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)
+ *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax, origin='lower')
  *     if colbar is True:
  */
   __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_subplots_adjust); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
@@ -3549,7 +3553,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_debuggerPlot(CYTHON_U
   /* "fastrometry/cython_code/PSE.pyx":29
  *     plt.figure(figsize=figsize)
  *     plt.subplots_adjust(bottom=bottom)
- *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)             # <<<<<<<<<<<<<<
+ *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax, origin='lower')             # <<<<<<<<<<<<<<
  *     if colbar is True:
  *         plt.colorbar(extend=extend)
  */
@@ -3560,12 +3564,13 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_debuggerPlot(CYTHON_U
   __Pyx_INCREF(__pyx_v_array);
   __Pyx_GIVEREF(__pyx_v_array);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_v_array);
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 29, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_cmap, __pyx_v_cm) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_norm, __pyx_v_nm) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_vmin, __pyx_v_vmin) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
   if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_vmax, __pyx_v_vmax) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_origin, __pyx_n_s_lower) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
   __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -3575,7 +3580,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_debuggerPlot(CYTHON_U
 
   /* "fastrometry/cython_code/PSE.pyx":30
  *     plt.subplots_adjust(bottom=bottom)
- *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)
+ *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax, origin='lower')
  *     if colbar is True:             # <<<<<<<<<<<<<<
  *         plt.colorbar(extend=extend)
  *     plt.title(title)
@@ -3585,7 +3590,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_debuggerPlot(CYTHON_U
   if (__pyx_t_3) {
 
     /* "fastrometry/cython_code/PSE.pyx":31
- *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)
+ *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax, origin='lower')
  *     if colbar is True:
  *         plt.colorbar(extend=extend)             # <<<<<<<<<<<<<<
  *     plt.title(title)
@@ -3604,7 +3609,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_debuggerPlot(CYTHON_U
 
     /* "fastrometry/cython_code/PSE.pyx":30
  *     plt.subplots_adjust(bottom=bottom)
- *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)
+ *     plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax, origin='lower')
  *     if colbar is True:             # <<<<<<<<<<<<<<
  *         plt.colorbar(extend=extend)
  *     plt.title(title)
@@ -13550,7 +13555,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_2PSE(CYTHON_UNUSED Py
  *         plt.figure(figsize=(10,8))
  *         image_data = fits.getdata(filepath)             # <<<<<<<<<<<<<<
  *         plt.subplots_adjust(bottom=0.15)
- *         plt.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         plt.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  */
     __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_v_fits, __pyx_n_s_getdata); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 617, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
@@ -13576,7 +13581,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_2PSE(CYTHON_UNUSED Py
  *         plt.figure(figsize=(10,8))
  *         image_data = fits.getdata(filepath)
  *         plt.subplots_adjust(bottom=0.15)             # <<<<<<<<<<<<<<
- *         plt.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         plt.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         plt.scatter(pse_metadata[:,0], pse_metadata[:,1], color='red', marker='.')
  */
     __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_plt, __pyx_n_s_subplots_adjust); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 618, __pyx_L1_error)
@@ -13593,7 +13598,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_2PSE(CYTHON_UNUSED Py
     /* "fastrometry/cython_code/PSE.pyx":619
  *         image_data = fits.getdata(filepath)
  *         plt.subplots_adjust(bottom=0.15)
- *         plt.imshow(image_data, cmap="gray", norm=LogNorm())             # <<<<<<<<<<<<<<
+ *         plt.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')             # <<<<<<<<<<<<<<
  *         plt.scatter(pse_metadata[:,0], pse_metadata[:,1], color='red', marker='.')
  *         plt.title("pse_metadata centroids")
  */
@@ -13604,7 +13609,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_2PSE(CYTHON_UNUSED Py
     __Pyx_INCREF(__pyx_v_image_data);
     __Pyx_GIVEREF(__pyx_v_image_data);
     PyTuple_SET_ITEM(__pyx_t_18, 0, __pyx_v_image_data);
-    __pyx_t_4 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 619, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 619, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_cmap, __pyx_n_s_gray) < 0) __PYX_ERR(0, 619, __pyx_L1_error)
     __Pyx_INCREF(__pyx_v_LogNorm);
@@ -13625,6 +13630,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_2PSE(CYTHON_UNUSED Py
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_norm, __pyx_t_5) < 0) __PYX_ERR(0, 619, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_origin, __pyx_n_s_lower) < 0) __PYX_ERR(0, 619, __pyx_L1_error)
     __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_18, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 619, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -13634,7 +13640,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_2PSE(CYTHON_UNUSED Py
 
     /* "fastrometry/cython_code/PSE.pyx":620
  *         plt.subplots_adjust(bottom=0.15)
- *         plt.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         plt.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         plt.scatter(pse_metadata[:,0], pse_metadata[:,1], color='red', marker='.')             # <<<<<<<<<<<<<<
  *         plt.title("pse_metadata centroids")
  *         dscrp="Centroids from the pse_metadata, plotted overtop the image."
@@ -13665,7 +13671,7 @@ static PyObject *__pyx_pf_11fastrometry_11cython_code_3PSE_2PSE(CYTHON_UNUSED Py
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
     /* "fastrometry/cython_code/PSE.pyx":621
- *         plt.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         plt.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         plt.scatter(pse_metadata[:,0], pse_metadata[:,1], color='red', marker='.')
  *         plt.title("pse_metadata centroids")             # <<<<<<<<<<<<<<
  *         dscrp="Centroids from the pse_metadata, plotted overtop the image."
@@ -28858,6 +28864,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_kernelrad, __pyx_k_kernelrad, sizeof(__pyx_k_kernelrad), 0, 0, 1, 1},
   {&__pyx_n_s_kernelsize, __pyx_k_kernelsize, sizeof(__pyx_k_kernelsize), 0, 0, 1, 1},
   {&__pyx_n_s_leftmostsafe_x, __pyx_k_leftmostsafe_x, sizeof(__pyx_k_leftmostsafe_x), 0, 0, 1, 1},
+  {&__pyx_n_s_lower, __pyx_k_lower, sizeof(__pyx_k_lower), 0, 0, 1, 1},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
   {&__pyx_n_s_marker, __pyx_k_marker, sizeof(__pyx_k_marker), 0, 0, 1, 1},
   {&__pyx_n_s_matplotlib_colors, __pyx_k_matplotlib_colors, sizeof(__pyx_k_matplotlib_colors), 0, 0, 1, 1},
@@ -28885,6 +28892,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_obj, __pyx_k_obj, sizeof(__pyx_k_obj), 0, 0, 1, 1},
   {&__pyx_n_s_occupymap, __pyx_k_occupymap, sizeof(__pyx_k_occupymap), 0, 0, 1, 1},
   {&__pyx_n_s_ones, __pyx_k_ones, sizeof(__pyx_k_ones), 0, 0, 1, 1},
+  {&__pyx_n_s_origin, __pyx_k_origin, sizeof(__pyx_k_origin), 0, 0, 1, 1},
   {&__pyx_n_s_pack, __pyx_k_pack, sizeof(__pyx_k_pack), 0, 0, 1, 1},
   {&__pyx_n_s_percentile, __pyx_k_percentile, sizeof(__pyx_k_percentile), 0, 0, 1, 1},
   {&__pyx_n_s_pickle, __pyx_k_pickle, sizeof(__pyx_k_pickle), 0, 0, 1, 1},
@@ -29050,7 +29058,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "fastrometry/cython_code/PSE.pyx":620
  *         plt.subplots_adjust(bottom=0.15)
- *         plt.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         plt.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         plt.scatter(pse_metadata[:,0], pse_metadata[:,1], color='red', marker='.')             # <<<<<<<<<<<<<<
  *         plt.title("pse_metadata centroids")
  *         dscrp="Centroids from the pse_metadata, plotted overtop the image."

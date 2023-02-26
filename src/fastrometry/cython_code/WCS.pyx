@@ -272,7 +272,7 @@ cdef int refineSolution(double[:,:] allintrmpoints_view, int num_catsources, dou
         fig = plt.figure(figsize=(9.5,8))
 
         axes = fig.add_subplot(111)
-        axes.imshow(image_data, cmap="gray", norm=LogNorm())
+        axes.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
         #axes.scatter(img_xmax-np.asarray(invtransf_match_xs), img_ymax-np.asarray(invtransf_match_ys), marker="o", color='white')
         axes.scatter(np.asarray(psepoints_view[:,0]), np.asarray(psepoints_view[:,1]), marker="o", color='blue')
         axes.scatter(img_xmax-np.asarray(invtransf_xs), img_ymax-np.asarray(invtransf_ys), marker='.', color='fuchsia')
@@ -368,7 +368,7 @@ cdef int refineSolution(double[:,:] allintrmpoints_view, int num_catsources, dou
         fig = plt.figure(figsize=(9.5,8))
 
         axes = fig.add_subplot(111)
-        axes.imshow(image_data, cmap="gray", norm=LogNorm())
+        axes.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
         #axes.scatter(invtransf_match_xs, invtransf_match_ys, marker="o", color='white')
         axes.scatter(np.asarray(psepoints_view[:,0]), np.asarray(psepoints_view[:,1]), marker="o", color='blue')
         axes.scatter(invtransf_xs, invtransf_ys, c='fuchsia', marker='.')
@@ -687,13 +687,13 @@ cdef int findInitialSolution(double[:,:] allintrmpoints_view, int num_catsources
 
         axes1 = fig.add_subplot(121)
         axes1.set_title('10 brightest PSE and intermediate points')
-        axes1.imshow(image_data, cmap="gray", norm=LogNorm())
+        axes1.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
         axes1.scatter(np.asarray(psepoints_view)[:10,0], np.asarray(psepoints_view)[:10,1], marker=".", c="blue")
         axes1.scatter(img_xmax-np.asarray(intrmpoints_view)[:10,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmpoints_view)[:10,1]/approx_scale-CRPIXy_guess, marker=".", c="red")
         
         axes2 = fig.add_subplot(122)
         axes2.set_title('{} brightest PSE and {} brightest intermediate points'.format(npts_pse, npts_intrm))
-        axes2.imshow(image_data, cmap="gray", norm=LogNorm())
+        axes2.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
         axes2.scatter(np.asarray(psepoints_view)[:,0], np.asarray(psepoints_view)[:,1], marker=".", c="blue")
         axes2.scatter(img_xmax-np.asarray(intrmpoints_view)[:,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmpoints_view)[:,1]/approx_scale-CRPIXy_guess, marker=".", c="red")
 
@@ -790,7 +790,7 @@ cdef int findInitialSolution(double[:,:] allintrmpoints_view, int num_catsources
                                                         fig = plt.figure(figsize=(9.5,8))
 
                                                         axes = fig.add_subplot(111)
-                                                        axes.imshow(image_data, cmap="gray", norm=LogNorm())
+                                                        axes.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
                                                         #axes.scatter(img_xmax-np.asarray(invtransf_match_xs), img_ymax-np.asarray(invtransf_match_ys), marker='o', color='white')
                                                         axes.scatter(psepoints_view[:,0], psepoints_view[:,1], marker="o", color='blue')
                                                         axes.scatter(np.asarray(invtransf_xs), np.asarray(invtransf_ys), marker='.', color='fuchsia')

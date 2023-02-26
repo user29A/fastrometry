@@ -26,7 +26,7 @@ def debuggerPlot(array, debug_report, savename, figsize=(7,7), bottom=0.2, vmin=
 
     plt.figure(figsize=figsize)
     plt.subplots_adjust(bottom=bottom)
-    plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax)
+    plt.imshow(array, cmap=cm, norm=nm, vmin=vmin, vmax=vmax, origin='lower')
     if colbar is True:
         plt.colorbar(extend=extend)
     plt.title(title)
@@ -616,7 +616,7 @@ def PSE(img, img_xmax, img_ymax, kernelrad, sourcesep, pixsat, npts, nrefinepts,
         plt.figure(figsize=(10,8))
         image_data = fits.getdata(filepath)
         plt.subplots_adjust(bottom=0.15)
-        plt.imshow(image_data, cmap="gray", norm=LogNorm())
+        plt.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
         plt.scatter(pse_metadata[:,0], pse_metadata[:,1], color='red', marker='.')
         plt.title("pse_metadata centroids")
         dscrp="Centroids from the pse_metadata, plotted overtop the image."

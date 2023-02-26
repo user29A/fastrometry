@@ -5,6 +5,7 @@ src/debug/
 **.pyd
 **.so
 **.fits
+**.fit
 build/
 dist/
 wheelhouse/

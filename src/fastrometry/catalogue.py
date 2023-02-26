@@ -46,8 +46,8 @@ def getIntermediateCoords(ra, dec, scale, img_xmax, img_ymax, shape, buffer, fil
     if verbosity == 2:
         print("| Got {} valid sky coordinates from the catalogue.".format(num_catsources))
 
-    a0 = np.mean(catalogue_points[:,0])
-    d0 = np.mean(catalogue_points[:,1])
+    a0 = np.mean(catalogue_points[:num_catsources,0])
+    d0 = np.mean(catalogue_points[:num_catsources,1])
 
     mean_catcoords[0] = a0
     mean_catcoords[1] = d0
@@ -69,7 +69,7 @@ def getIntermediateCoords(ra, dec, scale, img_xmax, img_ymax, shape, buffer, fil
         axes_query.set_title('Sky coordinates')
         axes_query.set_xlabel('Right ascension (degrees)')
         axes_query.set_ylabel('Declination (degrees)')
-        axes_query.scatter(catalogue_points[:,0]*180/pi, catalogue_points[:,1]*180/pi, marker=".", color='red')
+        axes_query.scatter(catalogue_points[:num_catsources,0]*180/pi, catalogue_points[:num_catsources,1]*180/pi, marker=".", color='red')
         axes_query.scatter([a0*180/pi], [d0*180/pi], marker="x", color='black')
 
         axes_proj = fig.add_subplot(122)
@@ -78,7 +78,7 @@ def getIntermediateCoords(ra, dec, scale, img_xmax, img_ymax, shape, buffer, fil
         axes_proj.set_title('Intermediate coordinates')
         axes_proj.set_xlabel('X (radians)')
         axes_proj.set_ylabel('Y (radians)')
-        axes_proj.scatter(allintrmpoints[:,0], allintrmpoints[:,1], marker=".",color='red')
+        axes_proj.scatter(allintrmpoints[:num_catsources,0], allintrmpoints[:num_catsources,1], marker=".",color='red')
         axes_proj.scatter([0], [0], marker="x", color='black')
         
         dscrp_query = "Sky coordinates obtained from the catalogue. When the RA and Dec axes are \nscaled equally, the resulting shape will be wider than it is tall, especially \nas declination approaches +- 90."

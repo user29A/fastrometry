@@ -2501,6 +2501,7 @@ static const char __pyx_k_dtype[] = "dtype";
 static const char __pyx_k_empty[] = "empty";
 static const char __pyx_k_error[] = "error";
 static const char __pyx_k_flags[] = "flags";
+static const char __pyx_k_lower[] = "lower";
 static const char __pyx_k_numpy[] = "numpy";
 static const char __pyx_k_print[] = "print";
 static const char __pyx_k_pseAx[] = "pseAx";
@@ -2548,6 +2549,7 @@ static const char __pyx_k_intrmx[] = "intrmx";
 static const char __pyx_k_intrmy[] = "intrmy";
 static const char __pyx_k_marker[] = "marker";
 static const char __pyx_k_name_2[] = "__name__";
+static const char __pyx_k_origin[] = "origin";
 static const char __pyx_k_params[] = "params";
 static const char __pyx_k_phi_lb[] = "| | phi_lb = {}";
 static const char __pyx_k_phi_ub[] = "| | phi_ub = {}";
@@ -3001,6 +3003,7 @@ static PyObject *__pyx_kp_s_itemsize_0_for_cython_array;
 static PyObject *__pyx_n_s_kerneldiam;
 static PyObject *__pyx_n_s_least_squares;
 static PyObject *__pyx_n_s_left;
+static PyObject *__pyx_n_s_lower;
 static PyObject *__pyx_n_s_m;
 static PyObject *__pyx_n_s_main;
 static PyObject *__pyx_n_s_marker;
@@ -3034,6 +3037,7 @@ static PyObject *__pyx_kp_s_numpy_core_umath_failed_to_impor;
 static PyObject *__pyx_n_s_o;
 static PyObject *__pyx_n_s_obj;
 static PyObject *__pyx_n_s_optimization;
+static PyObject *__pyx_n_s_origin;
 static PyObject *__pyx_n_s_pack;
 static PyObject *__pyx_n_s_params;
 static PyObject *__pyx_n_s_phi;
@@ -7358,7 +7362,7 @@ __pyx_v_intrmpoints_view = __pyx_t_5;
  *         fig = plt.figure(figsize=(9.5,8))
  * 
  *         axes = fig.add_subplot(111)             # <<<<<<<<<<<<<<
- *         axes.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         #axes.scatter(img_xmax-np.asarray(invtransf_match_xs), img_ymax-np.asarray(invtransf_match_ys), marker="o", color='white')
  */
     __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_add_subplot); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 274, __pyx_L1_error)
@@ -7384,7 +7388,7 @@ __pyx_v_intrmpoints_view = __pyx_t_5;
     /* "fastrometry/cython_code/WCS.pyx":275
  * 
  *         axes = fig.add_subplot(111)
- *         axes.imshow(image_data, cmap="gray", norm=LogNorm())             # <<<<<<<<<<<<<<
+ *         axes.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')             # <<<<<<<<<<<<<<
  *         #axes.scatter(img_xmax-np.asarray(invtransf_match_xs), img_ymax-np.asarray(invtransf_match_ys), marker="o", color='white')
  *         axes.scatter(np.asarray(psepoints_view[:,0]), np.asarray(psepoints_view[:,1]), marker="o", color='blue')
  */
@@ -7395,7 +7399,7 @@ __pyx_v_intrmpoints_view = __pyx_t_5;
     __Pyx_INCREF(__pyx_v_image_data);
     __Pyx_GIVEREF(__pyx_v_image_data);
     PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_v_image_data);
-    __pyx_t_12 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 275, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 275, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
     if (PyDict_SetItem(__pyx_t_12, __pyx_n_s_cmap, __pyx_n_s_gray) < 0) __PYX_ERR(0, 275, __pyx_L1_error)
     __Pyx_INCREF(__pyx_v_LogNorm);
@@ -7416,6 +7420,7 @@ __pyx_v_intrmpoints_view = __pyx_t_5;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     if (PyDict_SetItem(__pyx_t_12, __pyx_n_s_norm, __pyx_t_9) < 0) __PYX_ERR(0, 275, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    if (PyDict_SetItem(__pyx_t_12, __pyx_n_s_origin, __pyx_n_s_lower) < 0) __PYX_ERR(0, 275, __pyx_L1_error)
     __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_6, __pyx_t_12); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 275, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
@@ -7424,7 +7429,7 @@ __pyx_v_intrmpoints_view = __pyx_t_5;
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
     /* "fastrometry/cython_code/WCS.pyx":277
- *         axes.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         #axes.scatter(img_xmax-np.asarray(invtransf_match_xs), img_ymax-np.asarray(invtransf_match_ys), marker="o", color='white')
  *         axes.scatter(np.asarray(psepoints_view[:,0]), np.asarray(psepoints_view[:,1]), marker="o", color='blue')             # <<<<<<<<<<<<<<
  *         axes.scatter(img_xmax-np.asarray(invtransf_xs), img_ymax-np.asarray(invtransf_ys), marker='.', color='fuchsia')
@@ -9741,7 +9746,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
  *         fig = plt.figure(figsize=(9.5,8))
  * 
  *         axes = fig.add_subplot(111)             # <<<<<<<<<<<<<<
- *         axes.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         #axes.scatter(invtransf_match_xs, invtransf_match_ys, marker="o", color='white')
  */
     __pyx_t_30 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_add_subplot); if (unlikely(!__pyx_t_30)) __PYX_ERR(0, 370, __pyx_L1_error)
@@ -9767,7 +9772,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
     /* "fastrometry/cython_code/WCS.pyx":371
  * 
  *         axes = fig.add_subplot(111)
- *         axes.imshow(image_data, cmap="gray", norm=LogNorm())             # <<<<<<<<<<<<<<
+ *         axes.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')             # <<<<<<<<<<<<<<
  *         #axes.scatter(invtransf_match_xs, invtransf_match_ys, marker="o", color='white')
  *         axes.scatter(np.asarray(psepoints_view[:,0]), np.asarray(psepoints_view[:,1]), marker="o", color='blue')
  */
@@ -9778,7 +9783,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
     __Pyx_INCREF(__pyx_v_image_data);
     __Pyx_GIVEREF(__pyx_v_image_data);
     PyTuple_SET_ITEM(__pyx_t_30, 0, __pyx_v_image_data);
-    __pyx_t_25 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_25)) __PYX_ERR(0, 371, __pyx_L1_error)
+    __pyx_t_25 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_25)) __PYX_ERR(0, 371, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_25);
     if (PyDict_SetItem(__pyx_t_25, __pyx_n_s_cmap, __pyx_n_s_gray) < 0) __PYX_ERR(0, 371, __pyx_L1_error)
     __Pyx_INCREF(__pyx_v_LogNorm);
@@ -9799,6 +9804,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
     __Pyx_DECREF(__pyx_t_28); __pyx_t_28 = 0;
     if (PyDict_SetItem(__pyx_t_25, __pyx_n_s_norm, __pyx_t_11) < 0) __PYX_ERR(0, 371, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
+    if (PyDict_SetItem(__pyx_t_25, __pyx_n_s_origin, __pyx_n_s_lower) < 0) __PYX_ERR(0, 371, __pyx_L1_error)
     __pyx_t_11 = __Pyx_PyObject_Call(__pyx_t_27, __pyx_t_30, __pyx_t_25); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 371, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_27); __pyx_t_27 = 0;
@@ -9807,7 +9813,7 @@ __pyx_t_6 = __pyx_memoryview_fromslice(__pyx_t_10, 1, (PyObject *(*)(char *)) __
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
     /* "fastrometry/cython_code/WCS.pyx":373
- *         axes.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         #axes.scatter(invtransf_match_xs, invtransf_match_ys, marker="o", color='white')
  *         axes.scatter(np.asarray(psepoints_view[:,0]), np.asarray(psepoints_view[:,1]), marker="o", color='blue')             # <<<<<<<<<<<<<<
  *         axes.scatter(invtransf_xs, invtransf_ys, c='fuchsia', marker='.')
@@ -14435,7 +14441,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
  * 
  *         axes1 = fig.add_subplot(121)             # <<<<<<<<<<<<<<
  *         axes1.set_title('10 brightest PSE and intermediate points')
- *         axes1.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes1.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  */
     __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_add_subplot); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 688, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
@@ -14461,7 +14467,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
  * 
  *         axes1 = fig.add_subplot(121)
  *         axes1.set_title('10 brightest PSE and intermediate points')             # <<<<<<<<<<<<<<
- *         axes1.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes1.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         axes1.scatter(np.asarray(psepoints_view)[:10,0], np.asarray(psepoints_view)[:10,1], marker=".", c="blue")
  */
     __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_axes1, __pyx_n_s_set_title); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 689, __pyx_L1_error)
@@ -14486,7 +14492,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     /* "fastrometry/cython_code/WCS.pyx":690
  *         axes1 = fig.add_subplot(121)
  *         axes1.set_title('10 brightest PSE and intermediate points')
- *         axes1.imshow(image_data, cmap="gray", norm=LogNorm())             # <<<<<<<<<<<<<<
+ *         axes1.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')             # <<<<<<<<<<<<<<
  *         axes1.scatter(np.asarray(psepoints_view)[:10,0], np.asarray(psepoints_view)[:10,1], marker=".", c="blue")
  *         axes1.scatter(img_xmax-np.asarray(intrmpoints_view)[:10,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmpoints_view)[:10,1]/approx_scale-CRPIXy_guess, marker=".", c="red")
  */
@@ -14497,7 +14503,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_INCREF(__pyx_v_image_data);
     __Pyx_GIVEREF(__pyx_v_image_data);
     PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_v_image_data);
-    __pyx_t_14 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 690, __pyx_L1_error)
+    __pyx_t_14 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 690, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
     if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_cmap, __pyx_n_s_gray) < 0) __PYX_ERR(0, 690, __pyx_L1_error)
     __Pyx_INCREF(__pyx_v_LogNorm);
@@ -14518,6 +14524,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_norm, __pyx_t_15) < 0) __PYX_ERR(0, 690, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
+    if (PyDict_SetItem(__pyx_t_14, __pyx_n_s_origin, __pyx_n_s_lower) < 0) __PYX_ERR(0, 690, __pyx_L1_error)
     __pyx_t_15 = __Pyx_PyObject_Call(__pyx_t_10, __pyx_t_4, __pyx_t_14); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 690, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_15);
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
@@ -14527,7 +14534,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
 
     /* "fastrometry/cython_code/WCS.pyx":691
  *         axes1.set_title('10 brightest PSE and intermediate points')
- *         axes1.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes1.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         axes1.scatter(np.asarray(psepoints_view)[:10,0], np.asarray(psepoints_view)[:10,1], marker=".", c="blue")             # <<<<<<<<<<<<<<
  *         axes1.scatter(img_xmax-np.asarray(intrmpoints_view)[:10,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmpoints_view)[:10,1]/approx_scale-CRPIXy_guess, marker=".", c="red")
  * 
@@ -14606,7 +14613,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
     /* "fastrometry/cython_code/WCS.pyx":692
- *         axes1.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes1.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         axes1.scatter(np.asarray(psepoints_view)[:10,0], np.asarray(psepoints_view)[:10,1], marker=".", c="blue")
  *         axes1.scatter(img_xmax-np.asarray(intrmpoints_view)[:10,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmpoints_view)[:10,1]/approx_scale-CRPIXy_guess, marker=".", c="red")             # <<<<<<<<<<<<<<
  * 
@@ -14722,7 +14729,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
  * 
  *         axes2 = fig.add_subplot(122)             # <<<<<<<<<<<<<<
  *         axes2.set_title('{} brightest PSE and {} brightest intermediate points'.format(npts_pse, npts_intrm))
- *         axes2.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes2.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  */
     __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_add_subplot); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 694, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
@@ -14748,7 +14755,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
  * 
  *         axes2 = fig.add_subplot(122)
  *         axes2.set_title('{} brightest PSE and {} brightest intermediate points'.format(npts_pse, npts_intrm))             # <<<<<<<<<<<<<<
- *         axes2.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes2.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         axes2.scatter(np.asarray(psepoints_view)[:,0], np.asarray(psepoints_view)[:,1], marker=".", c="blue")
  */
     __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_v_axes2, __pyx_n_s_set_title); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 695, __pyx_L1_error)
@@ -14829,7 +14836,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     /* "fastrometry/cython_code/WCS.pyx":696
  *         axes2 = fig.add_subplot(122)
  *         axes2.set_title('{} brightest PSE and {} brightest intermediate points'.format(npts_pse, npts_intrm))
- *         axes2.imshow(image_data, cmap="gray", norm=LogNorm())             # <<<<<<<<<<<<<<
+ *         axes2.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')             # <<<<<<<<<<<<<<
  *         axes2.scatter(np.asarray(psepoints_view)[:,0], np.asarray(psepoints_view)[:,1], marker=".", c="blue")
  *         axes2.scatter(img_xmax-np.asarray(intrmpoints_view)[:,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmpoints_view)[:,1]/approx_scale-CRPIXy_guess, marker=".", c="red")
  */
@@ -14840,7 +14847,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_INCREF(__pyx_v_image_data);
     __Pyx_GIVEREF(__pyx_v_image_data);
     PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_v_image_data);
-    __pyx_t_4 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 696, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 696, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_cmap, __pyx_n_s_gray) < 0) __PYX_ERR(0, 696, __pyx_L1_error)
     __Pyx_INCREF(__pyx_v_LogNorm);
@@ -14861,6 +14868,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_norm, __pyx_t_10) < 0) __PYX_ERR(0, 696, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_origin, __pyx_n_s_lower) < 0) __PYX_ERR(0, 696, __pyx_L1_error)
     __pyx_t_10 = __Pyx_PyObject_Call(__pyx_t_8, __pyx_t_14, __pyx_t_4); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 696, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -14870,7 +14878,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
 
     /* "fastrometry/cython_code/WCS.pyx":697
  *         axes2.set_title('{} brightest PSE and {} brightest intermediate points'.format(npts_pse, npts_intrm))
- *         axes2.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes2.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         axes2.scatter(np.asarray(psepoints_view)[:,0], np.asarray(psepoints_view)[:,1], marker=".", c="blue")             # <<<<<<<<<<<<<<
  *         axes2.scatter(img_xmax-np.asarray(intrmpoints_view)[:,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmpoints_view)[:,1]/approx_scale-CRPIXy_guess, marker=".", c="red")
  * 
@@ -14949,7 +14957,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
     /* "fastrometry/cython_code/WCS.pyx":698
- *         axes2.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes2.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         axes2.scatter(np.asarray(psepoints_view)[:,0], np.asarray(psepoints_view)[:,1], marker=".", c="blue")
  *         axes2.scatter(img_xmax-np.asarray(intrmpoints_view)[:,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmpoints_view)[:,1]/approx_scale-CRPIXy_guess, marker=".", c="red")             # <<<<<<<<<<<<<<
  * 
@@ -17940,7 +17948,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
  *                                                         fig = plt.figure(figsize=(9.5,8))
  * 
  *                                                         axes = fig.add_subplot(111)             # <<<<<<<<<<<<<<
- *                                                         axes.imshow(image_data, cmap="gray", norm=LogNorm())
+ *                                                         axes.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *                                                         #axes.scatter(img_xmax-np.asarray(invtransf_match_xs), img_ymax-np.asarray(invtransf_match_ys), marker='o', color='white')
  */
                             __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_fig, __pyx_n_s_add_subplot); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 792, __pyx_L1_error)
@@ -17966,7 +17974,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
                             /* "fastrometry/cython_code/WCS.pyx":793
  * 
  *                                                         axes = fig.add_subplot(111)
- *                                                         axes.imshow(image_data, cmap="gray", norm=LogNorm())             # <<<<<<<<<<<<<<
+ *                                                         axes.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')             # <<<<<<<<<<<<<<
  *                                                         #axes.scatter(img_xmax-np.asarray(invtransf_match_xs), img_ymax-np.asarray(invtransf_match_ys), marker='o', color='white')
  *                                                         axes.scatter(psepoints_view[:,0], psepoints_view[:,1], marker="o", color='blue')
  */
@@ -17978,7 +17986,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
                             __Pyx_INCREF(__pyx_v_image_data);
                             __Pyx_GIVEREF(__pyx_v_image_data);
                             PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_v_image_data);
-                            __pyx_t_43 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_43)) __PYX_ERR(0, 793, __pyx_L1_error)
+                            __pyx_t_43 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_43)) __PYX_ERR(0, 793, __pyx_L1_error)
                             __Pyx_GOTREF(__pyx_t_43);
                             if (PyDict_SetItem(__pyx_t_43, __pyx_n_s_cmap, __pyx_n_s_gray) < 0) __PYX_ERR(0, 793, __pyx_L1_error)
                             __Pyx_INCREF(__pyx_v_LogNorm);
@@ -17999,6 +18007,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
                             __Pyx_DECREF(__pyx_t_44); __pyx_t_44 = 0;
                             if (PyDict_SetItem(__pyx_t_43, __pyx_n_s_norm, __pyx_t_14) < 0) __PYX_ERR(0, 793, __pyx_L1_error)
                             __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+                            if (PyDict_SetItem(__pyx_t_43, __pyx_n_s_origin, __pyx_n_s_lower) < 0) __PYX_ERR(0, 793, __pyx_L1_error)
                             __pyx_t_14 = __Pyx_PyObject_Call(__pyx_t_45, __pyx_t_4, __pyx_t_43); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 793, __pyx_L1_error)
                             __Pyx_GOTREF(__pyx_t_14);
                             __Pyx_DECREF(__pyx_t_45); __pyx_t_45 = 0;
@@ -18007,7 +18016,7 @@ __pyx_t_8 = __pyx_memoryview_fromslice(__pyx_t_9, 1, (PyObject *(*)(char *)) __p
                             __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
 
                             /* "fastrometry/cython_code/WCS.pyx":795
- *                                                         axes.imshow(image_data, cmap="gray", norm=LogNorm())
+ *                                                         axes.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *                                                         #axes.scatter(img_xmax-np.asarray(invtransf_match_xs), img_ymax-np.asarray(invtransf_match_ys), marker='o', color='white')
  *                                                         axes.scatter(psepoints_view[:,0], psepoints_view[:,1], marker="o", color='blue')             # <<<<<<<<<<<<<<
  *                                                         axes.scatter(np.asarray(invtransf_xs), np.asarray(invtransf_ys), marker='.', color='fuchsia')
@@ -36141,6 +36150,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_kerneldiam, __pyx_k_kerneldiam, sizeof(__pyx_k_kerneldiam), 0, 0, 1, 1},
   {&__pyx_n_s_least_squares, __pyx_k_least_squares, sizeof(__pyx_k_least_squares), 0, 0, 1, 1},
   {&__pyx_n_s_left, __pyx_k_left, sizeof(__pyx_k_left), 0, 0, 1, 1},
+  {&__pyx_n_s_lower, __pyx_k_lower, sizeof(__pyx_k_lower), 0, 0, 1, 1},
   {&__pyx_n_s_m, __pyx_k_m, sizeof(__pyx_k_m), 0, 0, 1, 1},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
   {&__pyx_n_s_marker, __pyx_k_marker, sizeof(__pyx_k_marker), 0, 0, 1, 1},
@@ -36174,6 +36184,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_o, __pyx_k_o, sizeof(__pyx_k_o), 0, 0, 1, 1},
   {&__pyx_n_s_obj, __pyx_k_obj, sizeof(__pyx_k_obj), 0, 0, 1, 1},
   {&__pyx_n_s_optimization, __pyx_k_optimization, sizeof(__pyx_k_optimization), 0, 0, 1, 1},
+  {&__pyx_n_s_origin, __pyx_k_origin, sizeof(__pyx_k_origin), 0, 0, 1, 1},
   {&__pyx_n_s_pack, __pyx_k_pack, sizeof(__pyx_k_pack), 0, 0, 1, 1},
   {&__pyx_n_s_params, __pyx_k_params, sizeof(__pyx_k_params), 0, 0, 1, 1},
   {&__pyx_n_s_phi, __pyx_k_phi, sizeof(__pyx_k_phi), 0, 0, 1, 1},
@@ -36360,7 +36371,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "fastrometry/cython_code/WCS.pyx":691
  *         axes1.set_title('10 brightest PSE and intermediate points')
- *         axes1.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes1.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         axes1.scatter(np.asarray(psepoints_view)[:10,0], np.asarray(psepoints_view)[:10,1], marker=".", c="blue")             # <<<<<<<<<<<<<<
  *         axes1.scatter(img_xmax-np.asarray(intrmpoints_view)[:10,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmpoints_view)[:10,1]/approx_scale-CRPIXy_guess, marker=".", c="red")
  * 
@@ -36377,7 +36388,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
 
   /* "fastrometry/cython_code/WCS.pyx":697
  *         axes2.set_title('{} brightest PSE and {} brightest intermediate points'.format(npts_pse, npts_intrm))
- *         axes2.imshow(image_data, cmap="gray", norm=LogNorm())
+ *         axes2.imshow(image_data, cmap="gray", norm=LogNorm(), origin='lower')
  *         axes2.scatter(np.asarray(psepoints_view)[:,0], np.asarray(psepoints_view)[:,1], marker=".", c="blue")             # <<<<<<<<<<<<<<
  *         axes2.scatter(img_xmax-np.asarray(intrmpoints_view)[:,0]/approx_scale-CRPIXx_guess, img_ymax-np.asarray(intrmpoints_view)[:,1]/approx_scale-CRPIXy_guess, marker=".", c="red")
  * 
